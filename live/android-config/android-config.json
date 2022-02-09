@@ -15,6 +15,15 @@
       ]
     },
     {
+      "id": "c3549d64-b388-41d8-9649-33e6e2674e8e",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Happy february!",
+        "descriptionText": "Remember: Every time you browse with me, a creepy ad loses its wings. 👍",
+        "placeholder": "Announce"
+      }
+    },
+    {
       "id": "8274589c-8aeb-4322-a737-3852911569e3",
       "content": {
         "messageType": "big_single_action",
@@ -49,15 +58,6 @@
       "matchingRules": [
         3
       ]
-    },
-    {
-      "id": "c3549d64-b388-41d8-9649-33e6e2674e8e",
-      "content": {
-        "messageType": "medium",
-        "titleText": "Happy february!",
-        "descriptionText": "Remember: Every time you browse with me, a creepy ad loses its wings. 👍",
-        "placeholder": "Announce"
-      }
     },
     {
       "id": "c2d0a1f1-6157-434f-8145-38416037d339",
