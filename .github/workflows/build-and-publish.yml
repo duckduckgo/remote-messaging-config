@@ -4,9 +4,8 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - '**.md'
-      - 'samples/**'
+    paths:
+      - 'live/android-config/android-config.json'
 
 jobs:
   publish:
