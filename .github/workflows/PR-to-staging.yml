@@ -5,6 +5,8 @@ on:
   pull_request:
     types:
       - opened
+    paths:
+      - 'live/android-config/android-config.json'
 
 jobs:
   publish:
