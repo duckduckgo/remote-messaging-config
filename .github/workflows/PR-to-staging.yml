@@ -25,4 +25,4 @@ jobs:
       if: github.event.action == 'opened'
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        message: 'Your PR is hosted at https://staticcdn.duckduckgo.com/remotemessaging/config/staging/}.'
+        message: 'Your PR is hosted at https://staticcdn.duckduckgo.com/remotemessaging/config/staging/android-config.json'
