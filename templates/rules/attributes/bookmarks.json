@@ -1,0 +1,6 @@
+"bookmarks": {
+    "min": <NUMBER_INT_OPTIONAL>,
+    "max": <NUMBER_INT_OPTIONAL>,
+    "value": <NUMBER_INT_OPTIONAL>,
+    "fallback": true|false //optional
+}

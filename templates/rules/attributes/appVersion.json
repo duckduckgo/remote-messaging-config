@@ -1,0 +1,6 @@
+"appVersion": {
+    "min": <DDG_APP_VERSION_STRING>,
+    "max": <DDG_APP_VERSION_STRING>,
+    "value": <DDG_APP_VERSION_STRING>,
+    "fallback": true|false //optional
+}

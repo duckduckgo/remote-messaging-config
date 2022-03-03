@@ -1,0 +1,13 @@
+{
+    "id": <ID_STRING>,
+    "content": <CONTENT>,
+    "translations": <OPTIONAL_TRANSLATIONS>,
+    "matchingRules": [
+        <RULE_ID>,
+        //...
+    ],
+    "exclusionRules": [
+        <RULE_ID>,
+        //...
+    ]
+}

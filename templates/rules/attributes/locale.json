@@ -1,0 +1,6 @@
+"locale": {
+    "value": [
+      <language-country_STRING>
+    ],
+    "fallback": true|false //optional
+}

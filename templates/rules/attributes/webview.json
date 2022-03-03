@@ -1,0 +1,6 @@
+"webview": {
+    "min": <WEBVIEW_VERSION_STRING_OPTIONAL>,
+    "max": <WEBVIEW_VERSION_STRING_OPTIONAL>,
+    "value": <WEBVIEW_VERSION_STRING_OPTIONAL>,
+    "fallback": true|false //optional
+  }

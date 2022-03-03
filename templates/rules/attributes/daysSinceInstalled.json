@@ -1,0 +1,4 @@
+"daysSinceInstalled": {
+    "value": <NUMBER_INT>,
+    "fallback": true|false //optional
+  }

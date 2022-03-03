@@ -1,0 +1,6 @@
+{
+    "messageType": "medium",
+    "titleText": <TITLE_STRING>,
+    "descriptionText": <DESCRIPTION_STRING>,
+    "placeholder": <"Announce"|"DDGAnnounce"|"CriticalUpdate"|"AppUpdate">
+  }

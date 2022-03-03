@@ -1,0 +1,4 @@
+"appTheme": {
+    "value": <"system_default"|"light"|"dark">,
+    "fallback": true|false //optional
+}

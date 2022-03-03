@@ -1,0 +1,4 @@
+"emailEnabled": {
+    "value": true|false,
+    "fallback": true|false //optional
+  }

@@ -1,0 +1,4 @@
+"searchAtb": {
+    "value": <ATB_STRING>,
+    "fallback": true|false //optional
+}
