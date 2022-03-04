@@ -1,0 +1,7 @@
+"flavor": {
+    "value": [
+        <"internal"|"fdroid"|"play">,
+        //...
+    ],
+    "fallback": true|false //optional
+  }

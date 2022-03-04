@@ -1,0 +1,8 @@
+{
+    "id": <ID_INT>,
+    "attributes": {
+      <ATTRIBUTE>,
+      <ATTRIBUTE>,
+      //0..N matching Attributes
+    }
+}

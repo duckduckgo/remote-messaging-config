@@ -1,0 +1,8 @@
+{
+  "messageType": "big_single_action",
+  "titleText": <TITLE_STRING>,
+  "descriptionText": <DESCRIPTION_STRING>,
+  "placeholder": <"Announce"|"DDGAnnounce"|"CriticalUpdate"|"AppUpdate">,
+  "primaryActionText": <BUTTON_TEXT_STRING>,
+  "primaryAction": <ACTION>
+}

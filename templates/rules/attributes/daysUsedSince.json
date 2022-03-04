@@ -1,0 +1,5 @@
+"daysUsedSince": {
+    "since": <DATE_YYY-MM-DD>,
+    "value": <NUMBER_INT>,
+    "fallback": true|false //optional
+  }

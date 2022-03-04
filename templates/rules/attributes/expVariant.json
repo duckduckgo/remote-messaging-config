@@ -1,0 +1,4 @@
+"expVariant": {
+    "value": <EXPERIMENT_VARIANT_STRING>,
+    "fallback": true|false //optional
+  }

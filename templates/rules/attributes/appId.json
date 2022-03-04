@@ -1,0 +1,4 @@
+"appId": {
+    "value": <DDG_PACKAGE_STRING>,
+    "fallback": true|false //optional
+}

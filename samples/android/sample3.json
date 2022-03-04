@@ -1,0 +1,85 @@
+{
+    "version": 0,
+    "messages": [
+        {
+            "id": "default_browser_20220101",
+            "content": {
+                "messageType": "big_two_action",
+                "titleText": "Set as default browser!",
+                "descriptionText": "Stay protected by using DuckDuckGo as your default browser.",
+                "placeholder": "DDGAnnounce",
+                "primaryActionText": "Let's do it!",
+                "primaryAction": {
+                    "type": "defaultBrowser",
+                    "value": ""
+                },
+                "secondaryActionText": "Later",
+                "secondaryAction": {
+                    "type": "dismiss",
+                    "value": ""
+                }
+            },
+            "matchingRules": [
+                1
+            ],
+            "exclusionRules": []
+        },
+        {
+            "id": "app_update_20220201",
+            "content": {
+                "messageType": "big_two_action",
+                "titleText": "App Update",
+                "descriptionText": "To keep you safe, it's important you use our latest version.",
+                "placeholder": "AppUpdate",
+                "primaryActionText": "Update",
+                "primaryAction": {
+                    "type": "playstore",
+                    "value": "com.duckduckgo.mobile.android"
+                },
+                "secondaryActionText": "Later",
+                "secondaryAction": {
+                    "type": "dismiss",
+                    "value": ""
+                }
+            },
+            "matchingRules": [
+                2
+            ],
+            "exclusionRules": []
+        }
+    ],
+    "rules": [
+        {
+            "id": 1,
+            "attributes": {
+                "locale": {
+                    "value": [
+                        "en-US",
+                        "en-CA",
+                        "en-GB",
+                        "en-AU"
+                    ]
+                },
+                "defaultBrowser": {
+                    "value": false
+                }
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "locale": {
+                    "value": [
+                        "en-US",
+                        "en-CA",
+                        "en-GB",
+                        "en-AU"
+                    ]
+                },
+                "appVersion": {
+                    "max": "5.99.0"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+"osApi": {
+    "min": <OS_VERSION_INT_OPTIONAL>,
+    "max": <OS_VERSION_INT_OPTIONAL>,
+    "value": <OS_VERSION_INT_OPTIONAL>,
+    "fallback": true|false //optional
+}

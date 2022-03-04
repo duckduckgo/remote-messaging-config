@@ -1,0 +1,37 @@
+{
+    "version": 0,
+    "messages": [
+        {
+            "id": "bookmark_folders_20220101",
+            "content": {
+                "messageType": "small",
+                "titleText": "Bookmarks folders!",
+                "descriptionText": "Remember you can use Bookmark Folders or Favorites to organize better your most visites sites."
+            },
+            "matchingRules": [
+                1
+            ],
+            "exclusionRules": []
+        }
+    ],
+    "rules": [
+        {
+            "id": 1,
+            "attributes": {
+                "locale": {
+                    "value": [
+                        "en-US",
+                        "en-CA",
+                        "en-GB",
+                        "en-AU",
+                        "es-ES",
+                        "es-US"
+                    ]
+                },
+                "bookmarks": {
+                    "min": 10
+                }
+            }
+        }
+    ]
+}

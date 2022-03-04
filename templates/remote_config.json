@@ -1,0 +1,9 @@
+{
+    "version": <VERSION_INT>,
+    "messages": [
+        <MESSAGE_LIST>
+    ],
+    "rules": [
+        <RULES_LIST>
+    ]
+}

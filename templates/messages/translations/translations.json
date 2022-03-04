@@ -1,0 +1,9 @@
+{
+    <"language"|"language-country">: {
+      //add all text properties translated from content
+    },
+    <"language"|"language-country">: {
+        //add all text properties translated from content
+    },
+    //...as many translations as required
+}
