@@ -1,8 +1,19 @@
 {
-    "version": 0,
+    "version": 1,
     "messages": [
         {
-            "id": "covid-message-20220101",
+            "id": "1-1",
+            "content": {
+                "messageType": "medium",
+                "titleText": "Placeholder Title",
+                "descriptionText": "This is placeholder text lorem ipsum dolor sit amet, adipiscing elit.",
+                "placeholder": "Announce"
+            },
+            "matchingRules": [],
+            "exclusionRules": []
+        },
+        {
+            "id": "1-2",
             "content": {
                 "messageType": "big_single_action",
                 "titleText": "Help Prevent the Spread of Covid",
@@ -14,31 +25,37 @@
                     "value": "covid 19"
                 }
             },
-            "translations": {
-                "es": {
-                    "titleText": "Ayuda a prevenir la propagación de Covid",
-                    "descriptionText": "Consulta la información más reciente de la Organización Mundial de la Salud para que pueda ayudar a prevenir la propagación de COVID-19.",
-                    "primaryActionText": "Ver Consejos"
+            "matchingRules": [],
+            "exclusionRules": []
+        },
+        {
+            "id": "1-3",
+            "content": {
+                "messageType": "big_two_action",
+                "titleText": "New Update Available",
+                "descriptionText": "There is a new version of DuckDuckGo available and is ready to install.",
+                "placeholder": "AppUpdate",
+                "primaryActionText": "Update",
+                "primaryAction": {
+                    "type": "appstore",
+                    "value": "com.duckduckgo.mobile.ios"
+                },
+                "secondaryActionText": "Later",
+                "secondaryAction": {
+                    "type": "dismiss",
+                    "value": ""
                 }
             },
-            "matchingRules": [
-                1
-            ]
+            "matchingRules": [1],
+            "exclusionRules": []
         }
     ],
     "rules": [
         {
             "id": 1,
             "attributes": {
-                "locale": {
-                    "value": [
-                        "en-US",
-                        "en-CA",
-                        "en-GB",
-                        "en-AU",
-                        "es-ES",
-                        "es-US"
-                    ]
+                "favorites": {
+                    "min": 2
                 }
             }
         }
