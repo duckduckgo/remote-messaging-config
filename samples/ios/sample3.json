@@ -4,16 +4,6 @@
     {
       "id": "1-1",
       "content": {
-        "messageType": "small",
-        "titleText": "Placeholder Title",
-        "descriptionText": "This is placeholder text lorem ipsum dolor sit amet, adipiscing elit."
-      },
-      "matchingRules": [],
-      "exclusionRules": []
-    },
-    {
-      "id": "1-2",
-      "content": {
         "messageType": "medium",
         "titleText": "Placeholder Title",
         "descriptionText": "This is placeholder text lorem ipsum dolor sit amet, adipiscing elit.",
@@ -23,7 +13,7 @@
       "exclusionRules": []
     },
     {
-      "id": "1-3",
+      "id": "1-2",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Help Prevent the Spread of Covid",
@@ -39,7 +29,7 @@
       "exclusionRules": []
     },
     {
-      "id": "1-4",
+      "id": "1-3",
       "content": {
         "messageType": "big_two_action",
         "titleText": "New Update Available",
@@ -56,25 +46,18 @@
           "value": ""
         }
       },
-      "matchingRules": [],
-      "exclusionRules": []
-    },
-    {
-      "id": "1-5",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Critical Security Update is now available for iOS",
-        "descriptionText": "A security update resolving vulnerabilities has been released and is ready to install.",
-        "placeholder": "CriticalUpdate",
-        "primaryActionText": "Learn How to Update",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://support.apple.com/en-us/HT204204"
-        }
-      },
-      "matchingRules": [],
+      "matchingRules": [1],
       "exclusionRules": []
     }
   ],
-  "rules": []
+  "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "favorites": {
+          "min": 2
+        }
+      }
+    }
+  ]
 }
