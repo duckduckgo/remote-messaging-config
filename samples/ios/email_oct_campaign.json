@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "messages": [
+    {
+      "id": "email_campaign_oct22_test",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "DuckDuckGo Email Protection is now available 🎉",
+        "descriptionText": "Get your @duck.com forwarding address and start blocking hidden email trackers today!",
+        "placeholder": "Announce",
+        "primaryActionText": "Sign up",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/email"
+        },
+        "secondaryActionText": "Learn More",
+        "secondaryAction": {
+          "type": "url",
+          "value": "https://spreadprivacy.com/protect-your-inbox-with-duckduckgo-email-protection"
+        }
+      },
+      "matchingRules": [
+        1
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "emailEnabled": {
+          "value": false
+        },
+        "appVersion": {
+          "min": "7.70.0"
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
+          ]
+        }
+      }
+    }
+  ]
+}
