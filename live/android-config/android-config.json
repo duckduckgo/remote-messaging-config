@@ -422,20 +422,35 @@
   "rules": [
     {
       "id": 1,
-      "expVariant": {
-        "value": "zh"
+      "attributes": {
+        "expVariant": {
+          "value": "zh"
+        },
+        "atpOnboarded": {
+          "value": false
+        }
       }
     },
     {
       "id": 2,
-      "expVariant": {
-        "value": "zi"
+      "attributes": {
+        "expVariant": {
+          "value": "zi"
+        },
+        "atpOnboarded": {
+          "value": false
+        }
       }
     },
     {
       "id": 3,
-      "expVariant": {
-        "value": "zl"
+      "attributes": {
+        "expVariant": {
+          "value": "zl"
+        },
+        "atpOnboarded": {
+          "value": false
+        }
       }
     }
   ]
