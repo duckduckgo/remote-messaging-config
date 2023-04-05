@@ -422,159 +422,18 @@
   "rules": [
     {
       "id": 1,
-      "attributes": {
-        "locale": {
-          "value": [
-            "bg-BG",
-            "cs-CZ",
-            "da-DK",
-            "de-DE",
-            "el-GR",
-            "es-ES",
-            "et-EE",
-            "fi-FI",
-            "fr-FR",
-            "hr-HR",
-            "hu-HU",
-            "it-IT",
-            "lt-LT",
-            "lv-LV",
-            "nb",
-            "nl-NL",
-            "pl-PL",
-            "pt-PT",
-            "ro-RO",
-            "ru-RU",
-            "sk-SK",
-            "sl-SL",
-            "sv-SE",
-            "tr-TR",
-            "en-AU",
-            "en-BZ",
-            "en-CA",
-            "en-cb",
-            "en-GB",
-            "en-IE",
-            "en-IN",
-            "en-JM",
-            "en-MT",
-            "en-MY",
-            "en-NZ",
-            "en-PH",
-            "en-SG",
-            "en-TT",
-            "en-US",
-            "en-ZA",
-            "en-ZW"
-          ]
-        }
-      },
       "expVariant": {
         "value": "zh"
       }
     },
     {
       "id": 2,
-      "attributes": {
-        "locale": {
-          "value": [
-            "bg-BG",
-            "cs-CZ",
-            "da-DK",
-            "de-DE",
-            "el-GR",
-            "es-ES",
-            "et-EE",
-            "fi-FI",
-            "fr-FR",
-            "hr-HR",
-            "hu-HU",
-            "it-IT",
-            "lt-LT",
-            "lv-LV",
-            "nb",
-            "nl-NL",
-            "pl-PL",
-            "pt-PT",
-            "ro-RO",
-            "ru-RU",
-            "sk-SK",
-            "sl-SL",
-            "sv-SE",
-            "tr-TR",
-            "en-AU",
-            "en-BZ",
-            "en-CA",
-            "en-cb",
-            "en-GB",
-            "en-IE",
-            "en-IN",
-            "en-JM",
-            "en-MT",
-            "en-MY",
-            "en-NZ",
-            "en-PH",
-            "en-SG",
-            "en-TT",
-            "en-US",
-            "en-ZA",
-            "en-ZW"
-          ]
-        }
-      },
       "expVariant": {
         "value": "zi"
       }
     },
     {
       "id": 3,
-      "attributes": {
-        "locale": {
-          "value": [
-            "bg-BG",
-            "cs-CZ",
-            "da-DK",
-            "de-DE",
-            "el-GR",
-            "es-ES",
-            "et-EE",
-            "fi-FI",
-            "fr-FR",
-            "hr-HR",
-            "hu-HU",
-            "it-IT",
-            "lt-LT",
-            "lv-LV",
-            "nb",
-            "nl-NL",
-            "pl-PL",
-            "pt-PT",
-            "ro-RO",
-            "ru-RU",
-            "sk-SK",
-            "sl-SL",
-            "sv-SE",
-            "tr-TR",
-            "en-AU",
-            "en-BZ",
-            "en-CA",
-            "en-cb",
-            "en-GB",
-            "en-IE",
-            "en-IN",
-            "en-JM",
-            "en-MT",
-            "en-MY",
-            "en-NZ",
-            "en-PH",
-            "en-SG",
-            "en-TT",
-            "en-US",
-            "en-ZA",
-            "en-ZW"
-          ]
-        }
-      },
       "expVariant": {
         "value": "zl"
       }
