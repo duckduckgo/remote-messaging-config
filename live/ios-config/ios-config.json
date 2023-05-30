@@ -10,7 +10,7 @@
         "placeholder": "MacComputer",
         "primaryActionText": "Send Link",
         "primaryAction": {
-          "type": "share",
+          "type": "url",
           "value": "https://duckduckgo.com/mac?rmf=mac",
           "additionalValues": ["Get DuckDuckGo Browser for Mac"]
         }
