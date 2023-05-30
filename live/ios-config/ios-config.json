@@ -8,10 +8,10 @@
         "titleText": "Get DuckDuckGo Browser for Mac",
         "descriptionText": "Search privately and block trackers and annoying cookie pop-ups on your Mac for free!",
         "placeholder": "MacComputer",
-        "primaryActionText": "Learn More",
+        "primaryActionText": "Send Link",
         "primaryAction": {
           "type": "share",
-          "value": "https://duckduckgo.com/mac",
+          "value": "https://duckduckgo.com/mac?rmf=mac",
           "additionalValues": ["Get DuckDuckGo Browser for Mac"]
         }
       },
