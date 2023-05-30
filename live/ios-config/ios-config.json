@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 5,
   "messages": [
     {
       "id": "macos_promo_may2023",
@@ -11,8 +11,8 @@
         "primaryActionText": "Learn More",
         "primaryAction": {
           "type": "share",
-          "value": "https://duckduckgo.com/mac?rmf=mac",
-          "additionalValues": ["DuckDuckGo for Mac"]
+          "value": "https://duckduckgo.com/mac",
+          "additionalValues": ["Get DuckDuckGo Browser for Mac"]
         }
       },
       "matchingRules": [
