@@ -10,8 +10,9 @@
         "placeholder": "MacComputer",
         "primaryActionText": "Learn More",
         "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/mac?rmf=mac"
+          "type": "share",
+          "value": "https://duckduckgo.com/mac?rmf=mac",
+          "additionalValues": ["DuckDuckGo for Mac"]
         }
       },
       "matchingRules": [
@@ -24,11 +25,7 @@
       "id": 1,
       "attributes": {
         "appVersion": {
-          "min": "7.74.0"
-        },
-        "daysSinceInstalled": {
-          "min": 3,
-          "max": 9
+          "min": "7.75.0"
         },
         "locale": {
           "value": [
