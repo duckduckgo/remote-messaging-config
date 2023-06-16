@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 5,
   "messages": [
     {
       "id": "macos_promo_may2023",
@@ -25,7 +25,11 @@
       "id": 1,
       "attributes": {
         "appVersion": {
-          "min": "7.75.0"
+          "min": "7.76.0"
+        },
+        "daysSinceInstalled": {
+          "min": 3,
+          "max": 9
         },
         "locale": {
           "value": [
