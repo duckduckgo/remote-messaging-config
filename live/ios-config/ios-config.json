@@ -12,7 +12,7 @@
         "action": {
           "type": "share",
           "value": "Visit https://duckduckgo.com/browser",
-          "additionalValues": ["Get DuckDuckGo Browser for Mac or Windows"]
+          "additionalParameters": { "title": "Get DuckDuckGo Browser for Mac or Windows" }
         }
       },
       "matchingRules": [
