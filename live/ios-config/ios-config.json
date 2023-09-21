@@ -6,7 +6,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Did you know our free browser is available on Windows & Mac?",
-        "descriptionText": "Visit duckduckgo.com/browser on your computer to download.",
+        "descriptionText": "Visit <b>duckduckgo.com/browser</b> on your computer to download.",
         "placeholder": "NewForMacAndWindows",
         "actionText": "Send Link",
         "action": {
