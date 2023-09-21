@@ -1,17 +1,17 @@
 {
-  "version": 5,
+  "version": 6,
   "messages": [
     {
       "id": "macos_promo_may2023",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Get DuckDuckGo Browser\nfor Mac or Windows",
-        "descriptionText": "Search privately, block trackers, handle cookie pop-ups, and more — for free!",
-        "placeholder": "MacComputer",
-        "primaryActionText": "Send Link",
-        "primaryAction": {
+        "titleText": "Did you know our free browser is available on Windows & Mac?",
+        "descriptionText": "Visit duckduckgo.com/browser on your computer to download.",
+        "placeholder": "NewForMacAndWindows",
+        "actionText": "Send Link",
+        "action": {
           "type": "share",
-          "value": "https://duckduckgo.com/browser",
+          "value": "Visit https://duckduckgo.com/browser",
           "additionalValues": ["Get DuckDuckGo Browser for Mac or Windows"]
         }
       },
@@ -24,17 +24,8 @@
     {
       "id": 1,
       "attributes": {
-        "appVersion": {
-          "min": "7.76.0"
-        },
-        "daysSinceInstalled": {
-          "min": 3,
-          "max": 9
-        },
         "locale": {
           "value": [
-            "en-CA",
-            "en-GB",
             "en-US"
           ]
         }
