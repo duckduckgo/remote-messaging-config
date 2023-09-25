@@ -1,5 +1,39 @@
 {
-  "version": 6,
-  "messages": [],
-  "rules": []
+  "version": 8,
+  "messages": [
+    {
+      "id": "macos_promo_may2023",
+      "content": {
+        "messageType": "promo_single_action",
+        "titleText": "Did you know our free browser is available on Windows & Mac?",
+        "descriptionText": "Visit <b>duckduckgo.com/browser</b> on your computer to download.",
+        "placeholder": "NewForMacAndWindows",
+        "actionText": "Send Link",
+        "action": {
+          "type": "share",
+          "value": "Visit https://duckduckgo.com/browser",
+          "additionalParameters": { "title": "Get DuckDuckGo Browser for Mac or Windows" }
+        }
+      },
+      "matchingRules": [
+        1
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "osApi": {
+          "min": "16.0.0",
+          "max": "18.0.0"
+        }
+      }
+    }
+  ]
 }
