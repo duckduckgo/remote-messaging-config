@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "messages": [
     {
       "id": "macos_promo_may2023",
@@ -11,7 +11,7 @@
         "actionText": "Send Link",
         "action": {
           "type": "share",
-          "value": "Visit https://duckduckgo.com/browser",
+          "value": "https://duckduckgo.com/browser",
           "additionalParameters": { "title": "Get DuckDuckGo Browser for Mac or Windows" }
         }
       },
