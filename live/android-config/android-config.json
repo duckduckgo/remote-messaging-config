@@ -1,5 +1,130 @@
 {
-  "version": 6,
-  "messages": [],
-  "rules": []
+  "version": 7,
+  "messages": [
+    {
+      "id": "default_browser_day_0",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Browse privately every time",
+        "descriptionText": "Block trackers, cookie pop-ups, targeted ads, and more. Make DuckDuckGo your default browser today.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Set as Default",
+        "primaryAction": {
+          "type": "defaultBrowser",
+          "value": ""
+        },
+        "secondaryActionText": "No Thanks",
+        "secondaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [
+        1
+      ]
+    },
+    {
+      "id": "default_browser_day_1",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Browse privately every time",
+        "descriptionText": "Block trackers, cookie pop-ups, targeted ads, and more. Make DuckDuckGo your default browser today.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Set as Default",
+        "primaryAction": {
+          "type": "defaultBrowser",
+          "value": ""
+        },
+        "secondaryActionText": "No Thanks",
+        "secondaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [
+        2
+      ]
+    },
+    {
+      "id": "default_browser_day_3",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Browse privately every time",
+        "descriptionText": "Block trackers, cookie pop-ups, targeted ads, and more. Make DuckDuckGo your default browser today.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Set as Default",
+        "primaryAction": {
+          "type": "defaultBrowser",
+          "value": ""
+        },
+        "secondaryActionText": "No Thanks",
+        "secondaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [
+        3
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        },
+        "defaultBrowser": {
+          "value": false
+        },
+        "atb": {
+          "value": "v399-6"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        },
+        "defaultBrowser": {
+          "value": false
+        },
+        "atb": {
+          "value": "v399-5"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        },
+        "defaultBrowser": {
+          "value": false
+        },
+        "atb": {
+          "value": "v399-3"
+        }
+      }
+    }
+  ]
 }
