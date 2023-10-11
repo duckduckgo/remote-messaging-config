@@ -8,7 +8,7 @@
         "titleText": "Browse privately every time",
         "descriptionText": "Block trackers, cookie pop-ups, targeted ads, and more. Make DuckDuckGo your default browser today.",
         "placeholder": "DDGAnnounce",
-        "primaryActionText": "Set as Default",
+        "primaryActionText": "Set As Default",
         "primaryAction": {
           "type": "defaultBrowser",
           "value": ""
@@ -30,7 +30,7 @@
         "titleText": "Browse privately every time",
         "descriptionText": "Block trackers, cookie pop-ups, targeted ads, and more. Make DuckDuckGo your default browser today.",
         "placeholder": "DDGAnnounce",
-        "primaryActionText": "Set as Default",
+        "primaryActionText": "Set As Default",
         "primaryAction": {
           "type": "defaultBrowser",
           "value": ""
@@ -52,7 +52,7 @@
         "titleText": "Browse privately every time",
         "descriptionText": "Block trackers, cookie pop-ups, targeted ads, and more. Make DuckDuckGo your default browser today.",
         "placeholder": "DDGAnnounce",
-        "primaryActionText": "Set as Default",
+        "primaryActionText": "Set As Default",
         "primaryAction": {
           "type": "defaultBrowser",
           "value": ""
