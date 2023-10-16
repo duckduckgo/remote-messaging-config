@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'live/android-config/android-config.json'
+  workflow_dispatch:
 
 jobs:
   publish:
