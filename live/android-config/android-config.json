@@ -1,22 +1,20 @@
 {
-  "version": 11,
+  "version": 12,
   "messages": [
     {
-      "id": "default_browser",
+      "id": "macos_promo_oct2023",
       "content": {
-        "messageType": "big_two_action",
-        "titleText": "Browse privately every time",
-        "descriptionText": "Block trackers, cookie pop-ups, targeted ads, and more. Make DuckDuckGo your default browser today.",
-        "placeholder": "DDGAnnounce",
-        "primaryActionText": "Set As Default",
-        "primaryAction": {
-          "type": "defaultBrowser",
-          "value": ""
-        },
-        "secondaryActionText": "No Thanks",
-        "secondaryAction": {
-          "type": "dismiss",
-          "value": ""
+        "messageType": "promo_single_action",
+        "titleText": "Did you know our free browser is available on Windows & Mac?",
+        "descriptionText": "Visit <b>duckduckgo.com/browser</b> on your computer to download.",
+        "placeholder": "NewForMacAndWindows",
+        "actionText": "Send Link",
+        "action": {
+          "type": "share",
+          "value": "Visit https://duckduckgo.com/app",
+          "additionalParameters": {
+            "title": "Get DuckDuckGo Browser for Mac or Windows"
+          }
         }
       },
       "matchingRules": [
@@ -30,18 +28,8 @@
       "attributes": {
         "locale": {
           "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
+            "en-US"
           ]
-        },
-        "defaultBrowser": {
-          "value": false
-        },
-        "expVariant": {
-          "value": "zj",
-          "fallback": false
         }
       }
     }
