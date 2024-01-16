@@ -33,7 +33,10 @@
         },
         "daysSinceNetPEnabled": {
           "min": 5
-        }
+        },
+        "appVersion": {
+          "min": "7.104.0.0"
+        },
       }
     }
   ]
