@@ -1,0 +1,22 @@
+{
+  "version": 0,
+  "messages": [
+    {
+      "id": "1",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Placeholder Title",
+        "descriptionText": "This is placeholder text lorem ipsum dolor sit amet, adipiscing elit.",
+        "image": {
+          "highRes": {
+            "light": "https://raw.githubusercontent.com/duckduckgo/remote-messaging-config/main/samples/ios/sample-light@3x.png",
+            "dark": "https://raw.githubusercontent.com/duckduckgo/remote-messaging-config/main/samples/ios/sample-dark@3x.png"
+          }
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    }
+  ],
+  "rules": []
+}
