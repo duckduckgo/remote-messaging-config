@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "messages": [
     {
       "id": "vpn_survey",
@@ -28,7 +28,7 @@
         "primaryActionText": "Take the Survey",
         "primaryAction": {
           "type": "survey_url",
-          "value": "https://www.research.net/r/NetworkProtectioniOSWaitlistBetaSurvey"
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=2"
         }
       },
       "matchingRules": [
