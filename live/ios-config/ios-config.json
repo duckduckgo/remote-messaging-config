@@ -25,7 +25,7 @@
         "titleText": "Help us improve the app!",
         "descriptionText": "Take our short anonymous survey and share your feedback.",
         "placeholder": "RemoteMessageDDGAnnouncement",
-        "primaryActionText": "Take the Survey",
+        "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey_url",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=2"
