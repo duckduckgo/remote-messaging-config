@@ -1,43 +1,5 @@
 {
-  "version": 19,
-  "messages": [
-    {
-      "id": "vpn_survey",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Network Protection Survey",
-        "descriptionText": "Please tell us your thoughts about DuckDuckGo's Network Protection beta.",
-        "placeholder": "VPNAnnounce",
-        "primaryActionText": "Take Survey",
-        "primaryAction": {
-          "type": "survey_url",
-          "value": "https://www.research.net/r/NetworkProtectioniOSWaitlistBetaSurvey"
-        }
-      },
-      "matchingRules": [
-        1
-      ]
-    }
-  ],
-  "rules": [
-    {
-      "id": 1,
-      "attributes": {
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        },
-        "isNetPWaitlistUser": {
-          "value": true
-        },
-        "daysSinceNetPEnabled": {
-          "min": 5
-        },
-        "appVersion": {
-          "min": "7.106.0.4"
-        }
-      }
-    }
-  ]
+  "version": 20,
+  "messages": [],
+  "rules": []
 }
