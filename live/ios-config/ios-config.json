@@ -2,7 +2,7 @@
   "version": 21,
   "messages": [
     {
-      "id": "vpn_survey",
+      "id": "ios_vpn_beta_ending",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Thanks for testing DuckDuckGo VPN!",
