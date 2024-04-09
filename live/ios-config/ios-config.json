@@ -1,43 +1,5 @@
 {
-  "version": 22,
-  "messages": [
-    {
-      "id": "ios_vpn_beta_ending",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Thanks for testing DuckDuckGo VPN!",
-        "descriptionText": "The free, early access period is ending soon.",
-        "placeholder": "VPNAnnounce",
-        "primaryActionText": "Dismiss",
-        "primaryAction": {
-          "type": "dismiss",
-          "value": ""
-        }
-      },
-      "matchingRules": [
-        1
-      ]
-    }
-  ],
-  "rules": [
-    {
-      "id": 1,
-      "attributes": {
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        },
-        "isNetPWaitlistUser": {
-          "value": true
-        },
-        "daysSinceNetPEnabled": {
-          "min": 0
-        },
-        "appVersion": {
-          "min": "7.106.0.4"
-        }
-      }
-    }
-  ]
+  "version": 23,
+  "messages": [],
+  "rules": []
 }
