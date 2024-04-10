@@ -1,32 +1,5 @@
 {
-  "version": 15,
-  "messages": [
-    {
-      "id": "beta-ending-20240318",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Thanks for testing DuckDuckGo VPN!",
-        "descriptionText": "The free, early access period is ending soon.",
-        "placeholder": "Announce",
-        "primaryActionText": "Dismiss",
-        "primaryAction": {
-            "type": "dismiss",
-            "value": ""
-        }
-      },
-      "matchingRules": [
-        1
-      ]
-    }
-  ],
-  "rules": [
-    {
-      "id": 1,
-      "attributes": {
-        "netpOnboarded": {
-          "value": true
-        }
-      }
-    }
-  ]
+  "version": 16,
+  "messages": [],
+  "rules": []
 }
