@@ -1,40 +1,31 @@
 {
-  "version": 17,
+  "version": 51,
   "messages": [
-        {
-            "id": "test-20220101",
-            "content": {
-                "messageType": "big_single_action",
-                "titleText": "Help Prevent the Spread of Covid",
-                "descriptionText": "See the latest information from the World Health Organisation so you can help prevent the spread of COVID-19.",
-                "placeholder": "Announce",
-                "primaryActionText": "Get Tips",
-                "primaryAction": {
-                    "type": "url",
-                    "value": "covid 19"
-                }
-            },
-            "translations": {
-                "es": {
-                    "titleText": "Ayuda a prevenir la propagación de Covid",
-                    "descriptionText": "Consulta la información más reciente de la Organización Mundial de la Salud para que pueda ayudar a prevenir la propagación de COVID-19.",
-                    "primaryActionText": "Ver Consejos"
-                }
-            },
-            "matchingRules": [
-                1
-            ]
+    {
+      "id": "voice_search_promo",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Private Voice Search",
+        "descriptionText": "Search the web quickly and privately by adding Private Voice Search to the address bar.",
+        "placeholder": "Announce",
+        "primaryActionText": "deeplink 1",
+        "secondaryActionText": "deeplink 2",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "ppro.settings",
+          "additionalParameters": {
+          }
+        },
+        "secondaryAction": {
+          "type": "navigation",
+          "value": "vpn.main",
+          "additionalParameters": {
+            "payload": "{\"enable\": true}"
+          }
         }
-
+      },
+      "matchingRules": []
+    }
   ],
-  "rules": [
-        {
-            "id": 1,
-            "attributes": {
-                "atpOnboarded": {
-                    "value": true
-                }
-            }
-        }
-  ]
+  "rules": []
 }
