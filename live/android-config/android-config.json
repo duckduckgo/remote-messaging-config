@@ -1,8 +1,8 @@
 {
-  "version": 17,
+  "version": 18,
   "messages": [
         {
-            "id": "test-20220101",
+            "id": "test-20220102",
             "content": {
                 "messageType": "big_single_action",
                 "titleText": "Help Prevent the Spread of Covid",
@@ -32,6 +32,9 @@
             "id": 1,
             "attributes": {
                 "atpOnboarded": {
+                    "value": true
+                },
+                "netpOnboarded": {
                     "value": true
                 }
             }
