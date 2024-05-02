@@ -1,0 +1,6 @@
+"privacyProSubscriptionStatus": {
+    "value": [
+        <auto_renewable|not_auto_renewable|grace_period|inactive|expired|unknown|waiting>
+    ],
+    "fallback": true|false //optional
+}

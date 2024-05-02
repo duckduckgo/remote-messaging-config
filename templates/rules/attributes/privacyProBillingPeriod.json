@@ -1,0 +1,6 @@
+"privacyProBillingPeriod": {
+    "value": [
+        <monthly|annual>
+    ],
+    "fallback": true|false //optional
+}

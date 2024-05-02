@@ -1,0 +1,6 @@
+"privacyProPurchasePlatform": {
+    "value": [
+        <apple|google|stripe>
+    ],
+    "fallback": true|false //optional
+}
