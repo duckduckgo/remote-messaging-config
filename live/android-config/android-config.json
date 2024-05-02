@@ -1,5 +1,50 @@
 {
-  "version": 16,
-  "messages": [],
-  "rules": []
+  "version": 17,
+  "messages": [
+    {
+      "id": "survey-test",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Test survey",
+        "descriptionText": "This is a test",
+        "placeholder": "Announce",
+        "primaryActionText": "Take survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240308",
+          "additionalParameters": {
+              "queryParams": "atb;var;delta;av;ddgv;man;mo;da;src"
+          }
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        2
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "targetPercentile": {
+          "before": 0.9
+      },
+      "attributes": {
+        "daysSinceInstalled": {
+            "min": 0,
+            "max": 3
+          }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "appVersion": {
+            "max": "5.197.0"
+        }
+      }
+    }
+  ]
 }
