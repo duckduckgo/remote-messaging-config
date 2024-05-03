@@ -15,13 +15,13 @@
         }
       },
       "matchingRules": [
-        2
+        1
       ]
     }
   ],
   "rules": [
     {
-      "id": 2,
+      "id": 1,
       "attributes": {
         "daysSinceInstalled": {
           "min": 5,
