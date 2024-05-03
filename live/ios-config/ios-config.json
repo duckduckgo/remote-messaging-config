@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 25,
   "messages": [
     {
       "id": "ddg_ios_survey_1",
@@ -10,8 +10,11 @@
         "placeholder": "RemoteMessageAnnouncement",
         "primaryActionText": "Take Survey",
         "primaryAction": {
-          "type": "survey_url",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=2"
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240308",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;av;ddgv;man;mo;da;src"
+          }
         }
       },
       "matchingRules": [
@@ -22,13 +25,13 @@
   "rules": [
     {
       "id": 1,
+      "targetPercentile": {
+          "before": 0.9
+      },
       "attributes": {
         "daysSinceInstalled": {
-          "min": 5,
-          "max": 8
-        },
-        "appVersion": {
-          "min": "7.106.0.4"
+          "min": 0,
+          "max": 3
         }
       }
     }
