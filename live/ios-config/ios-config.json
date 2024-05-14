@@ -1,5 +1,304 @@
 {
-  "version": 25,
-  "messages": [],
-  "rules": []
+  "version": 26,
+  "messages": [
+    {
+      "id": "email_campaign_may24",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Protect Your Inbox",
+        "descriptionText": "Get your @duck.com forwarding address and start blocking hidden email trackers\u00A0today!",
+        "placeholder": "Announce",
+        "primaryActionText": "Sign Up",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/email"
+        }
+      },
+      "matchingRules": [1, 2, 3, 4, 5, 6, 7],
+      "exclusionRules": [8]
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "appVersion": {
+          "min": "7.118.0"
+        },
+        "atb": {
+          "value": "v430-1"
+        },
+        "daysSinceInstalled": {
+          "min": 0,
+          "max": 3
+        },
+        "emailEnabled": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "appVersion": {
+          "min": "7.118.0"
+        },
+        "atb": {
+          "value": "v430-2"
+        },
+        "daysSinceInstalled": {
+          "min": 0,
+          "max": 3
+        },
+        "emailEnabled": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "appVersion": {
+          "min": "7.118.0"
+        },
+        "atb": {
+          "value": "v430-3"
+        },
+        "daysSinceInstalled": {
+          "min": 0,
+          "max": 3
+        },
+        "emailEnabled": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "appVersion": {
+          "min": "7.118.0"
+        },
+        "atb": {
+          "value": "v430-4"
+        },
+        "daysSinceInstalled": {
+          "min": 0,
+          "max": 3
+        },
+        "emailEnabled": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "appVersion": {
+          "min": "7.118.0"
+        },
+        "atb": {
+          "value": "v430-5"
+        },
+        "daysSinceInstalled": {
+          "min": 0,
+          "max": 3
+        },
+        "emailEnabled": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "appVersion": {
+          "min": "7.118.0"
+        },
+        "atb": {
+          "value": "v430-6"
+        },
+        "daysSinceInstalled": {
+          "min": 0,
+          "max": 3
+        },
+        "emailEnabled": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "appVersion": {
+          "min": "7.118.0"
+        },
+        "atb": {
+          "value": "v430-7"
+        },
+        "daysSinceInstalled": {
+          "min": 0,
+          "max": 3
+        },
+        "emailEnabled": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "expVariant": {
+          "value": "ru"
+        }
+      }
+    }
+  ]
 }
