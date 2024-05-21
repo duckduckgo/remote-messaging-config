@@ -29,9 +29,11 @@
           "before": 0.9
       },
       "attributes": {
-        "daysSinceInstalled": {
-          "min": 0,
-          "max": 3
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": true
         }
       }
     }
