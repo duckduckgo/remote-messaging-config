@@ -1,5 +1,39 @@
 {
-  "version": 27,
-  "messages": [],
-  "rules": []
+  "version": 28,
+  "messages": [
+    {
+      "id": "ddg_ios_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "RemoteMessageAnnouncement",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240308",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;osv;ddgv;mo;da"
+          }
+        }
+      },
+      "matchingRules": [
+        1
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "targetPercentile": {
+          "before": 0.9
+      },
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 0,
+          "max": 3
+        }
+      }
+    }
+  ]
 }
