@@ -11,7 +11,7 @@
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240308",
+          "value": "https://duckduckgo.com",
           "additionalParameters": {
             "queryParams": "atb;var;delta;osv;ddgv;mo;da"
           }
