@@ -1,5 +1,25 @@
 {
-  "version": 27,
-  "messages": [],
-  "rules": []
+  "version": 28,
+  "messages": [
+    {
+      "id": "search_down_may_23",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Announcement",
+        "descriptionText": "We're currently experiencing an issue with DuckDuckGo Search that might prevent you from getting results. Thanks for your patience while we get our ducks in a row…",
+        "placeholder": "CriticalUpdate"
+      },
+      "matchingRules": [1]
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "appVersion": {
+          "min": "7.118.0"
+        }
+      }
+    }
+  ]
 }
