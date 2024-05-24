@@ -31,7 +31,7 @@
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=ppro_promo_v1"
+          "value": "https://duckduckgo.com/pro?origin=ppro_promo_v2"
         }
       },
       "matchingRules": [
@@ -51,7 +51,7 @@
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=ppro_promo_v1"
+          "value": "https://duckduckgo.com/pro?origin=ppro_promo_v3"
         }
       },
       "matchingRules": [
@@ -71,7 +71,7 @@
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=ppro_promo_v1"
+          "value": "https://duckduckgo.com/pro?origin=ppro_promo_v4"
         }
       },
       "matchingRules": [
