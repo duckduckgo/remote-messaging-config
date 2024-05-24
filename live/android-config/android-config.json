@@ -1,6 +1,135 @@
-
 {
-  "version": 19,
-  "messages": [],
-  "rules": []
+  "version": 20,
+  "messages": [
+    {
+      "id": "ppro_promo_v1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Like App Tracking Protection? You’ll love Privacy Pro.",
+        "descriptionText": "Our fast & secure VPN works with App Tracking Protection to enhance your privacy even more. Get our VPN + 2 more services for $9.99/mo.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=ppro_promo_v1"
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        2
+      ]
+    },
+    {
+      "id": "ppro_promo_v2",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Get the only VPN that works with App Tracking Protection!",
+        "descriptionText": "Our fast and secure VPN works seamlessly with App Tracking Protection. Get it + 2 other new services with Privacy Pro for $9.99/mo.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=ppro_promo_v1"
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        2
+      ]
+    },
+    {
+      "id": "ppro_promo_v3",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Combat more than app trackers with our new 3-in-1 subscription.",
+        "descriptionText": "Keep blocking app trackers, plus combat snooping ISPs, personal data brokers, and identity thieves with Privacy Pro for $9.99/mo.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=ppro_promo_v1"
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        2
+      ]
+    },
+    {
+      "id": "ppro_promo_v4",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Go beyond App Tracking Protection to fully protect your device!",
+        "descriptionText": "Our fast and secure VPN provides full-device protection on up to 5 devices. Get it with our 3-in-1 Privacy Pro subscription for $9.99/mo.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=ppro_promo_v1"
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        2
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "targetPercentile": {
+          "before": 0.025
+      },
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "ppro_promo_v1",
+            "ppro_promo_v2",
+            "ppro_promo_v3",
+            "ppro_promo_v4"
+          ]
+        }
+      }
+    }
+  ]
 }
