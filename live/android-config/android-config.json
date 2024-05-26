@@ -1,65 +1,6 @@
+
 {
-  "version": 17,
-  "messages": [
-    {
-      "id": "voice_search_promo_may_2024",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Private Voice Search",
-        "descriptionText": "Search the web quickly and privately by adding Private Voice Search to the address bar.",
-        "placeholder": "Announce",
-        "primaryActionText": "Add Private Voice Search",
-        "primaryAction": {
-          "type": "navigation",
-          "value": "accessibility",
-          "additionalParameters": {
-            "payload": "{\"highlightedItem\": \"voiceSearch\"}"
-          }
-        }
-      },
-      "translations": {
-        "de": {
-          "titleText": "Private Sprachsuche",
-          "descriptionText": "Durchsuche das Web schnell und privat, indem du die private Sprachsuche zur Adressleiste hinzufügst.",
-          "primaryActionText": "Private Sprachsuche hinzufügen"
-        },
-        "es": {
-          "titleText": "Búsqueda privada por voz",
-          "descriptionText": "Busca en internet de forma rápida y privada añadiendo la búsqueda privada por voz a la barra de direcciones.",
-          "primaryActionText": "Añadir búsqueda privada por voz"
-        },
-        "fr": {
-          "titleText": "Recherche vocale privée",
-          "descriptionText": "Effectuez des recherches sur le Web de façon rapide et confidentielle en ajoutant la Recherche vocale privée à la barre d'adresse.",
-          "primaryActionText": "Ajouter la Recherche vocale privée"
-        },
-        "it": {
-          "titleText": "Ricerca vocale privata",
-          "descriptionText": "Cerca sul Web in modo rapido e privato aggiungendo Private Voice Search alla barra degli indirizzi.",
-          "primaryActionText": "Aggiungi Private Voice Search"
-        },
-        "pt": {
-          "titleText": "Pesquisa por voz privada",
-          "descriptionText": "Pesquisa na Internet de forma rápida e privada adicionando a Pesquisa por Voz Privada à barra de endereços.",
-          "primaryActionText": "Adicionar Pesquisa por Voz Privada"
-        }
-      },
-      "matchingRules": [
-        1
-      ]
-    }
-  ],
-  "rules": [
-    {
-      "id": 1,
-      "attributes": {
-        "voiceSearchSupported": {
-          "value": true
-        },
-        "voiceSearchEnabled": {
-          "value": false
-        }
-      }
-    }
-  ]
+  "version": 19,
+  "messages": [],
+  "rules": []
 }
