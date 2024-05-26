@@ -1,5 +1,5 @@
 {
-  "version": 28,
+  "version": 30,
   "messages": [
     {
       "id": "ddg_ios_survey_1",
@@ -7,7 +7,7 @@
         "messageType": "big_single_action",
         "titleText": "Help us improve the app!",
         "descriptionText": "Take our short anonymous survey and share your feedback.",
-        "placeholder": "RemoteMessageAnnouncement",
+        "placeholder": "PrivacyPro",
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
