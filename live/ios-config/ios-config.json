@@ -34,6 +34,12 @@
         },
         "pproSubscriber": {
           "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 5
+        },
+        "pproDaysUntilExpiryOrRenewal": {
+          "min": 5
         }
       }
     }
