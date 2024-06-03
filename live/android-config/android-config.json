@@ -2,11 +2,11 @@
   "version": 20,
   "messages": [
     {
-      "id": "ppro_promo_v1",
+      "id": "funnel_pro_android_apptp_likelove",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Like App Tracking Protection? You’ll love Privacy Pro.",
-        "descriptionText": "Our fast & secure VPN works with App Tracking Protection to enhance your privacy even more. Get our VPN + 2 more services for $9.99/mo.",
+        "titleText": "NEW! Privacy Pro Subscription",
+        "descriptionText": "Get 3 new privacy protections, including our fast, simple, no-log VPN, all for $9.99/mo.",
         "placeholder": "DDGAnnounce",
         "primaryActionText": "Learn More",
         "primaryAction": {
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "id": "ppro_promo_v2",
+      "id": "funnel_pro_android_apptp_vpnworks",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Get the only VPN that works with App Tracking Protection!",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "id": "ppro_promo_v3",
+      "id": "funnel_pro_android_apptp_threeinone",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Combat more than app trackers with our new 3-in-1 subscription.",
@@ -62,11 +62,11 @@
       ]
     },
     {
-      "id": "ppro_promo_v4",
+      "id": "funnel_pro_android_apptp_beyondapptp",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Go beyond App Tracking Protection to fully protect your device!",
-        "descriptionText": "Our fast and secure VPN provides full-device protection on up to 5 devices. Get it with our 3-in-1 Privacy Pro subscription for $9.99/mo.",
+        "titleText": "NEW! Privacy Pro Subscription",
+        "descriptionText": "Go beyond App Tracking Protection to better protect your device.",
         "placeholder": "DDGAnnounce",
         "primaryActionText": "Learn More",
         "primaryAction": {
@@ -78,7 +78,7 @@
         1
       ],
       "exclusionRules": [
-        
+        2
       ]
     }
   ],
@@ -86,7 +86,7 @@
     {
       "id": 1,
       "targetPercentile": {
-          "before": 1
+          "before": 0.1
       },
       "attributes": {
         "pproEligible": {
@@ -118,6 +118,9 @@
             "en-ZA",
             "en-ZW"
           ]
+        },
+        "appVersion": {
+          "min": "5.200.1"
         }
       }
     },
@@ -126,10 +129,10 @@
       "attributes": {
         "interactedWithMessage": {
           "value": [
-            "ppro_promo_v1",
-            "ppro_promo_v2",
-            "ppro_promo_v3",
-            "ppro_promo_v4"
+            "funnel_pro_android_apptp_likelove",
+            "funnel_pro_android_apptp_vpnworks",
+            "funnel_pro_android_apptp_threeinone",
+            "funnel_pro_android_apptp_beyondapptp"
           ]
         }
       }
