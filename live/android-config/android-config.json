@@ -68,7 +68,7 @@
         "titleText": "NEW! Privacy Pro Subscription",
         "descriptionText": "Go beyond App Tracking Protection to better protect your device.",
         "placeholder": "DDGAnnounce",
-        "primaryActionText": "Learn More",
+        "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
           "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_apptp_beyondapptp"
