@@ -7,7 +7,7 @@
         "messageType": "big_single_action",
         "titleText": "Tell Us Your Thoughts on Privacy Pro",
         "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
-        "placeholder": "PrivacyPro",
+        "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
