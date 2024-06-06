@@ -2,18 +2,18 @@
   "version": 30,
   "messages": [
     {
-      "id": "ddg_ios_survey_1",
+      "id": "ddg_privacy_pro_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Help us improve the app!",
-        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "titleText": "Tell Us Your Thoughts on Privacy Pro",
+        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
         "placeholder": "PrivacyPro",
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://duckduckgo.com",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3",
           "additionalParameters": {
-            "queryParams": "atb;var;delta;osv;ddgv;mo;da"
+            "queryParams": "atb;var;delta;osv;ddgv;mo;da;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
           }
         }
       },
@@ -25,21 +25,15 @@
   "rules": [
     {
       "id": 1,
-      "targetPercentile": {
-          "before": 0.9
-      },
       "attributes": {
-        "pproEligible": {
-          "value": true
-        },
         "pproSubscriber": {
           "value": true
         },
         "pproDaysSinceSubscribed": {
           "min": 5
         },
-        "pproDaysUntilExpiryOrRenewal": {
-          "min": 5
+        "appVersion": {
+          "min": "7.106.0.4"
         }
       }
     }
