@@ -1,66 +1,6 @@
 {
-  "version": 20,
+  "version": 21,
   "messages": [
-    {
-      "id": "funnel_pro_android_apptp_likelove",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "NEW! Privacy Pro Subscription",
-        "descriptionText": "Get 3 new privacy protections, including our fast, simple, no-log VPN, all for $9.99/mo.",
-        "placeholder": "DDGAnnounce",
-        "primaryActionText": "Learn More",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_apptp_likelove"
-        }
-      },
-      "matchingRules": [
-        1
-      ],
-      "exclusionRules": [
-        2
-      ]
-    },
-    {
-      "id": "funnel_pro_android_apptp_vpnworks",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Get the only VPN that works with App Tracking Protection!",
-        "descriptionText": "Our fast and secure VPN works seamlessly with App Tracking Protection. Get it + 2 other new services with Privacy Pro for $9.99/mo.",
-        "placeholder": "DDGAnnounce",
-        "primaryActionText": "Learn More",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_apptp_vpnworks"
-        }
-      },
-      "matchingRules": [
-        1
-      ],
-      "exclusionRules": [
-        2
-      ]
-    },
-    {
-      "id": "funnel_pro_android_apptp_threeinone",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Combat more than app trackers with our new 3-in-1 subscription.",
-        "descriptionText": "Keep blocking app trackers, plus combat snooping ISPs, personal data brokers, and identity thieves with Privacy Pro for $9.99/mo.",
-        "placeholder": "DDGAnnounce",
-        "primaryActionText": "Learn More",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_apptp_threeinone"
-        }
-      },
-      "matchingRules": [
-        1
-      ],
-      "exclusionRules": [
-        2
-      ]
-    },
     {
       "id": "funnel_pro_android_apptp_beyondapptp",
       "content": {
@@ -85,9 +25,6 @@
   "rules": [
     {
       "id": 1,
-      "targetPercentile": {
-          "before": 0.1
-      },
       "attributes": {
         "pproEligible": {
           "value": true
