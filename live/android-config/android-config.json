@@ -85,10 +85,10 @@
   "rules": [
     {
       "id": 1,
-      "attributes": {
-        "targetPercentile": {
+      "targetPercentile": {
           "before": 0.25
-        },
+      },
+      "attributes": {
         "pproEligible": {
           "value": true
         },
