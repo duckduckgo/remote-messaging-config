@@ -1,17 +1,77 @@
 {
-  "version": 21,
+  "version": 22,
   "messages": [
     {
-      "id": "funnel_pro_android_apptp_beyondapptp",
+      "id": "funnel_pro_android_rmf_onboarding_levelup",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "NEW! Privacy Pro Subscription",
-        "descriptionText": "Go beyond App Tracking Protection to better protect your device.",
+        "titleText": "Level up your privacy!",
+        "descriptionText": "Boost your privacy with our fast & secure VPN + 2 more new protections.",
         "placeholder": "DDGAnnounce",
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_apptp_beyondapptp"
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_rmf_onboarding_levelup"
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        2
+      ]
+    },
+    {
+      "id": "funnel_pro_android_rmf_onboarding_likelove",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Like DuckDuckGo? You’ll love Privacy Pro!",
+        "descriptionText": "Get 3-in-1 protection with Privacy Pro. Includes a fast & secure VPN + 2 more new protections, all for $9.99/mo.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Learn More",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_rmf_onboarding_likelove"
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        2
+      ]
+    },
+    {
+      "id": "funnel_pro_android_rmf_onboarding_moreprivacy",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Get more privacy with Privacy Pro!",
+        "descriptionText": "· Fast & secure VPN<br/>· Restore your identity if it’s ever stolen<br/>· Remove personal info from sites that sell it<br/>All for $9.99/month",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Learn More",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_rmf_onboarding_moreprivacy"
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        2
+      ]
+    },
+    {
+      "id": "funnel_pro_android_rmf_onboarding_boost",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "NEW! Boost your privacy with Privacy Pro",
+        "descriptionText": "Get 3 new ways to expand your privacy with our VPN, Personal Information Removal, and Identity Theft Restoration, all for $9.99/mo.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Learn More",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_rmf_onboarding_boost"
         }
       },
       "matchingRules": [
@@ -26,6 +86,9 @@
     {
       "id": 1,
       "attributes": {
+        "targetPercentile": {
+          "before": 0.25
+        },
         "pproEligible": {
           "value": true
         },
@@ -33,31 +96,18 @@
           "value": false
         },
         "atpOnboarded": {
-          "value": true
+          "value": false
         },
         "locale": {
           "value": [
-            "en-AU",
-            "en-BZ",
-            "en-CA",
-            "en-cb",
-            "en-GB",
-            "en-IE",
-            "en-IN",
-            "en-JM",
-            "en-MT",
-            "en-MY",
-            "en-NZ",
-            "en-PH",
-            "en-SG",
-            "en-TT",
-            "en-US",
-            "en-ZA",
-            "en-ZW"
+            "en-US"
           ]
         },
         "appVersion": {
           "min": "5.200.1"
+        },
+        "daysSinceInstalled": {
+          "value": 3
         }
       }
     },
@@ -66,6 +116,10 @@
       "attributes": {
         "interactedWithMessage": {
           "value": [
+            "funnel_pro_android_rmf_onboarding_levelup",
+            "funnel_pro_android_rmf_onboarding_likelove",
+            "funnel_pro_android_rmf_onboarding_moreprivacy",
+            "funnel_pro_android_rmf_onboarding_boost",
             "funnel_pro_android_apptp_likelove",
             "funnel_pro_android_apptp_vpnworks",
             "funnel_pro_android_apptp_threeinone",
