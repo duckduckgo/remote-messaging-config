@@ -1,36 +1,70 @@
 {
-  "version": 30,
+  "version": 31,
   "messages": [
     {
-      "id": "ddg_ios_survey_1",
+      "id": "funnel_pro_ios_rmf_onboarding_levelup",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Help us improve the app!",
-        "descriptionText": "Take our short anonymous survey and share your feedback.",
-        "placeholder": "RemoteMessageAnnouncement",
-        "primaryActionText": "Take Survey",
+        "titleText": "Level up your privacy!",
+        "descriptionText": "Boost your privacy with our fast and secure VPN plus 2 more new protections.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Learn More",
         "primaryAction": {
-          "type": "survey_url",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=2"
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_ios_rmf_onboarding_levelup"
         }
       },
-      "matchingRules": [
-        1
-      ]
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "funnel_pro_ios_rmf_onboarding_likelove",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Like DuckDuckGo?  \nYou’ll love Privacy Pro!",
+        "descriptionText": "Get 3-in-1 protection with Privacy Pro. Includes a fast & secure VPN + 2 more new protections, all for $9.99/mo.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Learn More",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_ios_rmf_onboarding_likelove"
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "funnel_pro_ios_rmf_onboarding_moreprivacy",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Get more privacy with Privacy Pro!",
+        "descriptionText": "Fast & secure VPN.  \nRestore your identity if it’s ever stolen.  \nRemove personal info from sites that sell it.  \nAll for $9.99/month.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Learn More",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_ios_rmf_onboarding_moreprivacy"
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "funnel_pro_ios_rmf_onboarding_boost",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "NEW!  \nBoost your privacy with Privacy Pro",
+        "descriptionText": "Get 3 new ways to expand your privacy with our VPN, Personal Information Removal, and Identity Theft Restoration, all for $9.99/mo.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Learn More",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_ios_rmf_onboarding_boost"
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
     }
   ],
-  "rules": [
-    {
-      "id": 1,
-      "attributes": {
-        "daysSinceInstalled": {
-          "min": 5,
-          "max": 8
-        },
-        "appVersion": {
-          "min": "7.106.0.4"
-        }
-      }
-    }
-  ]
+  "rules": []
 }
