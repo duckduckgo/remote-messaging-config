@@ -6,7 +6,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Level up your privacy!",
-        "descriptionText": "Boost your privacy with our fast & secure VPN + 2 more new protections.",
+        "descriptionText": "Boost your privacy with our fast and secure VPN plus 2 more new protections.",
         "placeholder": "DDGAnnounce",
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
@@ -46,7 +46,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Get more privacy with Privacy Pro!",
-        "descriptionText": "· Fast & secure VPN<br/>· Restore your identity if it’s ever stolen<br/>· Remove personal info from sites that sell it<br/>All for $9.99/month",
+        "descriptionText": "Fast & secure VPN.<br/>Restore your identity if it’s ever stolen.<br/>Remove personal info from sites that sell it.<br/>All for $9.99/month.",
         "placeholder": "DDGAnnounce",
         "primaryActionText": "Learn More",
         "primaryAction": {
