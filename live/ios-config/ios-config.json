@@ -11,7 +11,7 @@
         "primaryActionText": "Learn More",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_ios_rmf_onboarding_levelup"
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_iosrmf_onboarding_levelup"
         }
       },
       "matchingRules": [],
@@ -27,7 +27,7 @@
         "primaryActionText": "Learn More",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_ios_rmf_onboarding_likelove"
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_iosrmf_onboarding_likelove"
         }
       },
       "matchingRules": [],
@@ -43,7 +43,7 @@
         "primaryActionText": "Learn More",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_ios_rmf_onboarding_moreprivacy"
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_iosrmf_onboarding_moreprivacy"
         }
       },
       "matchingRules": [],
@@ -59,7 +59,7 @@
         "primaryActionText": "Learn More",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_ios_rmf_onboarding_boost"
+          "value": "https://duckduckgo.com/pro?funnel_pro_iosrmf_onboarding_boost"
         }
       },
       "matchingRules": [],
