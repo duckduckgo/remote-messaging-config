@@ -1,8 +1,8 @@
 {
-  "version": 30,
+  "version": 31,
   "messages": [
     {
-      "id": "ddg_privacy_pro_survey_test",
+      "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Tell Us Your Thoughts on Privacy Pro",
@@ -13,7 +13,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3",
           "additionalParameters": {
-            "queryParams": "atb;var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+            "queryParams": "atb;var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;vpn_first_used"
           }
         }
       },
@@ -30,16 +30,16 @@
           "value": true
         },
         "pproDaysSinceSubscribed": {
-          "min": 5
+          "min": 14
         },
         "pproPurchasePlatform": {
-          "value": ["apple", "stripe"]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
           "value": "active"
         },
         "appVersion": {
-          "min": "7.106.0.4"
+          "min": "7.124.0.1"
         }
       }
     }

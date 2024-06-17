@@ -1,6 +1,78 @@
-
 {
-  "version": 19,
-  "messages": [],
-  "rules": []
+  "version": 21,
+  "messages": [
+    {
+      "id": "funnel_pro_android_apptp_beyondapptp",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "NEW! Privacy Pro Subscription",
+        "descriptionText": "Go beyond App Tracking Protection to better protect your device.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_apptp_beyondapptp"
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        2
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "atpOnboarded": {
+          "value": true
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
+          ]
+        },
+        "appVersion": {
+          "min": "5.200.1"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "funnel_pro_android_apptp_likelove",
+            "funnel_pro_android_apptp_vpnworks",
+            "funnel_pro_android_apptp_threeinone",
+            "funnel_pro_android_apptp_beyondapptp"
+          ]
+        }
+      }
+    }
+  ]
 }
