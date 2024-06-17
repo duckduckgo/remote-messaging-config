@@ -2,7 +2,7 @@
   "version": 22,
   "messages": [
     {
-      "id": "funnel_pro_android_rmf_onboarding_levelup",
+      "id": "funnel_pro_androidrmf_onboarding_levelup",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Level up your privacy!",
@@ -11,7 +11,7 @@
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_rmf_onboarding_levelup"
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_onboarding_levelup"
         }
       },
       "matchingRules": [
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "id": "funnel_pro_android_rmf_onboarding_likelove",
+      "id": "funnel_pro_androidrmf_onboarding_likelove",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Like DuckDuckGo? You’ll love Privacy Pro!",
@@ -31,7 +31,7 @@
         "primaryActionText": "Learn More",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_rmf_onboarding_likelove"
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_onboarding_likelove"
         }
       },
       "matchingRules": [
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "id": "funnel_pro_android_rmf_onboarding_moreprivacy",
+      "id": "funnel_pro_androidrmf_onboarding_moreprivacy",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Get more privacy with Privacy Pro!",
@@ -51,7 +51,7 @@
         "primaryActionText": "Learn More",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_rmf_onboarding_moreprivacy"
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_onboarding_moreprivacy"
         }
       },
       "matchingRules": [
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "id": "funnel_pro_android_rmf_onboarding_boost",
+      "id": "funnel_pro_androidrmf_onboarding_boost",
       "content": {
         "messageType": "big_single_action",
         "titleText": "NEW! Boost your privacy with Privacy Pro",
@@ -71,7 +71,7 @@
         "primaryActionText": "Learn More",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_android_rmf_onboarding_boost"
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_onboarding_boost"
         }
       },
       "matchingRules": [
@@ -200,10 +200,10 @@
       "attributes": {
         "interactedWithMessage": {
           "value": [
-            "funnel_pro_android_rmf_onboarding_levelup",
-            "funnel_pro_android_rmf_onboarding_likelove",
-            "funnel_pro_android_rmf_onboarding_moreprivacy",
-            "funnel_pro_android_rmf_onboarding_boost",
+            "funnel_pro_androidrmf_onboarding_levelup",
+            "funnel_pro_androidrmf_onboarding_likelove",
+            "funnel_pro_androidrmf_onboarding_moreprivacy",
+            "funnel_pro_androidrmf_onboarding_boost",
             "funnel_pro_android_apptp_likelove",
             "funnel_pro_android_apptp_vpnworks",
             "funnel_pro_android_apptp_threeinone",
