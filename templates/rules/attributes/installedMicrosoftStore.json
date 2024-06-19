@@ -1,0 +1,4 @@
+"installedMicrosoftStore": {
+    "value": true|false,
+    "fallback": true|false //optional
+}
