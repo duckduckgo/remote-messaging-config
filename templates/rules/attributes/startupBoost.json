@@ -1,0 +1,4 @@
+"startupBoost": {
+    "value": true|false,
+    "fallback": true|false //optional
+}
