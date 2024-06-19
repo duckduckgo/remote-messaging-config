@@ -1,0 +1,7 @@
+"duckPlayerMode": {
+    "value": [
+        <"not_interacted"|"disabled"|"ask"|"enabled">,
+        //...
+    ],
+    "fallback": true|false //optional
+}

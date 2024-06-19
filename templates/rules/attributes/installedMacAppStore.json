@@ -1,0 +1,4 @@
+"installedMacAppStore": {
+    "value": true|false,
+    "fallback": true|false //optional
+}
