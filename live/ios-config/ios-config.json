@@ -1,20 +1,17 @@
 {
-  "version": 31,
+  "version": 30,
   "messages": [
     {
-      "id": "ios_privacy_pro_subscriber_survey_1",
+      "id": "ddg_ios_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Your Thoughts on Privacy Pro",
-        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
-        "placeholder": "PrivacyShield",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "RemoteMessageAnnouncement",
         "primaryActionText": "Take Survey",
         "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3",
-          "additionalParameters": {
-            "queryParams": "atb;var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;vpn_first_used"
-          }
+          "type": "survey_url",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=2"
         }
       },
       "matchingRules": [
@@ -26,20 +23,12 @@
     {
       "id": 1,
       "attributes": {
-        "pproSubscriber": {
-          "value": true
-        },
-        "pproDaysSinceSubscribed": {
-          "min": 14
-        },
-        "pproPurchasePlatform": {
-          "value": ["apple"]
-        },
-        "pproSubscriptionStatus": {
-          "value": "active"
+        "daysSinceInstalled": {
+          "min": 5,
+          "max": 8
         },
         "appVersion": {
-          "min": "7.124.0.1"
+          "min": "7.106.0.4"
         }
       }
     }
