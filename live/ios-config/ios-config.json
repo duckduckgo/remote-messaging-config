@@ -1,6 +1,26 @@
 {
-  "version": 32,
+  "version": 33,
   "messages": [
+    {
+      "id": "ios_privacy_pro_cancellation_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Please Let Us Know Why You're Leaving Privacy Pro",
+        "descriptionText": "By completing our brief survey, you will help us improve the Privacy Pro experience for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [
+        1
+      ]
+    },
     {
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
@@ -37,6 +57,23 @@
         },
         "pproSubscriptionStatus": {
           "value": "active"
+        },
+        "appVersion": {
+          "min": "7.124.0.1"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple"]
+        },
+        "pproSubscriptionStatus": {
+          "value": "expiring"
         },
         "appVersion": {
           "min": "7.124.0.1"
