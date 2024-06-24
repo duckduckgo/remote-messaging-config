@@ -63,8 +63,8 @@
       "id": 2,
       "attributes": {
         "osApi": {
-          "min": "15",
-          "max": "15",
+          "min": "15.0.0",
+          "max": "15.9.9",
           "fallback": true
         },
         "appVersion": {
