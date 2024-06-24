@@ -63,8 +63,8 @@
       "id": 2,
       "attributes": {
         "osApi": {
-          "min": "14",
-          "max": "14",
+          "min": "15",
+          "max": "15",
           "fallback": true
         }
       }
