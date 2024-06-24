@@ -66,6 +66,9 @@
           "min": "15",
           "max": "15",
           "fallback": true
+        },
+        "appVersion": {
+          "min": "7.106.0.4"
         }
       }
     }
