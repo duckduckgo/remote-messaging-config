@@ -5,8 +5,8 @@
       "id": "ios_privacy_pro_cancellation_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Please Let Us Know Why You're Leaving Privacy Pro",
-        "descriptionText": "By completing our brief survey, you will help us improve the Privacy Pro experience for all subscribers.",
+        "titleText": "Tell Us Why You Left Privacy Pro",
+        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
