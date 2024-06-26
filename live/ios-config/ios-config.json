@@ -64,8 +64,7 @@
       "attributes": {
         "osApi": {
           "min": "14.0.0",
-          "max": "14.9.9",
-          "fallback": true
+          "max": "14.9.9"
         },
         "appVersion": {
           "min": "7.106.0.4"
