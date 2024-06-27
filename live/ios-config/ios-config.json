@@ -1,5 +1,5 @@
 {
-  "version": 33,
+  "version": 34,
   "messages": [
     {
       "id": "ios_privacy_pro_cancellation_survey_1",
@@ -40,6 +40,22 @@
       "matchingRules": [
         1
       ]
+    },
+    {
+      "id": "ios_14_deprecation_warning",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "iOS Update Recommended",
+        "descriptionText": "Support for iOS 14 is ending soon. Update to iOS 15 or newer before July 8, 2024 to keep getting the latest browser updates and improvements.",
+        "primaryActionText": "How To Update iOS",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://support.apple.com/guide/iphone/update-ios-iph3e504502/14.0/ios/14.0"
+        }
+      },
+      "matchingRules": [
+        3
+      ]
     }
   ],
   "rules": [
@@ -77,6 +93,18 @@
         },
         "appVersion": {
           "min": "7.124.0.1"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "osApi": {
+          "min": "14.0.0",
+          "max": "14.9.9"
+        },
+        "appVersion": {
+          "min": "7.106.0.4"
         }
       }
     }

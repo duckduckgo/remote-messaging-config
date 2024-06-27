@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "messages": [
     {
       "id": "funnel_pro_androidrmf_onboarding_levelup",
@@ -107,7 +107,8 @@
           "min": "5.200.1"
         },
         "daysSinceInstalled": {
-          "value": 3
+          "min": 2,
+          "max": 10
         }
       }
     },
@@ -135,7 +136,8 @@
           "min": "5.200.1"
         },
         "daysSinceInstalled": {
-          "value": 3
+          "min": 2,
+          "max": 10
         }
       }
     },
@@ -163,7 +165,8 @@
           "min": "5.200.1"
         },
         "daysSinceInstalled": {
-          "value": 3
+          "min": 2,
+          "max": 10
         }
       }
     },
@@ -191,7 +194,8 @@
           "min": "5.200.1"
         },
         "daysSinceInstalled": {
-          "value": 3
+          "min": 2,
+          "max": 10
         }
       }
     },
