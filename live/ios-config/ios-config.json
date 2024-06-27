@@ -2,7 +2,7 @@
   "version": 34,
   "messages": [
     {
-      "id": "ios_privacy_pro_cancellation_survey_1",
+      "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Tell Us Why You Left Privacy Pro",
@@ -104,7 +104,7 @@
       "attributes": {
         "interactedWithMessage": {
           "value": [
-            "ios_privacy_pro_cancellation_survey_1"
+            "ios_privacy_pro_exit_survey_1"
           ]
         }
       }
