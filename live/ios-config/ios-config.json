@@ -39,6 +39,9 @@
       },
       "matchingRules": [
         1
+      ],
+      "exclusionRules": [
+        3
       ]
     },
     {
@@ -54,7 +57,7 @@
         }
       },
       "matchingRules": [
-        3
+        4
       ]
     }
   ],
@@ -98,6 +101,16 @@
     },
     {
       "id": 3,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "ios_privacy_pro_cancellation_survey_1"
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
       "attributes": {
         "osApi": {
           "min": "14.0.0",
