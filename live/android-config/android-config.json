@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 25,
   "messages": [
     {
       "id": "funnel_pro_androidrmf_onboarding_levelup",
@@ -79,6 +79,26 @@
       ],
       "exclusionRules": [
         5
+      ]
+    },
+    {
+      "id": "android_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Your Thoughts on Privacy Pro",
+        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4",
+          "additionalParameters": {
+            "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        6
       ]
     }
   ],
@@ -212,6 +232,30 @@
             "funnel_pro_android_apptp_vpnworks",
             "funnel_pro_android_apptp_threeinone",
             "funnel_pro_android_apptp_beyondapptp"
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "appVersion": {
+          "min": "5.206.1"
+        },
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
           ]
         }
       }
