@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 36,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -70,7 +70,7 @@
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=2",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=3",
           "additionalParameters": {
             "queryParams": "atb;var;ddgv;mo;osv"
           }
