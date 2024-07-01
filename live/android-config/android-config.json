@@ -100,6 +100,29 @@
       "matchingRules": [
         6
       ]
+    },
+    {
+      "id": "android_breakage_survey_july_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240605?list=1",
+          "additionalParameters": {
+            "queryParams": "atb;var;deta;av;ddgv;man;mo"
+          }
+        }
+      },
+      "matchingRules": [
+        7
+      ],
+      "exclusionRules": [
+        8
+      ]
     }
   ],
   "rules": [
@@ -256,6 +279,32 @@
         "pproSubscriptionStatus": {
           "value": [
             "active"
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "targetPercentile": {
+          "before": 0.3
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_privacy_pro_subscriber_survey_1"
           ]
         }
       }
