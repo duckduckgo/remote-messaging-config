@@ -1,6 +1,6 @@
 name: PR to staging
 
-on: 
+on:
   push:
       paths:
       - 'live/android-config/android-config.json'

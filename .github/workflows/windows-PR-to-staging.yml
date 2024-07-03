@@ -1,6 +1,6 @@
 name: PR to staging (Windows)
 
-on: 
+on:
   push:
       paths:
       - 'live/windows-config/windows-config.json'

@@ -1,6 +1,6 @@
 name: PR to staging (macOS)
 
-on: 
+on:
   push:
       paths:
       - 'live/macos-config/macos-config.json'
