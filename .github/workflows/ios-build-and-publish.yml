@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'live/ios-config/ios-config.json'
+  workflow_dispatch:
 
 jobs:
   publish:
