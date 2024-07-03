@@ -24,9 +24,9 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         SOURCE_DIR: 'live/windows-config'
-        DEST_DIR: 'remotemessaging/config/staging/pre'
+        DEST_DIR: 'remotemessaging/config/staging'
     - uses: github-actions-up-and-running/pr-comment@f1f8ab2bf00dce6880a369ce08758a60c61d6c0b
       if: github.event.action == 'opened'
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        message: 'Your PR is hosted at https://staticcdn.duckduckgo.com/remotemessaging/config/staging/pre/windows-config.json'
+        message: 'Your PR is hosted at https://staticcdn.duckduckgo.com/remotemessaging/config/staging/windows-config.json'
