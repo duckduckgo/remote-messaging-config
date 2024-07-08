@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "messages": [
     {
       "id": "funnel_pro_androidrmf_onboarding_levelup",
@@ -82,6 +82,26 @@
       ]
     },
     {
+      "id": "android_privacy_pro_exit_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Why You Left Privacy Pro",
+        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers. ",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3",
+          "additionalParameters": {
+            "queryParams": "var;ddgv;man;mo;av;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        7
+      ]
+    },
+    {
       "id": "android_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
@@ -99,6 +119,9 @@
       },
       "matchingRules": [
         6
+      ],
+      "exclusionRules": [
+        8
       ]
     }
   ],
@@ -256,6 +279,38 @@
         "pproSubscriptionStatus": {
           "value": [
             "active"
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "expiring",
+            "expired"
+          ]
+        },
+        "appVersion": {
+          "min": "5.207.0"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_privacy_pro_exit_survey_1"
           ]
         }
       }
