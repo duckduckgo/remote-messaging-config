@@ -2,6 +2,66 @@
   "version": 29,
   "messages": [
     {
+      "id": "funnel_pro_androidrmf_onboarding_a",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Level up your privacy!",
+        "descriptionText": "Boost your privacy with our fast & secure VPN + 2 more new protections.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_onboarding_a"
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        4
+      ]
+    },
+    {
+      "id": "funnel_pro_androidrmf_onboarding_b",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Level up your privacy!",
+        "descriptionText": "Boost your privacy with our fast & secure VPN + 2 more new protections.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_onboarding_b"
+        }
+      },
+      "matchingRules": [
+        2
+      ],
+      "exclusionRules": [
+        4
+      ]
+    },
+    {
+      "id": "funnel_pro_androidrmf_onboarding_c",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Level up your privacy!",
+        "descriptionText": "Boost your privacy with our fast & secure VPN + 2 more new protections.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_onboarding_c"
+        }
+      },
+      "matchingRules": [
+        3
+      ],
+      "exclusionRules": [
+        4
+      ]
+    },
+    {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
@@ -46,6 +106,104 @@
     }
   ],
   "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "atpOnboarded": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "appVersion": {
+          "min": "5.200.1"
+        },
+        "daysSinceInstalled": {
+          "min": 1,
+          "max": 2
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "atpOnboarded": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "appVersion": {
+          "min": "5.200.1"
+        },
+        "daysSinceInstalled": {
+          "min": 3,
+          "max": 5
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "atpOnboarded": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "appVersion": {
+          "min": "5.200.1"
+        },
+        "daysSinceInstalled": {
+          "min": 6,
+          "max": 9
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "funnel_pro_androidrmf_onboarding_levelup",
+            "funnel_pro_androidrmf_onboarding_likelove",
+            "funnel_pro_androidrmf_onboarding_moreprivacy",
+            "funnel_pro_androidrmf_onboarding_boost",
+            "funnel_pro_android_apptp_likelove",
+            "funnel_pro_android_apptp_vpnworks",
+            "funnel_pro_android_apptp_threeinone",
+            "funnel_pro_android_apptp_beyondapptp",
+            "funnel_pro_androidrmf_onboarding_a",
+            "funnel_pro_androidrmf_onboarding_b",
+            "funnel_pro_androidrmf_onboarding_c"
+          ]
+        }
+      }
+    },
     {
       "id": 6,
       "attributes": {
