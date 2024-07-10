@@ -65,7 +65,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Level up your privacy!",
-        "descriptionText": "Boost your privacy with our fast and secure VPN, plus two more premium protections.",
+        "descriptionText": "Boost privacy with our fast & secure VPN + 2 more premium protections.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
