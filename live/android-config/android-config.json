@@ -1,5 +1,5 @@
 {
-  "version": 30,
+  "version": 31,
   "messages": [
     {
       "id": "funnel_pro_androidrmf_onboarding_a",
@@ -102,6 +102,26 @@
       ],
       "exclusionRules": [
         8
+      ]
+    },
+    {
+      "id": "android_permanent_survey_user_satisfaction",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;av;ddgv;man;mo"
+          }
+        }
+      },
+      "matchingRules": [
+        9
       ]
     }
   ],
@@ -257,6 +277,26 @@
           "value": [
             "android_privacy_pro_exit_survey_1"
           ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "targetPercentile": {
+          "before": 0.3
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        },
+        "daysSinceInstalled": {
+          "min": 5,
+          "max": 8
         }
       }
     }
