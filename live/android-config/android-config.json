@@ -286,6 +286,9 @@
           "before": 0.3
       },
       "attributes": {
+        "pproSubscriber": {
+          "value": false
+        },
         "locale": {
           "value": [
             "en-US",
