@@ -44,11 +44,14 @@
     {
       "id": 1,
       "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
         "pproPurchasePlatform": {
           "value": ["apple", "stripe"]
         },
         "pproSubscriptionStatus": {
-          "value": "expiring"
+          "value": ["expiring"]
         },
         "appVersion": {
           "min": "1.99.0"
@@ -58,6 +61,9 @@
     {
       "id": 2,
       "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
         "pproDaysSinceSubscribed": {
           "min": 14
         },
@@ -65,7 +71,7 @@
           "value": ["apple", "stripe"]
         },
         "pproSubscriptionStatus": {
-          "value": "active"
+          "value": ["active"]
         },
         "appVersion": {
           "min": "1.99.0"
