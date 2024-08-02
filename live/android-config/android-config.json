@@ -1,6 +1,26 @@
 {
-  "version": 32,
+  "version": 33,
   "messages": [
+    {
+      "id": "funnel_pro_androidrmf_onboarding_a",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Level up your privacy!",
+        "descriptionText": "Boost privacy with our fast & secure VPN + 2 more premium protections.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_onboarding_a"
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        4
+      ]
+    },
     {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
@@ -66,6 +86,32 @@
     }
   ],
   "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "atpOnboarded": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "appVersion": {
+          "min": "5.200.1"
+        },
+        "daysSinceInstalled": {
+          "min": 1,
+          "max": 2
+        }
+      }
+    },
     {
       "id": 4,
       "attributes": {
