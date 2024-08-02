@@ -44,9 +44,6 @@
     {
       "id": 1,
       "attributes": {
-        "pproSubscriber": {
-          "value": true
-        },
         "pproPurchasePlatform": {
           "value": ["apple", "stripe"]
         },
@@ -61,9 +58,6 @@
     {
       "id": 2,
       "attributes": {
-        "pproSubscriber": {
-          "value": true
-        },
         "pproDaysSinceSubscribed": {
           "min": 14
         },
