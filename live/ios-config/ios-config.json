@@ -1,5 +1,5 @@
 {
-  "version": 39,
+  "version": 40,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -75,10 +75,10 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": "active"
+          "value": ["active"]
         },
         "appVersion": {
-          "min": "7.124.0.1"
+          "min": "7.128.0.1"
         }
       }
     },
@@ -92,10 +92,10 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": "expiring"
+          "value": ["expiring"]
         },
         "appVersion": {
-          "min": "7.124.0.1"
+          "min": "7.128.0.1"
         }
       }
     },
