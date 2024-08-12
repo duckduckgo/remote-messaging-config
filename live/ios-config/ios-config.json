@@ -1,5 +1,5 @@
 {
-  "version": 42,
+  "version": 43,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -61,6 +61,26 @@
         5
       ],
       "exclusionRules": []
+    },
+    {
+      "id": "ddg_ios_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "RemoteMessageAnnouncement",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=3",
+          "additionalParameters": {
+            "queryParams": "atb;var;ddgv;mo;osv"
+          }
+        }
+      },
+      "matchingRules": [
+        4
+      ]
     }
   ],
   "rules": [
@@ -111,6 +131,18 @@
         }
       }
     },
+    {
+      "id": 4,
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 5,
+          "max": 8
+        },
+        "appVersion": {
+          "min": "7.124.0.1"
+        }
+      }
+    }
     {
       "id": 5,
       "attributes": {
