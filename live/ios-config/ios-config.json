@@ -1,5 +1,5 @@
 {
-  "version": 39,
+  "version": 43,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -45,15 +45,37 @@
       ]
     },
     {
-      "id": "ios_14_deprecation_warning",
+      "id": "funnel_pro_iosrmf_onboarding_levelup",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "iOS Update Recommended",
-        "descriptionText": "Support for iOS 14 is ending soon. Update to iOS 15 or newer before July 8, 2024 to keep getting the latest browser updates and improvements.",
-        "primaryActionText": "How To Update iOS",
+        "titleText": "Level up your privacy!",
+        "descriptionText": "Boost your privacy with our fast & secure VPN + 2 more new protections.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
-          "value": "https://support.apple.com/guide/iphone/update-ios-iph3e504502/14.0/ios/14.0"
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_iosrmf_onboarding_levelup"
+        }
+      },
+      "matchingRules": [
+        5
+      ],
+      "exclusionRules": []
+    },
+    {
+      "id": "ddg_ios_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "RemoteMessageAnnouncement",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=3",
+          "additionalParameters": {
+            "queryParams": "atb;var;ddgv;mo;osv"
+          }
         }
       },
       "matchingRules": [
@@ -75,10 +97,10 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": "active"
+          "value": ["active"]
         },
         "appVersion": {
-          "min": "7.124.0.1"
+          "min": "7.128.0.1"
         }
       }
     },
@@ -92,10 +114,10 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": "expiring"
+          "value": ["expiring"]
         },
         "appVersion": {
-          "min": "7.124.0.1"
+          "min": "7.128.0.1"
         }
       }
     },
@@ -112,12 +134,35 @@
     {
       "id": 4,
       "attributes": {
-        "osApi": {
-          "min": "14.0.0",
-          "max": "14.9.9"
+        "daysSinceInstalled": {
+          "min": 5,
+          "max": 8
         },
         "appVersion": {
-          "min": "7.106.0.4"
+          "min": "7.124.0.1"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "daysSinceInstalled": {
+          "min": 1,
+          "max": 2
+        },
+        "appVersion": {
+          "min": "7.124.0.1"
         }
       }
     }
