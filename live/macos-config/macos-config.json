@@ -1,5 +1,106 @@
 {
-    "version": 0,
-    "messages": [],
-    "rules": []
+  "version": 1,
+  "messages": [
+    {
+      "id": "macos_privacy_pro_exit_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Why You Left Privacy Pro",
+        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [1],
+      "exclusionRules": [4]
+    },
+    {
+      "id": "macos_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Your Thoughts on Privacy Pro",
+        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240506?list=2",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [2],
+      "exclusionRules": [3, 5]
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["expiring"]
+        },
+        "appVersion": {
+          "min": "1.101.0"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active"]
+        },
+        "appVersion": {
+          "min": "1.101.0"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": ["macos_privacy_pro_exit_survey_1"]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "interactedWithDeprecatedMacRemoteMessage": {
+          "value": ["privacy_pro_exit_survey_1"]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "interactedWithDeprecatedMacRemoteMessage": {
+          "value": ["privacy_pro_survey_1"]
+        }
+      }
+    }
+  ]
 }
