@@ -1,5 +1,5 @@
 {
-  "version": 44,
+  "version": 45,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -43,24 +43,6 @@
       "exclusionRules": [
         3
       ]
-    },
-    {
-      "id": "funnel_pro_iosrmf_onboarding_levelup",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Level up your privacy!",
-        "descriptionText": "Boost your privacy with our fast & secure VPN + 2 more new protections.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Get Privacy Pro",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_iosrmf_onboarding_levelup"
-        }
-      },
-      "matchingRules": [
-        5
-      ],
-      "exclusionRules": []
     }
   ],
   "rules": [
@@ -108,29 +90,6 @@
           "value": [
             "ios_privacy_pro_exit_survey_1"
           ]
-        }
-      }
-    },
-    {
-      "id": 5,
-      "attributes": {
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        },
-        "daysSinceInstalled": {
-          "min": 1,
-          "max": 2
-        },
-        "appVersion": {
-          "min": "7.124.0.1"
         }
       }
     }
