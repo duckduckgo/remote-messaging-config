@@ -38,6 +38,24 @@
       },
       "matchingRules": [2],
       "exclusionRules": [3, 5]
+    },
+    {
+      "id": "macos_permanent_survey",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "Take our short survey and help us build the best browser.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Share Your Thoughts",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240404?list=2",
+          "additionalParameters": {
+            "queryParams": "atb;var;osv;ddgv"
+          }
+        }
+      },
+      "matchingRules": [6]
     }
   ],
   "rules": [
@@ -99,6 +117,15 @@
       "attributes": {
         "interactedWithDeprecatedMacRemoteMessage": {
           "value": ["privacy_pro_survey_1"]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 5,
+          "max": 8
         }
       }
     }
