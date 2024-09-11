@@ -123,6 +123,9 @@
     {
       "id": 6,
       "attributes": {
+        "appVersion": {
+          "min": "1.106.0"
+        },
         "daysSinceInstalled": {
           "min": 5,
           "max": 8
