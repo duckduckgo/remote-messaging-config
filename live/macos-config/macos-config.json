@@ -126,6 +126,14 @@
         "daysSinceInstalled": {
           "min": 5,
           "max": 8
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
         }
       }
     }
