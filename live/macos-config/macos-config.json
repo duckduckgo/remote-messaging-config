@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "messages": [
     {
       "id": "macos_privacy_pro_app_store_exit_survey_1",
@@ -76,6 +76,24 @@
       },
       "matchingRules": [4],
       "exclusionRules": [5, 6, 8]
+    },
+    {
+      "id": "macos_permanent_survey",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "Take our short survey and help us build the best browser.",
+        "placeholder": "Announce",
+        "primaryActionText": "Share Your Thoughts",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240404?list=3",
+          "additionalParameters": {
+            "queryParams": "delta;var;osv;ddgv"
+          }
+        }
+      },
+      "matchingRules": [9]
     }
   ],
   "rules": [
@@ -198,6 +216,26 @@
       "attributes": {
         "interactedWithDeprecatedMacRemoteMessage": {
           "value": ["privacy_pro_survey_1"]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "appVersion": {
+          "min": "1.106.0"
+        },
+        "daysSinceInstalled": {
+          "min": 5,
+          "max": 8
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
         }
       }
     }
