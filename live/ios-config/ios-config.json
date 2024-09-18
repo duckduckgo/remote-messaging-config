@@ -75,6 +75,9 @@
     },
     {
       "id": 4,
+      "targetPercentile": {
+        "before": 1.0
+      },
       "attributes": {
         "locale": {
           "value": [
