@@ -158,10 +158,10 @@
             "en-GB",
             "en-AU"
           ]
+        },
+        "appVersion": {
+          "min": "5.204.0"
         }
-      },
-      "appVersion": {
-        "min": "5.204.0"
       }
     },
     {
