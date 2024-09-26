@@ -1,5 +1,5 @@
 {
-  "version": 46,
+  "version": 47,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -22,30 +22,50 @@
       ]
     },
     {
-      "id": "ios_quarterly_satisfaction_survey_q4_2024",
+      "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Help us improve the app!",
-        "descriptionText": "Take our short anonymous survey and share your feedback.",
-        "placeholder": "RemoteMessageAnnouncement",
+        "titleText": "Tell Us Your Thoughts on Privacy Pro",
+        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=2",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3",
           "additionalParameters": {
-            "queryParams": "var;delta;osv;ddgv"
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
           }
         }
       },
       "matchingRules": [
-        4
+        1
       ],
       "exclusionRules": [
-        2, 3
+        3
       ]
     }
   ],
   "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active"]
+        },
+        "appVersion": {
+          "min": "7.128.0.1"
+        }
+      }
+    },
     {
       "id": 2,
       "attributes": {
@@ -70,25 +90,6 @@
           "value": [
             "ios_privacy_pro_exit_survey_1"
           ]
-        }
-      }
-    },
-    {
-      "id": 4,
-      "targetPercentile": {
-        "before": 0.25
-      },
-      "attributes": {
-        "locale": {
-          "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
-          ]
-        },
-        "appVersion": {
-          "min": "7.123.0.0"
         }
       }
     }
