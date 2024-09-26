@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 34,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -22,26 +22,46 @@
       ]
     },
     {
-      "id": "android_quarterly_satisfaction_survey_q4_2024",
+      "id": "android_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Help us improve the app!",
-        "descriptionText": "Take our short anonymous survey and share your feedback.",
-        "placeholder": "Announce",
+        "titleText": "Tell Us Your Thoughts on Privacy Pro",
+        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=1",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4",
           "additionalParameters": {
-            "queryParams": "var;ddgv;av;delta"
+            "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
           }
         }
       },
       "matchingRules": [
-        10
+        6
       ],
       "exclusionRules": [
-        7, 11
+        8
+      ]
+    },
+    {
+      "id": "android_permanent_survey_user_satisfaction",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;av;ddgv;man;mo"
+          }
+        }
+      },
+      "matchingRules": [
+        9
       ]
     }
   ],
@@ -142,35 +162,6 @@
         "daysSinceInstalled": {
           "min": 5,
           "max": 8
-        }
-      }
-    },
-    {
-      "id": 10,
-      "targetPercentile": {
-          "before": 0.2
-      },
-      "attributes": {
-        "locale": {
-          "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
-          ]
-        },
-        "appVersion": {
-          "min": "5.204.0"
-        }
-      }
-    },
-    {
-      "id": 11,
-      "attributes": {
-        "interactedWithMessage": {
-          "value": [
-            "android_privacy_pro_exit_survey_1"
-          ]
         }
       }
     }
