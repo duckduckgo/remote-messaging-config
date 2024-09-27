@@ -62,6 +62,9 @@
       },
       "matchingRules": [
         9
+      ],
+      "exclusionRules": [
+        10
       ]
     }
   ],
@@ -145,7 +148,7 @@
     {
       "id": 9,
       "targetPercentile": {
-          "before": 0.3
+        "before": 0.3
       },
       "attributes": {
         "pproSubscriber": {
@@ -162,6 +165,16 @@
         "daysSinceInstalled": {
           "min": 5,
           "max": 8
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_quarterly_satisfaction_survey_q4_2024"
+          ]
         }
       }
     }
