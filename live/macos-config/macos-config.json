@@ -227,7 +227,7 @@
         },
         "daysSinceInstalled": {
           "min": 5,
-          "max": 8
+          "max": 14
         },
         "locale": {
           "value": [
