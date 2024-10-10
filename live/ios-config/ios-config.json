@@ -115,13 +115,13 @@
     },
     {
       "id": 4,
+      "targetPercentile": {
+        "before": 0.3
+      },
       "attributes": {
         "daysSinceInstalled": {
           "min": 5,
           "max": 8
-        },
-        "targetPercentile": {
-          "before": 0.3
         },
         "appVersion": {
           "min": "7.124.0.1"
