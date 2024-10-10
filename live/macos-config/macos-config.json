@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "messages": [
     {
       "id": "macos_privacy_pro_app_store_exit_survey_1",
@@ -227,7 +227,7 @@
         },
         "daysSinceInstalled": {
           "min": 5,
-          "max": 8
+          "max": 14
         },
         "locale": {
           "value": [
