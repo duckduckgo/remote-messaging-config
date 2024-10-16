@@ -88,9 +88,7 @@
           ]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "expiring"
-          ]
+          "value": "expiring"
         },
         "appVersion": {
           "min": <TBD>
@@ -112,9 +110,7 @@
           ]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "active"
-          ]
+          "value": "active"
         },
         "appVersion": {
           "min": <TBD>
