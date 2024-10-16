@@ -13,7 +13,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3",
           "additionalParameters": {
-            "queryParams": "wv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+            "queryParams": "wv;ddgv;mo;sts;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;"
           }
         }
       },
@@ -37,7 +37,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_windows_newsubscribersurvey?list=3",
           "additionalParameters": {
-            "queryParams": "wv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+            "queryParams": "wv;ddgv;mo;sts;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;"
           }
         }
       },
