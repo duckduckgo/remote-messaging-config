@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "messages": [
     {
       "id": "macos_privacy_pro_app_store_exit_survey_1",
@@ -94,6 +94,16 @@
         }
       },
       "matchingRules": [9]
+    },
+    {
+      "id": "macos_switch_to_manual_updates",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Automatic Update Failed",
+        "descriptionText": "To get the latest version of DuckDuckGo  \n1\\. Go to **Settings > About**  \n2\\. Select **Check for updates but let me choose to install them**  \n3\\. Click **Restart To Update**",
+        "placeholder": "CriticalUpdate"
+      },
+      "matchingRules": [10]
     }
   ],
   "rules": [
@@ -236,6 +246,18 @@
             "en-GB",
             "en-AU"
           ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "appVersion": {
+          "min": "1.99.0",
+          "max": "1.102.0"
+        },
+        "installedMacAppStore": {
+          "value": false
         }
       }
     }
