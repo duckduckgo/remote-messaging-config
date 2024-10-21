@@ -50,29 +50,6 @@
         7,
         8
       ]
-    },
-    {
-      "id": "windows_permanent_survey",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help Us Improve",
-        "descriptionText": "Take our short survey and help us build the best browser.",
-        "placeholder": "Announce",
-        "primaryActionText": "Share Your Thoughts",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/231005?list=1",
-          "additionalParameters": {
-            "queryParams": "wv;atb;ddgv;sts"
-          }
-        }
-      },
-      "matchingRules": [
-        9
-      ],
-      "exclusionRules": [
-        10
-      ]
     }
   ],
   "rules": [
@@ -153,36 +130,6 @@
         "interactedWithDeprecatedWindowsSurvey": {
           "value": [
             "new-subscription-survey.dismissed"
-          ]
-        }
-      }
-    },
-    {
-      "id": 9,
-      "attributes": {
-        "appVersion": {
-          "min": <TBD>
-        },
-        "daysSinceInstalled": {
-          "min": 5,
-          "max": 14
-        },
-        "locale": {
-          "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
-          ]
-        }
-      }
-    },
-    {
-      "id": 10,
-      "attributes": {
-        "interactedWithDeprecatedWindowsSurvey": {
-          "value": [
-            "survey.dismissed"
           ]
         }
       }
