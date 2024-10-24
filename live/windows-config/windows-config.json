@@ -68,7 +68,7 @@
           "value": "expiring"
         },
         "appVersion": {
-          "min": <TBD>
+          "min": "0.93.0"
         }
       }
     },
@@ -90,7 +90,7 @@
           "value": "active"
         },
         "appVersion": {
-          "min": <TBD>
+          "min": "0.93.0"
         }
       }
     },
