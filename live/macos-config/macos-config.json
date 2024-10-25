@@ -87,7 +87,7 @@
         "primaryActionText": "Share Your Thoughts",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240404?list=3",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/241004?list=2",
           "additionalParameters": {
             "queryParams": "delta;var;osv;ddgv"
           }
@@ -236,8 +236,8 @@
           "min": "1.106.0"
         },
         "daysSinceInstalled": {
-          "min": 5,
-          "max": 14
+          "min": 14,
+          "max": 21
         },
         "locale": {
           "value": [
