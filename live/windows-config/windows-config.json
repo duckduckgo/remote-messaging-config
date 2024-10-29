@@ -1,5 +1,138 @@
 {
-  "version": 2,
-  "messages": [],
-  "rules": []
+  "version": 3,
+  "messages": [
+    {
+      "id": "windows_privacy_pro_exit_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Why You Left Privacy Pro",
+        "descriptionText": "By taking our brief survey, you'll help improve Privacy Pro for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3",
+          "additionalParameters": {
+            "queryParams": "wv;ddgv;mo;sts;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;"
+          }
+        }
+      },
+      "matchingRules": [
+        2
+      ],
+      "exclusionRules": [
+        5,
+        7
+      ]
+    },
+    {
+      "id": "windows_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Your Thoughts on Privacy Pro",
+        "descriptionText": "By completing our brief survey, you will help improve the Privacy Pro experience for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_windows_newsubscribersurvey?list=3",
+          "additionalParameters": {
+            "queryParams": "wv;ddgv;mo;sts;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;"
+          }
+        }
+      },
+      "matchingRules": [
+        4
+      ],
+      "exclusionRules": [
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": 2,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "stripe"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": "expiring"
+        },
+        "appVersion": {
+          "min": "0.93.0"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "stripe"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": "active"
+        },
+        "appVersion": {
+          "min": "0.93.0"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "windows_privacy_pro_exit_survey_1"
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "windows_privacy_pro_subscriber_survey_1"
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "interactedWithDeprecatedWindowsSurvey": {
+          "value": [
+            "canceled-subscription-survey.dismissed"
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "interactedWithDeprecatedWindowsSurvey": {
+          "value": [
+            "new-subscription-survey.dismissed"
+          ]
+        }
+      }
+    }
+  ]
 }
