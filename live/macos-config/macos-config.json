@@ -114,7 +114,7 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": ["apple", "stripe"]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
           "value": ["expiring"]
@@ -134,7 +134,7 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": ["apple", "stripe"]
+          "value": ["stripe"]
         },
         "pproSubscriptionStatus": {
           "value": ["expiring"]
