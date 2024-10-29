@@ -120,7 +120,7 @@
           "value": ["expiring"]
         },
         "pproDaysUntilExpiryOrRenewal": {
-          "max": 5
+          "max": 10
         },
         "appVersion": {
           "min": "1.101.0"
@@ -143,7 +143,7 @@
           "value": ["expiring"]
         },
         "pproDaysUntilExpiryOrRenewal": {
-          "max": 5
+          "max": 10
         },
         "appVersion": {
           "min": "1.101.0"
