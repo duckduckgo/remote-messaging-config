@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -66,6 +66,29 @@
       },
       "matchingRules": [
         1
+      ]
+    },
+	{
+      "id": "windows_14_day_survey",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "Take our short survey and help us build the best browser.",
+        "placeholder": "Announce",
+        "primaryActionText": "Share Your Thoughts",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/241004?list=1",
+          "additionalParameters": {
+            "queryParams": "wv;atb;ddgv;sts;var;origin;"
+          }
+        }
+      },
+      "matchingRules": [
+        9
+      ],
+      "exclusionRules": [
+        10
       ]
     }
   ],
@@ -155,6 +178,36 @@
         "interactedWithDeprecatedWindowsSurvey": {
           "value": [
             "new-subscription-survey.dismissed"
+          ]
+        }
+      }
+    },
+	{
+      "id": 9,
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 14,
+		  "max": 21
+        },
+        "appVersion": {
+          "min": "0.93.0"
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        }
+      }
+    },
+	{
+      "id": 10,
+      "attributes": {
+        "interactedWithDeprecatedWindowsSurvey": {
+          "value": [
+            "survey.dismissed"
           ]
         }
       }
