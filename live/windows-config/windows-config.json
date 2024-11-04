@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -55,7 +55,7 @@
       "id": "windows_preview_cta",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Get early access to the latest features in\n DuckDuckGo Preview for Windows",
+        "titleText": "Get early access to the latest features in \nDuckDuckGo Preview for Windows",
         "descriptionText": "Try out the latest browser features and send feedback to help us improve DuckDuckGo.",
         "placeholder": "DDGAnnounce",
         "primaryActionText": "Learn More",
