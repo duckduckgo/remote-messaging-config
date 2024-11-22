@@ -66,6 +66,9 @@
       },
       "matchingRules": [
         1
+      ],
+      "exclusionRules": [
+        9
       ]
     }
   ],
@@ -75,9 +78,6 @@
       "attributes": {
         "daysSinceInstalled": {
           "min": 14
-        },
-        "flavor": {
-          "value": "stable"
         }
       }
     },
@@ -159,6 +159,14 @@
           "value": [
             "new-subscription-survey.dismissed"
           ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "flavor": {
+          "value": ["beta", "dev", "canary", "preview"]
         }
       }
     }
