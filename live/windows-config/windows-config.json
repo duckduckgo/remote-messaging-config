@@ -76,9 +76,9 @@
         "daysSinceInstalled": {
           "min": 14
         },
-		"flavor": {
-          "value": "dev|canary|beta|stable"
-		}
+        "flavor": {
+          "value": "stable"
+        }
       }
     },
     {
