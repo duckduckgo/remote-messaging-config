@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -75,7 +75,10 @@
       "attributes": {
         "daysSinceInstalled": {
           "min": 14
-        }
+        },
+		"flavor": {
+          "value": "dev|canary|beta|stable"
+		}
       }
     },
     {
