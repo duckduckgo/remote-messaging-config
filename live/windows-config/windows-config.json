@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -66,6 +66,9 @@
       },
       "matchingRules": [
         1
+      ],
+      "exclusionRules": [
+        9
       ]
     }
   ],
@@ -156,6 +159,14 @@
           "value": [
             "new-subscription-survey.dismissed"
           ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "flavor": {
+          "value": ["beta", "dev", "canary", "preview"]
         }
       }
     }
