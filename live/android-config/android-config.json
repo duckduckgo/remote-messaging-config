@@ -45,6 +45,91 @@
       ]
     },
     {
+      "id": "funnel_pro_androidrmf_announcement_privacy",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Level up your privacy!",
+        "descriptionText": "Boost privacy with our fast & secure VPN + 2 more premium services.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement_privacy"
+        }
+      },
+      "matchingRules": [
+        12
+      ]
+    },
+    {
+      "id": "funnel_pro_androidrmf_announcement_protection",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help stop data brokers from selling your info!",
+        "descriptionText": "Easily remove your personal info from sites that sell it + 2 more premium services.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement_protection"
+        }
+      },
+      "matchingRules": [
+        12
+      ]
+    },
+    {
+      "id": "funnel_pro_androidrmf_announcement_vpn",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Enjoy peace of mind with a trusted VPN!",
+        "descriptionText": "Fast, secure, & powered by privacy experts, our VPN is 1 of 3 new premium services.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement_vpn"
+        }
+      },
+      "matchingRules": [
+        12
+      ]
+    },
+    {
+      "id": "funnel_pro_androidrmf_announcement_wifi",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Worried about dangerous Wi-Fi this season?",
+        "descriptionText": "Try our VPN to help keep personal data out of the hands of cyber grinches!",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement_wifi"
+        }
+      },
+      "matchingRules": [
+        12
+      ]
+    },
+    {
+      "id": "funnel_pro_androidrmf_announcement_holiday",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Keep personal data out of the hands of cyber grinches this holiday!",
+        "descriptionText": "Protection from cyber threats and dangerous Wi-Fi is easy with our fast VPN.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement_holiday"
+        }
+      },
+      "matchingRules": [
+        12
+      ]
+    },
+    {
       "id": "android_permanent_survey_user_satisfaction",
       "content": {
         "messageType": "big_single_action",
@@ -174,6 +259,42 @@
         "interactedWithMessage": {
           "value": [
             "android_quarterly_satisfaction_survey_q4_2024"
+          ]
+        }
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 1
+        },
+        "omnibarPositionFeatureEnabled": {
+          "value": true
+        },
+        "omnibarPosition": {
+          "value": "top"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "targetPercentile": {
+        "before": 0.05
+      },
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
           ]
         }
       }
