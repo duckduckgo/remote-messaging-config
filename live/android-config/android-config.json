@@ -62,23 +62,6 @@
       ]
     },
     {
-      "id": "funnel_pro_androidrmf_announcement_protection",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help stop data brokers from selling your info!",
-        "descriptionText": "Easily remove your personal info from sites that sell it + 2 more premium services.",
-        "placeholder": "DDGAnnounce",
-        "primaryActionText": "Get Privacy Pro",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement_protection"
-        }
-      },
-      "matchingRules": [
-        12
-      ]
-    },
-    {
       "id": "funnel_pro_androidrmf_announcement_vpn",
       "content": {
         "messageType": "big_single_action",
