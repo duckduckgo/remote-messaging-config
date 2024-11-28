@@ -1,5 +1,5 @@
 {
-  "version": 38,
+  "version": 39,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -278,6 +278,9 @@
         "before": 0.0625
       },
       "attributes": {
+        "appVersion": {
+          "min": "5.210.0"
+        },
         "daysSinceInstalled": {
           "min": 7
         },
@@ -300,6 +303,9 @@
         "before": 0.0666
       },
       "attributes": {
+        "appVersion": {
+          "min": "5.210.0"
+        },
         "daysSinceInstalled": {
           "min": 7
         },
@@ -322,6 +328,9 @@
         "before": 0.0714
       },
       "attributes": {
+        "appVersion": {
+          "min": "5.210.0"
+        },
         "daysSinceInstalled": {
           "min": 7
         },
@@ -344,6 +353,9 @@
         "before": 0.0769
       },
       "attributes": {
+        "appVersion": {
+          "min": "5.210.0"
+        },
         "daysSinceInstalled": {
           "min": 7
         },
