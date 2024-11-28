@@ -1,5 +1,5 @@
 {
-  "version": 37,
+  "version": 38,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -65,148 +65,6 @@
       ],
       "exclusionRules": [
         10
-      ]
-    },
-    {
-      "id": "android_bottom_address_bar_promo_nov_2024",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "NEW! Bottom Address Bar",
-        "descriptionText": "You can now move the Address Bar to the bottom of the screen.",
-        "placeholder": "Announce",
-        "primaryActionText": "Open Settings",
-        "primaryAction": {
-          "type": "navigation",
-          "value": "appearance",
-          "additionalParameters": {
-            "payload": "{\"highlightedItem\": \"addressBar\"}"
-          }
-        }
-      },
-      "translations": {
-        "sk": {
-          "titleText": "NOVINKA! Panel s adresou v dolnej časti",
-          "descriptionText": "Teraz môžete panel s adresou presunúť do spodnej časti obrazovky.",
-          "primaryActionText": "Otvoriť nastavenia"
-        },
-        "ru": {
-          "titleText": "НОВИНКА! Нижняя адресная строка",
-          "descriptionText": "Теперь адресную строку можно поместить в нижнюю часть экрана.",
-          "primaryActionText": "Открыть Настройки"
-        },
-        "it": {
-          "titleText": "NUOVO! Barra degli indirizzi in basso",
-          "descriptionText": "Ora puoi spostare la barra degli indirizzi nella parte inferiore dello schermo.",
-          "primaryActionText": "Apri Impostazioni"
-        },
-        "ro": {
-          "titleText": "NOU! Bara de adrese în partea de jos",
-          "descriptionText": "Acum, poți muta bara de adrese în partea de jos a ecranului.",
-          "primaryActionText": "Deschide Setări"
-        },
-        "cs": {
-          "titleText": "NOVINKA! Adresní řádek na spodní straně",
-          "descriptionText": "Teď můžeš adresní řádek přesunout na spodní část obrazovky.",
-          "primaryActionText": "Otevřít nastavení"
-        },
-        "lt": {
-          "titleText": "NAUJIENA! Apatinė adreso juosta",
-          "descriptionText": "Dabar galite perkelti adreso juostą į ekrano apačią.",
-          "primaryActionText": "Atidaryti nustatymus"
-        },
-        "da": {
-          "titleText": "NYHED! Adresselinje nederst",
-          "descriptionText": "Du kan nu flytte adresselinjen til bunden af skærmen.",
-          "primaryActionText": "Åbn indstillinger"
-        },
-        "no": {
-          "titleText": "NYHET! Adresselinje nederst",
-          "descriptionText": "Du kan nå flytte adresselinjen til nederst på skjermen.",
-          "primaryActionText": "Åpne innstillinger"
-        },
-        "sl": {
-          "titleText": "NOVO! Spodnja naslovna vrstica",
-          "descriptionText": "Zdaj lahko naslovno vrstico premaknete na dno zaslona.",
-          "primaryActionText": "Odpri nastavitve"
-        },
-        "hr": {
-          "titleText": "NOVO! Adresna traka na dnu zaslona",
-          "descriptionText": "Sada adresnu traku možete premjestiti na dno zaslona.",
-          "primaryActionText": "Otvori postavke"
-        },
-        "et": {
-          "titleText": "UUS! Alumine aadressiriba",
-          "descriptionText": "Nüüd saate aadressiriba ekraani alaossa teisaldada.",
-          "primaryActionText": "Ava sätted"
-        },
-        "de": {
-          "titleText": "NEU! Adressleiste unten",
-          "descriptionText": "Jetzt kannst du die Adressleiste an den unteren Rand des Bildschirms verschieben.",
-          "primaryActionText": "Einstellungen öffnen"
-        },
-        "el": {
-          "titleText": "ΝΕΟ! Κάτω γραμμή διευθύνσεων",
-          "descriptionText": "Μπορείτε πλέον να μετακινήσετε τη Γραμμή διευθύνσεων στο κάτω μέρος της οθόνης.",
-          "primaryActionText": "Άνοιγμα ρυθμίσεων"
-        },
-        "pl": {
-          "titleText": "NOWOŚĆ! Pasek adresu na dole",
-          "descriptionText": "Teraz możesz przenieść pasek adresu na dół ekranu.",
-          "primaryActionText": "Otwórz ustawienia"
-        },
-        "hu": {
-          "titleText": "ÚJ! Alsó címsor",
-          "descriptionText": "Mostantól áthelyezheted a címsort a képernyő aljára.",
-          "primaryActionText": "Beállítások megnyitása"
-        },
-        "pt": {
-          "titleText": "NOVO! Barra de endereços inferior",
-          "descriptionText": "Agora podes mover a barra de endereços para a parte inferior do ecrã.",
-          "primaryActionText": "Abrir Definições"
-        },
-        "fr": {
-          "titleText": "NOUVEAUTÉ ! Barre d'adresse inférieure",
-          "descriptionText": "Vous pouvez maintenant déplacer la barre d’adresse vers le bas de l’écran.",
-          "primaryActionText": "Ouvrir les paramètres"
-        },
-        "tr": {
-          "titleText": "YENİ! Alt Adres Çubuğu",
-          "descriptionText": "Artık Adres Çubuğunu ekranın en altına taşıyabilirsiniz.",
-          "primaryActionText": "Ayarları Aç"
-        },
-        "bg": {
-          "titleText": "НОВО! Долна адресна лента",
-          "descriptionText": "Вече можете да преместите адресната лента в долната част на екрана.",
-          "primaryActionText": "Отвори Настройки"
-        },
-        "fi": {
-          "titleText": "UUTTA! Alempi osoitepalkki",
-          "descriptionText": "Voit nyt siirtää osoitepalkin näytön alareunaan.",
-          "primaryActionText": "Avaa asetukset"
-        },
-        "es": {
-          "titleText": "¡NOVEDAD! Barra de direcciones inferior",
-          "descriptionText": "Ya puedes mover la barra de direcciones a la parte inferior de la pantalla.",
-          "primaryActionText": "Abrir configuración"
-        },
-        "lv": {
-          "titleText": "JAUNUMS! Apakšējā adreses josla",
-          "descriptionText": "Tagad vari pārvietot adreses joslu uz ekrāna apakšdaļu.",
-          "primaryActionText": "Atvērt iestatījumus"
-        },
-        "nl": {
-          "titleText": "NIEUW! Adresbalk onderaan",
-          "descriptionText": "Je kunt de adresbalk nu naar de onderkant van het scherm verplaatsen.",
-          "primaryActionText": "Open Instellingen"
-        },
-        "sv": {
-          "titleText": "NYTT! Adressfältet längst ner",
-          "descriptionText": "Du kan nu flytta adressfältet till nedre delen av skärmen.",
-          "primaryActionText": "Öppna inställningar"
-        }
-      },
-      "matchingRules": [
-        11
       ]
     }
   ],
@@ -317,20 +175,6 @@
           "value": [
             "android_quarterly_satisfaction_survey_q4_2024"
           ]
-        }
-      }
-    },
-    {
-      "id": 11,
-      "attributes": {
-        "daysSinceInstalled": {
-          "min": 1
-        },
-        "omnibarPositionFeatureEnabled": {
-          "value": true
-        },
-        "omnibarPosition": {
-          "value": "top"
         }
       }
     }
