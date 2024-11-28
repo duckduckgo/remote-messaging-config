@@ -59,6 +59,9 @@
       },
       "matchingRules": [
         12
+      ],
+      "exclusionRules": [
+        4,16
       ]
     },
     {
@@ -75,7 +78,10 @@
         }
       },
       "matchingRules": [
-        12
+        13
+      ],
+      "exclusionRules": [
+        4,16
       ]
     },
     {
@@ -92,7 +98,10 @@
         }
       },
       "matchingRules": [
-        12
+        14
+      ],
+      "exclusionRules": [
+        4,16
       ]
     },
     {
@@ -109,7 +118,10 @@
         }
       },
       "matchingRules": [
-        12
+        15
+      ],
+      "exclusionRules": [
+        4,16
       ]
     },
     {
@@ -263,7 +275,7 @@
     {
       "id": 12,
       "targetPercentile": {
-        "before": 0.05
+        "before": 0.0625
       },
       "attributes": {
         "daysSinceInstalled": {
@@ -278,6 +290,85 @@
         "locale": {
           "value": [
             "en-US"
+          ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "targetPercentile": {
+        "before": 0.0666
+      },
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "targetPercentile": {
+        "before": 0.0714
+      },
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        }
+      }
+    },
+    {
+      "id": 15,
+      "targetPercentile": {
+        "before": 0.0769
+      },
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "funnel_pro_androidrmf_announcement_privacy",
+            "funnel_pro_androidrmf_announcement_vpn",
+            "funnel_pro_androidrmf_announcement_wifi",
+            "funnel_pro_androidrmf_announcement_holiday"
           ]
         }
       }
