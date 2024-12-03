@@ -1,6 +1,21 @@
 {
-  "version": 7,
+  "version": 8,
   "messages": [
+    {
+      "id": "macos_pir_incident_dec_2024",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Personal Information Removal",
+        "descriptionText": "Personal Information Removal is currently experiencing issues. We're sorry for any inconvenience and we're working resolve the issue now.",
+        "placeholder": "CriticalUpdate",
+        "primaryActionText": "OK",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [11]
+    },
     {
       "id": "macos_privacy_pro_app_store_exit_survey_1",
       "content": {
@@ -264,6 +279,19 @@
         },
         "installedMacAppStore": {
           "value": false
+        }
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "appVersion": {
+          "value": "1.116.0"
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
         }
       }
     }
