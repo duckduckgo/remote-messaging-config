@@ -259,23 +259,9 @@
       }
     },
     {
-      "id": 11,
-      "attributes": {
-        "daysSinceInstalled": {
-          "min": 1
-        },
-        "omnibarPositionFeatureEnabled": {
-          "value": true
-        },
-        "omnibarPosition": {
-          "value": "top"
-        }
-      }
-    },
-    {
       "id": 12,
       "targetPercentile": {
-        "before": 0.0625
+        "before": 0.05
       },
       "attributes": {
         "appVersion": {
@@ -300,7 +286,7 @@
     {
       "id": 13,
       "targetPercentile": {
-        "before": 0.0666
+        "before": 0.0526
       },
       "attributes": {
         "appVersion": {
@@ -325,7 +311,7 @@
     {
       "id": 14,
       "targetPercentile": {
-        "before": 0.0714
+        "before": 0.0556
       },
       "attributes": {
         "appVersion": {
@@ -350,7 +336,7 @@
     {
       "id": 15,
       "targetPercentile": {
-        "before": 0.0769
+        "before": 0.0588
       },
       "attributes": {
         "appVersion": {
