@@ -49,8 +49,8 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Level up your privacy!",
-        "descriptionText": "Boost privacy with our fast & secure VPN + 2 more premium services.",
-        "placeholder": "DDGAnnounce",
+        "descriptionText": "Boost privacy with our fast, secure VPN and 2 more premium services.",
+        "placeholder": "PrivacyShield",
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
@@ -69,8 +69,8 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Enjoy peace of mind with a trusted VPN!",
-        "descriptionText": "Fast, secure, & powered by privacy experts, our VPN is 1 of 3 new premium services.",
-        "placeholder": "DDGAnnounce",
+        "descriptionText": "Get a fast, secure VPN powered by privacy experts + 2 more premium services.",
+        "placeholder": "PrivacyShield",
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
@@ -88,9 +88,9 @@
       "id": "funnel_pro_androidrmf_announcement_wifi",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Worried about dangerous Wi-Fi this season?",
-        "descriptionText": "Try our VPN to help keep personal data out of the hands of cyber grinches!",
-        "placeholder": "DDGAnnounce",
+        "titleText": "Worried about unsecured Wi-Fi this holiday season?",
+        "descriptionText": "Try our VPN to help keep your personal data out of the hands of cyber grinches!",
+        "placeholder": "PrivacyShield",
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
@@ -109,8 +109,8 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Keep personal data out of the hands of cyber grinches this holiday!",
-        "descriptionText": "Protection from cyber threats and dangerous Wi-Fi is easy with our fast VPN.",
-        "placeholder": "DDGAnnounce",
+        "descriptionText": "Protection from cyber threats and unsecured Wi-Fi is easy with our fast VPN.",
+        "placeholder": "PrivacyShield",
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
