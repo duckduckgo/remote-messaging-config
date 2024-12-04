@@ -286,7 +286,8 @@
       "id": 11,
       "attributes": {
         "appVersion": {
-          "value": "1.116.0.322"
+          "min": "1.116.0",
+          "max": "1.116.0"
         },
         "locale": {
           "value": [
