@@ -1,6 +1,21 @@
 {
-  "version": 7,
+  "version": 8,
   "messages": [
+    {
+      "id": "macos_pir_incident_dec_2024",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Personal Information Removal",
+        "descriptionText": "Please update your DuckDuckGo browser as we've fixed a critical issue with Personal Information Removal.",
+        "placeholder": "CriticalUpdate",
+        "primaryActionText": "Update",
+        "primaryAction": {
+          "type": "url",
+          "value": "duck://settings/about"
+        }
+      },
+      "matchingRules": [11]
+    },
     {
       "id": "macos_privacy_pro_app_store_exit_survey_1",
       "content": {
@@ -264,6 +279,26 @@
         },
         "installedMacAppStore": {
           "value": false
+        }
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "appVersion": {
+          "min": "1.116.0.0",
+          "max": "1.116.0.999999"
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active"]
         }
       }
     }
