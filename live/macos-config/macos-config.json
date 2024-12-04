@@ -10,8 +10,8 @@
         "placeholder": "CriticalUpdate",
         "primaryActionText": "OK",
         "primaryAction": {
-          "type": "dismiss",
-          "value": ""
+          "type": "url",
+          "value": "duck://settings/about"
         }
       },
       "matchingRules": [11]
