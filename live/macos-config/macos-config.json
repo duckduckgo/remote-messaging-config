@@ -14,7 +14,7 @@
           "value": ""
         }
       },
-      "matchingRules": [11]
+      "matchingRules": [11, 12]
     },
     {
       "id": "macos_privacy_pro_app_store_exit_survey_1",
@@ -286,12 +286,34 @@
       "id": 11,
       "attributes": {
         "appVersion": {
-          "min": "1.116.0"
+          "value": "1.116.0"
         },
         "locale": {
           "value": [
             "en-US"
           ]
+        },
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active"]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "appVersion": {
+          "value": "1.116.0"
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "isCurrentFreemiumPIRUser": {
+          "value": true
         }
       }
     }
