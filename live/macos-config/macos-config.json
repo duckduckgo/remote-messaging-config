@@ -8,7 +8,7 @@
         "titleText": "Personal Information Removal",
         "descriptionText": "Please update your DuckDuckGo browser as we've fixed a critical issue with Personal Information Removal.",
         "placeholder": "CriticalUpdate",
-        "primaryActionText": "OK",
+        "primaryActionText": "Update",
         "primaryAction": {
           "type": "url",
           "value": "duck://settings/about"
