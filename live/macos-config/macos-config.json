@@ -1,12 +1,12 @@
 {
-  "version": 8,
+  "version": 9,
   "messages": [
     {
       "id": "macos_pir_incident_dec_2024",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Personal Information Removal",
-        "descriptionText": "Please update your DuckDuckGo browser as we've fixed a critical issue with Personal Information Removal.",
+        "descriptionText": "Please update your DuckDuckGo browser as we've fixed an issue impacting Personal Information Removal's dashboard functionality.",
         "placeholder": "CriticalUpdate",
         "primaryActionText": "Update",
         "primaryAction": {
