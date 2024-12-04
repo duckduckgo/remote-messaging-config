@@ -6,7 +6,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Personal Information Removal",
-        "descriptionText": "Personal Information Removal is currently experiencing issues. We're sorry for any inconvenience and we're working resolve the issue now.",
+        "descriptionText": "Please update your DuckDuckGo browser as we've fixed a critical issue with Personal Information Removal.",
         "placeholder": "CriticalUpdate",
         "primaryActionText": "OK",
         "primaryAction": {
