@@ -155,7 +155,7 @@
           "value": true
         },
         "locale": {
-          "value": "en_US"
+          "value": ["en-US"]
         },
         "appVersion": {
           "min": "7.131.0.1"
