@@ -1,5 +1,5 @@
 {
-  "version": 39,
+  "version": 40,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -45,83 +45,23 @@
       ]
     },
     {
-      "id": "funnel_pro_androidrmf_announcement_privacy",
+      "id": "funnel_pro_androidrmf_announcement",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Level up your privacy!",
-        "descriptionText": "Boost privacy with our fast, secure VPN and 2 more premium services.",
+        "titleText": "Enjoy peace of mind with our VPN!",
+        "descriptionText": "Boost protection with a fast, secure VPN + 2 more premium services.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Get Privacy Pro",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement_privacy"
+          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement"
         }
       },
       "matchingRules": [
         12
       ],
       "exclusionRules": [
-        4,16
-      ]
-    },
-    {
-      "id": "funnel_pro_androidrmf_announcement_vpn",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Enjoy peace of mind with a trusted VPN!",
-        "descriptionText": "Get a fast, secure VPN powered by privacy experts + 2 more premium services.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Get Privacy Pro",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement_vpn"
-        }
-      },
-      "matchingRules": [
-        13
-      ],
-      "exclusionRules": [
-        4,16
-      ]
-    },
-    {
-      "id": "funnel_pro_androidrmf_announcement_wifi",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Worried about unsecured Wi-Fi this holiday season?",
-        "descriptionText": "Try our VPN to help keep your personal data out of the hands of cyber grinches!",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Get Privacy Pro",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement_wifi"
-        }
-      },
-      "matchingRules": [
-        14
-      ],
-      "exclusionRules": [
-        4,16
-      ]
-    },
-    {
-      "id": "funnel_pro_androidrmf_announcement_holiday",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Keep personal data out of the hands of cyber grinches this holiday!",
-        "descriptionText": "Protection from cyber threats and unsecured Wi-Fi is easy with our fast VPN.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Get Privacy Pro",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement_holiday"
-        }
-      },
-      "matchingRules": [
-        15
-      ],
-      "exclusionRules": [
-        4,16
+        4
       ]
     },
     {
@@ -164,7 +104,11 @@
             "funnel_pro_android_apptp_beyondapptp",
             "funnel_pro_androidrmf_onboarding_a",
             "funnel_pro_androidrmf_onboarding_b",
-            "funnel_pro_androidrmf_onboarding_c"
+            "funnel_pro_androidrmf_onboarding_c",
+            "funnel_pro_androidrmf_announcement_privacy",
+            "funnel_pro_androidrmf_announcement_vpn",
+            "funnel_pro_androidrmf_announcement_wifi",
+            "funnel_pro_androidrmf_announcement_holiday"
           ]
         }
       }
@@ -260,9 +204,6 @@
     },
     {
       "id": 12,
-      "targetPercentile": {
-        "before": 0.05
-      },
       "attributes": {
         "appVersion": {
           "min": "5.210.0"
@@ -279,94 +220,6 @@
         "locale": {
           "value": [
             "en-US"
-          ]
-        }
-      }
-    },
-    {
-      "id": 13,
-      "targetPercentile": {
-        "before": 0.0526
-      },
-      "attributes": {
-        "appVersion": {
-          "min": "5.210.0"
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        },
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        }
-      }
-    },
-    {
-      "id": 14,
-      "targetPercentile": {
-        "before": 0.0556
-      },
-      "attributes": {
-        "appVersion": {
-          "min": "5.210.0"
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        },
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        }
-      }
-    },
-    {
-      "id": 15,
-      "targetPercentile": {
-        "before": 0.0588
-      },
-      "attributes": {
-        "appVersion": {
-          "min": "5.210.0"
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        },
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        }
-      }
-    },
-    {
-      "id": 16,
-      "attributes": {
-        "interactedWithMessage": {
-          "value": [
-            "funnel_pro_androidrmf_announcement_privacy",
-            "funnel_pro_androidrmf_announcement_vpn",
-            "funnel_pro_androidrmf_announcement_wifi",
-            "funnel_pro_androidrmf_announcement_holiday"
           ]
         }
       }
