@@ -1,5 +1,5 @@
 {
-  "version": 49,
+  "version": 51,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -158,7 +158,7 @@
           "value": ["en-US"]
         },
         "appVersion": {
-          "min": "7.131.0.1"
+          "min": "7.149.0.2"
         }
       }
     }
