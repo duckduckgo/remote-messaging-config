@@ -4,6 +4,7 @@
 ## What is it?
 This is the configuration repository for the Remote Messaging Framework (RMF). This repository hosts the configuration files that enable the RMF system, remotely controlling messages received and processed by native app clients.
 
+[Remote Messaging Framework Asana board](https://app.asana.com/0/1207619243206445/1207619413684520)
 
 ## Folder Structure
 Remote Messaging Config is organized as follows:
