@@ -134,6 +134,9 @@
           "value": [
             "active"
           ]
+        },
+        "locale": {
+          "value": ["en-US"]
         }
       }
     },
@@ -156,6 +159,9 @@
         },
         "appVersion": {
           "min": "5.207.0"
+        },
+        "locale": {
+          "value": ["en-US"]
         }
       }
     },
