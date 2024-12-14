@@ -1,5 +1,5 @@
 {
-  "version": 40,
+  "version": 41,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -134,6 +134,9 @@
           "value": [
             "active"
           ]
+        },
+        "locale": {
+          "value": ["en-US"]
         }
       }
     },
@@ -156,6 +159,9 @@
         },
         "appVersion": {
           "min": "5.207.0"
+        },
+        "locale": {
+          "value": ["en-US"]
         }
       }
     },
