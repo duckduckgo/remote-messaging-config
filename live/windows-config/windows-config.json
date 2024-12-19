@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -97,6 +97,9 @@
         },
         "appVersion": {
           "min": "0.93.0"
+        },
+        "locale": {
+          "value": ["en-US"]
         }
       }
     },
@@ -119,6 +122,9 @@
         },
         "appVersion": {
           "min": "0.93.0"
+        },
+        "locale": {
+          "value": ["en-US"]
         }
       }
     },

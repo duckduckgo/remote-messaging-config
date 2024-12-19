@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "messages": [
     {
       "id": "macos_pir_incident_dec_2024",
@@ -142,6 +142,9 @@
         },
         "installedMacAppStore": {
           "value": true
+        },
+        "locale": {
+          "value": ["en-US"]
         }
       }
     },
@@ -165,6 +168,9 @@
         },
         "installedMacAppStore": {
           "value": false
+        },
+        "locale": {
+          "value": ["en-US"]
         }
       }
     },
@@ -188,6 +194,9 @@
         },
         "installedMacAppStore": {
           "value": true
+        },
+        "locale": {
+          "value": ["en-US"]
         }
       }
     },
@@ -211,6 +220,9 @@
         },
         "installedMacAppStore": {
           "value": false
+        },
+        "locale": {
+          "value": ["en-US"]
         }
       }
     },
