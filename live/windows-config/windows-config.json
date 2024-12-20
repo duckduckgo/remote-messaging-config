@@ -71,7 +71,7 @@
         9
       ]
     },
-	{
+    {
       "id": "windows_14_day_survey",
       "content": {
         "messageType": "big_single_action",
@@ -196,15 +196,15 @@
       "attributes": {
         "flavor": {
           "value": ["beta", "dev", "canary", "preview"]
-		  }
+        }
       }
     },
-	{
+    {
       "id": 10,
       "attributes": {
         "daysSinceInstalled": {
           "min": 14,
-		  "max": 21
+          "max": 21
         },
         "appVersion": {
           "min": "0.93.0"
@@ -219,7 +219,7 @@
         }
       }
     },
-	{
+    {
       "id": 11,
       "attributes": {
         "interactedWithDeprecatedWindowsSurvey": {
