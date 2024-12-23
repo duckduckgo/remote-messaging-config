@@ -93,7 +93,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=4",
           "additionalParameters": {
-            "queryParams": "atb;var;ddgv;osv;locale"
+            "queryParams": "var;delta;osv;ddgv;locale"
           }
         }
       },
