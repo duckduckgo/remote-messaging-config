@@ -1,5 +1,5 @@
 {
-  "version": 41,
+  "version": 43,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -45,23 +45,26 @@
       ]
     },
     {
-      "id": "funnel_pro_androidrmf_announcement",
+      "id": "android_quarterly_satisfaction_survey_1224",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Enjoy peace of mind with our VPN!",
-        "descriptionText": "Boost protection with a fast, secure VPN + 2 more premium services.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Get Privacy Pro",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
         "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_pro_androidrmf_announcement"
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=3",
+          "additionalParameters": {
+            "queryParams": "var;delta;av;ddgv"
+          }
         }
       },
       "matchingRules": [
-        12
+        11
       ],
       "exclusionRules": [
-        4
+        6, 7, 12
       ]
     },
     {
@@ -203,7 +206,27 @@
       "attributes": {
         "interactedWithMessage": {
           "value": [
-            "android_quarterly_satisfaction_survey_q4_2024"
+            "android_quarterly_satisfaction_survey_q4_2024",
+            "android_quarterly_satisfaction_survey_1224"
+          ]
+        }
+      }
+    },
+    {
+      "id": 11,
+      "targetPercentile": {
+        "before": 0.25
+      },
+      "attributes": {
+        "appVersion": {
+          "min": "5.204.0"
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
           ]
         }
       }
@@ -211,21 +234,10 @@
     {
       "id": 12,
       "attributes": {
-        "appVersion": {
-          "min": "5.210.0"
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        },
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "locale": {
+        "interactedWithMessage": {
           "value": [
-            "en-US"
+            "android_quarterly_satisfaction_survey_q4_2024",
+            "android_permanent_survey_user_satisfaction"
           ]
         }
       }
