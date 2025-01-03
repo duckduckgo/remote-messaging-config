@@ -1,6 +1,24 @@
 {
-  "version": 10,
+  "version": 11,
   "messages": [
+      {
+      "id": "macos_permanent_survey_tab_bar",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve!",
+        "descriptionText": "We really want to know which features would make our browser better.",
+        "placeholder": "Announce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/241004?list=2",
+          "additionalParameters": {
+            "queryParams": "delta;var;osv;ddgv"
+          }
+        }
+      },
+      "matchingRules": [12]
+    },  
     {
       "id": "macos_pir_incident_dec_2024",
       "content": {
@@ -266,7 +284,8 @@
       "id": 9,
       "attributes": {
         "appVersion": {
-          "min": "1.106.0"
+          "min": "1.106.0",
+          "max": "1.120.0"
         },
         "daysSinceInstalled": {
           "min": 14,
@@ -311,6 +330,26 @@
         },
         "pproSubscriptionStatus": {
           "value": ["active"]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "appVersion": {
+          "min": "1.121.0"
+        },
+        "daysSinceInstalled": {
+          "min": 14,
+          "max": 21
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
         }
       }
     }
