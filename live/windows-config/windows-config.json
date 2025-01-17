@@ -100,7 +100,8 @@
       "id": 1,
       "attributes": {
         "daysSinceInstalled": {
-          "min": 14
+          "min": 14,
+          "max": 10000
         }
       }
     },
