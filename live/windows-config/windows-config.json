@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -100,7 +100,8 @@
       "id": 1,
       "attributes": {
         "daysSinceInstalled": {
-          "min": 14
+          "min": 14,
+          "max": 10000
         }
       }
     },
