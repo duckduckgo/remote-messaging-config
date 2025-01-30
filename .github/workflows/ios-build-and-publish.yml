@@ -33,3 +33,22 @@ jobs:
         AWS_REGION: 'us-east-1'
         SOURCE_DIR: 'live/ios-config'
         DEST_DIR: 'remotemessaging/config/staging'
+    - name: Extract Version from JSON
+      id: extract_version
+      run: |
+        VERSION=$(jq -r '.version' live/ios-config/ios-config.json)
+        echo "Extracted Version: $VERSION"
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
+    - name: Trigger Network Request
+      id: trigger_request
+      run: |
+        RESPONSE=$(curl -s -o response.txt -w "%{http_code}" "https://improving.duckduckgo.com/t/m_new_rmf_config_ios?version=${VERSION}")
+        echo "HTTP_RESPONSE=$RESPONSE" >> $GITHUB_ENV
+    - name: Check Response Status
+      run: |
+        if [ $HTTP_RESPONSE -ge 200 ] && [ $HTTP_RESPONSE -lt 300 ]; then
+          echo "Successful: Version ${VERSION} was processed."
+        else
+          echo "HTTP Error $HTTP_RESPONSE for version ${VERSION}"
+          exit 1
+        fi
