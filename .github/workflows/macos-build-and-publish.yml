@@ -22,3 +22,22 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         SOURCE_DIR: 'live/macos-config'
         DEST_DIR: 'remotemessaging/config/v1'
+    - name: Extract Version from JSON
+      id: extract_version
+      run: |
+        VERSION=$(jq -r '.version' live/macos-config/macos-config.json)
+        echo "Extracted Version: $VERSION"
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
+    - name: Trigger Network Request
+      id: trigger_request
+      run: |
+        RESPONSE=$(curl -s -o response.txt -w "%{http_code}" "https://improving.duckduckgo.com/t/m_new_rmf_config_macos?version=${VERSION}")
+        echo "HTTP_RESPONSE=$RESPONSE" >> $GITHUB_ENV
+    - name: Check Response Status
+      run: |
+        if [ $HTTP_RESPONSE -ge 200 ] && [ $HTTP_RESPONSE -lt 300 ]; then
+          echo "Successful: Version ${VERSION} was processed."
+        else
+          echo "HTTP Error $HTTP_RESPONSE for version ${VERSION}"
+          exit 1
+        fi
