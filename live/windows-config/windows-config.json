@@ -142,9 +142,41 @@
       "exclusionRules": [
         17
       ]
+    },
+    {
+      "id": "windows_preview_cta",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Get early access to the latest features in \nDuckDuckGo Preview for Windows",
+        "descriptionText": "Try out the latest browser features and send feedback to help us improve DuckDuckGo.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Learn More",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/windows-preview"
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        9
+      ]
     }
   ],
   "rules": [
+    {
+      "id": 1,
+      "targetPercentile": {
+        "before": 0.15
+      },
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 14,
+          "max": 10000
+        }
+      }
+    },
     {
       "id": 2,
       "attributes": {
@@ -229,6 +261,14 @@
           "value": [
             "new-subscription-survey.dismissed"
           ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "flavor": {
+          "value": [ "beta", "dev", "canary", "preview" ]
         }
       }
     },
