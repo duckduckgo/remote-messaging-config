@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "messages": [
     {
       "id": "macos_permanent_survey_tab_bar",
@@ -104,6 +104,26 @@
         "placeholder": "CriticalUpdate"
       },
       "matchingRules": [10]
+    },
+
+    {
+      "id": "macos_privacy_pro_sparkle_exit_survey_translated",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Pourquoi avez-vous annulé Privacy Pro?",
+        "descriptionText": "En répondant à notre bref sondage, vous nous aiderez à améliorer Privacy Pro pour tous les abonnés.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Démarrer l'enquête",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=french",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [13],
+      "exclusionRules": [5, 7]
     }
   ],
   "rules": [
@@ -275,6 +295,32 @@
             "en-CA",
             "en-GB",
             "en-AU"
+          ]
+        }
+      }
+    },
+
+    {
+      "id": 13,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": ["expiring"]
+        },
+        "pproDaysUntilExpiryOrRenewal": {
+          "max": 10
+        },
+        "appVersion": {
+          "min": "1.101.0"
+        },
+        "locale": {
+          "value": [
+            "fr-FR",
+            "fr-CA",
+            "fr-BE",
+            "fr-CH"
           ]
         }
       }
