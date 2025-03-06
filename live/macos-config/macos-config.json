@@ -143,6 +143,25 @@
       },
       "matchingRules": [14],
       "exclusionRules": [5, 7]
+    },
+    {
+      "id": "macos_privacy_pro_sparkle_exit_survey_translated_nl",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Vertel ons waarom je Privacy Pro hebt verlaten",
+        "descriptionText": "Door deel te nemen aan onze korte enquête, helpt u ons Privacy Pro voor alle abonnees te verbeteren.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Enquête starten",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=german",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [15],
+      "exclusionRules": [5, 7]
     }
   ],
   "rules": [
@@ -364,6 +383,29 @@
             "de-DE",
             "de-AT",
             "de-CH"
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": ["expiring"]
+        },
+        "pproDaysUntilExpiryOrRenewal": {
+          "max": 10
+        },
+        "appVersion": {
+          "min": "1.101.0"
+        },
+        "locale": {
+          "value": [
+            "nl-NL",
+            "nl-BE"
           ]
         }
       }
