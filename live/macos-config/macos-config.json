@@ -154,13 +154,32 @@
         "primaryActionText": "Enquête starten",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=german",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=dutch",
           "additionalParameters": {
             "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
           }
         }
       },
       "matchingRules": [15],
+      "exclusionRules": [5, 7]
+    },
+    {
+      "id": "macos_privacy_pro_sparkle_exit_survey_translated_sv",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Berätta varför du lämnade Privacy Pro",
+        "descriptionText": "Genom att svara på vår korta enkät hjälper du oss att förbättra Privacy Pro för alla prenumeranter.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Starta undersökning",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=swedish",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [16],
       "exclusionRules": [5, 7]
     }
   ],
@@ -406,6 +425,28 @@
           "value": [
             "nl-NL",
             "nl-BE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": ["expiring"]
+        },
+        "pproDaysUntilExpiryOrRenewal": {
+          "max": 10
+        },
+        "appVersion": {
+          "min": "1.101.0"
+        },
+        "locale": {
+          "value": [
+            "sv-SE"
           ]
         }
       }
