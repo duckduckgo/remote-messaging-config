@@ -154,6 +154,24 @@
         }
       },
       "matchingRules": [9]
+    },
+    {
+      "id": "ios_privacy_pro_exit_survey_sv",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Berätta varför du lämnade Privacy Pro",
+        "descriptionText": "Genom att svara på vår korta enkät hjälper du oss att förbättra Privacy Pro för alla prenumeranter.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Starta undersökning",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=swedish",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [10]
     }
   ],
   "rules": [
@@ -338,6 +356,28 @@
         "locale": {
           "value": [
             "es-ES"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["expiring"]
+        },
+        "appVersion": {
+          "min": "7.128.0.1"
+        },
+        "locale": {
+          "value": [
+            "sv-SE"
           ]
         }
       }
