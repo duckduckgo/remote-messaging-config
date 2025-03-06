@@ -164,16 +164,16 @@
       "exclusionRules": [5, 7]
     },
     {
-      "id": "macos_privacy_pro_sparkle_exit_survey_translated_sv",
+      "id": "macos_privacy_pro_sparkle_exit_survey_translated_it",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Berätta varför du lämnade Privacy Pro",
-        "descriptionText": "Genom att svara på vår korta enkät hjälper du oss att förbättra Privacy Pro för alla prenumeranter.",
+        "titleText": "Dicci perché hai lasciato Privacy Pro",
+        "descriptionText": "Partecipando al nostro breve sondaggio, ci aiuterai a migliorare Privacy Pro per tutti gli abbonati.",
         "placeholder": "PrivacyShield",
-        "primaryActionText": "Starta undersökning",
+        "primaryActionText": "Inizia l'indagine",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=swedish",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=italian",
           "additionalParameters": {
             "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
           }
@@ -446,7 +446,7 @@
         },
         "locale": {
           "value": [
-            "sv-SE"
+            "it-IT"
           ]
         }
       }
