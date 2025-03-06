@@ -107,7 +107,7 @@
     },
 
     {
-      "id": "macos_privacy_pro_sparkle_exit_survey_translated",
+      "id": "macos_privacy_pro_sparkle_exit_survey_translated_fr",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Pourquoi avez-vous annulé Privacy Pro?",
@@ -126,7 +126,7 @@
       "exclusionRules": [5, 7]
     },
     {
-      "id": "macos_privacy_pro_sparkle_exit_survey_translated",
+      "id": "macos_privacy_pro_sparkle_exit_survey_translated_de",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Warum haben Sie Privacy Pro gekündigt?",
