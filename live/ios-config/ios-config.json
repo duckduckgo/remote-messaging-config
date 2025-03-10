@@ -123,8 +123,8 @@
       "id": "ios_privacy_pro_exit_survey_it",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Dicci perché hai lasciato Privacy Pro",
-        "descriptionText": "Partecipando al nostro breve sondaggio, ci aiuterai a migliorare Privacy Pro per tutti gli abbonati.",
+        "titleText": "Ci dica perché ha lasciato Privacy Pro",
+        "descriptionText": "Partecipando al nostro breve sondaggio, ci aiuterà a migliorare Privacy Pro per tutti gli abbonati.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Inizia l'indagine",
         "primaryAction": {
