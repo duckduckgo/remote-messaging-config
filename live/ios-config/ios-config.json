@@ -162,7 +162,7 @@
         "titleText": "Berätta varför du lämnade Privacy Pro",
         "descriptionText": "Genom att svara på vår korta enkät hjälper du oss att förbättra Privacy Pro för alla prenumeranter.",
         "placeholder": "PrivacyShield",
-        "primaryActionText": "Starta undersökning",
+        "primaryActionText": "Starta enkät",
         "primaryAction": {
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=swedish",
