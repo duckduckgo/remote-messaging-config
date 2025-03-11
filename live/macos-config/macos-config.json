@@ -113,7 +113,7 @@
         "titleText": "Pourquoi avez-vous annulé Privacy Pro?",
         "descriptionText": "En répondant à notre bref sondage, vous nous aiderez à améliorer Privacy Pro pour tous les abonnés.",
         "placeholder": "PrivacyShield",
-        "primaryActionText": "Démarrer l'enquête",
+        "primaryActionText": "Lancer le sondage",
         "primaryAction": {
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=french",
