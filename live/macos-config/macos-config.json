@@ -106,7 +106,7 @@
       "matchingRules": [10]
     },
     {
-      "id": "macos_privacy_pro_sparkle_exit_survey_translated_fr",
+      "id": "macos_privacy_pro_sparkle_exit_survey_translated",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Vous avez arrêté votre abonnement ? Dites-nous tout.",
@@ -125,7 +125,7 @@
       "exclusionRules": [5, 7]
     },
     {
-      "id": "macos_privacy_pro_sparkle_exit_survey_translated_de",
+      "id": "macos_privacy_pro_sparkle_exit_survey_translated",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Warum haben Sie Privacy Pro gekündigt?",
@@ -144,7 +144,7 @@
       "exclusionRules": [5, 7]
     },
     {
-      "id": "macos_privacy_pro_sparkle_exit_survey_translated_nl",
+      "id": "macos_privacy_pro_sparkle_exit_survey_translated",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Waarom heeft u Privacy Pro opgezegd?",
@@ -163,7 +163,7 @@
       "exclusionRules": [5, 7]
     },
     {
-      "id": "macos_privacy_pro_sparkle_exit_survey_translated_it",
+      "id": "macos_privacy_pro_sparkle_exit_survey_translated",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Ci dica perché ha lasciato Privacy Pro",
@@ -182,7 +182,7 @@
       "exclusionRules": [5, 7]
     },
     {
-      "id": "macos_privacy_pro_sparkle_exit_survey_translated_es",
+      "id": "macos_privacy_pro_sparkle_exit_survey_translated",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Cuéntenos por qué dejó Privacy Pro",
