@@ -6,7 +6,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Tell Us Why You Left Privacy Pro",
-        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers.",
+        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -26,7 +26,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Tell Us Your Thoughts on Privacy Pro",
-        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -70,7 +70,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Pourquoi avez-vous annulé Privacy Pro?",
-        "descriptionText": "En répondant à notre bref sondage, vous nous aiderez à améliorer Privacy Pro pour tous les abonnés.",
+        "descriptionText": "En répondant à notre bref sondage, vous nous aiderez à améliorer Privacy Pro pour tous les abonnés.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Démarrer l'enquête",
         "primaryAction": {
@@ -88,7 +88,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Warum haben Sie Privacy Pro gekündigt?",
-        "descriptionText": "Durch Teilnahme an unserer kurzen Umfrage helfen Sie uns, Privacy Pro für alle Abonnenten zu verbessern.",
+        "descriptionText": "Durch Teilnahme an unserer kurzen Umfrage helfen Sie uns, Privacy Pro für alle Abonnenten zu verbessern.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Umfrage starten",
         "primaryAction": {
@@ -106,7 +106,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Waarom heeft u Privacy Pro opgezegd?",
-        "descriptionText": "Door deel te nemen aan onze korte enquête, helpt u ons Privacy Pro voor alle abonnees te verbeteren.",
+        "descriptionText": "Door deel te nemen aan onze korte enquête, helpt u ons Privacy Pro voor alle abonnees te verbeteren.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Enquête starten",
         "primaryAction": {
@@ -124,7 +124,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Ci dica perché ha lasciato Privacy Pro",
-        "descriptionText": "Partecipando al nostro breve sondaggio, ci aiuterà a migliorare Privacy Pro per tutti gli abbonati.",
+        "descriptionText": "Partecipando al nostro breve sondaggio, ci aiuterà a migliorare Privacy Pro per tutti gli abbonati.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Inizia l'indagine",
         "primaryAction": {
@@ -142,7 +142,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Cuéntanos por qué dejaste Privacy Pro",
-        "descriptionText": "Al responder a nuestra breve encuesta, nos ayudarás a mejorar Privacy Pro para todos los suscriptores.",
+        "descriptionText": "Al responder a nuestra breve encuesta, nos ayudarás a mejorar Privacy Pro para todos los suscriptores.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Empezar encuesta",
         "primaryAction": {
@@ -160,7 +160,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Berätta varför du lämnade Privacy Pro",
-        "descriptionText": "Genom att svara på vår korta enkät hjälper du oss att förbättra Privacy Pro för alla prenumeranter.",
+        "descriptionText": "Genom att svara på vår korta enkät hjälper du oss att förbättra Privacy Pro för alla prenumeranter.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Starta enkät",
         "primaryAction": {
