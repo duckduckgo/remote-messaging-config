@@ -64,12 +64,11 @@
         4
       ]
     },
-
     {
       "id": "ios_privacy_pro_exit_survey_fr",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Pourquoi avez-vous annulé Privacy Pro?",
+        "titleText": "Vous avez arrêté votre abonnement ? Dites-nous tout.",
         "descriptionText": "En répondant à notre bref sondage, vous nous aiderez à améliorer Privacy Pro pour tous les abonnés.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Lancer le sondage",
