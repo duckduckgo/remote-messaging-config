@@ -186,8 +186,8 @@
       "id": "macos_privacy_pro_sparkle_exit_survey_translated_es",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Cuéntanos por qué dejaste Privacy Pro",
-        "descriptionText": "Al responder a nuestra breve encuesta, nos ayudarás a mejorar Privacy Pro para todos los suscriptores.",
+        "titleText": "Cuéntenos por qué dejó Privacy Pro",
+        "descriptionText": "Al responder a nuestra breve encuesta, nos ayudará a mejorar Privacy Pro para todos los suscriptores.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Empezar encuesta",
         "primaryAction": {
