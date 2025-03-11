@@ -200,6 +200,101 @@
       },
       "matchingRules": [17],
       "exclusionRules": [5, 7]
+    },
+    {
+      "id": "macos_privacy_pro_sparkle_subscriber_survey_translated_fr",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Faites-nous part de votre avis sur Privacy Pro",
+        "descriptionText": "En répondant à notre court sondage, vous contribuerez à l'amélioration de Privacy Pro pour l'ensemble de nos abonnés.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Lancer le sondage",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240506?list=2&decLang=french",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [18],
+      "exclusionRules": [5, 6, 8]
+    },
+    {
+      "id": "macos_privacy_pro_sparkle_subscriber_survey_translated_de",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Was halten Sie von Privacy Pro?",
+        "descriptionText": "Wenn Sie an unserer kurzen Umfrage teilnehmen, werden wir Ihre Eingaben verwenden, um Privacy Pro für alle Abonnenten zu verbessern.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Umfrage starten",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240506?list=2&decLang=german",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [19],
+      "exclusionRules": [5, 6, 8]
+    },
+    {
+      "id": "macos_privacy_pro_sparkle_subscriber_survey_translated_nl",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Waar denkt u aan bij Privacy Pro",
+        "descriptionText": "Als u onze korte enquête invult, zullen we uw input gebruiken om Privacy Pro voor alle abonnees te verbeteren.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Enquête starten",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240506?list=2&decLang=dutch",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [20],
+      "exclusionRules": [5, 6, 8]
+    },
+    {
+      "id": "macos_privacy_pro_sparkle_subscriber_survey_translated_it",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Cosa ne pensa di Privacy Pro?",
+        "descriptionText": "Se completa il nostro breve sondaggio, utilizzeremo il suo contributo per migliorare Privacy Pro per tutti gli abbonati.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Inizia l'indagine",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240506?list=2&decLang=italian",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [21],
+      "exclusionRules": [5, 6, 8]
+    },
+    {
+      "id": "macos_privacy_pro_sparkle_subscriber_survey_translated_es",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "¿Qué opina del producto Privacy Pro?",
+        "descriptionText": "Si completa nuestra breve encuesta, utilizaremos sus comentarios para mejorar Privacy Pro para todos los suscriptores.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Empezar encuesta",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240506?list=2&decLang=spanish_eu",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [22],
+      "exclusionRules": [5, 6, 8]
     }
   ],
   "rules": [
@@ -484,6 +579,152 @@
         },
         "appVersion": {
           "min": "1.101.0"
+        },
+        "locale": {
+          "value": [
+            "es-ES"
+          ]
+        }
+      }
+    },
+    {
+      "id": 18,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active"]
+        },
+        "appVersion": {
+          "min": "1.101.0"
+        },
+        "installedMacAppStore": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "fr-FR",
+            "fr-CA",
+            "fr-BE",
+            "fr-CH"
+          ]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active"]
+        },
+        "appVersion": {
+          "min": "1.101.0"
+        },
+        "installedMacAppStore": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "de-DE",
+            "de-AT",
+            "de-CH"
+          ]
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active"]
+        },
+        "appVersion": {
+          "min": "1.101.0"
+        },
+        "installedMacAppStore": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "nl-NL",
+            "nl-BE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active"]
+        },
+        "appVersion": {
+          "min": "1.101.0"
+        },
+        "installedMacAppStore": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "it-IT"
+          ]
+        }
+      }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active"]
+        },
+        "appVersion": {
+          "min": "1.101.0"
+        },
+        "installedMacAppStore": {
+          "value": false
         },
         "locale": {
           "value": [
