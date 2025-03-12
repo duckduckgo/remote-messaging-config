@@ -11,7 +11,7 @@
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&ppro_region=us",
           "additionalParameters": {
             "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
           }
@@ -19,6 +19,26 @@
       },
       "matchingRules": [
         2
+      ]
+    },
+    {
+      "id": "ios_privacy_pro_exit_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Why You Left Privacy Pro",
+        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [
+        17
       ]
     },
     {
@@ -31,7 +51,7 @@
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&ppro_region=us",
           "additionalParameters": {
             "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
           }
@@ -39,6 +59,29 @@
       },
       "matchingRules": [
         1
+      ],
+      "exclusionRules": [
+        3
+      ]
+    },
+    {
+      "id": "ios_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Your Thoughts on Privacy Pro",
+        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [
+        18
       ],
       "exclusionRules": [
         3
@@ -173,7 +216,7 @@
       "matchingRules": [10]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_translated",
+      "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Faites-nous part de votre avis sur Privacy Pro",
@@ -196,7 +239,7 @@
       ]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_translated",
+      "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Was halten Sie von Privacy Pro?",
@@ -219,7 +262,7 @@
       ]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_translated",
+      "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Waar denkt u aan bij Privacy Pro",
@@ -242,7 +285,7 @@
       ]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_translated",
+      "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Cosa ne pensa di Privacy Pro?",
@@ -265,7 +308,7 @@
       ]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_translated",
+      "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "¿Qué opina del producto Privacy Pro?",
@@ -288,7 +331,7 @@
       ]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_translated",
+      "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Vad tycker du om Privacy Pro?",
@@ -674,6 +717,49 @@
           ]
         }
       }
-    }
+    },
+    {
+      "id": 17,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["expiring"]
+        },
+        "appVersion": {
+          "min": "7.128.0.1"
+        },
+        "locale": {
+          "value": ["en-CA", "en-UK"]
+        }
+      }
+    },
+    {
+      "id": 18,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active"]
+        },
+        "appVersion": {
+          "min": "7.128.0.1"
+        },
+        "locale": {
+          "value": ["en-CA", "en-UK"]
+        }
+      }
+    },
   ]
 }
