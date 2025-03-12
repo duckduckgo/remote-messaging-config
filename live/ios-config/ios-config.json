@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": "ios_privacy_pro_exit_survey_translated",
+      "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Vous avez arrêté votre abonnement ? Dites-nous tout.",
@@ -83,7 +83,7 @@
       "matchingRules": [5]
     },
     {
-      "id": "ios_privacy_pro_exit_survey_translated",
+      "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Warum haben Sie Privacy Pro gekündigt?",
@@ -101,7 +101,7 @@
       "matchingRules": [6]
     },
     {
-      "id": "ios_privacy_pro_exit_survey_translated",
+      "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Waarom heeft u Privacy Pro opgezegd?",
@@ -119,7 +119,7 @@
       "matchingRules": [7]
     },
     {
-      "id": "ios_privacy_pro_exit_survey_translated",
+      "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Ci dica perché ha lasciato Privacy Pro",
@@ -137,7 +137,7 @@
       "matchingRules": [8]
     },
     {
-      "id": "ios_privacy_pro_exit_survey_translated",
+      "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Cuéntenos por qué dejó Privacy Pro",
@@ -155,7 +155,7 @@
       "matchingRules": [9]
     },
     {
-      "id": "ios_privacy_pro_exit_survey_translated",
+      "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Berätta varför du lämnade Privacy Pro",
