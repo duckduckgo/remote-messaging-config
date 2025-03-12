@@ -173,7 +173,7 @@
       "matchingRules": [10]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_fr",
+      "id": "ios_privacy_pro_subscriber_survey_translated",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Faites-nous part de votre avis sur Privacy Pro",
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_de",
+      "id": "ios_privacy_pro_subscriber_survey_translated",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Was halten Sie von Privacy Pro?",
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_nl",
+      "id": "ios_privacy_pro_subscriber_survey_translated",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Waar denkt u aan bij Privacy Pro",
@@ -242,7 +242,7 @@
       ]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_it",
+      "id": "ios_privacy_pro_subscriber_survey_translated",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Cosa ne pensa di Privacy Pro?",
@@ -265,7 +265,7 @@
       ]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_es",
+      "id": "ios_privacy_pro_subscriber_survey_translated",
       "content": {
         "messageType": "big_single_action",
         "titleText": "¿Qué opina del producto Privacy Pro?",
@@ -288,7 +288,7 @@
       ]
     },
     {
-      "id": "ios_privacy_pro_subscriber_survey_sv",
+      "id": "ios_privacy_pro_subscriber_survey_translated",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Vad tycker du om Privacy Pro?",
