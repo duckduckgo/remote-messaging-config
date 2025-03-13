@@ -473,6 +473,9 @@
         "pproSubscriber": {
           "value": true
         },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
+        },
         "pproSubscriptionStatus": {
           "value": ["expiring"]
         },
@@ -498,6 +501,9 @@
         "pproSubscriber": {
           "value": true
         },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
+        },
         "pproSubscriptionStatus": {
           "value": ["expiring"]
         },
@@ -522,6 +528,9 @@
         "pproSubscriber": {
           "value": true
         },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
+        },
         "pproSubscriptionStatus": {
           "value": ["expiring"]
         },
@@ -545,6 +554,9 @@
         "pproSubscriber": {
           "value": true
         },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
+        },
         "pproSubscriptionStatus": {
           "value": ["expiring"]
         },
@@ -566,6 +578,9 @@
       "attributes": {
         "pproSubscriber": {
           "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple", "stripe"]
         },
         "pproSubscriptionStatus": {
           "value": ["expiring"]
