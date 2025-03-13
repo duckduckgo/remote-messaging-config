@@ -17,9 +17,7 @@
           }
         }
       },
-      "matchingRules": [
-        2
-      ]
+      "matchingRules": [2]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -37,79 +35,8 @@
           }
         }
       },
-      "matchingRules": [
-        17
-      ]
+      "matchingRules": [17]
     },
-    {
-      "id": "ios_privacy_pro_subscriber_survey_1",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Tell Us Your Thoughts on Privacy Pro",
-        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Take Survey",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&ppro_region=us",
-          "additionalParameters": {
-            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
-          }
-        }
-      },
-      "matchingRules": [
-        1
-      ],
-      "exclusionRules": [
-        3
-      ]
-    },
-    {
-      "id": "ios_privacy_pro_subscriber_survey_1",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Tell Us Your Thoughts on Privacy Pro",
-        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Take Survey",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&ppro_region=row",
-          "additionalParameters": {
-            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
-          }
-        }
-      },
-      "matchingRules": [
-        18
-      ],
-      "exclusionRules": [
-        3
-      ]
-    },
-    {
-      "id": "ddg_ios_survey_1",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help us improve the app!",
-        "descriptionText": "Take our short anonymous survey and share your feedback.",
-        "placeholder": "Announce",
-        "primaryActionText": "Take Survey",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=3",
-          "additionalParameters": {
-            "queryParams": "atb;var;ddgv;mo;osv"
-          }
-        }
-      },
-      "matchingRules": [
-        4
-      ]
-    },
-
-
-
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -220,7 +147,52 @@
     },
 
 
-
+    {
+      "id": "ios_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Your Thoughts on Privacy Pro",
+        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&ppro_region=us",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        3
+      ]
+    },
+    {
+      "id": "ios_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Your Thoughts on Privacy Pro",
+        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [
+        18
+      ],
+      "exclusionRules": [
+        3
+      ]
+    },
     {
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
@@ -357,6 +329,28 @@
       ],
       "exclusionRules": [
         3
+      ]
+    },
+
+
+    {
+      "id": "ddg_ios_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=3",
+          "additionalParameters": {
+            "queryParams": "atb;var;ddgv;mo;osv"
+          }
+        }
+      },
+      "matchingRules": [
+        4
       ]
     }
   ],
