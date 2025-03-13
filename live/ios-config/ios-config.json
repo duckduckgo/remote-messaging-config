@@ -1,5 +1,5 @@
 {
-  "version": 55,
+  "version": 56,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -760,6 +760,6 @@
           "value": ["en-CA", "en-UK"]
         }
       }
-    },
+    }
   ]
 }
