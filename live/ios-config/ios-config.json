@@ -388,7 +388,7 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -434,7 +434,7 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -459,7 +459,7 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -483,7 +483,7 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -506,7 +506,7 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -528,7 +528,7 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -550,7 +550,7 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -728,7 +728,7 @@
           "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
