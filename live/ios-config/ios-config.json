@@ -757,7 +757,7 @@
           "min": "7.128.0.1"
         },
         "locale": {
-          "value": ["en-CA", "en-UK"]
+          "value": ["en-CA", "en-GB"]
         }
       }
     }
