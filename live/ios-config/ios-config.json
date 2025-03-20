@@ -226,7 +226,7 @@
         "primaryActionText": "Umfrage starten",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&decLang=german",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&decLang=german&ppro_region=row",
           "additionalParameters": {
             "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
           }
@@ -249,7 +249,7 @@
         "primaryActionText": "Enquête starten",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&decLang=dutch",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&decLang=dutch&ppro_region=row",
           "additionalParameters": {
             "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
           }
@@ -272,7 +272,7 @@
         "primaryActionText": "Inizia l'indagine",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&decLang=italian",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&decLang=italian&ppro_region=row",
           "additionalParameters": {
             "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
           }
@@ -295,7 +295,7 @@
         "primaryActionText": "Empezar encuesta",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&decLang=spanish_eu",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&decLang=spanish_eu&ppro_region=row",
           "additionalParameters": {
             "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
           }
@@ -318,7 +318,7 @@
         "primaryActionText": "Starta enkät",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&decLang=swedish",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&decLang=swedish&ppro_region=row",
           "additionalParameters": {
             "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
           }
