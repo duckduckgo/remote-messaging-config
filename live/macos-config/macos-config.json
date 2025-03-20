@@ -310,7 +310,7 @@
           "value": ["apple", "stripe"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "pproDaysUntilExpiryOrRenewal": {
           "max": 10
@@ -356,7 +356,7 @@
           "value": ["apple", "stripe"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "pproDaysUntilExpiryOrRenewal": {
           "max": 10
@@ -477,7 +477,7 @@
           "value": ["apple", "stripe"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "pproDaysUntilExpiryOrRenewal": {
           "max": 10
@@ -505,7 +505,7 @@
           "value": ["apple", "stripe"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "pproDaysUntilExpiryOrRenewal": {
           "max": 10
@@ -532,7 +532,7 @@
           "value": ["apple", "stripe"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "pproDaysUntilExpiryOrRenewal": {
           "max": 10
@@ -558,7 +558,7 @@
           "value": ["apple", "stripe"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "pproDaysUntilExpiryOrRenewal": {
           "max": 10
@@ -583,7 +583,7 @@
           "value": ["apple", "stripe"]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring"]
+          "value": ["expiring", "expired"]
         },
         "pproDaysUntilExpiryOrRenewal": {
           "max": 10
