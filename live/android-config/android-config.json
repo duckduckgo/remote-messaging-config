@@ -1,17 +1,17 @@
 {
-  "version": 44,
+  "version": 45,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Tell Us Why You Left Privacy Pro",
-        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers. ",
+        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&ppro_region=us",
           "additionalParameters": {
             "queryParams": "var;ddgv;man;mo;av;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
           }
@@ -22,16 +22,156 @@
       ]
     },
     {
-      "id": "android_privacy_pro_subscriber_survey_1",
+      "id": "android_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Your Thoughts on Privacy Pro",
-        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "titleText": "Tell Us Why You Left Privacy Pro",
+        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;ddgv;man;mo;av;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        17
+      ]
+    },
+    {
+      "id": "android_privacy_pro_exit_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Vous avez arrêté votre abonnement ? Dites-nous tout.",
+        "descriptionText": "En répondant à notre bref sondage, vous nous aiderez à améliorer Privacy Pro pour tous les abonnés.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Lancer le sondage",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=french&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;ddgv;man;mo;av;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        11
+      ]
+    },
+    {
+      "id": "android_privacy_pro_exit_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Warum haben Sie Privacy Pro gekündigt?",
+        "descriptionText": "Durch Teilnahme an unserer kurzen Umfrage helfen Sie uns, Privacy Pro für alle Abonnenten zu verbessern.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Umfrage starten",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=german&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;ddgv;man;mo;av;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        12
+      ]
+    },
+    {
+      "id": "android_privacy_pro_exit_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Waarom heeft u Privacy Pro opgezegd?",
+        "descriptionText": "Door deel te nemen aan onze korte enquête, helpt u ons Privacy Pro voor alle abonnees te verbeteren.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Enquête starten",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=dutch&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;ddgv;man;mo;av;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        13
+      ]
+    },
+    {
+      "id": "android_privacy_pro_exit_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Ci dica perché ha lasciato Privacy Pro",
+        "descriptionText": "Partecipando al nostro breve sondaggio, ci aiuterà a migliorare Privacy Pro per tutti gli abbonati.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Inizia l'indagine",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=italian&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;ddgv;man;mo;av;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        14
+      ]
+    },
+    {
+      "id": "android_privacy_pro_exit_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Cuéntenos por qué dejó Privacy Pro",
+        "descriptionText": "Al responder a nuestra breve encuesta, nos ayudará a mejorar Privacy Pro para todos los suscriptores.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Empezar encuesta",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=spanish_eu&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;ddgv;man;mo;av;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        15
+      ]
+    },
+    {
+      "id": "android_privacy_pro_exit_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Berätta varför du lämnade Privacy Pro",
+        "descriptionText": "Genom att svara på vår korta enkät hjälper du oss att förbättra Privacy Pro för alla prenumeranter.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Starta enkät",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=swedish&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;ddgv;man;mo;av;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        16
+      ]
+    },
+    {
+      "id": "android_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Your Thoughts on Privacy Pro",
+        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4&ppro_region=us",
           "additionalParameters": {
             "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
           }
@@ -39,6 +179,167 @@
       },
       "matchingRules": [
         6
+      ],
+      "exclusionRules": [
+        8
+      ]
+    },
+    {
+      "id": "android_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us Your Thoughts on Privacy Pro",
+        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        18
+      ],
+      "exclusionRules": [
+        8
+      ]
+    },
+    {
+      "id": "android_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Faites-nous part de votre avis sur Privacy Pro",
+        "descriptionText": "En répondant à notre court sondage, vous contribuerez à l'amélioration de Privacy Pro pour l'ensemble de nos abonnés.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Lancer le sondage",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4&decLang=french&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        19
+      ],
+      "exclusionRules": [
+        8
+      ]
+    },
+    {
+      "id": "android_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Was halten Sie von Privacy Pro?",
+        "descriptionText": "Wenn Sie an unserer kurzen Umfrage teilnehmen, werden wir Ihre Eingaben verwenden, um Privacy Pro für alle Abonnenten zu verbessern.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Umfrage starten",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4&decLang=german&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        20
+      ],
+      "exclusionRules": [
+        8
+      ]
+    },
+    {
+      "id": "android_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Waar denkt u aan bij Privacy Pro",
+        "descriptionText": "Als u onze korte enquête invult, zullen we uw input gebruiken om Privacy Pro voor alle abonnees te verbeteren.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Enquête starten",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4&decLang=dutch&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        21
+      ],
+      "exclusionRules": [
+        8
+      ]
+    },
+    {
+      "id": "android_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Cosa ne pensa di Privacy Pro?",
+        "descriptionText": "Se completa il nostro breve sondaggio, utilizzeremo il suo contributo per migliorare Privacy Pro per tutti gli abbonati.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Inizia l'indagine",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4&decLang=italian&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        22
+      ],
+      "exclusionRules": [
+        8
+      ]
+    },
+    {
+      "id": "android_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "¿Qué opina del producto Privacy Pro?",
+        "descriptionText": "Si completa nuestra breve encuesta, utilizaremos sus comentarios para mejorar Privacy Pro para todos los suscriptores.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Empezar encuesta",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4&decLang=spanish_eu&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        23
+      ],
+      "exclusionRules": [
+        8
+      ]
+    },
+    {
+      "id": "android_privacy_pro_subscriber_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Vad tycker du om Privacy Pro?",
+        "descriptionText": "Om du fyller i vår korta enkät kommer vi att använda dina synpunkter för att förbättra Privacy Pro för alla prenumeranter.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Starta enkät",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4&decLang=swedish&ppro_region=row",
+          "additionalParameters": {
+            "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
+          }
+        }
+      },
+      "matchingRules": [
+        24
       ],
       "exclusionRules": [
         8
@@ -185,6 +486,412 @@
           "value": [
             "android_quarterly_satisfaction_survey_q4_2024",
             "android_quarterly_satisfaction_survey_1224"
+          ]
+        }
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "expiring",
+            "expired"
+          ]
+        },
+        "appVersion": {
+          "min": "5.207.0"
+        },
+        "locale": {
+          "value": [
+            "fr-FR",
+            "fr-CA",
+            "fr-BE",
+            "fr-CH"
+          ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "expiring",
+            "expired"
+          ]
+        },
+        "appVersion": {
+          "min": "5.207.0"
+        },
+        "locale": {
+          "value": [
+            "de-DE",
+            "de-AT",
+            "de-CH"
+          ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "expiring",
+            "expired"
+          ]
+        },
+        "appVersion": {
+          "min": "5.207.0"
+        },
+        "locale": {
+          "value": [
+            "nl-NL",
+            "nl-BE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "expiring",
+            "expired"
+          ]
+        },
+        "appVersion": {
+          "min": "5.207.0"
+        },
+        "locale": {
+          "value": [
+            "it-IT"
+          ]
+        }
+      }
+    },
+    {
+      "id": 15,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "expiring",
+            "expired"
+          ]
+        },
+        "appVersion": {
+          "min": "5.207.0"
+        },
+        "locale": {
+          "value": [
+            "es-ES"
+          ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "expiring",
+            "expired"
+          ]
+        },
+        "appVersion": {
+          "min": "5.207.0"
+        },
+        "locale": {
+          "value": [
+            "sv-SE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 17,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "expiring",
+            "expired"
+          ]
+        },
+        "appVersion": {
+          "min": "5.207.0"
+        },
+        "locale": {
+          "value": [
+            "en-GB",
+            "en-CA"
+          ]
+        }
+      }
+    },
+    {
+      "id": 18,
+      "attributes": {
+        "appVersion": {
+          "min": "5.206.1"
+        },
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+          "value": [
+            "en-GB",
+            "en-CA"
+          ]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "appVersion": {
+          "min": "5.206.1"
+        },
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+          "value": [
+            "fr-FR",
+            "fr-CA",
+            "fr-BE",
+            "fr-CH"
+          ]
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "appVersion": {
+          "min": "5.206.1"
+        },
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+          "value": [
+            "de-DE",
+            "de-AT",
+            "de-CH"
+          ]
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "appVersion": {
+          "min": "5.206.1"
+        },
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+          "value": [
+            "nl-NL",
+            "nl-BE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "appVersion": {
+          "min": "5.206.1"
+        },
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+          "value": [
+            "it-IT"
+          ]
+        }
+      }
+    },
+    {
+      "id": 23,
+      "attributes": {
+        "appVersion": {
+          "min": "5.206.1"
+        },
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+          "value": [
+            "es-ES"
+          ]
+        }
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "appVersion": {
+          "min": "5.206.1"
+        },
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 14
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+          "value": [
+            "sv-SE"
           ]
         }
       }
