@@ -11,7 +11,7 @@
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&ppro_region=us",
           "additionalParameters": {
             "queryParams": "var;ddgv;man;mo;av;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
           }
@@ -171,7 +171,7 @@
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4&ppro_region=us",
           "additionalParameters": {
             "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
           }
