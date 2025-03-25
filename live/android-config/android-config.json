@@ -286,7 +286,7 @@
         "primaryActionText": "Inizia l'indagine",
         "primaryAction": {
           "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4&decLang=italian",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_android_newsubscribersurvey?list=4&decLang=italian&ppro_region=row",
           "additionalParameters": {
             "queryParams": "var;man;av;ddgv;mo;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp;ppro_status"
           }
