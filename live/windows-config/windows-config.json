@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -92,6 +92,23 @@
       ],
       "exclusionRules": [
         9
+      ]
+    },
+    {
+      "id": "windows_tab_control_preview",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us test the latest tab improvements!",
+        "descriptionText": "In the last update of DuckDuckGo Preview for Windows, we rebuilt tabs from the ground up to improve overall performance. Tabs should look and work the same, but we could use your help finding any issues we may have missed. If you encounter unexpected tab behavior, use the \"Send Browser Feedback\" menu option to tell us about it.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Dismiss",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [
+        12
       ]
     }
   ],
@@ -233,6 +250,17 @@
           "value": [
             "survey.dismissed"
           ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "appVersion": {
+          "min": "0.108.1"
+        },
+        "flavor": {
+          "value": [ "preview" ]
         }
       }
     }
