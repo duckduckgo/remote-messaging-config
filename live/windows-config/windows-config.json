@@ -257,7 +257,7 @@
       "id": 12,
       "attributes": {
         "appVersion": {
-          "min": "0.108.1"
+          "min": "0.108.3"
         },
         "flavor": {
           "value": [ "preview" ]
