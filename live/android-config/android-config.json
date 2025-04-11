@@ -388,11 +388,23 @@
         5
       ],
       "exclusionRules": [
-        6, 7, 10, 17, 18
+        6, 7, 3, 17, 18
       ]
     }
   ],
   "rules": [
+    {
+      "id": 3,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_quarterly_satisfaction_survey_q4_2024",
+            "android_quarterly_satisfaction_survey_1224",
+            "android_permanent_survey_user_satisfaction"
+          ]
+        }
+      }
+    },
     {
       "id": 4,
       "attributes": {
@@ -527,7 +539,8 @@
         "interactedWithMessage": {
           "value": [
             "android_quarterly_satisfaction_survey_q4_2024",
-            "android_quarterly_satisfaction_survey_1224"
+            "android_quarterly_satisfaction_survey_1224",
+            "android_quarterly_satisfaction_survey_0425"
           ]
         }
       }
