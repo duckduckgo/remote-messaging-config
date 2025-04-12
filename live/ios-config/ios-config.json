@@ -788,7 +788,7 @@
     {
       "id": 19,
       "targetPercentile": {
-        "before": 0.25
+        "before": 0.2
       },
       "attributes": {
         "locale": {
