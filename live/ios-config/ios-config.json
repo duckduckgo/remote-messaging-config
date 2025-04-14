@@ -375,6 +375,23 @@
       "exclusionRules": [
         1, 2, 17, 18, 20
       ]
+    },
+    {
+      "id": "funnel_newtab_ios_intlannouncement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "NEW! Privacy Pro Subscription",
+        "descriptionText": "Enjoy peace of mind with a fast, secure VPN + Identity Theft Restoration.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_ios_intlannouncement"
+        }
+      },
+      "matchingRules": [
+        21
+      ]
     }
   ],
   "rules": [
@@ -816,6 +833,29 @@
           "value": [
             "ddg_ios_survey_1"
           ]
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-CA",
+            "en-GB"
+          ]
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "appVersion": {
+          "min": "7.131.0.1"
         }
       }
     }
