@@ -1,5 +1,5 @@
 {
-  "version": 47,
+  "version": 48,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -369,29 +369,6 @@
       ]
     },
     {
-      "id": "android_quarterly_satisfaction_survey_0425",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help us improve the app!",
-        "descriptionText": "Take our short anonymous survey and share your feedback.",
-        "placeholder": "Announce",
-        "primaryActionText": "Take Survey",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=7",
-          "additionalParameters": {
-            "queryParams": "var;delta;av;ddgv;locale"
-          }
-        }
-      },
-      "matchingRules": [
-        5
-      ],
-      "exclusionRules": [
-        6, 7, 3, 17, 18
-      ]
-    },
-    {
       "id": "funnel_newtab_android_intlannouncement",
       "content": {
         "messageType": "big_single_action",
@@ -410,18 +387,6 @@
     }
   ],
   "rules": [
-    {
-      "id": 3,
-      "attributes": {
-        "interactedWithMessage": {
-          "value": [
-            "android_quarterly_satisfaction_survey_q4_2024",
-            "android_quarterly_satisfaction_survey_1224",
-            "android_permanent_survey_user_satisfaction"
-          ]
-        }
-      }
-    },
     {
       "id": 4,
       "attributes": {
@@ -442,25 +407,6 @@
             "funnel_pro_androidrmf_announcement_vpn",
             "funnel_pro_androidrmf_announcement_wifi",
             "funnel_pro_androidrmf_announcement_holiday"
-          ]
-        }
-      }
-    },
-    {
-      "id": 5,
-      "targetPercentile": {
-        "before": 0.2
-      },
-      "attributes": {
-        "appVersion": {
-          "min": "5.204.0"
-        },
-        "locale": {
-          "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
           ]
         }
       }
