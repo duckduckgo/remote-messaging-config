@@ -780,21 +780,6 @@
     },
 
     {
-      "id": 20,
-      "attributes": {
-        "interactedWithMessage": {
-          "value": [
-            "ddg_ios_survey_1"
-          ]
-        },
-        "messageShown": {
-          "value": [
-            "ddg_ios_survey_1"
-          ]
-        }
-      }
-    },
-    {
       "id": 21,
       "attributes": {
         "pproEligible": {
