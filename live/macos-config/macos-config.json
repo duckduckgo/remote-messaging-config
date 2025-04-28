@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -298,23 +298,6 @@
         "placeholder": "CriticalUpdate"
       },
       "matchingRules": [10]
-    },
-    {
-      "id": "funnel_newtab_macos_intlannouncement",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "NEW! Privacy Pro Subscription",
-        "descriptionText": "Enjoy peace of mind with a fast, secure VPN + Identity Theft Restoration.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Get Privacy Pro",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_macos_intlannouncement"
-        }
-      },
-      "matchingRules": [
-        23
-      ]
     }
   ],
   "rules": [
@@ -744,29 +727,6 @@
           "value": [
             "es-ES"
           ]
-        }
-      }
-    },
-    {
-      "id": 23,
-      "attributes": {
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "locale": {
-          "value": [
-            "en-CA",
-            "en-GB"
-          ]
-        },
-        "installedMacAppStore": {
-          "value": true
-        },
-        "appVersion": {
-          "min": "1.101.0"
         }
       }
     }
