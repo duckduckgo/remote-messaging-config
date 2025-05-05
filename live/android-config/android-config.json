@@ -346,7 +346,7 @@
       ]
     },
     {
-      "id": "android_permanent_survey_user_satisfaction",
+      "id": "android_permanent_survey_user_personality_update",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Help us improve the app!",
@@ -357,7 +357,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200",
           "additionalParameters": {
-            "queryParams": "atb;var;delta;av;ddgv;man;mo"
+            "queryParams": "atb;var;delta;av;ddgv;man;mo;senseProtectionCohort"
           }
         }
       },
@@ -538,9 +538,12 @@
     {
       "id": 9,
       "targetPercentile": {
-        "before": 0.3
+        "before": 0.64
       },
       "attributes": {
+        "appVersion": {
+          "min": "5.231.1"
+        },
         "pproSubscriber": {
           "value": false
         },
@@ -565,7 +568,8 @@
           "value": [
             "android_quarterly_satisfaction_survey_q4_2024",
             "android_quarterly_satisfaction_survey_1224",
-            "android_quarterly_satisfaction_survey_0425"
+            "android_quarterly_satisfaction_survey_0425",
+            "android_permanent_survey_user_satisfaction"
           ]
         }
       }
