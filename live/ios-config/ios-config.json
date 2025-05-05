@@ -6,7 +6,7 @@
       "content": {
         "messageType": "medium",
         "titleText": "Your Duck.ai, your way",
-        "descriptionText": "Choose where to access Duck.ai throughout the app, so it's where you need it.",
+        "descriptionText": "Choose where to access Duck.ai throughout the app,\nso it's where you need it.",
         "placeholder": "Announce"
        },
        "matchingRules": [19]
