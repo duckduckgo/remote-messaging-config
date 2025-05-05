@@ -1,6 +1,16 @@
 {
-  "version": 60,
+  "version": 61,
   "messages": [
+    {
+      "id": "ios_disable_duck_ai",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Your Duck.ai, your way",
+        "descriptionText": "Choose where to access Duck.ai throughout the app, so it's where you need it.",
+        "placeholder": "Announce"
+       },
+       "matchingRules": [19]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -758,6 +768,14 @@
         },
         "locale": {
           "value": ["en-CA", "en-GB"]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "appVersion": {
+          "min": "7.167.0"
         }
       }
     }
