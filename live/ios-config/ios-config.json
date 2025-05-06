@@ -11,7 +11,7 @@
         "primaryActionText": "View Duck.ai settings",
         "primaryAction": {
           "type": "navigation",
-          "value": "aichat"
+          "value": "settings"
         }
       },
        "matchingRules": [19]
