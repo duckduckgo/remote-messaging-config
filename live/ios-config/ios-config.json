@@ -7,7 +7,7 @@
         "messageType": "big_single_action",
         "titleText": "Your Duck.ai, your way",
         "descriptionText": "Choose where to access Duck.ai throughout the app, so it's where you\u00a0need\u00a0it.",
-        "placeholder": "DDGAnnounce",
+        "placeholder": "Announce",
         "primaryActionText": "View Duck.ai settings",
         "primaryAction": {
           "type": "navigation",
