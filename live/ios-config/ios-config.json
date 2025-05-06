@@ -2,7 +2,7 @@
   "version": 61,
   "messages": [
     {
-      "id": "ios_disable_duck_ai",
+      "id": "duck_ai_settings_announce_1",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Your Duck.ai, your way",
@@ -12,7 +12,7 @@
        "primaryActionText": "View Duck.ai settings",
        "primaryAction": {
         "type": "navigation",
-        "value" "aichat"
+        "value": "aichat"
        },
        "matchingRules": [19]
     },
