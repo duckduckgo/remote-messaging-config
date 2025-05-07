@@ -5,10 +5,10 @@
       "id": "duck_ai_settings_announce_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Your Duck.ai, your way",
-        "descriptionText": "Choose where to access Duck.ai throughout the app, so it's where you\u00a0need\u00a0it.",
+        "titleText": "New Duck.ai Shortcuts",
+        "descriptionText": "Tap the shortcut in the browser menu or address bar for fast access to Duck.ai, our private AI chat service. You can also disable Duck.ai entirely in settings.",
         "placeholder": "Duck.ai",
-        "primaryActionText": "View Duck.ai settings",
+        "primaryActionText": "Duck.ai Settings",
         "primaryAction": {
           "type": "navigation",
           "value": "duckai.settings"
