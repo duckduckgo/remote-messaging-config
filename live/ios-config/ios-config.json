@@ -6,7 +6,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "New Duck.ai Shortcuts",
-        "descriptionText": "Tap the shortcut in the browser menu or address bar for fast access to Duck.ai, our private AI chat service. You can also disable Duck.ai entirely in settings.",
+        "descriptionText": "Tap the shortcut in the browser menu or address bar for fast access to Duck.ai, our private AI chat service. You can also disable Duck.ai entirely in Settings.",
         "placeholder": "Duck.ai",
         "primaryActionText": "Duck.ai Settings",
         "primaryAction": {
