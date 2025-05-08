@@ -1,12 +1,12 @@
 {
-  "version": 17,
+  "version": 18,
   "messages": [
     {
       "id": "windows_duck_player_outage_update_cta",
       "content": {
         "messageType": "medium",
         "titleText": "Update DuckDuckGo to fix Duck Player issue",
-        "descriptionText": "We have resolved an issue affecting YouTube and Duck Player. To ensure a smooth experience, please update to the latest version of the DuckDuckGo app.",
+        "descriptionText": "We have resolved an issue affecting YouTube and Duck Player. To ensure a smooth experience, please go to Settings > About and update to the latest version of DuckDuckGo.",
         "placeholder": "DDGAnnounce"
       },
       "matchingRules": [
