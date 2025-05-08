@@ -1,6 +1,18 @@
 {
-  "version": 14,
+  "version": 15,
   "messages": [
+    {
+      "id": "windows_duck_player_outage",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Temporary issue with Duck Player",
+        "descriptionText": "We are aware of an issue affecting YouTube and Duck Player and are working diligently to resolve it. If you are experiencing problems, go to Settings → Duck Player → Never use Duck Player.",
+        "placeholder": "DDGAnnounce"
+      },
+      "matchingRules": [
+        13
+      ]
+    },
     {
       "id": "windows_privacy_pro_exit_survey_1",
       "content": {
@@ -261,6 +273,14 @@
         },
         "flavor": {
           "value": [ "preview" ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "appVersion": {
+          "min": "0.100.4"
         }
       }
     }
