@@ -1,6 +1,21 @@
 {
-  "version": 60,
+  "version": 61,
   "messages": [
+    {
+      "id": "duck_ai_settings_announce_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "New Duck.ai Shortcuts",
+        "descriptionText": "Tap the shortcut in the browser menu or address bar for fast access to Duck.ai, our private AI chat service. You can also disable Duck.ai entirely in Settings.",
+        "placeholder": "Duck.ai",
+        "primaryActionText": "Duck.ai Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "duckai.settings"
+        }
+      },
+       "matchingRules": [19]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -758,6 +773,14 @@
         },
         "locale": {
           "value": ["en-CA", "en-GB"]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "appVersion": {
+          "min": "7.167.0"
         }
       }
     }
