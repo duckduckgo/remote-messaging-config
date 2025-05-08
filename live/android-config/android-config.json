@@ -1,5 +1,5 @@
 {
-  "version": 49,
+  "version": 50,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -366,6 +366,85 @@
       ],
       "exclusionRules": [
         10
+      ]
+    },
+    {
+      "id": "funnel_newtab_android_intlannouncement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "NEW! Privacy Pro Subscription",
+        "descriptionText": "Enjoy peace of mind with a fast, secure VPN + Identity Theft Restoration.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_android_intlannouncement"
+        }
+      },
+      "translations": {
+        "cs-CZ": {
+          "titleText": "NOVINKA! Předplatné Privacy Pro",
+          "descriptionText": "Už žádné starosti díky rychlé a zabezpečené VPN a obnově identity.",
+          "primaryActionText": "Pořiď si službu Privacy Pro"
+        },
+        "nl-NL": {
+          "titleText": "NIEUW! Privacy Pro-abonnement",
+          "descriptionText": "Ervaar gemoedsrust met een snelle, veilige VPN + herstel bij identiteitsdiefstal.",
+          "primaryActionText": "Privacy Pro kopen"
+        },
+        "fr-FR": {
+          "titleText": "NOUVEAUTE! L'abonnement Privacy Pro",
+          "descriptionText": "Gardez l'esprit tranquille grâce à un VPN rapide et sécurisé ainsi qu'à une assistance pour restaurer votre identité en cas de vol.",
+          "primaryActionText": "Passez à Privacy Pro"
+        },
+        "de-DE": {
+          "titleText": "NEU! Privacy Pro Abonnement",
+          "descriptionText": "Erhalte zusätzlichen Schutz mit einem schnellen, sicheren VPN und der Wiederherstellung bei Identitätsdiebstahl.",
+          "primaryActionText": "Privacy Pro kaufen"
+        },
+        "hu-HU": {
+          "titleText": "ÚJDONSÁG! Privacy Pro-előfizetés",
+          "descriptionText": "Szerezz extra védelmet a gyors és biztonságos VPN és a személyazonosság-lopás utáni helyreállítás funkció segítségével.",
+          "primaryActionText": "Privacy Pro előfizetése"
+        },
+        "it-IT": {
+          "titleText": "NOVITÀ! Abbonamento a Privacy Pro",
+          "descriptionText": "Approfitta di una protezione extra con una VPN veloce e sicura + ripristino in caso di furto d'identità.",
+          "primaryActionText": "Attiva Privacy Pro"
+        },
+        "pl-PL": {
+          "titleText": "NOWOŚĆ! Subskrypcja Privacy Pro",
+          "descriptionText": "Ciesz się spokojem ducha dzięki szybkiej i bezpiecznej sieci VPN oraz funkcji usuwania skutków kradzieży tożsamości.",
+          "primaryActionText": "Uzyskaj Privacy Pro"
+        },
+        "pt-PT": {
+          "titleText": "NOVIDADE! Subscrição Privacy Pro",
+          "descriptionText": "Obtém proteção extra com uma VPN rápida e segura + recuperação de roubo de identidade.",
+          "primaryActionText": "Adere ao Privacy Pro"
+        },
+        "ro-RO": {
+          "titleText": "NOU! Abonament Privacy Pro",
+          "descriptionText": "Bucură-te de liniște sufletească cu un VPN rapid și sigur + restaurarea identității furate.",
+          "primaryActionText": "Obține Privacy Pro"
+        },
+        "es-ES": {
+          "titleText": "¡NOVEDAD! Suscripción a Privacy Pro",
+          "descriptionText": "Disfruta de la tranquilidad de una VPN rápida, segura con restauración de identidad.",
+          "primaryActionText": "Consigue Privacy Pro"
+        },
+        "sv-SE": {
+          "titleText": "NYTT! Privacy Pro-abonnemang",
+          "descriptionText": "Njut av sinnesro med ett snabbt, säkert VPN + Identity Theft Restoration.",
+          "primaryActionText": "Skaffa Privacy Pro"
+        },
+        "en-IE": {
+          "titleText": "NEW! Privacy Pro Subscription",
+          "descriptionText": "Enjoy peace of mind with a fast, secure VPN + Identity Theft Restoration.",
+          "primaryActionText": "Get Privacy Pro"
+        }
+      },
+      "matchingRules": [
+        25
       ]
     }
   ],
@@ -893,6 +972,40 @@
         "locale": {
           "value": [
             "sv-SE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "appVersion": {
+          "min": "5.210.0"
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "cs-CZ",
+            "nl-NL",
+            "fr-FR",
+            "de-DE",
+            "hu-HU",
+            "it-IT",
+            "pl-PL",
+            "pt-PT",
+            "ro-RO",
+            "ru-RU",
+            "es-ES",
+            "sv-SE",
+            "en-IE"
           ]
         }
       }
