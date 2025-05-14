@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "messages": [
     {
       "id": "windows_duck_player_outage_update_cta",
@@ -281,7 +281,7 @@
       "attributes": {
         "appVersion": {
           "min": "0.100.4.0",
-          "max": "0.109.6.0"
+          "max": "0.109.7.0"
         }
       }
     }
