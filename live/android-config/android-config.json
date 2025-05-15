@@ -1,5 +1,5 @@
 {
-  "version": 51,
+  "version": 52,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -542,7 +542,7 @@
       },
       "attributes": {
         "appVersion": {
-          "min": "5.231.1"
+          "min": "5.234.0"
         },
         "pproSubscriber": {
           "value": false
