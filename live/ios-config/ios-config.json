@@ -1,5 +1,5 @@
 {
-  "version": 61,
+  "version": 62,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -432,6 +432,17 @@
       "matchingRules": [
         21
       ]
+    },
+    {
+      "id": "ios_ipad_update_notice",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Update iOS to Fix Settings Issue",
+        "descriptionText": "Please update iOS to the latest version. A recent iOS system update was causing apps to reset their settings on some iPad models, but Apple just released an update to resolve this error.",
+        "placeholder": "Announce",
+        "primaryActionText": "Dismiss"
+      },
+      "matchingRules": [22]
     }
   ],
   "rules": [
@@ -871,6 +882,14 @@
         },
         "appVersion": {
           "min": "7.131.0.1"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "osVersion": {
+          "value": ["17.7.7"]
         }
       }
     }
