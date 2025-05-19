@@ -891,7 +891,7 @@
     {
       "id": 22,
       "attributes": {
-        "osVersion": {
+        "osApi": {
           "value": "17.7.7"
         }
       }
