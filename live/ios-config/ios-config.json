@@ -442,7 +442,8 @@
         "placeholder": "Announce",
         "primaryActionText": "Dismiss",
         "primaryAction": {
-          "type": "dismiss"
+          "type": "dismiss",
+          "value": ""
         }
       },
       "matchingRules": [22]
