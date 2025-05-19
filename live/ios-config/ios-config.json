@@ -440,7 +440,10 @@
         "titleText": "Update iOS to Fix Settings Issue",
         "descriptionText": "Please update iOS to the latest version. A recent iOS system update was causing apps to reset their settings on some iPad models, but Apple just released an update to resolve this error.",
         "placeholder": "Announce",
-        "primaryActionText": "Dismiss"
+        "primaryActionText": "Dismiss",
+        "primaryAction": {
+          "type": "dismiss"
+        }
       },
       "matchingRules": [22]
     }
