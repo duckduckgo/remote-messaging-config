@@ -892,7 +892,7 @@
       "id": 22,
       "attributes": {
         "osVersion": {
-          "value": ["17.7.7"]
+          "value": "17.7.7"
         }
       }
     }
