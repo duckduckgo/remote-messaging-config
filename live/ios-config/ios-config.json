@@ -1,6 +1,21 @@
 {
-  "version": 61,
+  "version": 62,
   "messages": [
+        {
+      "id": "ios_visual_updates_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "DuckDuckGo got a refresh!",
+        "descriptionText": "New icons, fresh styles, and the same world-class protection.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Share Feedback",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "feedback"
+        }
+      },
+      "matchingRules": [22]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -871,6 +886,14 @@
         },
         "appVersion": {
           "min": "7.131.0.1"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "appVersion": {
+          "min": "7.171.0"
         }
       }
     }
