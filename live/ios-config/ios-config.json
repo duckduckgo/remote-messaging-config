@@ -437,8 +437,8 @@
       "id": "ios_ipad_update_notice",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Update iOS to Fix Settings Issue",
-        "descriptionText": "Please update iOS to the latest version. A recent iOS system update was causing apps to reset their settings on some iPad models, but Apple just released an update to resolve this error.",
+        "titleText": "iOS Update Recommended",
+        "descriptionText": "Please update iOS to the latest version. The prior iOS system update (version 17.7.7) is causing apps to reset their settings on some iPad models. Apple’s latest update should resolve this issue.",
         "placeholder": "Announce",
         "primaryActionText": "Dismiss",
         "primaryAction": {
