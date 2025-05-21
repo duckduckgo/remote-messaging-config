@@ -372,13 +372,135 @@
       "id": "ios_duckai_settings_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "",
+        "titleText": "New Duck.ai Shortcuts",
         "descriptionText": "Tap the shortcut in the browser menu or address bar for fast access to Duck.ai, our private AI chat service. You can also disable Duck.ai entirely in Settings.",
         "placeholder": "Duck.ai",
         "primaryActionText": "Duck.ai Settings",
         "primaryAction": {
           "type": "navigation",
           "value": "duckai.settings"
+        }
+      },
+      "translations": {
+        "cs-CZ": {
+          "titleText": "Nové zkratky Duck.ai",
+          "descriptionText": "Klepnutím na zkratku v nabídce prohlížeče nebo v adresním řádku se rychle dostaneš k naší soukromé AI chatovací službě Duck.ai. V Nastaveních můžeš Duck.ai taky úplně vypnout.",
+          "primaryActionText": "Nastavení Duck.ai"
+        },
+        "de-DE": {
+          "titleText": "Neue Duck.ai-Shortcuts",
+          "descriptionText": "Tippe im Browsermenü oder in der Adressleiste auf den Shortcut, um schnell auf Duck.ai, unseren privaten KI-Chatdienst, zuzugreifen. Duck.ai kann in den Einstellungen auch vollständig deaktiviert werden.",
+          "primaryActionText": "Duck.ai-Einstellungen"
+        },
+        "es-ES": {
+          "titleText": "Nuevos accesos directos de Duck.ai",
+          "descriptionText": "Toca el acceso directo en el menú del navegador o en la barra de direcciones para acceder rápidamente a Duck.ai, nuestro servicio privado de chat con IA. También puedes desactivar Duck.ai por completo en Ajustes.",
+          "primaryActionText": "Configuración de Duck.ai"
+        },
+        "bg-BG": {
+          "titleText": "Нови преки пътища за Duck.ai",
+          "descriptionText": "Докоснете прекия път в менюто на браузъра или в адресната лента за бърз достъп до Duck.ai – нашата услуга за поверителен чат с изкуствен интелект. Можете също така да деактивирате Duck.ai изцяло в \"Настройки\".",
+          "primaryActionText": "Настройки на Duck.ai"
+        },
+        "da-DK": {
+          "titleText": "Nye Duck.ai-genveje",
+          "descriptionText": "Tryk på genvejen i browsermenuen eller adresselinjen for at få hurtig adgang til Duck.ai, vores private AI-chattjeneste. Du kan også deaktivere Duck.ai helt i Indstillinger.",
+          "primaryActionText": "Duck.ai-indstillinger"
+        },
+        "el-GR": {
+          "titleText": "Νέες συντομεύσεις Duck.ai",
+          "descriptionText": "Πατήστε τη συντόμευση στο μενού του προγράμματος περιήγησης ή στη γραμμή διευθύνσεων για γρήγορη πρόσβαση στο Duck.ai, την ιδιωτική υπηρεσία συνομιλίας τεχνητής νοημοσύνης. Μπορείτε επίσης να απενεργοποιήσετε τη λειτουργία αυτή οποιαδήποτε στιγμή από τις Ρυθμίσεις.",
+          "primaryActionText": "Ρυθμίσεις Duck.ai"
+        },
+        "et-EE": {
+          "titleText": "Uued Duck.ai otseteed",
+          "descriptionText": "Kiireks juurdepääsuks meie privaatsele tehisintellektil põhinevale vestlusteenusele Duck.ai puuduta brauseri menüüs või aadressiribal olevat otseteed. Seadetes saad Duck.ai ka täielikult keelata.",
+          "primaryActionText": "Duck.ai seaded"
+        },
+        "fi-FI": {
+          "titleText": "Uudet Duck.ai-pikakuvakkeet",
+          "descriptionText": "Napauta pikakuvaketta selainvalikossa tai osoitekentässä saadaksesi nopean pääsyn Duck.ai:hin, yksityiseen tekoälychatpalveluumme. Voit myös poistaa Duck.ai:n kokonaan käytöstä asetuksista.",
+          "primaryActionText": "Duck.ai-asetukset"
+        },
+        "fr-FR": {
+          "titleText": "Nouveaux raccourcis Duck.ai",
+          "descriptionText": "Appuyez sur le raccourci dans le menu du navigateur ou dans la barre d'adresse pour accéder rapidement à Duck.ai, notre service de chat IA privé. Vous pouvez aussi désactiver entièrement Duck.ai dans Paramètres.",
+          "primaryActionText": "Paramètres Duck.ai"
+        },
+        "tr-TR": {
+          "titleText": "Yeni Duck.ai Kısayolları",
+          "descriptionText": "Gizli yapay zeka sohbet hizmetimiz olan Duck.ai'a hızlı erişim için tarayıcı menüsündeki veya adres çubuğundaki kısayola dokunun. Ayrıca Ayarlar'dan Duck.ai'ı tamamen devre dışı bırakabilirsiniz.",
+          "primaryActionText": "Duck.ai Ayarları"
+        },
+        "nb": {
+          "titleText": "Nye Duck.ai-snarveier",
+          "descriptionText": "Trykk på snarveien i nettlesermenyen eller adressefeltet for rask tilgang til Duck.ai, vår private AI-chattjeneste. Du kan også deaktivere Duck.ai i sin helhet i innstillingene.",
+          "primaryActionText": "Innstillinger for Duck.ai"
+        },
+        "pt-PT": {
+          "titleText": "Novos atalhos Duck.ai",
+          "descriptionText": "Toca no atalho no menu do navegador ou na barra de endereço para acederes rapidamente ao Duck.ai, o nosso serviço privado de chat com IA. Também podes desativar completamente o Duck.ai nas Definições.",
+          "primaryActionText": "Definições do Duck.ai"
+        },
+        "ro-RO": {
+          "titleText": "Noi comenzi rapide Duck.ai",
+          "descriptionText": "Atinge comanda rapidă din meniul browserului sau din bara de adrese pentru acces rapid la Duck.ai, serviciul nostru privat de chat AI. Poți dezactiva în totalitate Duck.ai din Setări.",
+          "primaryActionText": "Setări Duck.ai"
+        },
+        "sv-SE": {
+          "titleText": "Nya Duck.ai-genvägar",
+          "descriptionText": "Tryck på genvägen i webbläsarens meny eller adressfält för snabb åtkomst till Duck.ai, vår privata AI-chattjänst. Du kan också inaktivera Duck.ai helt och hållet i inställningarna.",
+          "primaryActionText": "Duck.ai-inställningar"
+        },
+        "it-IT": {
+          "titleText": "Nuove scorciatoie Duck.ai",
+          "descriptionText": "Tocca la scorciatoia nel menu del browser o nella barra degli indirizzi per accedere rapidamente a Duck.ai, il nostro servizio privato di chat IA. Puoi anche disattivare completamente Duck.ai in Impostazioni.",
+          "primaryActionText": "Impostazioni di Duck.ai"
+        },
+        "nl-NL": {
+          "titleText": "Nieuwe snelkoppelingen voor Duck.ai",
+          "descriptionText": "Tik op de snelkoppeling in het browsermenu of de adresbalk voor snelle toegang tot Duck.ai, onze privé AI-chatdienst. Je kunt Duck.ai ook volledig uitschakelen in de instellingen.",
+          "primaryActionText": "Duck.ai-instellingen"
+        },
+        "pl-PL": {
+          "titleText": "Nowe skróty do Duck.ai",
+          "descriptionText": "Naciśnij skrót w menu przeglądarki lub na pasku adresu, aby szybko uzyskać dostęp do Duck.ai, naszej prywatnej usługi czatu AI. Możesz też całkowicie wyłączyć Duck.ai w ustawieniach.",
+          "primaryActionText": "Ustawienia Duck.ai"
+        },
+        "ru-RU": {
+          "titleText": "Новые ярлыки Duck.ai",
+          "descriptionText": "Нажмите на ярлык в меню браузера или в адресной строке для быстрого доступа к Duck.ai, нашему приватному сервису чата с ИИ. Вы также можете полностью отключить Duck.ai в Настройках.",
+          "primaryActionText": "Настройки Duck.ai"
+        },
+        "sl-SI": {
+          "titleText": "Nove bližnjice do Duck.ai",
+          "descriptionText": "Tapnite bližnjico v meniju brskalnika ali naslovni vrstici za hiter dostop do Duck.ai, naše zasebne storitve klepeta z umetno inteligenco. Duck.ai lahko tudi v celoti onemogočite v nastavitvah.",
+          "primaryActionText": "Nastavitve Duck.ai"
+        },
+        "hr-HR": {
+          "titleText": "Novi Duck.ai prečaci",
+          "descriptionText": "Dodirni prečac u izborniku preglednika ili adresnoj traci za brzi pristup našoj privatnoj usluzi AI čavrljanja Duck.ai. Duck.ai možeš i u potpunosti onemogućiti u Postavkama.",
+          "primaryActionText": "Postavke usluge Duck.ai"
+        },
+        "lt-LT": {
+          "titleText": "Nauji „Duck.ai“ spartieji klavišai",
+          "descriptionText": "Bakstelėk nuorodą naršyklės meniu arba adreso juostoje, kad greitai pasiektum „Duck.ai“, mūsų privačią DI pokalbių paslaugą. Taip pat galite visiškai išjungti „Duck.ai“ nustatymuose.",
+          "primaryActionText": "„Duck.ai“ nustatymai"
+        },
+        "lv-LV": {
+          "titleText": "Jauni Duck.ai īsceļi",
+          "descriptionText": "Pieskaries saīsnei pārlūkprogrammas izvēlnē vai adrešu joslā, lai ātri piekļūtu Duck.ai, mūsu privātajam MI tērzēšanas pakalpojumam. Pilnībā atspējot Duck.ai Tu vari arī iestatījumos.",
+          "primaryActionText": "Duck.ai iestatījumi"
+        },
+        "sk-SK": {
+          "titleText": "Nové skratky Duck.ai",
+          "descriptionText": "Ťukni na skratku v ponuke prehliadača alebo v adresnom riadku pre rýchly prístup k našej súkromnej AI chatovacej službe Duck.ai. Duck.ai môžeš tiež v Nastaveniach úplne vypnúť.",
+          "primaryActionText": "Nastavenia Duck.ai"
+        },
+        "hu-HU": {
+          "titleText": "Új Duck.ai-gyorsparancsok",
+          "descriptionText": "Privát AI-csevegőszolgáltatásunkhoz, a Duck.ai-hoz való gyors hozzáféréshez koppints a böngésző menüjében vagy a címsorban található gyorsparancsra. A beállításokban a Duck.ai teljesen ki is kapcsolható.",
+          "primaryActionText": "A Duck.ai beállításai"
         }
       },
       "matchingRules": [23]
