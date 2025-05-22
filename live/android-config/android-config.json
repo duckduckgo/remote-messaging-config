@@ -2,6 +2,26 @@
   "version": 52,
   "messages": [
     {
+      "id": "android_new_visual_design_1",
+      "content": {
+        "messageType": "promo_single_action",
+        "titleText": "DuckDuckGo got a refresh!",
+        "descriptionText": "More features at your fingertips with a new nav bar, fresh styles, and the same world-class protection.",
+        "placeholder": "VisualDesignUpdate",
+        "actionText": "Share Feedback",
+        "action": {
+          "type": "navigation",
+          "value": "feedback"
+        }
+      },
+      "matchingRules": [
+        25
+      ],
+      "exclusionRules": [
+        26
+      ]
+    },
+    {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
@@ -897,6 +917,30 @@
         "locale": {
           "value": [
             "sv-SE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "allFeatureFlagsEnabled": {
+          "value": [
+            "experimentalUITheming"
+          ]
+        }
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "isUserInAnyActiveExperiment": {
+          "value": [
+            "senseOfProtectionNewUserExperimentApr25",
+            "senseOfProtectionExistingUserExperimentApr25",
+            "senseOfProtectionNewUserExperimentMay25",
+            "senseOfProtectionExistingUserExperimentMay25",
+            "defaultBrowserAdditionalPrompts202501"
           ]
         }
       }
