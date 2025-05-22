@@ -198,7 +198,7 @@
           },
           "fr-FR": {
             "titleText": "Nouveaux raccourcis Duck.ai",
-            "descriptionText": "Appuyez sur le raccourci dans le menu du navigateur ou dans la barre d\\'adresse pour accéder rapidement à Duck.ai, notre service de chat IA privé. Vous pouvez aussi désactiver entièrement Duck.ai dans Paramètres.",
+            "descriptionText": "Appuyez sur le raccourci dans le menu du navigateur ou dans la barre d'adresse pour accéder rapidement à Duck.ai, notre service de chat IA privé. Vous pouvez aussi désactiver entièrement Duck.ai dans Paramètres.",
             "primaryActionText": "Paramètres Duck.ai"
           },
           "hr-HR": {
@@ -273,7 +273,7 @@
           },
           "tr-TR": {
             "titleText": "Yeni Duck.ai Kısayolları",
-            "descriptionText": "Gizli yapay zeka sohbet hizmetimiz olan Duck.ai\\'a hızlı erişim için tarayıcı menüsündeki veya adres çubuğundaki kısayola dokunun. Ayrıca Ayarlar\\'dan Duck.ai\\'ı tamamen devre dışı bırakabilirsiniz.",
+            "descriptionText": "Gizli yapay zeka sohbet hizmetimiz olan Duck.ai'a hızlı erişim için tarayıcı menüsündeki veya adres çubuğundaki kısayola dokunun. Ayrıca Ayarlar'dan Duck.ai'ı tamamen devre dışı bırakabilirsiniz.",
             "primaryActionText": "Duck.ai Ayarları"
           }
         }
