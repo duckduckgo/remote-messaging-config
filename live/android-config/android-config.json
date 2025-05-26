@@ -1050,9 +1050,12 @@
     {
       "id": 25,
       "attributes": {
+        "appVersion": {
+          "min": "5.235.0"
+        },
         "allFeatureFlagsEnabled": {
           "value": [
-            "experimentalUITheming"
+            "visualUpdatesFeature"
           ]
         }
       }
