@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -86,6 +86,145 @@
       },
       "matchingRules": [
         12
+      ]
+    },
+    {
+      "id": "windows_vr_preview",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "DuckDuckGo got a refresh!",
+        "descriptionText": "New icons, fresh styles, and the same world-class protection.",
+        "placeholder": "Announce",
+        "primaryActionText": "Share Feedback",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "feedback"
+        }
+      },
+      "translations": {
+        "bg-BG": {
+          "titleText": "DuckDuckGo се обнови!",
+          "descriptionText": "Нови икони, свежи стилове и същата световна класа защита.",
+          "primaryActionText": "Споделете обратна връзка"
+        },
+        "cs-CZ": {
+          "titleText": "DuckDuckGo má nový kabát!",
+          "descriptionText": "Nové ikony, svěží styly a stejná prvotřídní ochrana.",
+          "primaryActionText": "Podělte se o zpětnou vazbu"
+        },
+        "da-DK": {
+          "titleText": "DuckDuckGo har fået et nyt look!",
+          "descriptionText": "Nye ikoner, friske styles og samme verdensklasse beskyttelse.",
+          "primaryActionText": "Del feedback"
+        },
+        "de-DE": {
+          "titleText": "DuckDuckGo hat ein Update hinter sich!",
+          "descriptionText": "Neue Symbole, frische Styles und derselbe erstklassige Schutz.",
+          "primaryActionText": "Feedback teilen"
+        },
+        "el-GR": {
+          "titleText": "Το DuckDuckGo ανανεώθηκε!",
+          "descriptionText": "Νέα εικονίδια, φρέσκα στυλ και η ίδια προστασία παγκόσμιας κλάσης.",
+          "primaryActionText": "Μοιραστείτε τα σχόλιά σας"
+        },
+        "es-ES": {
+          "titleText": "¡DuckDuckGo se ha renovado!",
+          "descriptionText": "Nuevos iconos, estilos frescos y la misma protección de clase mundial.",
+          "primaryActionText": "Compartir opiniones"
+        },
+        "et-EE": {
+          "titleText": "DuckDuckGo sai värskenduse!",
+          "descriptionText": "Uued ikoonid, värsked stiilid ja sama maailmatasemel kaitse.",
+          "primaryActionText": "Jaga tagasisidet"
+        },
+        "fi-FI": {
+          "titleText": "DuckDuckGo sai uuden ilmeen!",
+          "descriptionText": "Uudet kuvakkeet, tuoreet tyylit ja sama maailmanluokan suojaus.",
+          "primaryActionText": "Jaa palaute"
+        },
+        "fr-FR": {
+          "titleText": "DuckDuckGo a fait peau neuve !",
+          "descriptionText": "De nouvelles icônes, de nouveaux styles et la même protection de premier ordre.",
+          "primaryActionText": "Partagez vos commentaires"
+        },
+        "hr-HR": {
+          "titleText": "DuckDuckGo se osvježio!",
+          "descriptionText": "Nove ikone, svježi stilovi i ista zaštita svjetske klase.",
+          "primaryActionText": "Podijelite povratne informacije"
+        },
+        "hu-HU": {
+          "titleText": "A DuckDuckGo frissítést kapott!",
+          "descriptionText": "Új ikonok, friss stílusok és ugyanaz a világszínvonalú védelem.",
+          "primaryActionText": "Visszajelzés megosztása"
+        },
+        "it-IT": {
+          "titleText": "DuckDuckGo ha ricevuto un aggiornamento!",
+          "descriptionText": "Nuove icone, stili freschi e la stessa protezione di livello mondiale.",
+          "primaryActionText": "Condividi feedback"
+        },
+        "lt-LT": {
+          "titleText": "DuckDuckGo atsinaujino!",
+          "descriptionText": "Naujos piktogramos, švieži stiliai ir ta pati pasaulio klasės apsauga.",
+          "primaryActionText": "Pasidalinkite atsiliepimais"
+        },
+        "lv-LV": {
+          "titleText": "DuckDuckGo ir atjaunināts!",
+          "descriptionText": "Jaunas ikonas, svaigi stili un tāda pati pasaules klases aizsardzība.",
+          "primaryActionText": "Dalīties ar atsauksmēm"
+        },
+        "nb": {
+          "titleText": "DuckDuckGo har fått et nytt utseende!",
+          "descriptionText": "Nye ikoner, friske stiler og samme verdensklasse beskyttelse.",
+          "primaryActionText": "Del tilbakemeldinger"
+        },
+        "nl-NL": {
+          "titleText": "DuckDuckGo heeft een opfrisbeurt gekregen!",
+          "descriptionText": "Nieuwe iconen, frisse stijlen en dezelfde wereldklasse bescherming.",
+          "primaryActionText": "Deel feedback"
+        },
+        "pl-PL": {
+          "titleText": "DuckDuckGo odświeżył swój wygląd!",
+          "descriptionText": "Nowe ikony, świeże style i ta sama ochrona na światowym poziomie.",
+          "primaryActionText": "Podziel się opinią"
+        },
+        "pt-PT": {
+          "titleText": "O DuckDuckGo renovou-se!",
+          "descriptionText": "Novos ícones, estilos frescos e a mesma proteção de classe mundial.",
+          "primaryActionText": "Partilhar feedback"
+        },
+        "ro-RO": {
+          "titleText": "DuckDuckGo s-a reînnoit!",
+          "descriptionText": "Iconițe noi, stiluri proaspete și aceeași protecție de clasă mondială.",
+          "primaryActionText": "Distribuie feedback"
+        },
+        "ru-RU": {
+          "titleText": "DuckDuckGo обновился!",
+          "descriptionText": "Новые иконки, свежие стили и та же защита мирового класса.",
+          "primaryActionText": "Поделиться отзывом"
+        },
+        "sk-SK": {
+          "titleText": "DuckDuckGo má nový kabát!",
+          "descriptionText": "Nové ikony, svieže štýly a rovnaká prvotriedna ochrana.",
+          "primaryActionText": "Zdieľať spätnú väzbu"
+        },
+        "sl-SI": {
+          "titleText": "DuckDuckGo se je osvežil!",
+          "descriptionText": "Nove ikone, sveži stili in enaka zaščita svetovnega razreda.",
+          "primaryActionText": "Delite povratne informacije"
+        },
+        "sv-SE": {
+          "titleText": "DuckDuckGo har fått en uppfräschning!",
+          "descriptionText": "Nya ikoner, fräscha stilar och samma världsklass skydd.",
+          "primaryActionText": "Dela feedback"
+        },
+        "tr-TR": {
+          "titleText": "DuckDuckGo yenilendi!",
+          "descriptionText": "Yeni simgeler, taze stiller ve aynı dünya standartlarında koruma.",
+          "primaryActionText": "Geri bildirim paylaş"
+        }
+      },
+      "matchingRules": [
+        13
       ]
     }
   ],
@@ -238,6 +377,19 @@
         },
         "flavor": {
           "value": [ "preview" ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "appVersion": {
+          "min": "0.116.0"
+        },
+        "allFeatureFlagsEnabled": {
+          "value": [
+            "modernTheme"
+          ]
         }
       }
     }
