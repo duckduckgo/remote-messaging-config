@@ -308,11 +308,8 @@
         "placeholder": "Announce",
         "primaryActionText": "Share Feedback",
         "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/241004?list=2",
-          "additionalParameters": {
-            "queryParams": "delta;var;osv;ddgv"
-          }
+          "type": "navigation",
+          "value": "feedback"
         }
       },
       "translations": {
