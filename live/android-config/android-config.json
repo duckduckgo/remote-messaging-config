@@ -1219,7 +1219,12 @@
       "id": 27,
       "attributes": {
         "appVersion": {
-          "min": "5.238.0"
+          "min": "5.239.0"
+        },
+        "allFeatureFlagsEnabled": {
+          "value": [
+            "duckAiButtonInBrowser"
+          ]
         }
       }
     }
