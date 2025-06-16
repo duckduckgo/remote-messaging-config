@@ -1,5 +1,5 @@
 {
-  "version": 54,
+  "version": 55,
   "messages": [
     {
       "id": "android_new_visual_design_1",
@@ -279,10 +279,7 @@
         }
       },
       "matchingRules": [
-        25
-      ],
-      "exclusionRules": [
-        26
+        27
       ]
     },
     {
@@ -1214,6 +1211,19 @@
             "senseOfProtectionNewUserExperiment27May25",
             "senseOfProtectionExistingUserExperiment27May25",
             "defaultBrowserAdditionalPrompts202501"
+          ]
+        }
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "appVersion": {
+          "min": "5.239.0"
+        },
+        "allFeatureFlagsEnabled": {
+          "value": [
+            "duckAiButtonInBrowser"
           ]
         }
       }
