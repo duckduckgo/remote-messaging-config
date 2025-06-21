@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -356,7 +356,7 @@
       "id": 13,
       "attributes": {
         "appVersion": {
-          "min": "0.116.0"
+          "min": "0.116.5"
         },
         "allFeatureFlagsEnabled": {
           "value": [
