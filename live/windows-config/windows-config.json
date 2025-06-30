@@ -415,7 +415,7 @@
       "id": 14,
       "attributes": {
         "daysSinceInstalled": {
-          "min": 14,
+          "min": 29,
           "max": 10000
         }
       }
