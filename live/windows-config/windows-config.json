@@ -1,5 +1,5 @@
 {
-  "version": 26,
+  "version": 27,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -209,6 +209,52 @@
       "matchingRules": [
         13
       ]
+    },
+    {
+      "id": "windows_quarterly_satisfaction_survey_6-25-part1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "We'd love to know which features would make our browser better.",
+        "placeholder": "Announce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/250206?list=4",
+          "additionalParameters": {
+            "queryParams": "wv;delta;ddgv;sts;var"
+          }
+        }
+      },
+      "matchingRules": [
+        14
+      ],
+      "exclusionRules": [
+        16
+      ]
+    },
+    {
+      "id": "windows_quarterly_satisfaction_survey_6-25-part2",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "We'd love to know which features would make our browser better.",
+        "placeholder": "Announce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/250206?list=4",
+          "additionalParameters": {
+            "queryParams": "wv;delta;ddgv;sts;var"
+          }
+        }
+      },
+      "matchingRules": [
+        15
+      ],
+      "exclusionRules": [
+        17
+      ]
     }
   ],
   "rules": [
@@ -362,6 +408,40 @@
           "value": [
             "modernTheme"
           ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 29,
+          "max": 10000
+        }
+      }
+    },
+    {
+      "id": 15,
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 195,
+          "max": 10000
+        }
+      }
+    },
+    {
+      "id": 16,
+      "attributes": {
+        "messageShown": {
+          "value": [ "windows_14_day_survey", "windows_quarterly_satisfaction_survey_1", "windows_quarterly_satisfaction_survey_2", "windows_quarterly_satisfaction_survey_3" ]
+        }
+      }
+    },
+    {
+      "id": 17,
+      "attributes": {
+        "messageShown": {
+          "value": ["windows_quarterly_satisfaction_survey_1", "windows_quarterly_satisfaction_survey_2", "windows_quarterly_satisfaction_survey_3" ]
         }
       }
     }
