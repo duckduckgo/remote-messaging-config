@@ -1190,7 +1190,7 @@
       "id": 25,
       "attributes": {
         "appVersion": {
-          "min": "5.240.0"
+          "min": "5.241.0"
         },
         "allFeatureFlagsEnabled": {
           "value": [
