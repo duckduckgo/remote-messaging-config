@@ -1,24 +1,6 @@
 {
-  "version": 21,
+  "version": 22,
   "messages": [
-    {
-      "id": "macos_quarterly_satisfaction_survey_1",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help Us Improve",
-        "descriptionText": "We really want to know which features would make our browser better.",
-        "placeholder": "Announce",
-        "primaryActionText": "Tell Us What You Think",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/250206?list=3",
-          "additionalParameters": {
-            "queryParams": "delta;var;osv;ddgv;last_search_state"
-          }
-        }
-      },
-      "matchingRules": []
-    },
     {
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
@@ -453,6 +435,44 @@
         }
       },
       "matchingRules": [23]
+    },
+    {
+      "id": "macos_quarterly_satisfaction_survey_7-25-part1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "We really want to know which features would make our browser better.",
+        "placeholder": "Announce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/250206?list=3",
+          "additionalParameters": {
+            "queryParams": "delta;var;osv;ddgv;last_search_state"
+          }
+        }
+      },
+      "matchingRules": [24],
+      "exclusionRules": [26]
+    },
+    {
+      "id": "macos_quarterly_satisfaction_survey_7-25-part2",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "We really want to know which features would make our browser better.",
+        "placeholder": "Announce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/250206?list=3",
+          "additionalParameters": {
+            "queryParams": "delta;var;osv;ddgv;last_search_state"
+          }
+        }
+      },
+      "matchingRules": [25],
+      "exclusionRules": [27]
     }
   ],
   "rules": [
@@ -895,6 +915,60 @@
           "value": [
             "visualUpdates"
           ]
+        }
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "appVersion": {
+          "min": "1.146.0"
+        },
+        "daysSinceInstalled": {
+          "min": 29
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "appVersion": {
+          "min": "1.146.0"
+        },
+        "daysSinceInstalled": {
+          "min": 195
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        }
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "messageShown": {
+          "value": [ "macos_permanent_survey_tab_bar", "macos_quarterly_satisfaction_survey_1", "macos_quarterly_satisfaction_survey_2", "macos_quarterly_satisfaction_survey_3", "macos_quarterly_satisfaction_survey_6-25-part2"]
+        }
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "messageShown": {
+          "value": ["macos_quarterly_satisfaction_survey_1", "macos_quarterly_satisfaction_survey_2", "macos_quarterly_satisfaction_survey_3", "macos_quarterly_satisfaction_survey_6-25-part1"]
         }
       }
     }
