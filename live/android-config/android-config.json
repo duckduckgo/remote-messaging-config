@@ -1,12 +1,12 @@
 {
-  "version": 55,
+  "version": 56,
   "messages": [
     {
       "id": "android_new_visual_design_1",
       "content": {
         "messageType": "promo_single_action",
         "titleText": "DuckDuckGo got a refresh!",
-        "descriptionText": "More features at your fingertips with a new nav bar, fresh styles, and the same world-class protection.",
+        "descriptionText": "New icons, fresh styles, and the same world-class protection.",
         "placeholder": "VisualDesignUpdate",
         "actionText": "Share Feedback",
         "action": {
@@ -16,124 +16,124 @@
       },
       "translations": {
         "bg-BG": {
-          "titleText": "DuckDuckGo вече е обновен!",
-          "descriptionText": "Повече функции, нова навигационна лента, нови стилове и същата защита от световна класа.",
-          "actionText": "Споделяне на отзив"
+          "titleText": "DuckDuckGo се обнови!",
+          "descriptionText": "Нови икони, свежи стилове и същата световна класа защита.",
+          "actionText": "Споделете обратна връзка"
         },
         "cs-CZ": {
           "titleText": "DuckDuckGo má nový kabát!",
-          "descriptionText": "Víc funkcí na dosah ruky s vylepšeným navigačním panelem, svěžími styly a stejnou prvotřídní ochranou.",
+          "descriptionText": "Nové ikony, svěží styly a stejná prvotřídní ochrana.",
           "actionText": "Podělte se o zpětnou vazbu"
         },
         "da-DK": {
-          "titleText": "DuckDuckGo har fået en opdatering!",
-          "descriptionText": "Flere funktioner lige ved hånden med en ny navigationsbar, friske design og den samme beskyttelse i verdensklasse.",
+          "titleText": "DuckDuckGo har fået et nyt look!",
+          "descriptionText": "Nye ikoner, friske styles og samme verdensklasse beskyttelse.",
           "actionText": "Del feedback"
         },
         "de-DE": {
           "titleText": "DuckDuckGo hat ein Update hinter sich!",
-          "descriptionText": "Mehr Funktionen auf Knopfdruck mit einer neuen Navigationsleiste, frischen Styles und demselben erstklassigen Schutz.",
+          "descriptionText": "Neue Symbole, frische Styles und derselbe erstklassige Schutz.",
           "actionText": "Feedback teilen"
         },
         "el-GR": {
           "titleText": "Το DuckDuckGo ανανεώθηκε!",
-          "descriptionText": "Περισσότερες δυνατότητες στη διάθεσή σας με μια νέα γραμμή πλοήγησης, ανανεωμένα στυλ και την ίδια προστασία παγκόσμιας κλάσης.",
-          "actionText": "Κοινοποίηση σχολίου"
+          "descriptionText": "Νέα εικονίδια, φρέσκα στυλ και η ίδια προστασία παγκόσμιας κλάσης.",
+          "actionText": "Μοιραστείτε τα σχόλιά σας"
         },
         "es-ES": {
           "titleText": "¡DuckDuckGo se ha renovado!",
-          "descriptionText": "Más funciones al alcance de tu mano con una nueva barra de navegación, estilos renovados y la misma protección de clase mundial.",
+          "descriptionText": "Nuevos iconos, estilos frescos y la misma protección de clase mundial.",
           "actionText": "Compartir opiniones"
         },
         "et-EE": {
           "titleText": "DuckDuckGo sai värskenduse!",
-          "descriptionText": "Rohkem funktsioone käeulatuses tänu uuele navigeerimisribale ja värskele kujundusele, seda sama maailmatasemel kaitsega.",
+          "descriptionText": "Uued ikoonid, värsked stiilid ja sama maailmatasemel kaitse.",
           "actionText": "Jaga tagasisidet"
         },
         "fi-FI": {
           "titleText": "DuckDuckGo sai uuden ilmeen!",
-          "descriptionText": "Lisää ominaisuuksia käden ulottuvilla – uusi navigointipalkki, raikkaat tyylit ja sama maailmanluokan suojaus.",
+          "descriptionText": "Uudet kuvakkeet, tuoreet tyylit ja sama maailmanluokan suojaus.",
           "actionText": "Jaa palaute"
         },
         "fr-FR": {
-          "titleText": "DuckDuckGo a fait peau neuve !",
-          "descriptionText": "Plus de fonctionnalités à portée de main avec une nouvelle barre de navigation, de nouveaux styles et la même protection de premier ordre.",
+          "titleText": "DuckDuckGo a fait peau neuve !",
+          "descriptionText": "De nouvelles icônes, de nouveaux styles et la même protection de premier ordre.",
           "actionText": "Partagez vos commentaires"
         },
         "hr-HR": {
-          "titleText": "DuckDuckGo je osvježen!",
-          "descriptionText": "Više značajki nadohvat ruke, s novom navigacijskom trakom, svježim stilovima i prvoklasnom zaštitom.",
-          "actionText": "Podijeli povratne informacije"
+          "titleText": "DuckDuckGo se osvježio!",
+          "descriptionText": "Nove ikone, svježi stilovi i ista zaštita svjetske klase.",
+          "actionText": "Podijelite povratne informacije"
         },
         "hu-HU": {
-          "titleText": "A DuckDuckGo frissült!",
-          "descriptionText": "További hasznos funkciók (pl. új navigációs sáv, friss stílusok és a már jól ismert világszínvonalú védelem) váltak elérhetővé.",
+          "titleText": "A DuckDuckGo frissítést kapott!",
+          "descriptionText": "Új ikonok, friss stílusok és ugyanaz a világszínvonalú védelem.",
           "actionText": "Visszajelzés megosztása"
         },
         "it-IT": {
           "titleText": "DuckDuckGo ha ricevuto un aggiornamento!",
-          "descriptionText": "Più funzionalità a portata di mano con una nuova barra di navigazione, nuovi stili e la stessa protezione di prima classe.",
+          "descriptionText": "Nuove icone, stili freschi e la stessa protezione di livello mondiale.",
           "actionText": "Condividi feedback"
         },
         "lt-LT": {
-          "titleText": "„DuckDuckGo“ atsinaujino!",
-          "descriptionText": "Daugiau funkcijų po ranka su nauja navigacijos juosta, šviežiais stiliais ir ta pačia pasaulinio lygio apsauga.",
-          "actionText": "Bendrinti atsiliepimą"
+          "titleText": "DuckDuckGo atsinaujino!",
+          "descriptionText": "Naujos piktogramos, švieži stiliai ir ta pati pasaulio klasės apsauga.",
+          "actionText": "Pasidalinkite atsiliepimais"
         },
         "lv-LV": {
-          "titleText": "DuckDuckGo tika atsvaidzināts!",
-          "descriptionText": "Ar jaunu navigācijas joslu, jauniem stiliem un tādu pašu pasaules klases aizsardzību vari izmantot vēl vairāk funkciju.",
-          "actionText": "Kopīgot atsauksmi"
+          "titleText": "DuckDuckGo ir atjaunināts!",
+          "descriptionText": "Jaunas ikonas, svaigi stili un tāda pati pasaules klases aizsardzība.",
+          "actionText": "Dalīties ar atsauksmēm"
         },
         "nb": {
-          "titleText": "DuckDuckGo er blitt fornyet!",
-          "descriptionText": "Nytt navigasjonsfelt med lett tilgjengelige funksjoner, oppdaterte stiler og den samme beskyttelsen i verdensklasse.",
-          "actionText": "Del tilbakemelding"
+          "titleText": "DuckDuckGo har fått et nytt utseende!",
+          "descriptionText": "Nye ikoner, friske stiler og samme verdensklasse beskyttelse.",
+          "actionText": "Del tilbakemeldinger"
         },
         "nl-NL": {
-          "titleText": "DuckDuckGo is in een nieuw jasje gestoken!",
-          "descriptionText": "Meer functies binnen handbereik met een nieuwe navigatiebalk, de nieuwste stijlen en dezelfde hoogwaardige bescherming.",
-          "actionText": "Feedback delen"
+          "titleText": "DuckDuckGo heeft een opfrisbeurt gekregen!",
+          "descriptionText": "Nieuwe iconen, frisse stijlen en dezelfde wereldklasse bescherming.",
+          "actionText": "Deel feedback"
         },
         "pl-PL": {
-          "titleText": "Aktualizacja DuckDuckGo!",
-          "descriptionText": "Więcej funkcji na wyciągnięcie ręki dzięki nowemu paskowi nawigacyjnemu, nowym stylom i niezmiennej, światowej klasy ochronie.",
+          "titleText": "DuckDuckGo odświeżył swój wygląd!",
+          "descriptionText": "Nowe ikony, świeże style i ta sama ochrona na światowym poziomie.",
           "actionText": "Podziel się opinią"
         },
         "pt-PT": {
-          "titleText": "O DuckDuckGo recebeu uma atualização!",
-          "descriptionText": "Mais funcionalidades ao teu alcance com uma nova barra de navegação, novos estilos e a mesma proteção de classe mundial.",
-          "actionText": "Partilhar comentários"
+          "titleText": "O DuckDuckGo renovou-se!",
+          "descriptionText": "Novos ícones, estilos frescos e a mesma proteção de classe mundial.",
+          "actionText": "Partilhar feedback"
         },
         "ro-RO": {
-          "titleText": "DuckDuckGo are o nouă imagine!",
-          "descriptionText": "Mai multe funcții la îndemână cu o nouă bară de navigare, stiluri noi și aceeași protecție de clasă mondială.",
-          "actionText": "Trimitere feedback"
+          "titleText": "DuckDuckGo s-a reînnoit!",
+          "descriptionText": "Iconițe noi, stiluri proaspete și aceeași protecție de clasă mondială.",
+          "actionText": "Distribuie feedback"
         },
         "ru-RU": {
-          "titleText": "Сервис DuckDuckGo преобразился!",
-          "descriptionText": "Больше функций у вас под рукой — новая панель навигации, свежие стили и уже привычная первоклассная защита.",
-          "actionText": "Оставьте нам отзыв"
+          "titleText": "DuckDuckGo обновился!",
+          "descriptionText": "Новые иконки, свежие стили и та же защита мирового класса.",
+          "actionText": "Поделиться отзывом"
         },
         "sk-SK": {
-          "titleText": "DuckDuckGo dostal nový vzhľad!",
-          "descriptionText": "Viac funkcií na dosah ruky s novou navigačnou lištou, sviežimi štýlmi a rovnakou ochranou svetovej triedy.",
+          "titleText": "DuckDuckGo má nový kabát!",
+          "descriptionText": "Nové ikony, svieže štýly a rovnaká prvotriedna ochrana.",
           "actionText": "Zdieľať spätnú väzbu"
         },
         "sl-SI": {
-          "titleText": "DuckDuckGo je dobil osvežitev!",
-          "descriptionText": "Več funkcij na dosegu roke z novo navigacijsko vrstico, svežimi slogi in enako vrhunsko zaščito.",
+          "titleText": "DuckDuckGo se je osvežil!",
+          "descriptionText": "Nove ikone, sveži stili in enaka zaščita svetovnega razreda.",
           "actionText": "Delite povratne informacije"
         },
         "sv-SE": {
-          "titleText": "DuckDuckGo har fått en uppdatering!",
-          "descriptionText": "Fler funktioner nära till hands med ett nytt navigeringsfält, fräscha stilar och samma skydd i världsklass.",
-          "actionText": "Berätta vad du tycker"
+          "titleText": "DuckDuckGo har fått en uppfräschning!",
+          "descriptionText": "Nya ikoner, fräscha stilar och samma världsklass skydd.",
+          "actionText": "Dela feedback"
         },
         "tr-TR": {
           "titleText": "DuckDuckGo yenilendi!",
-          "descriptionText": "Yeni gezinme çubuğu, yepyeni stiller ve aynı birinci sınıf korumayla daha fazla özellik parmaklarınızın ucunda.",
-          "actionText": "Geri Bildirim Paylaş"
+          "descriptionText": "Yeni simgeler, taze stiller ve aynı dünya standartlarında koruma.",
+          "actionText": "Geri bildirim paylaş"
         }
       },
       "matchingRules": [
@@ -1190,11 +1190,11 @@
       "id": 25,
       "attributes": {
         "appVersion": {
-          "min": "5.235.0"
+          "min": "5.241.0"
         },
         "allFeatureFlagsEnabled": {
           "value": [
-            "visualUpdatesFeature"
+            "singleOmnibarFeature"
           ]
         }
       }
