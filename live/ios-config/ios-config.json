@@ -1,5 +1,5 @@
 {
-  "version": 65,
+  "version": 66,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -352,21 +352,6 @@
       "matchingRules": [
         4
       ]
-    },
-    {
-      "id": "ios_ipad_update_notice",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "iOS Update Recommended",
-        "descriptionText": "Please update iOS to the latest version. The prior iOS system update (version 17.7.7) is causing apps to reset their settings on some iPad models. Apple’s latest update should resolve this issue.",
-        "placeholder": "Announce",
-        "primaryActionText": "Dismiss",
-        "primaryAction": {
-          "type": "dismiss",
-          "value": ""
-        }
-      },
-      "matchingRules": [22]
     },
     {
       "id": "ios_visual_updates_1",
@@ -1047,14 +1032,6 @@
         },
         "locale": {
           "value": ["en-CA", "en-GB"]
-        }
-      }
-    },
-    {
-      "id": 22,
-      "attributes": {
-        "osApi": {
-          "value": "17.7.7"
         }
       }
     },
