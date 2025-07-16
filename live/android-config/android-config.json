@@ -1,6 +1,16 @@
 {
-  "version": 56,
+  "version": 57,
   "messages": [
+    {
+      "id": "search_down_jul_16",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Announcement",
+        "descriptionText": "We're currently experiencing an issue with DuckDuckGo Search that might prevent you from getting results. Thanks for your patience while we get our ducks in a row…",
+        "placeholder": "CriticalUpdate"
+      },
+      "matchingRules": []
+    },
     {
       "id": "android_new_visual_design_1",
       "content": {
