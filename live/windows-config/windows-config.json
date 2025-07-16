@@ -1,6 +1,17 @@
 {
-  "version": 31,
+  "version": 32,
   "messages": [
+    {
+      "id": "windows_serp_outage",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Announcement",
+        "descriptionText": "We're currently experiencing an issue with DuckDuckGo Search that might prevent you from getting results. Thanks for your patience while we get our ducks in a row…",
+        "placeholder": "CriticalUpdate"
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
     {
       "id": "windows_privacy_pro_exit_survey_1",
       "content": {
