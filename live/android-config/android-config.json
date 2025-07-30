@@ -1,5 +1,5 @@
 {
-  "version": 61,
+  "version": 62,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -343,6 +343,23 @@
       ],
       "exclusionRules": [
         8
+      ]
+    },
+    {
+      "id": "android_privacy_pro_free_trial_promo_0825",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Try Privacy Pro free for 7 days",
+        "descriptionText": "Enjoy 3 premium protections in 1 with a 7-day free trial of Privacy Pro.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_android_freetrialannouncement"
+        }
+      },
+      "matchingRules": [
+        25
       ]
     }
   ],
@@ -839,6 +856,30 @@
         "locale": {
           "value": [
             "sv-SE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "appVersion": {
+          "min": "5.228.0"
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-GB",
+            "en-CA",
+            "en-US"
           ]
         }
       }
