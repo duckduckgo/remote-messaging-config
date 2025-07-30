@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 25,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -336,6 +336,24 @@
       },
       "matchingRules": [25],
       "exclusionRules": [27]
+    },
+
+    {
+      "id": "funnel_newtab_macos_freetrialannouncement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Try Privacy Pro free for 7 days",
+        "descriptionText": "Enjoy 3 premium protections in 1 with a 7-day free trial of Privacy Pro.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_macos_freetrialannouncement"
+        }
+      },
+      "matchingRules": [
+        28
+      ]
     }
   ],
   "rules": [
@@ -819,6 +837,26 @@
       "attributes": {
         "messageShown": {
           "value": ["macos_quarterly_satisfaction_survey_1", "macos_quarterly_satisfaction_survey_2", "macos_quarterly_satisfaction_survey_3", "macos_quarterly_satisfaction_survey_6-25-part1"]
+        }
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": ["en-US"]
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "appVersion": {
+          "min": "1.101.0"
         }
       }
     }

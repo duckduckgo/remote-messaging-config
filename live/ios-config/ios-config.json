@@ -1,5 +1,5 @@
 {
-  "version": 69,
+  "version": 70,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -352,7 +352,26 @@
       "matchingRules": [
         4
       ]
+    },
+
+    {
+      "id": "funnel_newtab_ios_freetrialannouncement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Try Privacy Pro free for 14 days",
+        "descriptionText": "Enjoy 3 premium protections in 1 with a 14-day free trial of Privacy Pro.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_ios_freetrialannouncement"
+        }
+      },
+      "matchingRules": [
+        19
+      ]
     }
+
   ],
   "rules": [
     {
@@ -758,6 +777,26 @@
         },
         "locale": {
           "value": ["en-CA", "en-GB"]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": ["en-CA", "en-GB", "en-US"]
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "appVersion": {
+          "min": "7.131.0.1"
         }
       }
     }
