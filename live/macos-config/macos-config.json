@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -298,6 +298,23 @@
         "placeholder": "CriticalUpdate"
       },
       "matchingRules": [10]
+    },
+    {
+      "id": "funnel_newtab_macos_freetrialannouncement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Try Privacy Pro free for 7 days",
+        "descriptionText": "Enjoy peace of mind with a fast, secure VPN + 2 other premium protections.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Get Privacy Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_macos_freetrialannouncement"
+        }
+      },
+      "matchingRules": [
+        23
+      ]
     }
   ],
   "rules": [
@@ -727,6 +744,26 @@
           "value": [
             "es-ES"
           ]
+        }
+      }
+    },
+    {
+      "id": 23,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": ["en-US"]
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "appVersion": {
+          "min": "1.144.0"
         }
       }
     }
