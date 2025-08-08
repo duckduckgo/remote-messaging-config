@@ -1,6 +1,71 @@
 {
-  "version": 62,
+  "version": 63,
   "messages": [
+    {
+      "id": "android_ppro_duck_ai_launch_us",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "New! Advanced AI for Subscribers",
+        "descriptionText": "Your subscription now includes access to more advanced AI models in Duck.ai, our private AI chat service. Always optional. No extra cost.",
+        "placeholder": "Duck.ai",
+        "primaryActionText": "Try Duck.ai",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=5&origin=funnel_newtab_android_advancedai_us"
+        }
+      },
+      "matchingRules": [
+        26
+      ]
+    },
+    {
+      "id": "android_ppro_duck_ai_launch_euuk",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "New! Advanced AI for Subscribers",
+        "descriptionText": "We've added advanced, private (optional) AI to your subscription at no extra cost. Terms of Service updated accordingly.",
+        "placeholder": "Duck.ai",
+        "primaryActionText": "Try Duck.ai",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=5&origin=funnel_newtab_android_advancedai_euuk"
+        },
+        "secondaryActionText": "View Terms",
+        "secondaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro/privacy-terms/non-us/en"
+        }
+      },
+      "translations": {
+        "fr-FR": {
+          "titleText": "Nouveau ! IA avancée pour les abonnés",
+          "descriptionText": "Nous avons intégré une IA avancée et privée en option à votre abonnement, sans frais supplémentaire. Les conditions d'utilisation ont été mises à jour.",
+          "primaryActionText": "Essayer Duck.ai",
+          "secondaryActionText": "Voir les conditions"
+        },
+        "de-DE": {
+          "titleText": "Neu! Bessere KI für Abonnenten",
+          "descriptionText": "Wir haben deinem Abonnement bessere, private (optionale) KI ohne zusätzliche Kosten hinzugefügt. Die Nutzungsbedingungen wurden entsprechend aktualisiert.",
+          "primaryActionText": "Probiere Duck.ai aus",
+          "secondaryActionText": "Nutzungsbedingungen anzeigen"
+        },
+        "nl-NL": {
+          "titleText": "Nieuw! Geavanceerde AI voor abonnees",
+          "descriptionText": "We hebben geavanceerde, privé (optionele) AI aan je abonnement toegevoegd zonder extra kosten. De algemene voorwaarden zijn dienovereenkomstig bijgewerkt.",
+          "primaryActionText": "Probeer Duck.ai",
+          "secondaryActionText": "Bekijk voorwaarden"
+        },
+        "es-ES": {
+          "titleText": "¡Nuevo! IA avanzada para suscriptores",
+          "descriptionText": "Hemos añadido IA avanzada, privada y opcional a tu suscripción sin coste adicional. Condiciones de servicio actualizadas en consecuencia.",
+          "primaryActionText": "Prueba Duck.ai",
+          "secondaryActionText": "Ver términos"
+        }
+      },
+      "matchingRules": [
+        27
+      ]
+    },
     {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
@@ -880,6 +945,76 @@
             "en-GB",
             "en-CA",
             "en-US"
+          ]
+        }
+      }
+    },
+
+    {
+      "id": 26,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA"
+          ]
+        }
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+          "value": [
+            "en-GB",
+            "es-ES",
+            "fr-FR",
+            "de-DE",
+            "nl-NL",
+            "bg-BG",
+            "cs-CZ",
+            "da-DK",
+            "el-GR",
+            "et-EE",
+            "fi-FI",
+            "hr-HR",
+            "hu-HU",
+            "it-IT",
+            "lt-LT",
+            "lv-LV",
+            "pl-PL",
+            "pt-PT",
+            "ro-RO",
+            "sk-SK",
+            "sl-SI",
+            "sv-SE",
+            "en-IE",
+            "mt-MT",
+            "el-CY",
+            "tr-CY",
+            "lb-LU",
+            "fr-LU",
+            "de-LU",
+            "de-AT",
+            "nl-BE",
+            "fr-BE",
+            "de-BE"
           ]
         }
       }
