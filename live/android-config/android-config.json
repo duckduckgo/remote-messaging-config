@@ -23,7 +23,7 @@
       "content": {
         "messageType": "big_two_action",
         "titleText": "New! Advanced AI for Subscribers",
-        "descriptionText": "We've added advanced, private (optional) AI to your subscription at no extra cost. Terms of Service updated accordingly.",
+        "descriptionText": "We've added advanced, private (optional) AI chat to your subscription at no extra cost. Terms of Service updated accordingly.",
         "placeholder": "Duck.ai",
         "primaryActionText": "Try Duck.ai",
         "primaryAction": {
