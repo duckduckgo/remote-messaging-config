@@ -1,5 +1,5 @@
 {
-  "version": 26,
+  "version": 27,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -283,7 +283,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/241004?list=2",
           "additionalParameters": {
-            "queryParams": "delta;var;osv;ddgv"
+            "queryParams": "delta;var;osv;ddgv;last_search_state"
           }
         }
       },
