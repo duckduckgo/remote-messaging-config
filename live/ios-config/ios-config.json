@@ -411,25 +411,25 @@
       "translations": {
           "fr-FR": {
             "titleText": "Nouveau ! IA avancée pour les abonnés",
-            "descriptionText": "Nous avons intégré une IA avancée et privée en option à votre abonnement, sans frais supplémentaire. Les conditions d'utilisation ont été mises à jour.",
+            "descriptionText": "Nous avons intégré un chat IA avancé et privé en option à votre abonnement, sans frais supplémentaire. Les conditions d'utilisation ont été mises à jour.",
             "primaryActionText": "Essayer Duck.ai",
             "secondaryActionText": "Voir les conditions"
           },
           "de-DE": {
             "titleText": "Neu! Bessere KI für Abonnenten",
-            "descriptionText": "Wir haben deinem Abonnement bessere, private (optionale) KI ohne zusätzliche Kosten hinzugefügt. Die Nutzungsbedingungen wurden entsprechend aktualisiert.",
+            "descriptionText": "Wir haben deinem Abonnement einen besseren, privaten (optionalen) KI-Chat ohne zusätzliche Kosten hinzugefügt. Die Nutzungsbedingungen wurden entsprechend aktualisiert.",
             "primaryActionText": "Probiere Duck.ai aus",
             "secondaryActionText": "Nutzungsbedingungen anzeigen"
           },
           "nl-NL": {
             "titleText": "Nieuw! Geavanceerde AI voor abonnees",
-            "descriptionText": "We hebben geavanceerde, privé (optionele) AI aan je abonnement toegevoegd zonder extra kosten. De algemene voorwaarden zijn dienovereenkomstig bijgewerkt.",
+            "descriptionText": "We hebben geavanceerde, privé (optionele) AI-chat aan je abonnement toegevoegd zonder extra kosten. De algemene voorwaarden zijn overeenkomstig bijgewerkt.",
             "primaryActionText": "Probeer Duck.ai",
             "secondaryActionText": "Bekijk voorwaarden"
           },
           "es-ES": {
             "titleText": "¡Nuevo! IA avanzada para suscriptores",
-            "descriptionText": "Hemos añadido IA avanzada, privada y opcional a tu suscripción sin coste adicional. Condiciones de servicio actualizadas en consecuencia.",
+            "descriptionText": "Hemos añadido chat de IA avanzada, privada y opcional a tu suscripción sin coste adicional. Condiciones de servicio actualizadas en consecuencia.",
             "primaryActionText": "Prueba Duck.ai",
             "secondaryActionText": "Ver términos"
           }
