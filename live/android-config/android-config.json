@@ -966,6 +966,9 @@
             "en-US",
             "en-CA"
           ]
+        },
+        "appVersion": {
+          "min": "5.244.1"
         }
       }
     },
@@ -980,41 +983,71 @@
             "active"
           ]
         },
+        "appVersion": {
+          "min": "5.244.1"
+        },
         "locale": {
           "value": [
-            "en-GB",
-            "es-ES",
-            "fr-FR",
-            "de-DE",
-            "nl-NL",
             "bg-BG",
             "cs-CZ",
             "da-DK",
+            "de-AT",
+            "de-BE",
+            "de-DE",
+            "de-LU",
+            "el-CY",
             "el-GR",
+            "en-AT",
+            "en-BE",
+            "en-BG",
+            "en-CY",
+            "en-CZ",
+            "en-DE",
+            "en-DK",
+            "en-EE",
+            "en-ES",
+            "en-FI",
+            "en-FR",
+            "en-GB",
+            "en-GR",
+            "en-HR",
+            "en-HU",
+            "en-IE",
+            "en-IT",
+            "en-LT",
+            "en-LU",
+            "en-LV",
+            "en-MT",
+            "en-NL",
+            "en-PL",
+            "en-PT",
+            "en-RO",
+            "en-SE",
+            "en-SI",
+            "en-SK",
+            "es-ES",
             "et-EE",
             "fi-FI",
+            "fr-BE",
+            "fr-FR",
+            "fr-LU",
             "hr-HR",
             "hu-HU",
             "it-IT",
+            "lb-LU",
             "lt-LT",
             "lv-LV",
+            "mt-MT",
+            "nl-BE",
+            "nl-NL",
             "pl-PL",
             "pt-PT",
             "ro-RO",
             "sk-SK",
             "sl-SI",
+            "sv-FI",
             "sv-SE",
-            "en-IE",
-            "mt-MT",
-            "el-CY",
-            "tr-CY",
-            "lb-LU",
-            "fr-LU",
-            "de-LU",
-            "de-AT",
-            "nl-BE",
-            "fr-BE",
-            "de-BE"
+            "tr-CY"
           ]
         }
       }
