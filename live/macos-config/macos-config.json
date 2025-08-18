@@ -844,7 +844,7 @@
           ]
         },
         "locale": {
-          "value": ["en-CA", "en-US", "fr-CA", "es-US"]
+          "value": ["en-CA", "en-US"]
         },
         "appVersion": {
           "min": "1.151.0"
