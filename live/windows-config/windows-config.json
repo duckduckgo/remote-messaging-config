@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 36,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -70,24 +70,6 @@
       "exclusionRules": [
         9
       ]
-    },
-    {
-      "id": "windows_subscription_free_trial",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Try Privacy Pro free for 7 days",
-        "descriptionText": "Enjoy peace of mind with a fast, secure VPN + 2 other premium protections.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Get Privacy Pro",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_windows_freetrialannouncement"
-        }
-      },
-      "matchingRules": [
-        12
-      ],
-      "exclusionRules": []
     }
   ],
   "rules": [
@@ -228,23 +210,6 @@
           "value": [
             "survey.dismissed"
           ]
-        }
-      }
-    },
-    {
-      "id": 12,
-      "attributes": {
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "locale": {
-          "value": [ "en-US" ]
-        },
-        "daysSinceInstalled": {
-          "min": 7
         }
       }
     }
