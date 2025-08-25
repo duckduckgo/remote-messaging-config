@@ -1,5 +1,5 @@
 {
-  "version": 63,
+  "version": 64,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -343,6 +343,29 @@
       ],
       "exclusionRules": [
         8
+      ]
+    },
+    {
+      "id": "android_quarterly_mobile_survey_0825",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=9",
+          "additionalParameters": {
+            "queryParams": "var;delta;av;ddgv;locale"
+          }
+        }
+      },
+      "exclusionRules": [
+        26
+      ],
+      "matchingRules": [
+        25
       ]
     }
   ],
@@ -839,6 +862,36 @@
         "locale": {
           "value": [
             "sv-SE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "targetPercentile": {
+        "before": 0.2
+      },
+      "attributes": {
+        "appVersion": {
+          "min": "5.206.1"
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        }
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_permanent_survey_user_personality_update",
+            "android_quarterly_satisfaction_survey_0425"
           ]
         }
       }
