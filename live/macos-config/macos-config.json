@@ -140,8 +140,8 @@
       "id": "macos_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Your Thoughts on Privacy Pro",
-        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "titleText": "Tell us your thoughts on your DuckDuckGo subscription",
+        "descriptionText": "If you complete our brief survey, your input will help improve the experience for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -159,8 +159,8 @@
       "id": "macos_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Your Thoughts on Privacy Pro",
-        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "titleText": "Tell us your thoughts on your DuckDuckGo subscription",
+        "descriptionText": "If you complete our brief survey, your input will help improve the experience for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -178,10 +178,10 @@
       "id": "macos_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Faites-nous part de votre avis sur Privacy Pro",
-        "descriptionText": "En répondant à notre court sondage, vous contribuerez à l'amélioration de Privacy Pro pour l'ensemble de nos abonnés.",
+        "titleText": "Faites-nous part de votre avis sur l’abonnement DuckDuckGo",
+        "descriptionText": "En répondant à notre courte enquête, vous contribuerez à l'amélioration de DuckDuckGo pour l'ensemble de nos abonnés.",
         "placeholder": "PrivacyShield",
-        "primaryActionText": "Lancer le sondage",
+        "primaryActionText": "Lancer l'enquête",
         "primaryAction": {
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240506?list=2&decLang=french&ppro_region=row",
@@ -197,8 +197,8 @@
       "id": "macos_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Was halten Sie von Privacy Pro?",
-        "descriptionText": "Wenn Sie an unserer kurzen Umfrage teilnehmen, werden wir Ihre Eingaben verwenden, um Privacy Pro für alle Abonnenten zu verbessern.",
+        "titleText": "Was halten Sie vom DuckDuckGo-Abonnement?",
+        "descriptionText": "Wenn Sie an unserer kurzen Umfrage teilnehmen, werden wir lhre Eingaben verwenden, um DuckDuckGo für alle Abonnenten zu verbessern.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Umfrage starten",
         "primaryAction": {
@@ -216,8 +216,8 @@
       "id": "macos_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Waar denkt u aan bij Privacy Pro",
-        "descriptionText": "Als u onze korte enquête invult, zullen we uw input gebruiken om Privacy Pro voor alle abonnees te verbeteren.",
+        "titleText": "Waar denkt u aan bij het DuckDuckGo-abonnement?",
+        "descriptionText": "Als u onze korte enquête invult, zullen we uw input gebruiken om DuckDuckGo voor alle abonnees te verbeteren.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Enquête starten",
         "primaryAction": {
@@ -235,8 +235,8 @@
       "id": "macos_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Cosa ne pensa di Privacy Pro?",
-        "descriptionText": "Se completa il nostro breve sondaggio, utilizzeremo il suo contributo per migliorare Privacy Pro per tutti gli abbonati.",
+        "titleText": "Cosa ne pensi dell’abbonamento DuckDuckGo?",
+        "descriptionText": "Se completi il nostro breve sondaggio, il tuo contributo aiuterà a migliorare l’esperienza per tutti gli abbonati.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Inizia l'indagine",
         "primaryAction": {
@@ -254,8 +254,8 @@
       "id": "macos_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "¿Qué opina del producto Privacy Pro?",
-        "descriptionText": "Si completa nuestra breve encuesta, utilizaremos sus comentarios para mejorar Privacy Pro para todos los suscriptores.",
+        "titleText": "¿Qué opina del la suscripción a DuckDuckGo?",
+        "descriptionText": "Si completa nuestra breve encuesta, utilizaremos sus comentarios para mejorar DuckDuckGo para todos los suscriptores.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Empezar encuesta",
         "primaryAction": {
