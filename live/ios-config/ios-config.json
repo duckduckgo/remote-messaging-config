@@ -8,7 +8,7 @@
         "titleText": "Toggle between search and AI chat",
         "descriptionText": "Try our experimental address bar. All AI features are optional.",
         "placeholder": "Announce",
-        "primaryActionText": "Enable in Settings",
+        "primaryActionText": "Enable in AI Settings",
         "primaryAction": {
           "type": "navigation",
           "value": "duckai.settings"
