@@ -5,8 +5,8 @@
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Why You Left Privacy Pro",
-        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers.",
+        "titleText": "Tell Us Why You Cancelled Your Subscription",
+        "descriptionText": "By taking our brief survey, you'll help us improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -24,8 +24,8 @@
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Why You Left Privacy Pro",
-        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers.",
+        "titleText": "Tell Us Why You Cancelled Your Subscription",
+        "descriptionText": "By taking our brief survey, you'll help us improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -43,10 +43,10 @@
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Vous avez arrêté votre abonnement ? Dites-nous tout.",
-        "descriptionText": "En répondant à notre bref sondage, vous nous aiderez à améliorer Privacy Pro pour tous les abonnés.",
+        "titleText": "Pourquoi avez-vous annulé votre abonnement DuckDuckGo?",
+        "descriptionText": "En répondant à notre courte enquête, vous contribuerez à l'amélioration de DuckDuckGo pour l'ensemble de nos abonnés.",
         "placeholder": "PrivacyShield",
-        "primaryActionText": "Lancer le sondage",
+        "primaryActionText": "Lancer l'enquête",
         "primaryAction": {
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=french&ppro_region=row",
@@ -62,8 +62,8 @@
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Warum haben Sie Privacy Pro gekündigt?",
-        "descriptionText": "Durch Teilnahme an unserer kurzen Umfrage helfen Sie uns, Privacy Pro für alle Abonnenten zu verbessern.",
+        "titleText": "Warum haben Sie Ihr DuckDuckGo-Abonnement gekündigt?",
+        "descriptionText": "Durch Teilnahme an unserer kurzen Umfrage helfen Sie uns, DuckDuckGo für alle Abonnenten zu verbessern.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Umfrage starten",
         "primaryAction": {
@@ -81,8 +81,8 @@
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Waarom heeft u Privacy Pro opgezegd?",
-        "descriptionText": "Door deel te nemen aan onze korte enquête, helpt u ons Privacy Pro voor alle abonnees te verbeteren.",
+        "titleText": "Waarom heeft u het DuckDuckGo-abonnement opgezegd?",
+        "descriptionText": "Door deel te nemen aan onze korte enquête, helpt u DuckDuckGo voor alle abonnees te verbeteren.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Enquête starten",
         "primaryAction": {
@@ -100,8 +100,8 @@
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Ci dica perché ha lasciato Privacy Pro",
-        "descriptionText": "Partecipando al nostro breve sondaggio, ci aiuterà a migliorare Privacy Pro per tutti gli abbonati.",
+        "titleText": "Dicci perché hai deciso di annullare l’abbonamento a DuckDuckGo",
+        "descriptionText": "Partecipando a questo breve sondaggio, ci aiuterai a migliorare DuckDuckGo per tutti gli utenti abbonati.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Inizia l'indagine",
         "primaryAction": {
@@ -119,8 +119,8 @@
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Cuéntenos por qué dejó Privacy Pro",
-        "descriptionText": "Al responder a nuestra breve encuesta, nos ayudará a mejorar Privacy Pro para todos los suscriptores.",
+        "titleText": "Cuéntanos por qué dejaste la suscripción a DuckDuckGo",
+        "descriptionText": "Al responder a nuestra breve encuesta, nos ayudarás a mejorar DuckDuckGo para todos los suscriptores.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Empezar encuesta",
         "primaryAction": {
