@@ -876,6 +876,11 @@
           "min": 5,
           "max": 8
         },
+        "isUserInAnyActiveExperiment": {
+          "value": [
+            "onboardingDesignExperimentAug25"
+          ]
+        },
         "locale": {
           "value": [
             "en-US",
