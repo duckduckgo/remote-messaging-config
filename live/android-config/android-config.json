@@ -876,9 +876,6 @@
           "min": 5,
           "max": 8
         },
-        "expVariant": {
-          "value": "onboardingDesignExperimentAug25"
-        },
         "locale": {
           "value": [
             "en-US",
