@@ -5,7 +5,7 @@
       "id": "android_day5_experiment_survey",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Help us improve the app!",
+        "titleText": "Help us improve the browser!",
         "descriptionText": "Take our short anonymous survey and share your feedback.",
         "placeholder": "Announce",
         "primaryActionText": "Take Survey",
