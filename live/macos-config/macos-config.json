@@ -140,7 +140,7 @@
       "id": "macos_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell us your thoughts on your DuckDuckGo subscription",
+        "titleText": "Tell us your thoughts on your DuckDuckGo Subscription",
         "descriptionText": "If you complete our brief survey, your input will help improve the experience for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
@@ -159,7 +159,7 @@
       "id": "macos_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell us your thoughts on your DuckDuckGo subscription",
+        "titleText": "Tell us your thoughts on your DuckDuckGo Subscription",
         "descriptionText": "If you complete our brief survey, your input will help improve the experience for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
