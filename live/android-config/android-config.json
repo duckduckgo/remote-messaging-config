@@ -362,7 +362,7 @@
         }
       },
       "exclusionRules": [
-        26
+        26, 27
       ],
       "matchingRules": [
         25
@@ -892,6 +892,31 @@
           "value": [
             "android_permanent_survey_user_personality_update",
             "android_quarterly_satisfaction_survey_0425"
+          ]
+        }
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "appVersion": {
+          "min": "5.245.1"
+        },
+        "daysSinceInstalled": {
+          "min": 5,
+          "max": 8
+        },
+        "isUserInAnyActiveExperiment": {
+          "value": [
+            "onboardingDesignExperimentAug25"
+          ]
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
           ]
         }
       }
