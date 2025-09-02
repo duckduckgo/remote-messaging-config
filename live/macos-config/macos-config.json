@@ -6,7 +6,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Why did you cancel your subscription?",
-        "descriptionText": "By taking our brief survey, you'll help us improve DuckDuckGo for all subscribers.",
+        "descriptionText": "Your input helps improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -25,7 +25,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Why did you cancel your subscription?",
-        "descriptionText": "By taking our brief survey, you'll help us improve DuckDuckGo for all subscribers.",
+        "descriptionText": "Your input helps improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -141,7 +141,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "What do you think of your subscription?",
-        "descriptionText": "If you complete our brief survey, your input will help improve the experience for all subscribers.",
+        "descriptionText": "Your input helps improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -160,7 +160,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "What do you think of your subscription?",
-        "descriptionText": "If you complete our brief survey, your input will help improve the experience for all subscribers.",
+        "descriptionText": "Your input helps improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
