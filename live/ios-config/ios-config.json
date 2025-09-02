@@ -352,8 +352,30 @@
       "matchingRules": [
         4
       ]
+    },
+    {
+      "id": "ios_quarterly_satisfaction_survey_q3_2025",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=8",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;locale;last_search_state"
+          }
+        }
+      },
+      "matchingRules": [
+        19
+      ],
+      "exclusionRules": [
+        1, 2, 17, 18, 20
+      ]
     }
-
   ],
   "rules": [
     {
@@ -759,6 +781,42 @@
         },
         "locale": {
           "value": ["en-CA", "en-GB"]
+        }
+      }
+    },
+
+    {
+      "id": 19,
+      "targetPercentile": {
+        "before": 0.2
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        },
+        "appVersion": {
+          "min": "7.123.0.0"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "ddg_ios_survey_1",
+            "ios_quarterly_satisfaction_survey_q2_2025"
+          ]
+        },
+        "messageShown": {
+          "value": [
+            "ddg_ios_survey_1"
+          ]
         }
       }
     }
