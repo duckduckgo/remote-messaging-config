@@ -5,7 +5,7 @@
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Why You Cancelled Your Subscription",
+        "titleText": "Why did you cancel your subscription?",
         "descriptionText": "By taking our brief survey, you'll help us improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
@@ -23,7 +23,7 @@
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Why You Cancelled Your Subscription",
+        "titleText": "Why did you cancel your subscription?",
         "descriptionText": "By taking our brief survey, you'll help us improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
@@ -151,7 +151,7 @@
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Your Thoughts on Your DuckDuckGo Subscription",
+        "titleText": "What do you think of your subscription?",
         "descriptionText": "If you complete our brief survey, your input will help improve the experience for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
@@ -174,7 +174,7 @@
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Your Thoughts on Your DuckDuckGo Subscription",
+        "titleText": "What do you think of your subscription?",
         "descriptionText": "If you complete our brief survey, your input will help improve the experience for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
