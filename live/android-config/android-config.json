@@ -1,6 +1,23 @@
 {
-  "version": 64,
+  "version": 65,
   "messages": [
+    {
+      "id": "search_duck_ai_announcement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Toggle between search and AI chat",
+        "descriptionText": "Try our experimental address bar. All AI features are optional.",
+        "placeholder": "Announce",
+        "primaryActionText": "Enable in AI Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "duckai.settings"
+        }
+      },
+      "matchingRules": [
+        28
+      ]
+    },
     {
       "id": "android_day5_experiment_survey",
       "content": {
@@ -939,6 +956,35 @@
             "android_permanent_survey_user_personality_update",
             "android_quarterly_satisfaction_survey_0425",
             "android_day5_experiment_survey"
+          ]
+        }
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "appVersion": {
+          "min": "5.246.0"
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
           ]
         }
       }
