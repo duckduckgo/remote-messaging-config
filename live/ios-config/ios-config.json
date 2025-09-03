@@ -799,17 +799,28 @@
         }
       }
     },
+    
     {
       "id": 19,
       "targetPercentile": {
         "before": 0.2
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        },
+        "appVersion": {
+          "min": "7.123.0.0"
+        }
       }
     },
     {
       "id": 20,
-      "appVersion": {
-          "min": "7.123.0.0"
-      },
       "attributes": {
         "interactedWithMessage": {
           "value": [
