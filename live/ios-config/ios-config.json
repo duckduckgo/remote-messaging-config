@@ -1,6 +1,21 @@
 {
-  "version": 70,
+  "version": 73,
   "messages": [
+ {
+      "id": "search_duck_ai_announcement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Toggle between search and AI chat",
+        "descriptionText": "Try our experimental address bar. All AI features are optional.",
+        "placeholder": "Announce",
+        "primaryActionText": "Enable in AI Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "duckai.settings"
+        }
+      },
+      "matchingRules": [21]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -353,25 +368,29 @@
         4
       ]
     },
-
     {
-      "id": "funnel_newtab_ios_freetrialannouncement",
+      "id": "ios_quarterly_satisfaction_survey_q3_2025",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Try Privacy Pro free for 7 days",
-        "descriptionText": "Enjoy peace of mind with a fast, secure VPN and other premium protections",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Get Privacy Pro",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
         "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_ios_freetrialannouncement"
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=8",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;locale;last_search_state"
+          }
         }
       },
       "matchingRules": [
         19
+      ],
+      "exclusionRules": [
+        1, 2, 17, 18, 20
       ]
     }
-
   ],
   "rules": [
     {
@@ -780,23 +799,72 @@
         }
       }
     },
+
     {
       "id": 19,
+      "targetPercentile": {
+        "before": 0.2
+      },
       "attributes": {
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
         "locale": {
-          "value": ["en-CA", "en-GB", "en-US"]
-        },
-        "daysSinceInstalled": {
-          "min": 7
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
         },
         "appVersion": {
-          "min": "7.171.0"
+          "min": "7.123.0.0"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "ddg_ios_survey_1",
+            "ios_quarterly_satisfaction_survey_q2_2025"
+          ]
+        },
+        "messageShown": {
+          "value": [
+            "ddg_ios_survey_1"
+          ]
+        }
+      }
+    },
+    {
+      "id": 21,
+      "appVersion": {
+          "min": "7.184.0"
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW",
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
         }
       }
     }

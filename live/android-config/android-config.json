@@ -1,5 +1,5 @@
 {
-  "version": 63,
+  "version": 65,
   "messages": [
     {
       "id": "android_ppro_duck_ai_launch_us",
@@ -15,7 +15,7 @@
         }
       },
       "matchingRules": [
-        26
+        29
       ]
     },
     {
@@ -63,7 +63,44 @@
         }
       },
       "matchingRules": [
-        27
+        30
+      ]
+    },
+    {
+      "id": "search_duck_ai_announcement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Toggle between search and AI chat",
+        "descriptionText": "Try our experimental address bar. All AI features are optional.",
+        "placeholder": "Announce",
+        "primaryActionText": "Enable in AI Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "duckai.settings"
+        }
+      },
+      "matchingRules": [
+        28
+      ]
+    },
+    {
+      "id": "android_day5_experiment_survey",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the browser!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=4",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;av;ddgv;man;mo;cohort_onboardingDesignExperimentAug25"
+          }
+        }
+      },
+      "matchingRules": [
+        25
       ]
     },
     {
@@ -409,22 +446,27 @@
       "exclusionRules": [
         8
       ]
-    },
-    {
-      "id": "android_privacy_pro_free_trial_promo_0825",
+    },{
+      "id": "android_quarterly_mobile_survey_0825",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Try Privacy Pro free for 7 days",
-        "descriptionText": "Enjoy peace of mind with a fast, secure VPN and other premium protections",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Get Privacy Pro",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
         "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_android_freetrialannouncement"
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=9",
+          "additionalParameters": {
+            "queryParams": "var;delta;av;ddgv;locale"
+          }
         }
       },
+      "exclusionRules": [
+        27, 6, 7, 17, 18
+      ],
       "matchingRules": [
-        25
+        26
       ]
     }
   ],
@@ -927,31 +969,93 @@
     },
     {
       "id": 25,
+      "targetPercentile": {
+        "before": 0.4
+      },
       "attributes": {
         "appVersion": {
-          "min": "5.228.0"
+          "min": "5.245.1"
         },
         "daysSinceInstalled": {
-          "min": 7
+          "min": 5,
+          "max": 8
         },
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
+        "isUserInAnyActiveExperiment": {
+          "value": [
+            "onboardingDesignExperimentAug25"
+          ]
         },
         "locale": {
           "value": [
-            "en-GB",
+            "en-US",
             "en-CA",
-            "en-US"
+            "en-GB",
+            "en-AU"
+          ]
+        }
+      }
+    }, {
+      "id": 26,
+      "targetPercentile": {
+        "before": 0.2
+      },
+      "attributes": {
+        "appVersion": {
+          "min": "5.206.1"
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
           ]
         }
       }
     },
-
     {
-      "id": 26,
+      "id": 27,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_permanent_survey_user_personality_update",
+            "android_quarterly_satisfaction_survey_0425",
+            "android_day5_experiment_survey"
+          ]
+        }
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "appVersion": {
+          "min": "5.246.0"
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
+          ]
+        }
+      }
+    },
+    {
+      "id": 29,
       "attributes": {
         "pproSubscriber": {
           "value": true
@@ -973,7 +1077,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 30,
       "attributes": {
         "pproSubscriber": {
           "value": true
