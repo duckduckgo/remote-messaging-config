@@ -1,5 +1,5 @@
 {
-  "version": 65,
+  "version": 66,
   "messages": [
     {
       "id": "android_ppro_duck_ai_launch_us",
@@ -1072,7 +1072,7 @@
           ]
         },
         "appVersion": {
-          "min": "5.244.1"
+          "min": "5.245.1"
         }
       }
     },
@@ -1088,7 +1088,7 @@
           ]
         },
         "appVersion": {
-          "min": "5.244.1"
+          "min": "5.245.1"
         },
         "locale": {
           "value": [
