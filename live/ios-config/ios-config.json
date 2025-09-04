@@ -847,9 +847,9 @@
       "id": 21,
       "appVersion": {
           "min": "7.184.0"
-        },
+      },
       "attributes": {
-      "locale": {
+        "locale": {
           "value": [
             "en-AU",
             "en-BZ",
