@@ -29,18 +29,18 @@ jobs:
           echo "### Validating JSON Schema" >> $GITHUB_STEP_SUMMARY
           
           if ! ajv validate -s schemas/ios/schema.json -d $CONFIG_FILE 2>&1 | tee /tmp/validation.log; then
-            echo "::error file=$CONFIG_FILE,title=Schema Validation Failed::$(grep -A5 'invalid' /tmp/validation.log | head -20)"
+            echo "::error file=$CONFIG_FILE,title=Schema Validation Failed::$(grep -v 'npm warn' /tmp/validation.log | head -20)"
           
             # Add to job summary
             echo "❌ **Schema Validation Failed**" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
-            cat /tmp/validation.log >> $GITHUB_STEP_SUMMARY
+            grep -v 'npm warn' /tmp/validation.log >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
           
             # Save error for PR comment
             echo "VALIDATION_ERROR=schema" >> $GITHUB_ENV
             echo "ERROR_MESSAGE<<EOF" >> $GITHUB_ENV
-            cat /tmp/validation.log >> $GITHUB_ENV
+            grep -v 'npm warn' /tmp/validation.log >> $GITHUB_ENV
             echo "EOF" >> $GITHUB_ENV
             exit 1
           fi
