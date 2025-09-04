@@ -2,6 +2,23 @@
   "version": 75,
   "messages": [
       {
+        "id": "ios_ppro_duck_ai_launch_us",
+        "content": {
+          "messageType": "big_single_action",
+          "titleText": "New! Advanced AI for Subscribers",
+          "descriptionText": "Your subscription now includes access to more advanced AI models in Duck.ai, our private AI chat service. Always optional. No extra cost.",
+          "placeholder": "Duck.ai",
+          "primaryActionText": "Try Duck.ai",
+          "primaryAction": {
+            "type": "url",
+            "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_us"
+          }
+        },
+        "matchingRules": [
+          22
+        ]
+      },
+      {
         "id": "ios_ppro_duck_ai_launch_euuk",
         "content": {
           "messageType": "big_two_action",
@@ -46,21 +63,6 @@
           }
       },
       "matchingRules": [23]
-   },
-   {
-      "id": "search_duck_ai_announcement",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Toggle between search and AI chat",
-        "descriptionText": "Try our experimental address bar. All AI features are optional.",
-        "placeholder": "Announce",
-        "primaryActionText": "Enable in AI Settings",
-        "primaryAction": {
-          "type": "navigation",
-          "value": "duckai.settings"
-        }
-      },
-      "matchingRules": [21]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
