@@ -1,68 +1,87 @@
 {
   "version": 76,
   "messages": [
-      {
-        "id": "ios_ppro_duck_ai_launch_us",
-        "content": {
-          "messageType": "big_single_action",
-          "titleText": "New! Advanced AI for Subscribers",
-          "descriptionText": "Your subscription now includes access to more advanced AI models in Duck.ai, our private AI chat service. Always optional. No extra cost.",
-          "placeholder": "Duck.ai",
-          "primaryActionText": "Try Duck.ai",
-          "primaryAction": {
-            "type": "url",
-            "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_us"
-          }
-        },
-        "matchingRules": [
-          22
-        ]
+    {
+      "id": "ios_test_message",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "This is a test",
+        "descriptionText": "Hello world",
+        "placeholder": "Announce",
+        "primaryActionText": "Tap Me",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/"
+        }
       },
-      {
-        "id": "ios_ppro_duck_ai_launch_euuk",
-        "content": {
-          "messageType": "big_two_action",
-          "titleText": "New! Advanced AI for Subscribers",
-          "descriptionText": "We've added advanced, private (optional) AI chat to your subscription at no extra cost. Terms of Service updated accordingly.",
-          "placeholder": "Duck.ai",
-          "primaryActionText": "Try Duck.ai",
-          "primaryAction": {
-            "type": "url",
-            "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_euuk"
-          },
-          "secondaryActionText": "View Terms",
-          "secondaryAction": {
-            "type": "url",
-            "value": "https://duckduckgo.com/pro/privacy-terms/non-us"
-          }
-        },
-        "translations": {
-          "fr-FR": {
-            "titleText": "Nouveau ! IA avancée pour les abonnés",
-            "descriptionText": "Nous avons intégré un chat IA avancé et privé en option à votre abonnement, sans frais supplémentaire. Les conditions d'utilisation ont été mises à jour.",
-            "primaryActionText": "Essayer Duck.ai",
-            "secondaryActionText": "Voir les conditions"
-          },
-          "de-DE": {
-            "titleText": "Neu! Bessere KI für Abonnenten",
-            "descriptionText": "Wir haben deinem Abonnement einen besseren, privaten (optionalen) KI-Chat ohne zusätzliche Kosten hinzugefügt. Die Nutzungsbedingungen wurden entsprechend aktualisiert.",
-            "primaryActionText": "Probiere Duck.ai aus",
-            "secondaryActionText": "Nutzungsbedingungen anzeigen"
-          },
-          "nl-NL": {
-            "titleText": "Nieuw! Geavanceerde AI voor abonnees",
-            "descriptionText": "We hebben geavanceerde, privé (optionele) AI-chat aan je abonnement toegevoegd zonder extra kosten. De algemene voorwaarden zijn overeenkomstig bijgewerkt.",
-            "primaryActionText": "Probeer Duck.ai",
-            "secondaryActionText": "Bekijk voorwaarden"
-          },
-          "es-ES": {
-            "titleText": "¡Nuevo! IA avanzada para suscriptores",
-            "descriptionText": "Hemos añadido chat de IA avanzada, privada y opcional a tu suscripción sin coste adicional. Condiciones de servicio actualizadas en consecuencia.",
-            "primaryActionText": "Prueba Duck.ai",
-            "secondaryActionText": "Ver términos"
-          }
+      "matchingRules": [
+        100
+      ]
+    },
+    {
+      "id": "ios_ppro_duck_ai_launch_us",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "New! Advanced AI for Subscribers",
+        "descriptionText": "Your subscription now includes access to more advanced AI models in Duck.ai, our private AI chat service. Always optional. No extra cost.",
+        "placeholder": "Duck.ai",
+        "primaryActionText": "Try Duck.ai",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_us"
+        }
       },
-      "matchingRules": [23]
+      "matchingRules": [
+        22
+      ]
+    },
+    {
+      "id": "ios_ppro_duck_ai_launch_euuk",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "New! Advanced AI for Subscribers",
+        "descriptionText": "We've added advanced, private (optional) AI chat to your subscription at no extra cost. Terms of Service updated accordingly.",
+        "placeholder": "Duck.ai",
+        "primaryActionText": "Try Duck.ai",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_euuk"
+        },
+        "secondaryActionText": "View Terms",
+        "secondaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro/privacy-terms/non-us"
+        }
+      },
+      "translations": {
+        "fr-FR": {
+          "titleText": "Nouveau ! IA avancée pour les abonnés",
+          "descriptionText": "Nous avons intégré un chat IA avancé et privé en option à votre abonnement, sans frais supplémentaire. Les conditions d'utilisation ont été mises à jour.",
+          "primaryActionText": "Essayer Duck.ai",
+          "secondaryActionText": "Voir les conditions"
+        },
+        "de-DE": {
+          "titleText": "Neu! Bessere KI für Abonnenten",
+          "descriptionText": "Wir haben deinem Abonnement einen besseren, privaten (optionalen) KI-Chat ohne zusätzliche Kosten hinzugefügt. Die Nutzungsbedingungen wurden entsprechend aktualisiert.",
+          "primaryActionText": "Probiere Duck.ai aus",
+          "secondaryActionText": "Nutzungsbedingungen anzeigen"
+        },
+        "nl-NL": {
+          "titleText": "Nieuw! Geavanceerde AI voor abonnees",
+          "descriptionText": "We hebben geavanceerde, privé (optionele) AI-chat aan je abonnement toegevoegd zonder extra kosten. De algemene voorwaarden zijn overeenkomstig bijgewerkt.",
+          "primaryActionText": "Probeer Duck.ai",
+          "secondaryActionText": "Bekijk voorwaarden"
+        },
+        "es-ES": {
+          "titleText": "¡Nuevo! IA avanzada para suscriptores",
+          "descriptionText": "Hemos añadido chat de IA avanzada, privada y opcional a tu suscripción sin coste adicional. Condiciones de servicio actualizadas en consecuencia.",
+          "primaryActionText": "Prueba Duck.ai",
+          "secondaryActionText": "Ver términos"
+        }
+      },
+      "matchingRules": [
+        23
+      ]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -80,7 +99,9 @@
           }
         }
       },
-      "matchingRules": [2]
+      "matchingRules": [
+        2
+      ]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -98,7 +119,9 @@
           }
         }
       },
-      "matchingRules": [17]
+      "matchingRules": [
+        17
+      ]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -116,7 +139,9 @@
           }
         }
       },
-      "matchingRules": [5]
+      "matchingRules": [
+        5
+      ]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -134,7 +159,9 @@
           }
         }
       },
-      "matchingRules": [6]
+      "matchingRules": [
+        6
+      ]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -152,7 +179,9 @@
           }
         }
       },
-      "matchingRules": [7]
+      "matchingRules": [
+        7
+      ]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -170,7 +199,9 @@
           }
         }
       },
-      "matchingRules": [8]
+      "matchingRules": [
+        8
+      ]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -188,7 +219,9 @@
           }
         }
       },
-      "matchingRules": [9]
+      "matchingRules": [
+        9
+      ]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -206,10 +239,10 @@
           }
         }
       },
-      "matchingRules": [10]
+      "matchingRules": [
+        10
+      ]
     },
-
-
     {
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
@@ -394,8 +427,6 @@
         3
       ]
     },
-
-
     {
       "id": "ddg_ios_survey_1",
       "content": {
@@ -428,16 +459,22 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["active"]
+          "value": [
+            "active"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
         },
         "locale": {
-          "value": ["en-US"]
+          "value": [
+            "en-US"
+          ]
         }
       }
     },
@@ -448,16 +485,23 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring", "expired"]
+          "value": [
+            "expiring",
+            "expired"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
         },
         "locale": {
-          "value": ["en-US"]
+          "value": [
+            "en-US"
+          ]
         }
       }
     },
@@ -486,7 +530,6 @@
         }
       }
     },
-
     {
       "id": 5,
       "attributes": {
@@ -494,10 +537,15 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring", "expired"]
+          "value": [
+            "expiring",
+            "expired"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -519,10 +567,15 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring", "expired"]
+          "value": [
+            "expiring",
+            "expired"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -543,10 +596,15 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring", "expired"]
+          "value": [
+            "expiring",
+            "expired"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -566,10 +624,15 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring", "expired"]
+          "value": [
+            "expiring",
+            "expired"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -588,10 +651,15 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring", "expired"]
+          "value": [
+            "expiring",
+            "expired"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -610,10 +678,15 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring", "expired"]
+          "value": [
+            "expiring",
+            "expired"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -635,10 +708,14 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["active"]
+          "value": [
+            "active"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -663,10 +740,14 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["active"]
+          "value": [
+            "active"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -690,10 +771,14 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["active"]
+          "value": [
+            "active"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -716,10 +801,14 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["active"]
+          "value": [
+            "active"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -741,10 +830,14 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["active"]
+          "value": [
+            "active"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -766,10 +859,14 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["active"]
+          "value": [
+            "active"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -788,16 +885,24 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["expiring", "expired"]
+          "value": [
+            "expiring",
+            "expired"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
         },
         "locale": {
-          "value": ["en-CA", "en-GB"]
+          "value": [
+            "en-CA",
+            "en-GB"
+          ]
         }
       }
     },
@@ -811,16 +916,23 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": ["apple"]
+          "value": [
+            "apple"
+          ]
         },
         "pproSubscriptionStatus": {
-          "value": ["active"]
+          "value": [
+            "active"
+          ]
         },
         "appVersion": {
           "min": "7.128.0.1"
         },
         "locale": {
-          "value": ["en-CA", "en-GB"]
+          "value": [
+            "en-CA",
+            "en-GB"
+          ]
         }
       }
     },
@@ -836,7 +948,10 @@
           ]
         },
         "locale": {
-          "value": ["en-CA", "en-US"]
+          "value": [
+            "en-CA",
+            "en-US"
+          ]
         },
         "appVersion": {
           "min": "7.181.0"
@@ -855,68 +970,68 @@
           ]
         },
         "locale": {
-            "value": [
-              "en-GB",
-              "es-ES",
-              "en-ES",
-              "fr-FR",
-              "en-FR",
-              "de-DE",
-              "en-DE",
-              "nl-NL",
-              "en-NL",
-              "bg-BG",
-              "en-BG",
-              "cs-CZ",
-              "en-CZ",
-              "da-DK",
-              "en-DK",
-              "el-GR",
-              "en-GR",
-              "et-EE",
-              "en-EE",
-              "fi-FI",
-              "en-FI",
-              "hr-HR",
-              "en-HR",
-              "hu-HU",
-              "en-HU",
-              "it-IT",
-              "en-IT",
-              "lt-LT",
-              "en-LT",
-              "lv-LV",
-              "en-LV",
-              "pl-PL",
-              "en-PL",
-              "pt-PT",
-              "en-PT",
-              "ro-RO",
-              "en-RO",
-              "sk-SK",
-              "en-SK",
-              "sl-SI",
-              "en-SI",
-              "sv-SE",
-              "en-SE",
-              "en-IE",
-              "mt-MT",
-              "en-MT",
-              "el-CY",
-              "en-CY",
-              "tr-CY",
-              "en-CY",
-              "lb-LU",
-              "fr-LU",
-              "de-LU",
-              "en-LU",
-              "de-AT",
-              "en-AT",
-              "nl-BE",
-              "fr-BE",
-              "de-BE",
-              "en-BE"
-            ]
+          "value": [
+            "en-GB",
+            "es-ES",
+            "en-ES",
+            "fr-FR",
+            "en-FR",
+            "de-DE",
+            "en-DE",
+            "nl-NL",
+            "en-NL",
+            "bg-BG",
+            "en-BG",
+            "cs-CZ",
+            "en-CZ",
+            "da-DK",
+            "en-DK",
+            "el-GR",
+            "en-GR",
+            "et-EE",
+            "en-EE",
+            "fi-FI",
+            "en-FI",
+            "hr-HR",
+            "en-HR",
+            "hu-HU",
+            "en-HU",
+            "it-IT",
+            "en-IT",
+            "lt-LT",
+            "en-LT",
+            "lv-LV",
+            "en-LV",
+            "pl-PL",
+            "en-PL",
+            "pt-PT",
+            "en-PT",
+            "ro-RO",
+            "en-RO",
+            "sk-SK",
+            "en-SK",
+            "sl-SI",
+            "en-SI",
+            "sv-SE",
+            "en-SE",
+            "en-IE",
+            "mt-MT",
+            "en-MT",
+            "el-CY",
+            "en-CY",
+            "tr-CY",
+            "en-CY",
+            "lb-LU",
+            "fr-LU",
+            "de-LU",
+            "en-LU",
+            "de-AT",
+            "en-AT",
+            "nl-BE",
+            "fr-BE",
+            "de-BE",
+            "en-BE"
+          ]
         },
         "appVersion": {
           "min": "7.181.0"
