@@ -27,7 +27,7 @@ jobs:
           
           # 1. Validate JSON schema
           npm i -g ajv-cli
-          ajv validate -s schema.json -d $CONFIG_FILE
+          ajv validate -s schemas/ios/schema.json -d $CONFIG_FILE
           
           # 2. Check version was incremented
           PR_VERSION=$(jq -r '.version' $CONFIG_FILE)
