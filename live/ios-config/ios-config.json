@@ -1,7 +1,71 @@
 {
   "version": 75,
   "messages": [
- {
+      {
+        "id": "ios_ppro_duck_ai_launch_us",
+        "content": {
+          "messageType": "big_single_action",
+          "titleText": "New! Advanced AI for Subscribers",
+          "descriptionText": "Your subscription now includes access to more advanced AI models in Duck.ai, our private AI chat service. Always optional. No extra cost.",
+          "placeholder": "Duck.ai",
+          "primaryActionText": "Try Duck.ai",
+          "primaryAction": {
+            "type": "url",
+            "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_us"
+          }
+        },
+        "matchingRules": [
+          22
+        ]
+      },
+
+      {
+        "id": "ios_ppro_duck_ai_launch_euuk",
+        "content": {
+          "messageType": "big_two_action",
+          "titleText": "New! Advanced AI for Subscribers",
+          "descriptionText": "We've added advanced, private (optional) AI chat to your subscription at no extra cost. Terms of Service updated accordingly.",
+          "placeholder": "Duck.ai",
+          "primaryActionText": "Try Duck.ai",
+          "primaryAction": {
+            "type": "url",
+            "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_euuk"
+          },
+          "secondaryActionText": "View Terms",
+          "secondaryAction": {
+            "type": "url",
+            "value": "https://duckduckgo.com/pro/privacy-terms/non-us/en"
+          }
+        },
+        "translations": {
+          "fr-FR": {
+            "titleText": "Nouveau ! IA avancée pour les abonnés",
+            "descriptionText": "Nous avons intégré un chat IA avancé et privé en option à votre abonnement, sans frais supplémentaire. Les conditions d'utilisation ont été mises à jour.",
+            "primaryActionText": "Essayer Duck.ai",
+            "secondaryActionText": "Voir les conditions"
+          },
+          "de-DE": {
+            "titleText": "Neu! Bessere KI für Abonnenten",
+            "descriptionText": "Wir haben deinem Abonnement einen besseren, privaten (optionalen) KI-Chat ohne zusätzliche Kosten hinzugefügt. Die Nutzungsbedingungen wurden entsprechend aktualisiert.",
+            "primaryActionText": "Probiere Duck.ai aus",
+            "secondaryActionText": "Nutzungsbedingungen anzeigen"
+          },
+          "nl-NL": {
+            "titleText": "Nieuw! Geavanceerde AI voor abonnees",
+            "descriptionText": "We hebben geavanceerde, privé (optionele) AI-chat aan je abonnement toegevoegd zonder extra kosten. De algemene voorwaarden zijn overeenkomstig bijgewerkt.",
+            "primaryActionText": "Probeer Duck.ai",
+            "secondaryActionText": "Bekijk voorwaarden"
+          },
+          "es-ES": {
+            "titleText": "¡Nuevo! IA avanzada para suscriptores",
+            "descriptionText": "Hemos añadido chat de IA avanzada, privada y opcional a tu suscripción sin coste adicional. Condiciones de servicio actualizadas en consecuencia.",
+            "primaryActionText": "Prueba Duck.ai",
+            "secondaryActionText": "Ver términos"
+          }
+      },
+      "matchingRules": [23]
+   },
+   {
       "id": "search_duck_ai_announcement",
       "content": {
         "messageType": "big_single_action",
@@ -366,73 +430,6 @@
       },
       "matchingRules": [
         4
-      ]
-    },
-
-    {
-      "id": "ios_ppro_duck_ai_launch_us",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "New! Advanced AI for Subscribers",
-        "descriptionText": "Your subscription now includes access to more advanced AI models in Duck.ai, our private AI chat service. Always optional. No extra cost.",
-        "placeholder": "Duck.ai",
-        "primaryActionText": "Try Duck.ai",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_us"
-        }
-      },
-      "matchingRules": [
-        22
-      ]
-    },
-
-    {
-      "id": "ios_ppro_duck_ai_launch_euuk",
-      "content": {
-        "messageType": "big_two_action",
-        "titleText": "New! Advanced AI for Subscribers",
-        "descriptionText": "We've added advanced, private (optional) AI chat to your subscription at no extra cost. Terms of Service updated accordingly.",
-        "placeholder": "Duck.ai",
-        "primaryActionText": "Try Duck.ai",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_euuk"
-        },
-        "secondaryActionText": "View Terms",
-        "secondaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro/privacy-terms/non-us/en"
-        }
-      },
-      "translations": {
-          "fr-FR": {
-            "titleText": "Nouveau ! IA avancée pour les abonnés",
-            "descriptionText": "Nous avons intégré un chat IA avancé et privé en option à votre abonnement, sans frais supplémentaire. Les conditions d'utilisation ont été mises à jour.",
-            "primaryActionText": "Essayer Duck.ai",
-            "secondaryActionText": "Voir les conditions"
-          },
-          "de-DE": {
-            "titleText": "Neu! Bessere KI für Abonnenten",
-            "descriptionText": "Wir haben deinem Abonnement einen besseren, privaten (optionalen) KI-Chat ohne zusätzliche Kosten hinzugefügt. Die Nutzungsbedingungen wurden entsprechend aktualisiert.",
-            "primaryActionText": "Probiere Duck.ai aus",
-            "secondaryActionText": "Nutzungsbedingungen anzeigen"
-          },
-          "nl-NL": {
-            "titleText": "Nieuw! Geavanceerde AI voor abonnees",
-            "descriptionText": "We hebben geavanceerde, privé (optionele) AI-chat aan je abonnement toegevoegd zonder extra kosten. De algemene voorwaarden zijn overeenkomstig bijgewerkt.",
-            "primaryActionText": "Probeer Duck.ai",
-            "secondaryActionText": "Bekijk voorwaarden"
-          },
-          "es-ES": {
-            "titleText": "¡Nuevo! IA avanzada para suscriptores",
-            "descriptionText": "Hemos añadido chat de IA avanzada, privada y opcional a tu suscripción sin coste adicional. Condiciones de servicio actualizadas en consecuencia.",
-            "primaryActionText": "Prueba Duck.ai",
-            "secondaryActionText": "Ver términos"
-          }
-      },
-      "matchingRules": [
-        23
       ]
     }
   ],
