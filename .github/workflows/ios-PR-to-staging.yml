@@ -32,7 +32,7 @@ jobs:
           # Capture output without exiting on failure
           AJV_OUTPUT=$(ajv validate -s schemas/ios/schema.json -d "$CONFIG_FILE" --all-errors 2>&1 || true)
           
-          if [[ "$AJV_OUTPUT" == *"invalid"* ]]; then
+          if [[ "$AJV_OUTPUT" != *"valid"* ]]; then
             echo "$AJV_OUTPUT"  # Show in logs
           
             echo "::error file=$CONFIG_FILE,title=Schema Validation Failed::${AJV_OUTPUT//$'\n'/ }"
