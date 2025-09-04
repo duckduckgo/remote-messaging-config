@@ -1037,6 +1037,20 @@
           "min": "7.181.0"
         }
       }
+    },
+    {
+      "id": 100,
+      "appVersion": {
+        "min": "7.181.0"
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-CA",
+            "en-US"
+          ]
+        }
+      }
     }
   ]
 }
