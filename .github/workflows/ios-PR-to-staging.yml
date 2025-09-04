@@ -1,32 +1,185 @@
-name: PR to staging
+name: PR to staging (iOS)
 
 on:
-  push:
-      paths:
-      - 'live/ios-config/ios-config.json'
   pull_request:
-    types:
-      - opened
     paths:
       - 'live/ios-config/ios-config.json'
 
 jobs:
-  publish:
+  validate:
+    name: Validate Config
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: jakejarvis/s3-sync-action@7ed8b112447abb09f1da74f3466e4194fc7a6311
-      if: github.event_name == 'push'
-      with:
-        args: --acl public-read --follow-symlinks
-      env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        SOURCE_DIR: 'live/ios-config'
-        DEST_DIR: 'remotemessaging/config/staging/pre'
-    - uses: github-actions-up-and-running/pr-comment@f1f8ab2bf00dce6880a369ce08758a60c61d6c0b
-      if: github.event.action == 'opened'
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        message: 'Your PR is hosted at https://staticcdn.duckduckgo.com/remotemessaging/config/staging/pre/ios-config.json'
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate JSON and check version
+        id: validate
+        run: |
+          set -Eeuo pipefail
+          CONFIG_FILE="live/ios-config/ios-config.json"
+          
+          # 1. Validate JSON schema
+          npm i -g ajv-cli
+          
+          echo "### Validating JSON Schema" >> $GITHUB_STEP_SUMMARY
+          
+          # Capture output without exiting on failure
+          AJV_OUTPUT=$(ajv validate -s schemas/ios/schema.json -d "$CONFIG_FILE" --all-errors 2>&1 || true)
+          
+          if [[ "$AJV_OUTPUT" != *"valid"* ]]; then
+            echo "$AJV_OUTPUT"  # Show in logs
+          
+            echo "::error file=$CONFIG_FILE,title=Schema Validation Failed::${AJV_OUTPUT//$'\n'/ }"
+          
+            echo "❌ **Schema Validation Failed**" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "$AJV_OUTPUT" | grep -v 'npm warn' >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          
+            echo "VALIDATION_ERROR=schema" >> $GITHUB_ENV
+            echo "ERROR_MESSAGE<<EOF" >> $GITHUB_ENV
+            echo "$AJV_OUTPUT" | grep -v 'npm warn' >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+            exit 1
+          fi
+          
+          echo "✅ Schema validation passed" >> $GITHUB_STEP_SUMMARY
+          
+          # 2. Check version was incremented
+          PR_VERSION=$(jq -r '.version' $CONFIG_FILE)
+          MAIN_VERSION=$(git show origin/main:$CONFIG_FILE | jq -r '.version')
+          
+          echo "### Version Check" >> $GITHUB_STEP_SUMMARY
+          echo "Main: v$MAIN_VERSION → PR: v$PR_VERSION" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "$PR_VERSION" -le "$MAIN_VERSION" ]; then
+            echo "::error file=$CONFIG_FILE,title=Version Not Incremented::Version must be incremented. Main=$MAIN_VERSION, PR=$PR_VERSION"
+          
+            echo "❌ **Version not incremented!**" >> $GITHUB_STEP_SUMMARY
+          
+            echo "VALIDATION_ERROR=version" >> $GITHUB_ENV
+            echo "ERROR_MESSAGE=Version must be incremented! Main branch has version $MAIN_VERSION, your PR has version $PR_VERSION" >> $GITHUB_ENV
+            exit 1
+          fi
+          
+          echo "✅ Version correctly incremented" >> $GITHUB_STEP_SUMMARY
+          
+          # 3. Check all rule references exist
+          echo "### Rule Reference Check" >> $GITHUB_STEP_SUMMARY
+          
+          VALIDATION_ERROR=$(jq '
+            (.rules | map(.id)) as $rule_ids |
+            .messages | map(
+              . as $msg |
+              ((.matchingRules // []) - $rule_ids | 
+                if length > 0 then
+                  "Message \"" + $msg.id + "\" references non-existent matchingRules: " + (. | @json)
+                else empty end
+              ),
+              ((.exclusionRules // []) - $rule_ids |
+                if length > 0 then
+                  "Message \"" + $msg.id + "\" references non-existent exclusionRules: " + (. | @json)
+                else empty end
+              )
+            ) | .[]
+          ' $CONFIG_FILE)
+          
+          if [ ! -z "$VALIDATION_ERROR" ]; then
+            echo "::error file=$CONFIG_FILE,title=Invalid Rule References::$VALIDATION_ERROR"
+          
+            echo "❌ **Invalid rule references found:**" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "$VALIDATION_ERROR" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          
+            echo "VALIDATION_ERROR=rules" >> $GITHUB_ENV
+            echo "ERROR_MESSAGE<<EOF" >> $GITHUB_ENV
+            echo "$VALIDATION_ERROR" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+            exit 1
+          fi
+          
+          echo "✅ All rule references are valid" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### ✅ All validations passed!" >> $GITHUB_STEP_SUMMARY
+
+      - name: Comment PR with error details
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const errorType = process.env.VALIDATION_ERROR;
+            const errorMessage = process.env.ERROR_MESSAGE;
+            
+            let title = '### ❌ Validation Failed\n\n';
+            let body = '';
+            
+            switch(errorType) {
+              case 'schema':
+                body = `**JSON Schema Validation Error**\n\n`;
+                body += 'Your JSON file does not match the required schema:\n\n';
+                body += '```\n' + errorMessage + '\n```\n\n';
+                body += '**How to fix:**\n';
+                body += '1. Check the error message above\n';
+                body += '2. Validate locally: \`ajv validate -s schemas/ios/schema.json -d live/ios-config/ios-config.json\`\n';
+                break;
+            
+              case 'version':
+                body = `**Version Not Incremented**\n\n`;
+                body += '⚠️ ' + errorMessage + '\n\n';
+                body += '**How to fix:**\n';
+                body += '1. Increment the version number in your JSON file\n';
+                body += '2. Push the change to this PR\n';
+                break;
+            
+              case 'rules':
+                body = `**Invalid Rule References**\n\n`;
+                body += 'Some messages reference rule IDs that don\'t exist:\n\n';
+                body += '```\n' + errorMessage + '\n```\n\n';
+                body += '**How to fix:**\n';
+                body += '1. Check the rule IDs in your matchingRules/exclusionRules\n';
+                body += '2. Ensure all referenced rules exist in the rules array\n';
+                break;
+            }
+            
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: title + body
+            });
+
+  publish:
+    name: Publish to Staging
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync to S3 staging
+        uses: jakejarvis/s3-sync-action@7ed8b112447abb09f1da74f3466e4194fc7a6311
+        with:
+          args: --acl public-read --follow-symlinks
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          SOURCE_DIR: 'live/ios-config'
+          DEST_DIR: 'remotemessaging/config/staging/pre'
+
+      - name: Comment on PR with staging URL
+        uses: github-actions-up-and-running/pr-comment@f1f8ab2bf00dce6880a369ce08758a60c61d6c0b
+        if: github.event.action == 'opened'
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          message: |
+            ✅ Config validation passed!
+            
+            Your PR config is hosted at:
+            https://staticcdn.duckduckgo.com/remotemessaging/config/staging/pre/ios-config.json
