@@ -1,5 +1,5 @@
 {
-  "version": 27,
+  "version": 29,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -283,7 +283,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/241004?list=2",
           "additionalParameters": {
-            "queryParams": "delta;var;osv;ddgv"
+            "queryParams": "delta;var;osv;ddgv;last_search_state"
           }
         }
       },
@@ -298,23 +298,6 @@
         "placeholder": "CriticalUpdate"
       },
       "matchingRules": [10]
-    },
-    {
-      "id": "funnel_newtab_macos_freetrialannouncement",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Try Privacy Pro free for 7 days",
-        "descriptionText": "Enjoy peace of mind with a fast, secure VPN + 2 other premium protections.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Get Privacy Pro",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_macos_freetrialannouncement"
-        }
-      },
-      "matchingRules": [
-        23
-      ]
     },
     {
       "id": "macos_ppro_duck_ai_launch_us",
