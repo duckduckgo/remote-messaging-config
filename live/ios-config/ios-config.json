@@ -1,6 +1,21 @@
 {
-  "version": 71,
+  "version": 75,
   "messages": [
+ {
+      "id": "search_duck_ai_announcement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Toggle between search and AI chat",
+        "descriptionText": "Try our experimental address bar. All AI features are optional.",
+        "placeholder": "Announce",
+        "primaryActionText": "Enable in AI Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "duckai.settings"
+        }
+      },
+      "matchingRules": [21]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -355,24 +370,6 @@
     },
 
     {
-      "id": "funnel_newtab_ios_freetrialannouncement",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Try Privacy Pro free for 7 days",
-        "descriptionText": "Enjoy peace of mind with a fast, secure VPN and other premium protections",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Get Privacy Pro",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?origin=funnel_newtab_ios_freetrialannouncement"
-        }
-      },
-      "matchingRules": [
-        19
-      ]
-    },
-
-    {
       "id": "ios_ppro_duck_ai_launch_us",
       "content": {
         "messageType": "big_single_action",
@@ -438,7 +435,6 @@
         21
       ]
     }
-
   ],
   "rules": [
     {
@@ -844,26 +840,6 @@
         },
         "locale": {
           "value": ["en-CA", "en-GB"]
-        }
-      }
-    },
-    {
-      "id": 19,
-      "attributes": {
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "locale": {
-          "value": ["en-CA", "en-GB", "en-US"]
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        },
-        "appVersion": {
-          "min": "7.171.0"
         }
       }
     },
