@@ -2,24 +2,6 @@
   "version": 75,
   "messages": [
       {
-        "id": "ios_ppro_duck_ai_launch_us",
-        "content": {
-          "messageType": "big_single_action",
-          "titleText": "New! Advanced AI for Subscribers",
-          "descriptionText": "Your subscription now includes access to more advanced AI models in Duck.ai, our private AI chat service. Always optional. No extra cost.",
-          "placeholder": "Duck.ai",
-          "primaryActionText": "Try Duck.ai",
-          "primaryAction": {
-            "type": "url",
-            "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_us"
-          }
-        },
-        "matchingRules": [
-          22
-        ]
-      },
-
-      {
         "id": "ios_ppro_duck_ai_launch_euuk",
         "content": {
           "messageType": "big_two_action",
@@ -837,58 +819,6 @@
         },
         "locale": {
           "value": ["en-CA", "en-GB"]
-        }
-      }
-    },
-    {
-      "id": 21,
-      "appVersion": {
-          "min": "7.184.0"
-      },
-      "attributes": {
-        "locale": {
-          "value": [
-            "en-AU",
-            "en-BZ",
-            "en-CA",
-            "en-cb",
-            "en-GB",
-            "en-IE",
-            "en-IN",
-            "en-JM",
-            "en-MT",
-            "en-MY",
-            "en-NZ",
-            "en-PH",
-            "en-SG",
-            "en-TT",
-            "en-US",
-            "en-ZA",
-            "en-ZW",
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
-          ]
-        }
-      }
-    },
-    {
-      "id": 22,
-      "attributes": {
-        "pproSubscriber": {
-          "value": true
-        },
-        "pproSubscriptionStatus": {
-          "value": [
-            "active"
-          ]
-        },
-        "locale": {
-          "value": ["en-CA", "en-US"]
-        },
-        "appVersion": {
-          "min": "7.181.0"
         }
       }
     },
