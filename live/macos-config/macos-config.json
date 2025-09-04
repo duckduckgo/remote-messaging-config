@@ -1,6 +1,67 @@
 {
-  "version": 29,
+  "version": 31,
   "messages": [
+      {
+        "id": "macos_ppro_duck_ai_launch_us",
+        "content": {
+          "messageType": "big_single_action",
+          "titleText": "New! Advanced AI for Subscribers",
+          "descriptionText": "Your subscription now includes access to more advanced AI models in Duck.ai, our private AI chat service. Always optional. No extra cost.",
+          "placeholder": "Duck.ai",
+          "primaryActionText": "Try Duck.ai",
+          "primaryAction": {
+            "type": "url",
+            "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=2&origin=funnel_newtab_macos_advancedai_us"
+          }
+        },
+        "matchingRules": [24]
+      },
+      {
+        "id": "macos_ppro_duck_ai_launch_euuk",
+        "content": {
+          "messageType": "big_two_action",
+          "titleText": "New! Advanced AI for Subscribers",
+          "descriptionText": "We've added advanced, private (optional) AI chat to your subscription at no extra cost. Terms of Service updated accordingly.",
+          "placeholder": "Duck.ai",
+          "primaryActionText": "Try Duck.ai",
+          "primaryAction": {
+            "type": "url",
+            "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=2&origin=funnel_newtab_macos_advancedai_euuk"
+          },
+          "secondaryActionText": "View Terms",
+          "secondaryAction": {
+            "type": "url",
+            "value": "https://duckduckgo.com/pro/privacy-terms/non-us"
+          }
+        },
+        "translations": {
+          "fr-FR": {
+            "titleText": "Nouveau ! IA avancée pour les abonnés",
+            "descriptionText": "Nous avons intégré un chat IA avancé et privé en option à votre abonnement, sans frais supplémentaire. Les conditions d'utilisation ont été mises à jour.",
+            "primaryActionText": "Essayer Duck.ai",
+            "secondaryActionText": "Voir les conditions"
+          },
+          "de-DE": {
+            "titleText": "Neu! Bessere KI für Abonnenten",
+            "descriptionText": "Wir haben deinem Abonnement einen besseren, privaten (optionalen) KI-Chat ohne zusätzliche Kosten hinzugefügt. Die Nutzungsbedingungen wurden entsprechend aktualisiert.",
+            "primaryActionText": "Probiere Duck.ai aus",
+            "secondaryActionText": "Nutzungsbedingungen anzeigen"
+          },
+          "nl-NL": {
+            "titleText": "Nieuw! Geavanceerde AI voor abonnees",
+            "descriptionText": "We hebben geavanceerde, privé (optionele) AI-chat aan je abonnement toegevoegd zonder extra kosten. De algemene voorwaarden zijn overeenkomstig bijgewerkt.",
+            "primaryActionText": "Probeer Duck.ai",
+            "secondaryActionText": "Bekijk voorwaarden"
+          },
+          "es-ES": {
+            "titleText": "¡Nuevo! IA avanzada para suscriptores",
+            "descriptionText": "Hemos añadido chat de IA avanzada, privada y opcional a tu suscripción sin coste adicional. Condiciones de servicio actualizadas en consecuencia.",
+            "primaryActionText": "Prueba Duck.ai",
+            "secondaryActionText": "Ver términos"
+          }
+      },
+      "matchingRules": [25]
+    },
     {
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
@@ -727,6 +788,105 @@
           "value": [
             "es-ES"
           ]
+        }
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+          "value": ["en-CA", "en-US"]
+        },
+        "appVersion": {
+          "min": "1.151.0"
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+            "value": [
+              "en-GB",
+              "es-ES",
+              "en-ES",
+              "fr-FR",
+              "en-FR",
+              "de-DE",
+              "en-DE",
+              "nl-NL",
+              "en-NL",
+              "bg-BG",
+              "en-BG",
+              "cs-CZ",
+              "en-CZ",
+              "da-DK",
+              "en-DK",
+              "el-GR",
+              "en-GR",
+              "et-EE",
+              "en-EE",
+              "fi-FI",
+              "en-FI",
+              "hr-HR",
+              "en-HR",
+              "hu-HU",
+              "en-HU",
+              "it-IT",
+              "en-IT",
+              "lt-LT",
+              "en-LT",
+              "lv-LV",
+              "en-LV",
+              "pl-PL",
+              "en-PL",
+              "pt-PT",
+              "en-PT",
+              "ro-RO",
+              "en-RO",
+              "sk-SK",
+              "en-SK",
+              "sl-SI",
+              "en-SI",
+              "sv-SE",
+              "en-SE",
+              "en-IE",
+              "mt-MT",
+              "en-MT",
+              "el-CY",
+              "en-CY",
+              "tr-CY",
+              "en-CY",
+              "lb-LU",
+              "fr-LU",
+              "de-LU",
+              "en-LU",
+              "de-AT",
+              "en-AT",
+              "nl-BE",
+              "fr-BE",
+              "de-BE",
+              "en-BE"
+            ]
+        },
+        "appVersion": {
+          "min": "1.151.0"
         }
       }
     }

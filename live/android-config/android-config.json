@@ -1,6 +1,88 @@
 {
-  "version": 64,
+  "version": 68,
   "messages": [
+    {
+      "id": "android_ppro_duck_ai_launch_us",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "New! Advanced AI for Subscribers",
+        "descriptionText": "Your subscription now includes access to more advanced AI models in Duck.ai, our private AI chat service. Always optional. No extra cost.",
+        "placeholder": "Duck.ai",
+        "primaryActionText": "Try Duck.ai",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=5&origin=funnel_newtab_android_advancedai_us"
+        }
+      },
+      "matchingRules": [
+        29
+      ]
+    },
+    {
+      "id": "android_ppro_duck_ai_launch_euuk",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "New! Advanced AI for Subscribers",
+        "descriptionText": "We've added advanced, private (optional) AI chat to your subscription at no extra cost. Terms of Service updated accordingly.",
+        "placeholder": "Duck.ai",
+        "primaryActionText": "Try Duck.ai",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=5&origin=funnel_newtab_android_advancedai_euuk"
+        },
+        "secondaryActionText": "View Terms",
+        "secondaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro/privacy-terms/non-us"
+        }
+      },
+      "translations": {
+        "fr-FR": {
+          "titleText": "Nouveau! IA avancée pour les abonnés",
+          "descriptionText": "Nous avons intégré un chat IA avancé et privé en option à votre abonnement, sans frais supplémentaire. Les conditions d'utilisation ont été mises à jour.",
+          "primaryActionText": "Essayer Duck.ai",
+          "secondaryActionText": "Voir les conditions"
+        },
+        "de-DE": {
+          "titleText": "Neu! Bessere KI für Abonnenten",
+          "descriptionText": "Wir haben deinem Abonnement einen besseren, privaten (optionalen) KI-Chat ohne zusätzliche Kosten hinzugefügt. Die Nutzungsbedingungen wurden entsprechend aktualisiert.",
+          "primaryActionText": "Probiere Duck.ai aus",
+          "secondaryActionText": "Nutzungsbedingungen anzeigen"
+        },
+        "nl-NL": {
+          "titleText": "Nieuw! Geavanceerde AI voor abonnees",
+          "descriptionText": "We hebben geavanceerde, privé (optionele) AI-chat aan je abonnement toegevoegd zonder extra kosten. De algemene voorwaarden zijn overeenkomstig bijgewerkt.",
+          "primaryActionText": "Probeer Duck.ai",
+          "secondaryActionText": "Bekijk voorwaarden"
+        },
+        "es-ES": {
+          "titleText": "¡Nuevo! IA avanzada para suscriptores",
+          "descriptionText": "Hemos añadido chat de IA avanzada, privada y opcional a tu suscripción sin coste adicional. Condiciones de servicio actualizadas en consecuencia.",
+          "primaryActionText": "Prueba Duck.ai",
+          "secondaryActionText": "Ver términos"
+        }
+      },
+      "matchingRules": [
+        30
+      ]
+    },
+    {
+      "id": "search_duck_ai_announcement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Toggle between search and AI chat",
+        "descriptionText": "Try our experimental address bar. All AI features are optional.",
+        "placeholder": "Announce",
+        "primaryActionText": "Enable in AI Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "duckai.settings"
+        }
+      },
+      "matchingRules": [
+        28
+      ]
+    },
     {
       "id": "android_day5_experiment_survey",
       "content": {
@@ -363,28 +445,6 @@
       ],
       "exclusionRules": [
         8
-      ]
-    },{
-      "id": "android_quarterly_mobile_survey_0825",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help us improve the app!",
-        "descriptionText": "Take our short anonymous survey and share your feedback.",
-        "placeholder": "Announce",
-        "primaryActionText": "Take Survey",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=9",
-          "additionalParameters": {
-            "queryParams": "var;delta;av;ddgv;locale"
-          }
-        }
-      },
-      "exclusionRules": [
-        27, 6, 7, 17, 18
-      ],
-      "matchingRules": [
-        26
       ]
     }
   ],
@@ -912,33 +972,134 @@
           ]
         }
       }
-    }, {
-      "id": 26,
-      "targetPercentile": {
-        "before": 0.2
-      },
+    },
+    {
+      "id": 28,
       "attributes": {
         "appVersion": {
-          "min": "5.206.1"
+          "min": "5.246.0"
         },
         "locale": {
           "value": [
-            "en-US",
+            "en-AU",
+            "en-BZ",
             "en-CA",
+            "en-cb",
             "en-GB",
-            "en-AU"
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW"
           ]
         }
       }
     },
     {
-      "id": 27,
+      "id": 29,
       "attributes": {
-        "interactedWithMessage": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
           "value": [
-            "android_permanent_survey_user_personality_update",
-            "android_quarterly_satisfaction_survey_0425",
-            "android_day5_experiment_survey"
+            "active"
+          ]
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA"
+          ]
+        },
+        "appVersion": {
+          "min": "5.245.1"
+        }
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "appVersion": {
+          "min": "5.245.1"
+        },
+        "locale": {
+          "value": [
+            "bg-BG",
+            "cs-CZ",
+            "da-DK",
+            "de-AT",
+            "de-BE",
+            "de-DE",
+            "de-LU",
+            "el-CY",
+            "el-GR",
+            "en-AT",
+            "en-BE",
+            "en-BG",
+            "en-CY",
+            "en-CZ",
+            "en-DE",
+            "en-DK",
+            "en-EE",
+            "en-ES",
+            "en-FI",
+            "en-FR",
+            "en-GB",
+            "en-GR",
+            "en-HR",
+            "en-HU",
+            "en-IE",
+            "en-IT",
+            "en-LT",
+            "en-LU",
+            "en-LV",
+            "en-MT",
+            "en-NL",
+            "en-PL",
+            "en-PT",
+            "en-RO",
+            "en-SE",
+            "en-SI",
+            "en-SK",
+            "es-ES",
+            "et-EE",
+            "fi-FI",
+            "fr-BE",
+            "fr-FR",
+            "fr-LU",
+            "hr-HR",
+            "hu-HU",
+            "it-IT",
+            "lb-LU",
+            "lt-LT",
+            "lv-LV",
+            "mt-MT",
+            "nl-BE",
+            "nl-NL",
+            "pl-PL",
+            "pt-PT",
+            "ro-RO",
+            "sk-SK",
+            "sl-SI",
+            "sv-FI",
+            "sv-SE",
+            "tr-CY"
           ]
         }
       }

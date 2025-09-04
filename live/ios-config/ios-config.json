@@ -1,6 +1,69 @@
 {
-  "version": 72,
+  "version": 76,
   "messages": [
+      {
+        "id": "ios_ppro_duck_ai_launch_us",
+        "content": {
+          "messageType": "big_single_action",
+          "titleText": "New! Advanced AI for Subscribers",
+          "descriptionText": "Your subscription now includes access to more advanced AI models in Duck.ai, our private AI chat service. Always optional. No extra cost.",
+          "placeholder": "Duck.ai",
+          "primaryActionText": "Try Duck.ai",
+          "primaryAction": {
+            "type": "url",
+            "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_us"
+          }
+        },
+        "matchingRules": [
+          22
+        ]
+      },
+      {
+        "id": "ios_ppro_duck_ai_launch_euuk",
+        "content": {
+          "messageType": "big_two_action",
+          "titleText": "New! Advanced AI for Subscribers",
+          "descriptionText": "We've added advanced, private (optional) AI chat to your subscription at no extra cost. Terms of Service updated accordingly.",
+          "placeholder": "Duck.ai",
+          "primaryActionText": "Try Duck.ai",
+          "primaryAction": {
+            "type": "url",
+            "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4&origin=funnel_newtab_ios_advancedai_euuk"
+          },
+          "secondaryActionText": "View Terms",
+          "secondaryAction": {
+            "type": "url",
+            "value": "https://duckduckgo.com/pro/privacy-terms/non-us"
+          }
+        },
+        "translations": {
+          "fr-FR": {
+            "titleText": "Nouveau ! IA avancée pour les abonnés",
+            "descriptionText": "Nous avons intégré un chat IA avancé et privé en option à votre abonnement, sans frais supplémentaire. Les conditions d'utilisation ont été mises à jour.",
+            "primaryActionText": "Essayer Duck.ai",
+            "secondaryActionText": "Voir les conditions"
+          },
+          "de-DE": {
+            "titleText": "Neu! Bessere KI für Abonnenten",
+            "descriptionText": "Wir haben deinem Abonnement einen besseren, privaten (optionalen) KI-Chat ohne zusätzliche Kosten hinzugefügt. Die Nutzungsbedingungen wurden entsprechend aktualisiert.",
+            "primaryActionText": "Probiere Duck.ai aus",
+            "secondaryActionText": "Nutzungsbedingungen anzeigen"
+          },
+          "nl-NL": {
+            "titleText": "Nieuw! Geavanceerde AI voor abonnees",
+            "descriptionText": "We hebben geavanceerde, privé (optionele) AI-chat aan je abonnement toegevoegd zonder extra kosten. De algemene voorwaarden zijn overeenkomstig bijgewerkt.",
+            "primaryActionText": "Probeer Duck.ai",
+            "secondaryActionText": "Bekijk voorwaarden"
+          },
+          "es-ES": {
+            "titleText": "¡Nuevo! IA avanzada para suscriptores",
+            "descriptionText": "Hemos añadido chat de IA avanzada, privada y opcional a tu suscripción sin coste adicional. Condiciones de servicio actualizadas en consecuencia.",
+            "primaryActionText": "Prueba Duck.ai",
+            "secondaryActionText": "Ver términos"
+          }
+      },
+      "matchingRules": [23]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -351,29 +414,6 @@
       },
       "matchingRules": [
         4
-      ]
-    },
-    {
-      "id": "ios_quarterly_satisfaction_survey_q3_2025",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help us improve the app!",
-        "descriptionText": "Take our short anonymous survey and share your feedback.",
-        "placeholder": "Announce",
-        "primaryActionText": "Take Survey",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=8",
-          "additionalParameters": {
-            "queryParams": "var;delta;osv;ddgv;locale;last_search_state"
-          }
-        }
-      },
-      "matchingRules": [
-        19
-      ],
-      "exclusionRules": [
-        1, 2, 17, 18, 20
       ]
     }
   ],
@@ -784,39 +824,102 @@
         }
       }
     },
-
     {
-      "id": 19,
-      "targetPercentile": {
-        "before": 0.2
-      },
+      "id": 22,
       "attributes": {
-        "locale": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
           "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
+            "active"
           ]
         },
+        "locale": {
+          "value": ["en-CA", "en-US"]
+        },
         "appVersion": {
-          "min": "7.123.0.0"
+          "min": "7.181.0"
         }
       }
     },
     {
-      "id": 20,
+      "id": 23,
       "attributes": {
-        "interactedWithMessage": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
           "value": [
-            "ddg_ios_survey_1",
-            "ios_quarterly_satisfaction_survey_q2_2025"
+            "active"
           ]
         },
-        "messageShown": {
-          "value": [
-            "ddg_ios_survey_1"
-          ]
+        "locale": {
+            "value": [
+              "en-GB",
+              "es-ES",
+              "en-ES",
+              "fr-FR",
+              "en-FR",
+              "de-DE",
+              "en-DE",
+              "nl-NL",
+              "en-NL",
+              "bg-BG",
+              "en-BG",
+              "cs-CZ",
+              "en-CZ",
+              "da-DK",
+              "en-DK",
+              "el-GR",
+              "en-GR",
+              "et-EE",
+              "en-EE",
+              "fi-FI",
+              "en-FI",
+              "hr-HR",
+              "en-HR",
+              "hu-HU",
+              "en-HU",
+              "it-IT",
+              "en-IT",
+              "lt-LT",
+              "en-LT",
+              "lv-LV",
+              "en-LV",
+              "pl-PL",
+              "en-PL",
+              "pt-PT",
+              "en-PT",
+              "ro-RO",
+              "en-RO",
+              "sk-SK",
+              "en-SK",
+              "sl-SI",
+              "en-SI",
+              "sv-SE",
+              "en-SE",
+              "en-IE",
+              "mt-MT",
+              "en-MT",
+              "el-CY",
+              "en-CY",
+              "tr-CY",
+              "en-CY",
+              "lb-LU",
+              "fr-LU",
+              "de-LU",
+              "en-LU",
+              "de-AT",
+              "en-AT",
+              "nl-BE",
+              "fr-BE",
+              "de-BE",
+              "en-BE"
+            ]
+        },
+        "appVersion": {
+          "min": "7.181.0"
         }
       }
     }
