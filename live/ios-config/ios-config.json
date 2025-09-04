@@ -825,6 +825,25 @@
       }
     },
     {
+      "id": 22,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "locale": {
+          "value": ["en-CA", "en-US"]
+        },
+        "appVersion": {
+          "min": "7.181.0"
+        }
+      }
+    },
+    {
       "id": 23,
       "attributes": {
         "pproSubscriber": {
