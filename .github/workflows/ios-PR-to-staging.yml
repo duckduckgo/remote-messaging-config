@@ -70,7 +70,7 @@ jobs:
           echo "### Rule Reference Check" >> $GITHUB_STEP_SUMMARY
           
           VALIDATION_ERROR=$(jq '
-            .rules | map(.id) as $rule_ids |
+            (.rules | map(.id)) as $rule_ids |
             .messages | map(
               . as $msg |
               ((.matchingRules // []) - $rule_ids | 
