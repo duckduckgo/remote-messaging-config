@@ -31,7 +31,7 @@
           "secondaryActionText": "View Terms",
           "secondaryAction": {
             "type": "url",
-            "value": "https://duckduckgo.com/pro/privacy-terms/non-us/en"
+            "value": "https://duckduckgo.com/pro/privacy-terms/non-us"
           }
         },
         "translations": {
