@@ -2,31 +2,101 @@ name: PR to staging (iOS)
 
 on:
   push:
-      paths:
+    paths:
       - 'live/ios-config/ios-config.json'
   pull_request:
-    types:
-      - opened
     paths:
       - 'live/ios-config/ios-config.json'
 
 jobs:
-  publish:
+  validate:
+    name: Validate Config
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: jakejarvis/s3-sync-action@7ed8b112447abb09f1da74f3466e4194fc7a6311
-      if: github.event_name == 'push'
-      with:
-        args: --acl public-read --follow-symlinks
-      env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        SOURCE_DIR: 'live/ios-config'
-        DEST_DIR: 'remotemessaging/config/staging/pre'
-    - uses: github-actions-up-and-running/pr-comment@f1f8ab2bf00dce6880a369ce08758a60c61d6c0b
-      if: github.event.action == 'opened'
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        message: 'Your PR is hosted at https://staticcdn.duckduckgo.com/remotemessaging/config/staging/pre/ios-config.json'
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Need history for version check
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate JSON and check version
+        run: |
+          CONFIG_FILE="live/ios-config/ios-config.json"
+          
+          # 1. Validate JSON schema
+          npm i -g ajv-cli
+          ajv validate -s schema.json -d $CONFIG_FILE
+          
+          # 2. Check version was incremented
+          PR_VERSION=$(jq -r '.version' $CONFIG_FILE)
+          MAIN_VERSION=$(git show origin/main:$CONFIG_FILE | jq -r '.version')
+          
+          echo "Version: main=$MAIN_VERSION → PR=$PR_VERSION"
+          
+          if [ "$PR_VERSION" -le "$MAIN_VERSION" ]; then
+            echo "❌ Version must be incremented!"
+            exit 1
+          fi
+          
+          # 3. Check all rule references exist
+          echo ""
+          echo "Checking rule references..."
+          
+          VALIDATION_ERROR=$(jq '
+            .rules | map(.id) as $rule_ids |
+            .messages | map(
+              . as $msg |
+              ((.matchingRules // []) - $rule_ids | 
+                if length > 0 then
+                  "Message \"" + $msg.id + "\" references non-existent matchingRules: " + (. | @json)
+                else empty end
+              ),
+              ((.exclusionRules // []) - $rule_ids |
+                if length > 0 then
+                  "Message \"" + $msg.id + "\" references non-existent exclusionRules: " + (. | @json)
+                else empty end
+              )
+            ) | .[]
+          ' $CONFIG_FILE)
+          
+          if [ ! -z "$VALIDATION_ERROR" ]; then
+            echo "❌ Invalid rule references found:"
+            echo "$VALIDATION_ERROR"
+            exit 1
+          fi
+          
+          echo "✅ All rule references are valid"
+          echo ""
+          echo "✅ All validation checks passed!"
+
+  publish:
+    name: Publish to Staging
+    needs: validate  # Only runs if validation passes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync to S3 staging
+        uses: jakejarvis/s3-sync-action@7ed8b112447abb09f1da74f3466e4194fc7a6311
+        if: github.event_name == 'push'
+        with:
+          args: --acl public-read --follow-symlinks
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          SOURCE_DIR: 'live/ios-config'
+          DEST_DIR: 'remotemessaging/config/staging/pre'
+
+      - name: Comment on PR with staging URL
+        uses: github-actions-up-and-running/pr-comment@f1f8ab2bf00dce6880a369ce08758a60c61d6c0b
+        if: github.event.action == 'opened'
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          message: |
+            ✅ Config validation passed!
+            
+            Your PR config is hosted at:
+            https://staticcdn.duckduckgo.com/remotemessaging/config/staging/pre/ios-config.json
