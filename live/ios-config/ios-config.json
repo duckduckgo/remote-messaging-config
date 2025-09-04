@@ -844,37 +844,37 @@
       }
     },
     {
-        "id": 21,
-        "appVersion": {
-            "min": "7.184.0"
+      "id": 21,
+      "appVersion": {
+          "min": "7.184.0"
         },
-        "attributes": {
-          "locale": {
-              "value": [
-                "en-AU",
-                "en-BZ",
-                "en-CA",
-                "en-cb",
-                "en-GB",
-                "en-IE",
-                "en-IN",
-                "en-JM",
-                "en-MT",
-                "en-MY",
-                "en-NZ",
-                "en-PH",
-                "en-SG",
-                "en-TT",
-                "en-US",
-                "en-ZA",
-                "en-ZW",
-                "en-US",
-                "en-CA",
-                "en-GB",
-                "en-AU"
-              ]
-          }
+      "attributes": {
+      "locale": {
+          "value": [
+            "en-AU",
+            "en-BZ",
+            "en-CA",
+            "en-cb",
+            "en-GB",
+            "en-IE",
+            "en-IN",
+            "en-JM",
+            "en-MT",
+            "en-MY",
+            "en-NZ",
+            "en-PH",
+            "en-SG",
+            "en-TT",
+            "en-US",
+            "en-ZA",
+            "en-ZW",
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
         }
+      }
     },
     {
       "id": 22,
