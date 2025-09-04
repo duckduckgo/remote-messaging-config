@@ -1,9 +1,6 @@
 name: PR to staging (iOS)
 
 on:
-  push:
-    paths:
-      - 'live/ios-config/ios-config.json'
   pull_request:
     paths:
       - 'live/ios-config/ios-config.json'
