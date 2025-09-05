@@ -1,5 +1,5 @@
 {
-  "version": 69,
+  "version": 70,
   "messages": [
     {
       "id": "android_ppro_duck_ai_launch_us",
@@ -64,23 +64,6 @@
       },
       "matchingRules": [
         30
-      ]
-    },
-    {
-      "id": "search_duck_ai_announcement",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Toggle between search and AI chat",
-        "descriptionText": "Try our experimental address bar. All AI features are optional.",
-        "placeholder": "Announce",
-        "primaryActionText": "Enable in AI Settings",
-        "primaryAction": {
-          "type": "navigation",
-          "value": "duckai.settings"
-        }
-      },
-      "matchingRules": [
-        28
       ]
     },
     {
@@ -969,35 +952,6 @@
             "en-CA",
             "en-GB",
             "en-AU"
-          ]
-        }
-      }
-    },
-    {
-      "id": 28,
-      "attributes": {
-        "appVersion": {
-          "min": "5.246.0"
-        },
-        "locale": {
-          "value": [
-            "en-AU",
-            "en-BZ",
-            "en-CA",
-            "en-cb",
-            "en-GB",
-            "en-IE",
-            "en-IN",
-            "en-JM",
-            "en-MT",
-            "en-MY",
-            "en-NZ",
-            "en-PH",
-            "en-SG",
-            "en-TT",
-            "en-US",
-            "en-ZA",
-            "en-ZW"
           ]
         }
       }
