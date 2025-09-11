@@ -4,6 +4,11 @@ on:
   pull_request:
     paths:
       - 'live/ios-config/ios-config.json'
+      - 'schemas/ios/schema.json'
+
+env:
+  CONFIG_FILE: 'live/ios-config/ios-config.json'
+  SCHEMA_FILE: 'schemas/ios/schema.json'
 
 jobs:
   validate:
@@ -20,94 +25,7 @@ jobs:
 
       - name: Validate JSON and check version
         id: validate
-        run: |
-          set -Eeuo pipefail
-          CONFIG_FILE="live/ios-config/ios-config.json"
-          
-          # 1. Validate JSON schema
-          npm i -g ajv-cli
-          
-          echo "### Validating JSON Schema" >> $GITHUB_STEP_SUMMARY
-          
-          # Capture output without exiting on failure
-          AJV_OUTPUT=$(ajv validate -s schemas/ios/schema.json -d "$CONFIG_FILE" --all-errors 2>&1 || true)
-          
-          if [[ "$AJV_OUTPUT" != *"valid"* ]]; then
-            echo "$AJV_OUTPUT"  # Show in logs
-          
-            echo "::error file=$CONFIG_FILE,title=Schema Validation Failed::${AJV_OUTPUT//$'\n'/ }"
-          
-            echo "❌ **Schema Validation Failed**" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-            echo "$AJV_OUTPUT" | grep -v 'npm warn' >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-          
-            echo "VALIDATION_ERROR=schema" >> $GITHUB_ENV
-            echo "ERROR_MESSAGE<<EOF" >> $GITHUB_ENV
-            echo "$AJV_OUTPUT" | grep -v 'npm warn' >> $GITHUB_ENV
-            echo "EOF" >> $GITHUB_ENV
-            exit 1
-          fi
-          
-          echo "✅ Schema validation passed" >> $GITHUB_STEP_SUMMARY
-          
-          # 2. Check version was incremented
-          PR_VERSION=$(jq -r '.version' $CONFIG_FILE)
-          MAIN_VERSION=$(git show origin/main:$CONFIG_FILE | jq -r '.version')
-          
-          echo "### Version Check" >> $GITHUB_STEP_SUMMARY
-          echo "Main: v$MAIN_VERSION → PR: v$PR_VERSION" >> $GITHUB_STEP_SUMMARY
-          
-          if [ "$PR_VERSION" -le "$MAIN_VERSION" ]; then
-            echo "::error file=$CONFIG_FILE,title=Version Not Incremented::Version must be incremented. Main=$MAIN_VERSION, PR=$PR_VERSION"
-          
-            echo "❌ **Version not incremented!**" >> $GITHUB_STEP_SUMMARY
-          
-            echo "VALIDATION_ERROR=version" >> $GITHUB_ENV
-            echo "ERROR_MESSAGE=Version must be incremented! Main branch has version $MAIN_VERSION, your PR has version $PR_VERSION" >> $GITHUB_ENV
-            exit 1
-          fi
-          
-          echo "✅ Version correctly incremented" >> $GITHUB_STEP_SUMMARY
-          
-          # 3. Check all rule references exist
-          echo "### Rule Reference Check" >> $GITHUB_STEP_SUMMARY
-          
-          VALIDATION_ERROR=$(jq '
-            (.rules | map(.id)) as $rule_ids |
-            .messages | map(
-              . as $msg |
-              ((.matchingRules // []) - $rule_ids | 
-                if length > 0 then
-                  "Message \"" + $msg.id + "\" references non-existent matchingRules: " + (. | @json)
-                else empty end
-              ),
-              ((.exclusionRules // []) - $rule_ids |
-                if length > 0 then
-                  "Message \"" + $msg.id + "\" references non-existent exclusionRules: " + (. | @json)
-                else empty end
-              )
-            ) | .[]
-          ' $CONFIG_FILE)
-          
-          if [ ! -z "$VALIDATION_ERROR" ]; then
-            echo "::error file=$CONFIG_FILE,title=Invalid Rule References::$VALIDATION_ERROR"
-          
-            echo "❌ **Invalid rule references found:**" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-            echo "$VALIDATION_ERROR" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-          
-            echo "VALIDATION_ERROR=rules" >> $GITHUB_ENV
-            echo "ERROR_MESSAGE<<EOF" >> $GITHUB_ENV
-            echo "$VALIDATION_ERROR" >> $GITHUB_ENV
-            echo "EOF" >> $GITHUB_ENV
-            exit 1
-          fi
-          
-          echo "✅ All rule references are valid" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### ✅ All validations passed!" >> $GITHUB_STEP_SUMMARY
+        run: ./.github/scripts/validate-config.sh "$CONFIG_FILE" "$SCHEMA_FILE" main
 
       - name: Comment PR with error details
         if: failure()
@@ -127,7 +45,7 @@ jobs:
                 body += '```\n' + errorMessage + '\n```\n\n';
                 body += '**How to fix:**\n';
                 body += '1. Check the error message above\n';
-                body += '2. Validate locally: \`ajv validate -s schemas/ios/schema.json -d live/ios-config/ios-config.json\`\n';
+                body += `2. Validate locally: \`ajv validate -s ${process.env.SCHEMA_FILE} -d ${process.env.CONFIG_FILE}\`\n`;
                 break;
             
               case 'version':
