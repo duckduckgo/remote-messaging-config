@@ -930,9 +930,6 @@
     },
     {
       "id": 25,
-      "targetPercentile": {
-        "before": 0.4
-      },
       "attributes": {
         "appVersion": {
           "min": "5.245.1"
