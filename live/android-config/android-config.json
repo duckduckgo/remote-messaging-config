@@ -1,5 +1,5 @@
 {
-  "version": 70,
+  "version": 71,
   "messages": [
     {
       "id": "android_ppro_duck_ai_launch_us",
@@ -930,9 +930,6 @@
     },
     {
       "id": 25,
-      "targetPercentile": {
-        "before": 0.4
-      },
       "attributes": {
         "appVersion": {
           "min": "5.245.1"
