@@ -1,23 +1,6 @@
 {
-  "version": 78,
+  "version": 77,
   "messages": [
-    {
-      "id": "ios_test_message",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "This is a test",
-        "descriptionText": "Hello world",
-        "placeholder": "Announce",
-        "primaryActionText": "Tap Me",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/"
-        }
-      },
-      "matchingRules": [
-        101
-      ]
-    },
     {
       "id": "ios_ppro_duck_ai_launch_us",
       "content": {
@@ -79,16 +62,14 @@
           "secondaryActionText": "Ver términos"
         }
       },
-      "matchingRules": [
-        23
-      ]
+      "matchingRules": [23]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Why You Left Privacy Pro",
-        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers.",
+        "titleText": "Why did you cancel your subscription?",
+        "descriptionText": "Your input helps improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -99,16 +80,14 @@
           }
         }
       },
-      "matchingRules": [
-        2
-      ]
+      "matchingRules": [2]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Why You Left Privacy Pro",
-        "descriptionText": "By taking our brief survey, you'll help us improve Privacy Pro for all subscribers.",
+        "titleText": "Why did you cancel your subscription?",
+        "descriptionText": "Your input helps improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -119,18 +98,16 @@
           }
         }
       },
-      "matchingRules": [
-        17
-      ]
+      "matchingRules": [17]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Vous avez arrêté votre abonnement ? Dites-nous tout.",
-        "descriptionText": "En répondant à notre bref sondage, vous nous aiderez à améliorer Privacy Pro pour tous les abonnés.",
+        "titleText": "Pourquoi avez-vous annulé votre abonnement DuckDuckGo?",
+        "descriptionText": "En répondant à notre courte enquête, vous contribuerez à l'amélioration de DuckDuckGo pour l'ensemble de nos abonnés.",
         "placeholder": "PrivacyShield",
-        "primaryActionText": "Lancer le sondage",
+        "primaryActionText": "Lancer l'enquête",
         "primaryAction": {
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&decLang=french&ppro_region=row",
@@ -139,16 +116,14 @@
           }
         }
       },
-      "matchingRules": [
-        5
-      ]
+      "matchingRules": [5]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Warum haben Sie Privacy Pro gekündigt?",
-        "descriptionText": "Durch Teilnahme an unserer kurzen Umfrage helfen Sie uns, Privacy Pro für alle Abonnenten zu verbessern.",
+        "titleText": "Warum haben Sie Ihr DuckDuckGo-Abonnement gekündigt?",
+        "descriptionText": "Durch Teilnahme an unserer kurzen Umfrage helfen Sie uns, DuckDuckGo für alle Abonnenten zu verbessern.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Umfrage starten",
         "primaryAction": {
@@ -159,16 +134,14 @@
           }
         }
       },
-      "matchingRules": [
-        6
-      ]
+      "matchingRules": [6]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Waarom heeft u Privacy Pro opgezegd?",
-        "descriptionText": "Door deel te nemen aan onze korte enquête, helpt u ons Privacy Pro voor alle abonnees te verbeteren.",
+        "titleText": "Waarom heeft u het DuckDuckGo-abonnement opgezegd?",
+        "descriptionText": "Door deel te nemen aan onze korte enquête, helpt u DuckDuckGo voor alle abonnees te verbeteren.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Enquête starten",
         "primaryAction": {
@@ -179,16 +152,14 @@
           }
         }
       },
-      "matchingRules": [
-        7
-      ]
+      "matchingRules": [7]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Ci dica perché ha lasciato Privacy Pro",
-        "descriptionText": "Partecipando al nostro breve sondaggio, ci aiuterà a migliorare Privacy Pro per tutti gli abbonati.",
+        "titleText": "Dicci perché hai deciso di annullare l’abbonamento a DuckDuckGo",
+        "descriptionText": "Partecipando a questo breve sondaggio, ci aiuterai a migliorare DuckDuckGo per tutti gli utenti abbonati.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Inizia l'indagine",
         "primaryAction": {
@@ -199,16 +170,14 @@
           }
         }
       },
-      "matchingRules": [
-        8
-      ]
+      "matchingRules": [8]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Cuéntenos por qué dejó Privacy Pro",
-        "descriptionText": "Al responder a nuestra breve encuesta, nos ayudará a mejorar Privacy Pro para todos los suscriptores.",
+        "titleText": "Cuéntanos por qué dejaste la suscripción a DuckDuckGo",
+        "descriptionText": "Al responder a nuestra breve encuesta, nos ayudarás a mejorar DuckDuckGo para todos los suscriptores.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Empezar encuesta",
         "primaryAction": {
@@ -219,16 +188,14 @@
           }
         }
       },
-      "matchingRules": [
-        9
-      ]
+      "matchingRules": [9]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Berätta varför du lämnade Privacy Pro",
-        "descriptionText": "Genom att svara på vår korta enkät hjälper du oss att förbättra Privacy Pro för alla prenumeranter.",
+        "titleText": "Berätta varför du lämnade DuckDuckGo-prenumerationen",
+        "descriptionText": "Genom att svara på vår korta enkät hjälper du oss att förbättra DuckDuckGo för alla prenumeranter.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Starta enkät",
         "primaryAction": {
@@ -239,16 +206,16 @@
           }
         }
       },
-      "matchingRules": [
-        10
-      ]
+      "matchingRules": [10]
     },
+
+
     {
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Your Thoughts on Privacy Pro",
-        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "titleText": "What do you think of your subscription?",
+        "descriptionText": "Your input helps improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -270,8 +237,8 @@
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Tell Us Your Thoughts on Privacy Pro",
-        "descriptionText": "If you complete our brief survey, your input will help improve the Privacy Pro experience for all subscribers.",
+        "titleText": "What do you think of your subscription?",
+        "descriptionText": "Your input helps improve DuckDuckGo for all subscribers.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Take Survey",
         "primaryAction": {
@@ -293,10 +260,10 @@
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Faites-nous part de votre avis sur Privacy Pro",
-        "descriptionText": "En répondant à notre court sondage, vous contribuerez à l'amélioration de Privacy Pro pour l'ensemble de nos abonnés.",
+        "titleText": "Faites-nous part de votre avis sur l’abonnement DuckDuckGo",
+        "descriptionText": "En répondant à notre courte enquête, vous contribuerez à l'amélioration de DuckDuckGo pour l'ensemble de nos abonnés.",
         "placeholder": "PrivacyShield",
-        "primaryActionText": "Lancer le sondage",
+        "primaryActionText": "Lancer l'enquête",
         "primaryAction": {
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/ios_privacypro_subscribersurvey?list=3&decLang=french&ppro_region=row",
@@ -316,8 +283,8 @@
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Was halten Sie von Privacy Pro?",
-        "descriptionText": "Wenn Sie an unserer kurzen Umfrage teilnehmen, werden wir Ihre Eingaben verwenden, um Privacy Pro für alle Abonnenten zu verbessern.",
+        "titleText": "Was halten Sie vom DuckDuckGo-Abonnement?",
+        "descriptionText": "Wenn Sie an unserer kurzen Umfrage teilnehmen, werden wir lhre Eingaben verwenden, um DuckDuckGo für alle Abonnenten zu verbessern.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Umfrage starten",
         "primaryAction": {
@@ -339,8 +306,8 @@
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Waar denkt u aan bij Privacy Pro",
-        "descriptionText": "Als u onze korte enquête invult, zullen we uw input gebruiken om Privacy Pro voor alle abonnees te verbeteren.",
+        "titleText": "Waar denkt u aan bij het DuckDuckGo-abonnement?",
+        "descriptionText": "Als u onze korte enquête invult, zullen we uw input gebruiken om DuckDuckGo voor alle abonnees te verbeteren.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Enquête starten",
         "primaryAction": {
@@ -362,8 +329,8 @@
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Cosa ne pensa di Privacy Pro?",
-        "descriptionText": "Se completa il nostro breve sondaggio, utilizzeremo il suo contributo per migliorare Privacy Pro per tutti gli abbonati.",
+        "titleText": "Cosa ne pensi dell’abbonamento DuckDuckGo?",
+        "descriptionText": "Se completi il nostro breve sondaggio, il tuo contributo aiuterà a migliorare l’esperienza per tutti gli abbonati.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Inizia l'indagine",
         "primaryAction": {
@@ -385,8 +352,8 @@
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "¿Qué opina del producto Privacy Pro?",
-        "descriptionText": "Si completa nuestra breve encuesta, utilizaremos sus comentarios para mejorar Privacy Pro para todos los suscriptores.",
+        "titleText": "¿Qué opina del la suscripción a DuckDuckGo?",
+        "descriptionText": "Si completa nuestra breve encuesta, utilizaremos sus comentarios para mejorar DuckDuckGo para todos los suscriptores.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Empezar encuesta",
         "primaryAction": {
@@ -408,8 +375,8 @@
       "id": "ios_privacy_pro_subscriber_survey_1",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Vad tycker du om Privacy Pro?",
-        "descriptionText": "Om du fyller i vår korta enkät kommer vi att använda dina synpunkter för att förbättra Privacy Pro för alla prenumeranter.",
+        "titleText": "Berätta vad du tycker om din DuckDuckGo-prenumeration",
+        "descriptionText": "Genom att svara på vår korta enkät hjälper du oss att förbättra DuckDuckGo för alla prenumeranter.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "Starta enkät",
         "primaryAction": {
@@ -427,6 +394,8 @@
         3
       ]
     },
+
+
     {
       "id": "ddg_ios_survey_1",
       "content": {
@@ -459,22 +428,16 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "active"
-          ]
+          "value": ["active"]
         },
         "appVersion": {
           "min": "7.128.0.1"
         },
         "locale": {
-          "value": [
-            "en-US"
-          ]
+          "value": ["en-US"]
         }
       }
     },
@@ -485,23 +448,16 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "expiring",
-            "expired"
-          ]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
         },
         "locale": {
-          "value": [
-            "en-US"
-          ]
+          "value": ["en-US"]
         }
       }
     },
@@ -530,6 +486,7 @@
         }
       }
     },
+
     {
       "id": 5,
       "attributes": {
@@ -537,15 +494,10 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "expiring",
-            "expired"
-          ]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -567,15 +519,10 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "expiring",
-            "expired"
-          ]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -596,15 +543,10 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "expiring",
-            "expired"
-          ]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -624,15 +566,10 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "expiring",
-            "expired"
-          ]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -651,15 +588,10 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "expiring",
-            "expired"
-          ]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -678,15 +610,10 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "expiring",
-            "expired"
-          ]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -708,14 +635,10 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "active"
-          ]
+          "value": ["active"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -740,14 +663,10 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "active"
-          ]
+          "value": ["active"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -771,14 +690,10 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "active"
-          ]
+          "value": ["active"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -801,14 +716,10 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "active"
-          ]
+          "value": ["active"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -830,14 +741,10 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "active"
-          ]
+          "value": ["active"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -859,14 +766,10 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "active"
-          ]
+          "value": ["active"]
         },
         "appVersion": {
           "min": "7.128.0.1"
@@ -885,24 +788,16 @@
           "value": true
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "expiring",
-            "expired"
-          ]
+          "value": ["expiring", "expired"]
         },
         "appVersion": {
           "min": "7.128.0.1"
         },
         "locale": {
-          "value": [
-            "en-CA",
-            "en-GB"
-          ]
+          "value": ["en-CA", "en-GB"]
         }
       }
     },
@@ -916,23 +811,16 @@
           "min": 14
         },
         "pproPurchasePlatform": {
-          "value": [
-            "apple"
-          ]
+          "value": ["apple"]
         },
         "pproSubscriptionStatus": {
-          "value": [
-            "active"
-          ]
+          "value": ["active"]
         },
         "appVersion": {
           "min": "7.128.0.1"
         },
         "locale": {
-          "value": [
-            "en-CA",
-            "en-GB"
-          ]
+          "value": ["en-CA", "en-GB"]
         }
       }
     },
@@ -948,10 +836,7 @@
           ]
         },
         "locale": {
-          "value": [
-            "en-CA",
-            "en-US"
-          ]
+          "value": ["en-CA", "en-US"]
         },
         "appVersion": {
           "min": "7.181.0"
@@ -1031,20 +916,6 @@
             "fr-BE",
             "de-BE",
             "en-BE"
-          ]
-        },
-        "appVersion": {
-          "min": "7.181.0"
-        }
-      }
-    },
-    {
-      "id": 100,
-      "attributes": {
-        "locale": {
-          "value": [
-            "en-CA",
-            "en-US"
           ]
         },
         "appVersion": {
