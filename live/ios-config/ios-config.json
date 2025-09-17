@@ -1040,6 +1040,9 @@
     },
     {
       "id": 100,
+      "appVersion": {
+        "min": "7.181.0"
+      },
       "attributes": {
         "locale": {
           "value": [
@@ -1047,9 +1050,6 @@
             "en-US"
           ]
         },
-        "appVersion": {
-          "min": "7.181.0"
-        }
       }
     }
   ]
