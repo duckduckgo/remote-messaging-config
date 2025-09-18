@@ -1,5 +1,5 @@
 {
-  "version": 71,
+  "version": 72,
   "messages": [
     {
       "id": "android_ppro_duck_ai_launch_us",
@@ -64,26 +64,6 @@
       },
       "matchingRules": [
         30
-      ]
-    },
-    {
-      "id": "android_day5_experiment_survey",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help us improve the browser!",
-        "descriptionText": "Take our short anonymous survey and share your feedback.",
-        "placeholder": "Announce",
-        "primaryActionText": "Take Survey",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=4",
-          "additionalParameters": {
-            "queryParams": "atb;var;delta;av;ddgv;man;mo;cohort_onboardingDesignExperimentAug25"
-          }
-        }
-      },
-      "matchingRules": [
-        25
       ]
     },
     {
@@ -924,31 +904,6 @@
         "locale": {
           "value": [
             "sv-SE"
-          ]
-        }
-      }
-    },
-    {
-      "id": 25,
-      "attributes": {
-        "appVersion": {
-          "min": "5.245.1"
-        },
-        "daysSinceInstalled": {
-          "min": 5,
-          "max": 8
-        },
-        "isUserInAnyActiveExperiment": {
-          "value": [
-            "onboardingDesignExperimentAug25"
-          ]
-        },
-        "locale": {
-          "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
           ]
         }
       }
