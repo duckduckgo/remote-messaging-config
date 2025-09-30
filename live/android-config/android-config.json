@@ -7,7 +7,7 @@
           "messageType": "big_single_action",
           "titleText": "Help us improve the app!",
           "descriptionText": "Take our short anonymous survey and share your feedback.",
-          "placeholder": "DDGAnnounce",
+          "placeholder": "Announce",
           "primaryActionText": "Take Survey",
           "primaryAction": {
             "type": "survey",
