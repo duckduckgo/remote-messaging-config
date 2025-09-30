@@ -7,11 +7,11 @@
           "messageType": "big_single_action",
           "titleText": "Help us improve the app!",
           "descriptionText": "Take our short anonymous survey and share your feedback.",
-          "placeholder": "Announce",
+          "placeholder": "DDGAnnounce",
           "primaryActionText": "Take Survey",
           "primaryAction": {
             "type": "survey",
-            "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=4",
+            "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200",
             "additionalParameters": {
               "queryParams": "atb;var;delta;av;ddgv;man;mo;cohort_onboardingDesignExperimentOct25"
             }
@@ -865,15 +865,11 @@
     },
     {
       "id": 25,
-      "targetPercentile": {
-        "before": 1.0
-      },
       "attributes": {
         "appVersion": {
           "min": "5.251.0"
         },
         "daysSinceInstalled": {
-          "min": 0,
           "max": 4
         },
         "isUserInAnyActiveExperiment": {
