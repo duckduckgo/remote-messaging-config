@@ -1,6 +1,26 @@
 {
-  "version": 73,
+  "version": 74,
   "messages": [
+      {
+        "id": "android_day0_onboarding_design_experiment_survey",
+        "content": {
+          "messageType": "big_single_action",
+          "titleText": "Help us improve the browser!",
+          "descriptionText": "Take our short anonymous survey and share your feedback.",
+          "placeholder": "Announce",
+          "primaryActionText": "Take Survey",
+          "primaryAction": {
+            "type": "survey",
+            "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=4",
+            "additionalParameters": {
+              "queryParams": "atb;var;delta;av;ddgv;man;mo;cohort_onboardingDesignExperimentOct25"
+            }
+          }
+        },
+        "matchingRules": [
+          25
+        ]
+    },
     {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
@@ -839,6 +859,34 @@
         "locale": {
           "value": [
             "sv-SE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "targetPercentile": {
+        "before": 1.0
+      },
+      "attributes": {
+        "appVersion": {
+          "min": "5.251.0"
+        },
+        "daysSinceInstalled": {
+          "min": 0,
+          "max": 4
+        },
+        "isUserInAnyActiveExperiment": {
+          "value": [
+            "onboardingDesignExperimentOct25"
+          ]
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
           ]
         }
       }
