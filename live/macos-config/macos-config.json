@@ -1,5 +1,5 @@
 {
-  "version": 32,
+  "version": 33,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -298,6 +298,438 @@
         "placeholder": "CriticalUpdate"
       },
       "matchingRules": [10]
+    },
+    {
+      "id": "mac_user_update_app_promo_1",
+      "content": {
+        "messageType": "medium",
+        "titleText": "It's been over a year since you've updated!",
+        "descriptionText": "You're missing out on more than 20 new features, including a refreshed design, upgraded scam blocker, full history view, and better autofill. Depending on your app version, you can update either via the App Store or by going to Settings > About.",
+        "placeholder": "AppUpdate"
+      },
+      "translations": {
+        "bg-BG": {
+          "titleText": "Минали са повече от година от последното ви обновяване!",
+          "descriptionText": "Пропускате повече от 20 нови функции, включително обновен дизайн, подобрен блокиращ на измами, пълен изглед на историята и по-добро автоматично попълване. В зависимост от версията на приложението, можете да обновите чрез App Store или като отидете в Настройки > За приложението."
+        },
+        "cs-CZ": {
+          "titleText": "Uplynul více než rok od vašeho posledního aktualizace!",
+          "descriptionText": "Přicházíte o více než 20 nových funkcí, včetně obnoveného designu, vylepšeného blokování podvodů, plného zobrazení historie a lepšího automatického vyplňování. V závislosti na verzi aplikace můžete aktualizovat buď přes App Store, nebo přejít do Nastavení > O aplikaci."
+        },
+        "da-DK": {
+          "titleText": "Der er gået mere end et år siden du sidst opdaterede!",
+          "descriptionText": "Du går glip af mere end 20 nye funktioner, herunder et fornyet design, opgraderet svindelblokering, fuld historikvisning og bedre autofyldning. Afhængigt af din app-version kan du opdatere enten via App Store eller ved at gå til Indstillinger > Om."
+        },
+        "de-DE": {
+          "titleText": "Es ist mehr als ein Jahr her, seit Sie das letzte Mal aktualisiert haben!",
+          "descriptionText": "Sie verpassen mehr als 20 neue Funktionen, darunter ein erneuertes Design, verbesserte Betrugsblockierung, vollständige Chronikansicht und bessere Autofill-Funktionen. Je nach App-Version können Sie entweder über den App Store oder über Einstellungen > Über aktualisieren."
+        },
+        "el-GR": {
+          "titleText": "Έχει περάσει πάνω από ένας χρόνος από την τελευταία ενημέρωσή σας!",
+          "descriptionText": "Χάνετε περισσότερες από 20 νέες λειτουργίες, συμπεριλαμβανομένου ενός ανανεωμένου σχεδιασμού, βελτιωμένης αποκλεισμού απάτης, πλήρης προβολή ιστορικού και καλύτερου αυτόματου συμπληρώματος. Ανάλογα με την έκδοση της εφαρμογής, μπορείτε να ενημερώσετε είτε μέσω App Store είτε πηγαίνοντας στις Ρυθμίσεις > Σχετικά."
+        },
+        "es-ES": {
+          "titleText": "¡Ha pasado más de un año desde tu última actualización!",
+          "descriptionText": "Te estás perdiendo más de 20 nuevas funciones, incluyendo un diseño renovado, bloqueador de estafas mejorado, vista completa del historial y mejor autocompletado. Dependiendo de tu versión de la aplicación, puedes actualizar a través de la App Store o yendo a Configuración > Acerca de."
+        },
+        "et-EE": {
+          "titleText": "On möödunud üle aasta viimasest värskendusest!",
+          "descriptionText": "Sa jääd ilma enam kui 20 uuest funktsioonist, sealhulgas värskendatud disainist, täiustatud pettuste blokeerimisest, täielikust ajaloo vaatest ja paremast automaatsest täitmisest. Sõltuvalt rakenduse versioonist saad värskendada kas App Store'i kaudu või minnes seadetesse > Teave."
+        },
+        "fi-FI": {
+          "titleText": "On kulunut yli vuosi viimeisestä päivityksestäsi!",
+          "descriptionText": "Menetät yli 20 uutta ominaisuutta, mukaan lukien uudistettu muotoilu, parannettu huijaussuojaus, täydellinen historiakatselu ja parempi automaattinen täyttö. Sovelluksen version mukaan voit päivittää joko App Store:n kautta tai menemällä Asetukset > Tietoja."
+        },
+        "fr-FR": {
+          "titleText": "Cela fait plus d'un an que vous n'avez pas mis à jour !",
+          "descriptionText": "Vous ratez plus de 20 nouvelles fonctionnalités, notamment un design rafraîchi, un bloqueur d'arnaques amélioré, une vue complète de l'historique et un meilleur remplissage automatique. Selon votre version d'application, vous pouvez mettre à jour via l'App Store ou en allant dans Paramètres > À propos."
+        },
+        "hr-HR": {
+          "titleText": "Prošlo je više od godinu dana od vašeg zadnjeg ažuriranja!",
+          "descriptionText": "Propustite više od 20 novih funkcija, uključujući osvježeni dizajn, poboljšano blokiranje prijevara, potpuni prikaz povijesti i bolje automatsko popunjavanje. Ovisno o verziji aplikacije, možete ažurirati putem App Store-a ili odlaskom u Postavke > O aplikaciji."
+        },
+        "hu-HU": {
+          "titleText": "Több mint egy éve nem frissítetted!",
+          "descriptionText": "Több mint 20 új funkciót hagy ki, beleértve a megújított dizájnt, a fejlesztett csalásblokkolót, a teljes előzménynézetet és a jobb automatikus kitöltést. Az alkalmazás verziójától függően frissíthetsz az App Store-on keresztül vagy a Beállítások > Névjegy menüben."
+        },
+        "it-IT": {
+          "titleText": "È passato più di un anno dall'ultimo aggiornamento!",
+          "descriptionText": "Ti stai perdendo più di 20 nuove funzionalità, tra cui un design rinnovato, blocco truffe migliorato, visualizzazione cronologia completa e migliore compilazione automatica. A seconda della versione dell'app, puoi aggiornare tramite App Store o andando in Impostazioni > Informazioni."
+        },
+        "lt-LT": {
+          "titleText": "Praėjo daugiau nei metai nuo paskutinio atnaujinimo!",
+          "descriptionText": "Praleidžiate daugiau nei 20 naujų funkcijų, įskaitant atnaujintą dizainą, patobulintą sukčių blokavimą, pilną istorijos rodymą ir geresnį automatinį užpildymą. Priklausomai nuo programos versijos, galite atnaujinti per App Store arba eidami į Nustatymai > Apie."
+        },
+        "lv-LV": {
+          "titleText": "Ir pagājis vairāk nekā gads kopš pēdējā atjauninājuma!",
+          "descriptionText": "Jūs palaidāt garām vairāk nekā 20 jaunas funkcijas, tostarp atjauninātu dizainu, uzlabotu krāpniecības bloķēšanu, pilnu vēstures skatu un labāku automātisko aizpildīšanu. Atkarībā no lietotnes versijas varat atjaunināt caur App Store vai ejot uz Iestatījumi > Par."
+        },
+        "nb": {
+          "titleText": "Det har gått mer enn et år siden du sist oppdaterte!",
+          "descriptionText": "Du går glipp av mer enn 20 nye funksjoner, inkludert et fornyet design, oppgradert svindelblokkering, full historikkvisning og bedre autofylling. Avhengig av app-versjonen din kan du oppdatere enten via App Store eller ved å gå til Innstillinger > Om."
+        },
+        "nl-NL": {
+          "titleText": "Het is meer dan een jaar geleden dat je voor het laatst hebt bijgewerkt!",
+          "descriptionText": "Je mist meer dan 20 nieuwe functies, waaronder een vernieuwd ontwerp, verbeterde oplichtingsblokkering, volledige geschiedenisweergave en betere automatische aanvulling. Afhankelijk van je app-versie kun je bijwerken via de App Store of door naar Instellingen > Over te gaan."
+        },
+        "pl-PL": {
+          "titleText": "Minął ponad rok od ostatniej aktualizacji!",
+          "descriptionText": "Przegapiasz ponad 20 nowych funkcji, w tym odświeżony design, ulepszony bloker oszustw, pełny widok historii i lepsze automatyczne wypełnianie. W zależności od wersji aplikacji możesz zaktualizować przez App Store lub przechodząc do Ustawienia > O aplikacji."
+        },
+        "pt-PT": {
+          "titleText": "Já passou mais de um ano desde a última atualização!",
+          "descriptionText": "Estás a perder mais de 20 novas funcionalidades, incluindo um design renovado, bloqueador de burlas melhorado, vista completa do histórico e melhor preenchimento automático. Dependendo da versão da aplicação, podes atualizar através da App Store ou indo a Definições > Acerca de."
+        },
+        "ro-RO": {
+          "titleText": "A trecut mai mult de un an de la ultima actualizare!",
+          "descriptionText": "Ratezi mai mult de 20 de funcții noi, inclusiv un design reînnoit, blocator de înșelăciuni îmbunătățit, vizualizare completă a istoricului și completare automată mai bună. În funcție de versiunea aplicației, poți actualiza prin App Store sau mergând la Setări > Despre."
+        },
+        "ru-RU": {
+          "titleText": "Прошло больше года с последнего обновления!",
+          "descriptionText": "Вы упускаете более 20 новых функций, включая обновленный дизайн, улучшенную блокировку мошенничества, полный просмотр истории и лучшую автозаполнение. В зависимости от версии приложения вы можете обновить через App Store или перейдя в Настройки > О программе."
+        },
+        "sk-SK": {
+          "titleText": "Uplynul viac ako rok od poslednej aktualizácie!",
+          "descriptionText": "Prichádzate o viac ako 20 nových funkcií, vrátane obnoveného dizajnu, vylepšeného blokovania podvodov, plného zobrazenia histórie a lepšieho automatického vyplňovania. V závislosti od verzie aplikácie môžete aktualizovať buď cez App Store, alebo prejsť do Nastavenia > O aplikácii."
+        },
+        "sl-SI": {
+          "titleText": "Minilo je več kot leto dni od zadnje posodobitve!",
+          "descriptionText": "Zamudite več kot 20 novih funkcij, vključno z osveženim dizajnom, izboljšanim blokiranjem goljufij, polnim prikazom zgodovine in boljšim samodejnim zapolnjevanjem. Odvisno od različice aplikacije lahko posodobite preko App Store ali tako, da greste v Nastavitve > O aplikaciji."
+        },
+        "sv-SE": {
+          "titleText": "Det har gått mer än ett år sedan du senast uppdaterade!",
+          "descriptionText": "Du missar mer än 20 nya funktioner, inklusive en uppfräschad design, förbättrad bluffblockering, fullständig historikvy och bättre autofyllning. Beroende på din app-version kan du uppdatera via App Store eller genom att gå till Inställningar > Om."
+        },
+        "tr-TR": {
+          "titleText": "Son güncellemeden bu yana bir yıldan fazla zaman geçti!",
+          "descriptionText": "Yenilenmiş tasarım, geliştirilmiş dolandırıcılık engelleyici, tam geçmiş görünümü ve daha iyi otomatik doldurma dahil olmak üzere 20'den fazla yeni özelliği kaçırıyorsunuz. Uygulama sürümünüze bağlı olarak App Store üzerinden veya Ayarlar > Hakkında'ya giderek güncelleyebilirsiniz."
+        }
+      },
+      "matchingRules": [23]
+    },
+    {
+      "id": "mac_user_update_app_promo_2",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Update to get the latest features and protections",
+        "descriptionText": "You're missing out on a refreshed browser design, upgraded scam blocker, full history view, and more! Depending on your app version, you can update either via the App Store or by going to Settings > About.",
+        "placeholder": "AppUpdate"
+      },
+      "translations": {
+        "bg-BG": {
+          "titleText": "Обновете се, за да получите най-новите функции и защита",
+          "descriptionText": "Пропускате обновен дизайн на браузъра, подобрен блокиращ на измами, пълен изглед на историята и още много! В зависимост от версията на приложението, можете да обновите чрез App Store или като отидете в Настройки > За приложението."
+        },
+        "cs-CZ": {
+          "titleText": "Aktualizujte pro získání nejnovějších funkcí a ochrany",
+          "descriptionText": "Přicházíte o obnovený design prohlížeče, vylepšené blokování podvodů, plné zobrazení historie a další! V závislosti na verzi aplikace můžete aktualizovat buď přes App Store, nebo přejít do Nastavení > O aplikaci."
+        },
+        "da-DK": {
+          "titleText": "Opdater for at få de nyeste funktioner og beskyttelse",
+          "descriptionText": "Du går glip af et fornyet browserdesign, opgraderet svindelblokering, fuld historikvisning og meget mere! Afhængigt af din app-version kan du opdatere enten via App Store eller ved at gå til Indstillinger > Om."
+        },
+        "de-DE": {
+          "titleText": "Aktualisieren Sie, um die neuesten Funktionen und den Schutz zu erhalten",
+          "descriptionText": "Sie verpassen ein erneuertes Browser-Design, verbesserte Betrugsblockierung, vollständige Chronikansicht und mehr! Je nach App-Version können Sie entweder über den App Store oder über Einstellungen > Über aktualisieren."
+        },
+        "el-GR": {
+          "titleText": "Ενημερώστε για να λάβετε τις πιο πρόσφατες λειτουργίες και προστασία",
+          "descriptionText": "Χάνετε έναν ανανεωμένο σχεδιασμό του προγράμματος περιήγησης, βελτιωμένη αποκλεισμό απάτης, πλήρη προβολή ιστορικού και πολλά άλλα! Ανάλογα με την έκδοση της εφαρμογής, μπορείτε να ενημερώσετε είτε μέσω App Store είτε πηγαίνοντας στις Ρυθμίσεις > Σχετικά."
+        },
+        "es-ES": {
+          "titleText": "Actualiza para obtener las últimas funciones y protecciones",
+          "descriptionText": "¡Te estás perdiendo un diseño de navegador renovado, bloqueador de estafas mejorado, vista completa del historial y mucho más! Dependiendo de tu versión de la aplicación, puedes actualizar a través de la App Store o yendo a Configuración > Acerca de."
+        },
+        "et-EE": {
+          "titleText": "Värskenda, et saada uusimaid funktsioone ja kaitset",
+          "descriptionText": "Sa jääd ilma värskendatud brauseri disainist, täiustatud pettuste blokeerimisest, täielikust ajaloo vaatest ja palju muust! Sõltuvalt rakenduse versioonist saad värskendada kas App Store'i kaudu või minnes seadetesse > Teave."
+        },
+        "fi-FI": {
+          "titleText": "Päivitä saadaksesi uusimmat ominaisuudet ja suojaukset",
+          "descriptionText": "Menetät uudistetun selainmuotoilun, parannetun huijaussuojauksen, täydellisen historiakatselun ja paljon muuta! Sovelluksen version mukaan voit päivittää joko App Store:n kautta tai menemällä Asetukset > Tietoja."
+        },
+        "fr-FR": {
+          "titleText": "Mettez à jour pour obtenir les dernières fonctionnalités et protections",
+          "descriptionText": "Vous ratez un design de navigateur rafraîchi, un bloqueur d'arnaques amélioré, une vue complète de l'historique et bien plus encore ! Selon votre version d'application, vous pouvez mettre à jour via l'App Store ou en allant dans Paramètres > À propos."
+        },
+        "hr-HR": {
+          "titleText": "Ažurirajte za najnovije funkcije i zaštitu",
+          "descriptionText": "Propustite osvježeni dizajn preglednika, poboljšano blokiranje prijevara, potpuni prikaz povijesti i još mnogo toga! Ovisno o verziji aplikacije, možete ažurirati putem App Store-a ili odlaskom u Postavke > O aplikaciji."
+        },
+        "hu-HU": {
+          "titleText": "Frissíts a legújabb funkciók és védelem megkapásához",
+          "descriptionText": "Kihagysz egy megújított böngésződizájnt, fejlesztett csalásblokkolót, teljes előzménynézetet és még sok mást! Az alkalmazás verziójától függően frissíthetsz az App Store-on keresztül vagy a Beállítások > Névjegy menüben."
+        },
+        "it-IT": {
+          "titleText": "Aggiorna per ottenere le ultime funzionalità e protezioni",
+          "descriptionText": "Ti stai perdendo un design del browser rinnovato, blocco truffe migliorato, visualizzazione cronologia completa e molto altro! A seconda della versione dell'app, puoi aggiornare tramite App Store o andando in Impostazioni > Informazioni."
+        },
+        "lt-LT": {
+          "titleText": "Atnaujinkite, kad gautumėte naujausias funkcijas ir apsaugą",
+          "descriptionText": "Praleidžiate atnaujintą naršyklės dizainą, patobulintą sukčių blokavimą, pilną istorijos rodymą ir dar daugiau! Priklausomai nuo programos versijos, galite atnaujinti per App Store arba eidami į Nustatymai > Apie."
+        },
+        "lv-LV": {
+          "titleText": "Atjauniniet, lai iegūtu jaunākās funkcijas un aizsardzību",
+          "descriptionText": "Jūs palaidāt garām atjauninātu pārlūka dizainu, uzlabotu krāpniecības bloķēšanu, pilnu vēstures skatu un daudz ko citu! Atkarībā no lietotnes versijas varat atjaunināt caur App Store vai ejot uz Iestatījumi > Par."
+        },
+        "nb": {
+          "titleText": "Oppdater for å få de nyeste funksjonene og beskyttelsen",
+          "descriptionText": "Du går glipp av et fornyet browserdesign, oppgradert svindelblokkering, full historikkvisning og mye mer! Avhengig av app-versjonen din kan du oppdatere enten via App Store eller ved å gå til Innstillinger > Om."
+        },
+        "nl-NL": {
+          "titleText": "Werk bij om de nieuwste functies en bescherming te krijgen",
+          "descriptionText": "Je mist een vernieuwd browserontwerp, verbeterde oplichtingsblokkering, volledige geschiedenisweergave en nog veel meer! Afhankelijk van je app-versie kun je bijwerken via de App Store of door naar Instellingen > Over te gaan."
+        },
+        "pl-PL": {
+          "titleText": "Zaktualizuj, aby uzyskać najnowsze funkcje i ochronę",
+          "descriptionText": "Przegapiasz odświeżony design przeglądarki, ulepszony bloker oszustw, pełny widok historii i wiele więcej! W zależności od wersji aplikacji możesz zaktualizować przez App Store lub przechodząc do Ustawienia > O aplikacji."
+        },
+        "pt-PT": {
+          "titleText": "Atualiza para obteres as funcionalidades e proteções mais recentes",
+          "descriptionText": "Estás a perder um design de navegador renovado, bloqueador de burlas melhorado, vista completa do histórico e muito mais! Dependendo da versão da aplicação, podes atualizar através da App Store ou indo a Definições > Acerca de."
+        },
+        "ro-RO": {
+          "titleText": "Actualizează pentru a obține cele mai noi funcții și protecții",
+          "descriptionText": "Ratezi un design de browser reînnoit, blocator de înșelăciuni îmbunătățit, vizualizare completă a istoricului și multe altele! În funcție de versiunea aplicației, poți actualiza prin App Store sau mergând la Setări > Despre."
+        },
+        "ru-RU": {
+          "titleText": "Обновитесь, чтобы получить последние функции и защиту",
+          "descriptionText": "Вы упускаете обновленный дизайн браузера, улучшенную блокировку мошенничества, полный просмотр истории и многое другое! В зависимости от версии приложения вы можете обновить через App Store или перейдя в Настройки > О программе."
+        },
+        "sk-SK": {
+          "titleText": "Aktualizujte pre získanie najnovších funkcií a ochrany",
+          "descriptionText": "Prichádzate o obnovený dizajn prehliadača, vylepšené blokovanie podvodov, plné zobrazenie histórie a oveľa viac! V závislosti od verzie aplikácie môžete aktualizovať buď cez App Store, alebo prejsť do Nastavenia > O aplikácii."
+        },
+        "sl-SI": {
+          "titleText": "Posodobite za najnovejše funkcije in zaščito",
+          "descriptionText": "Zamudite osvežen dizajn brskalnika, izboljšano blokiranje goljufij, polni prikaz zgodovine in še veliko več! Odvisno od različice aplikacije lahko posodobite preko App Store ali tako, da greste v Nastavitve > O aplikaciji."
+        },
+        "sv-SE": {
+          "titleText": "Uppdatera för att få de senaste funktionerna och skyddet",
+          "descriptionText": "Du missar en uppfräschad browserdesign, förbättrad bluffblockering, fullständig historikvy och mycket mer! Beroende på din app-version kan du uppdatera via App Store eller genom att gå till Inställningar > Om."
+        },
+        "tr-TR": {
+          "titleText": "En son özellikler ve korumaları almak için güncelleyin",
+          "descriptionText": "Yenilenmiş tarayıcı tasarımı, geliştirilmiş dolandırıcılık engelleyici, tam geçmiş görünümü ve çok daha fazlasını kaçırıyorsunuz! Uygulama sürümünüze bağlı olarak App Store üzerinden veya Ayarlar > Hakkında'ya giderek güncelleyebilirsiniz."
+        }
+      },
+      "matchingRules": [24]
+    },
+    {
+      "id": "mac_user_update_app_promo_3",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Update to get the latest features and protections",
+        "descriptionText": "You're missing out on a refreshed browser design, upgraded scam blocker, and more! Depending on your app version, you can update either via the App Store or by going to Settings > About.",
+        "placeholder": "AppUpdate"
+      },
+      "translations": {
+        "bg-BG": {
+          "titleText": "Обновете се, за да получите най-новите функции и защита",
+          "descriptionText": "Пропускате обновен дизайн на браузъра, подобрен блокиращ на измами и още много! В зависимост от версията на приложението, можете да обновите чрез App Store или като отидете в Настройки > За приложението."
+        },
+        "cs-CZ": {
+          "titleText": "Aktualizujte pro získání nejnovějších funkcí a ochrany",
+          "descriptionText": "Přicházíte o obnovený design prohlížeče, vylepšené blokování podvodů a další! V závislosti na verzi aplikace můžete aktualizovat buď přes App Store, nebo přejít do Nastavení > O aplikaci."
+        },
+        "da-DK": {
+          "titleText": "Opdater for at få de nyeste funktioner og beskyttelse",
+          "descriptionText": "Du går glip af et fornyet browserdesign, opgraderet svindelblokering og meget mere! Afhængigt af din app-version kan du opdatere enten via App Store eller ved at gå til Indstillinger > Om."
+        },
+        "de-DE": {
+          "titleText": "Aktualisieren Sie, um die neuesten Funktionen und den Schutz zu erhalten",
+          "descriptionText": "Sie verpassen ein erneuertes Browser-Design, verbesserte Betrugsblockierung und mehr! Je nach App-Version können Sie entweder über den App Store oder über Einstellungen > Über aktualisieren."
+        },
+        "el-GR": {
+          "titleText": "Ενημερώστε για να λάβετε τις πιο πρόσφατες λειτουργίες και προστασία",
+          "descriptionText": "Χάνετε έναν ανανεωμένο σχεδιασμό του προγράμματος περιήγησης, βελτιωμένη αποκλεισμό απάτης και πολλά άλλα! Ανάλογα με την έκδοση της εφαρμογής, μπορείτε να ενημερώσετε είτε μέσω App Store είτε πηγαίνοντας στις Ρυθμίσεις > Σχετικά."
+        },
+        "es-ES": {
+          "titleText": "Actualiza para obtener las últimas funciones y protecciones",
+          "descriptionText": "¡Te estás perdiendo un diseño de navegador renovado, bloqueador de estafas mejorado y mucho más! Dependiendo de tu versión de la aplicación, puedes actualizar a través de la App Store o yendo a Configuración > Acerca de."
+        },
+        "et-EE": {
+          "titleText": "Värskenda, et saada uusimaid funktsioone ja kaitset",
+          "descriptionText": "Sa jääd ilma värskendatud brauseri disainist, täiustatud pettuste blokeerimisest ja palju muust! Sõltuvalt rakenduse versioonist saad värskendada kas App Store'i kaudu või minnes seadetesse > Teave."
+        },
+        "fi-FI": {
+          "titleText": "Päivitä saadaksesi uusimmat ominaisuudet ja suojaukset",
+          "descriptionText": "Menetät uudistetun selainmuotoilun, parannetun huijaussuojauksen ja paljon muuta! Sovelluksen version mukaan voit päivittää joko App Store:n kautta tai menemällä Asetukset > Tietoja."
+        },
+        "fr-FR": {
+          "titleText": "Mettez à jour pour obtenir les dernières fonctionnalités et protections",
+          "descriptionText": "Vous ratez un design de navigateur rafraîchi, un bloqueur d'arnaques amélioré et bien plus encore ! Selon votre version d'application, vous pouvez mettre à jour via l'App Store ou en allant dans Paramètres > À propos."
+        },
+        "hr-HR": {
+          "titleText": "Ažurirajte za najnovije funkcije i zaštitu",
+          "descriptionText": "Propustite osvježeni dizajn preglednika, poboljšano blokiranje prijevara i još mnogo toga! Ovisno o verziji aplikacije, možete ažurirati putem App Store-a ili odlaskom u Postavke > O aplikaciji."
+        },
+        "hu-HU": {
+          "titleText": "Frissíts a legújabb funkciók és védelem megkapásához",
+          "descriptionText": "Kihagysz egy megújított böngésződizájnt, fejlesztett csalásblokkolót és még sok mást! Az alkalmazás verziójától függően frissíthetsz az App Store-on keresztül vagy a Beállítások > Névjegy menüben."
+        },
+        "it-IT": {
+          "titleText": "Aggiorna per ottenere le ultime funzionalità e protezioni",
+          "descriptionText": "Ti stai perdendo un design del browser rinnovato, blocco truffe migliorato e molto altro! A seconda della versione dell'app, puoi aggiornare tramite App Store o andando in Impostazioni > Informazioni."
+        },
+        "lt-LT": {
+          "titleText": "Atnaujinkite, kad gautumėte naujausias funkcijas ir apsaugą",
+          "descriptionText": "Praleidžiate atnaujintą naršyklės dizainą, patobulintą sukčių blokavimą ir dar daugiau! Priklausomai nuo programos versijos, galite atnaujinti per App Store arba eidami į Nustatymai > Apie."
+        },
+        "lv-LV": {
+          "titleText": "Atjauniniet, lai iegūtu jaunākās funkcijas un aizsardzību",
+          "descriptionText": "Jūs palaidāt garām atjauninātu pārlūka dizainu, uzlabotu krāpniecības bloķēšanu un daudz ko citu! Atkarībā no lietotnes versijas varat atjaunināt caur App Store vai ejot uz Iestatījumi > Par."
+        },
+        "nb": {
+          "titleText": "Oppdater for å få de nyeste funksjonene og beskyttelsen",
+          "descriptionText": "Du går glipp av et fornyet browserdesign, oppgradert svindelblokkering og mye mer! Avhengig av app-versjonen din kan du oppdatere enten via App Store eller ved å gå til Innstillinger > Om."
+        },
+        "nl-NL": {
+          "titleText": "Werk bij om de nieuwste functies en bescherming te krijgen",
+          "descriptionText": "Je mist een vernieuwd browserontwerp, verbeterde oplichtingsblokkering en nog veel meer! Afhankelijk van je app-versie kun je bijwerken via de App Store of door naar Instellingen > Over te gaan."
+        },
+        "pl-PL": {
+          "titleText": "Zaktualizuj, aby uzyskać najnowsze funkcje i ochronę",
+          "descriptionText": "Przegapiasz odświeżony design przeglądarki, ulepszony bloker oszustw i wiele więcej! W zależności od wersji aplikacji możesz zaktualizować przez App Store lub przechodząc do Ustawienia > O aplikacji."
+        },
+        "pt-PT": {
+          "titleText": "Atualiza para obteres as funcionalidades e proteções mais recentes",
+          "descriptionText": "Estás a perder um design de navegador renovado, bloqueador de burlas melhorado e muito mais! Dependendo da versão da aplicação, podes atualizar através da App Store ou indo a Definições > Acerca de."
+        },
+        "ro-RO": {
+          "titleText": "Actualizează pentru a obține cele mai noi funcții și protecții",
+          "descriptionText": "Ratezi un design de browser reînnoit, blocator de înșelăciuni îmbunătățit și multe altele! În funcție de versiunea aplicației, poți actualiza prin App Store sau mergând la Setări > Despre."
+        },
+        "ru-RU": {
+          "titleText": "Обновитесь, чтобы получить последние функции и защиту",
+          "descriptionText": "Вы упускаете обновленный дизайн браузера, улучшенную блокировку мошенничества и многое другое! В зависимости от версии приложения вы можете обновить через App Store или перейдя в Настройки > О программе."
+        },
+        "sk-SK": {
+          "titleText": "Aktualizujte pre získanie najnovších funkcií a ochrany",
+          "descriptionText": "Prichádzate o obnovený dizajn prehliadača, vylepšené blokovanie podvodov a oveľa viac! V závislosti od verzie aplikácie môžete aktualizovať buď cez App Store, alebo prejsť do Nastavenia > O aplikácii."
+        },
+        "sl-SI": {
+          "titleText": "Posodobite za najnovejše funkcije in zaščito",
+          "descriptionText": "Zamudite osvežen dizajn brskalnika, izboljšano blokiranje goljufij in še veliko več! Odvisno od različice aplikacije lahko posodobite preko App Store ali tako, da greste v Nastavitve > O aplikaciji."
+        },
+        "sv-SE": {
+          "titleText": "Uppdatera för att få de senaste funktionerna och skyddet",
+          "descriptionText": "Du missar en uppfräschad browserdesign, förbättrad bluffblockering och mycket mer! Beroende på din app-version kan du uppdatera via App Store eller genom att gå till Inställningar > Om."
+        },
+        "tr-TR": {
+          "titleText": "En son özellikler ve korumaları almak için güncelleyin",
+          "descriptionText": "Yenilenmiş tarayıcı tasarımı, geliştirilmiş dolandırıcılık engelleyici ve çok daha fazlasını kaçırıyorsunuz! Uygulama sürümünüze bağlı olarak App Store üzerinden veya Ayarlar > Hakkında'ya giderek güncelleyebilirsiniz."
+        }
+      },
+      "matchingRules": [25]
+    },
+    {
+      "id": "mac_user_update_app_promo_4",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Update to get the latest features and protections",
+        "descriptionText": "You're missing out on using a Fire Window by default and the option to add Search and Duck.ai to your new tab page. Depending on your app version, you can update either via the App Store or by going to Settings > About.",
+        "placeholder": "AppUpdate"
+      },
+      "translations": {
+        "bg-BG": {
+          "titleText": "Обновете се, за да получите най-новите функции и защита",
+          "descriptionText": "Пропускате използването на Fire Window по подразбиране и възможността да добавите Search и Duck.ai към страницата за нов раздел. В зависимост от версията на приложението, можете да обновите чрез App Store или като отидете в Настройки > За приложението."
+        },
+        "cs-CZ": {
+          "titleText": "Aktualizujte pro získání nejnovějších funkcí a ochrany",
+          "descriptionText": "Přicházíte o používání Fire Window ve výchozím nastavení a možnost přidat Search a Duck.ai na stránku nového panelu. V závislosti na verzi aplikace můžete aktualizovat buď přes App Store, nebo přejít do Nastavení > O aplikaci."
+        },
+        "da-DK": {
+          "titleText": "Opdater for at få de nyeste funktioner og beskyttelse",
+          "descriptionText": "Du går glip af at bruge Fire Window som standard og muligheden for at tilføje Search og Duck.ai til din nye fane-side. Afhængigt af din app-version kan du opdatere enten via App Store eller ved at gå til Indstillinger > Om."
+        },
+        "de-DE": {
+          "titleText": "Aktualisieren Sie, um die neuesten Funktionen und den Schutz zu erhalten",
+          "descriptionText": "Sie verpassen die standardmäßige Verwendung eines Fire Window und die Möglichkeit, Search und Duck.ai zu Ihrer neuen Tab-Seite hinzuzufügen. Je nach App-Version können Sie entweder über den App Store oder über Einstellungen > Über aktualisieren."
+        },
+        "el-GR": {
+          "titleText": "Ενημερώστε για να λάβετε τις πιο πρόσφατες λειτουργίες και προστασία",
+          "descriptionText": "Χάνετε τη χρήση ενός Fire Window από προεπιλογή και την επιλογή να προσθέσετε Search και Duck.ai στη σελίδα νέας καρτέλας σας. Ανάλογα με την έκδοση της εφαρμογής, μπορείτε να ενημερώσετε είτε μέσω App Store είτε πηγαίνοντας στις Ρυθμίσεις > Σχετικά."
+        },
+        "es-ES": {
+          "titleText": "Actualiza para obtener las últimas funciones y protecciones",
+          "descriptionText": "Te estás perdiendo el uso de Fire Window por defecto y la opción de añadir Search y Duck.ai a tu página de nueva pestaña. Dependiendo de tu versión de la aplicación, puedes actualizar a través de la App Store o yendo a Configuración > Acerca de."
+        },
+        "et-EE": {
+          "titleText": "Värskenda, et saada uusimaid funktsioone ja kaitset",
+          "descriptionText": "Sa jääd ilma Fire Window kasutamisest vaikimisi ja võimalusest lisada Search ja Duck.ai oma uue kaardi lehele. Sõltuvalt rakenduse versioonist saad värskendada kas App Store'i kaudu või minnes seadetesse > Teave."
+        },
+        "fi-FI": {
+          "titleText": "Päivitä saadaksesi uusimmat ominaisuudet ja suojaukset",
+          "descriptionText": "Menetät Fire Window -käytön oletuksena ja mahdollisuuden lisätä Search ja Duck.ai uudelle välilehtisivullesi. Sovelluksen version mukaan voit päivittää joko App Store:n kautta tai menemällä Asetukset > Tietoja."
+        },
+        "fr-FR": {
+          "titleText": "Mettez à jour pour obtenir les dernières fonctionnalités et protections",
+          "descriptionText": "Vous ratez l'utilisation de Fire Window par défaut et l'option d'ajouter Search et Duck.ai à votre page de nouvel onglet. Selon votre version d'application, vous pouvez mettre à jour via l'App Store ou en allant dans Paramètres > À propos."
+        },
+        "hr-HR": {
+          "titleText": "Ažurirajte za najnovije funkcije i zaštitu",
+          "descriptionText": "Propustite korištenje Fire Window-a kao zadano i mogućnost dodavanja Search i Duck.ai na svoju stranicu novog kartice. Ovisno o verziji aplikacije, možete ažurirati putem App Store-a ili odlaskom u Postavke > O aplikaciji."
+        },
+        "hu-HU": {
+          "titleText": "Frissíts a legújabb funkciók és védelem megkapásához",
+          "descriptionText": "Kihagysz a Fire Window alapértelmezett használatát és a Search és Duck.ai hozzáadásának lehetőségét az új lap oldalához. Az alkalmazás verziójától függően frissíthetsz az App Store-on keresztül vagy a Beállítások > Névjegy menüben."
+        },
+        "it-IT": {
+          "titleText": "Aggiorna per ottenere le ultime funzionalità e protezioni",
+          "descriptionText": "Ti stai perdendo l'uso di Fire Window per impostazione predefinita e l'opzione di aggiungere Search e Duck.ai alla tua pagina nuova scheda. A seconda della versione dell'app, puoi aggiornare tramite App Store o andando in Impostazioni > Informazioni."
+        },
+        "lt-LT": {
+          "titleText": "Atnaujinkite, kad gautumėte naujausias funkcijas ir apsaugą",
+          "descriptionText": "Praleidžiate Fire Window naudojimą pagal numatytuosius nustatymus ir galimybę pridėti Search ir Duck.ai į savo naujo skirtuko puslapį. Priklausomai nuo programos versijos, galite atnaujinti per App Store arba eidami į Nustatymai > Apie."
+        },
+        "lv-LV": {
+          "titleText": "Atjauniniet, lai iegūtu jaunākās funkcijas un aizsardzību",
+          "descriptionText": "Jūs palaidāt garām Fire Window izmantošanu pēc noklusējuma un iespēju pievienot Search un Duck.ai savai jaunā cilnes lapai. Atkarībā no lietotnes versijas varat atjaunināt caur App Store vai ejot uz Iestatījumi > Par."
+        },
+        "nb": {
+          "titleText": "Oppdater for å få de nyeste funksjonene og beskyttelsen",
+          "descriptionText": "Du går glipp av å bruke Fire Window som standard og muligheten til å legge til Search og Duck.ai på din nye fane-side. Avhengig av app-versjonen din kan du oppdatere enten via App Store eller ved å gå til Innstillinger > Om."
+        },
+        "nl-NL": {
+          "titleText": "Werk bij om de nieuwste functies en bescherming te krijgen",
+          "descriptionText": "Je mist het gebruik van Fire Window als standaard en de optie om Search en Duck.ai toe te voegen aan je nieuwe tabbladpagina. Afhankelijk van je app-versie kun je bijwerken via de App Store of door naar Instellingen > Over te gaan."
+        },
+        "pl-PL": {
+          "titleText": "Zaktualizuj, aby uzyskać najnowsze funkcje i ochronę",
+          "descriptionText": "Przegapiasz domyślne używanie Fire Window i możliwość dodania Search i Duck.ai do strony nowej karty. W zależności od wersji aplikacji możesz zaktualizować przez App Store lub przechodząc do Ustawienia > O aplikacji."
+        },
+        "pt-PT": {
+          "titleText": "Atualiza para obteres as funcionalidades e proteções mais recentes",
+          "descriptionText": "Estás a perder o uso do Fire Window por defeito e a opção de adicionar Search e Duck.ai à tua página de novo separador. Dependendo da versão da aplicação, podes atualizar através da App Store ou indo a Definições > Acerca de."
+        },
+        "ro-RO": {
+          "titleText": "Actualizează pentru a obține cele mai noi funcții și protecții",
+          "descriptionText": "Ratezi folosirea Fire Window în mod implicit și opțiunea de a adăuga Search și Duck.ai la pagina de tab nou. În funcție de versiunea aplicației, poți actualiza prin App Store sau mergând la Setări > Despre."
+        },
+        "ru-RU": {
+          "titleText": "Обновитесь, чтобы получить последние функции и защиту",
+          "descriptionText": "Вы упускаете использование Fire Window по умолчанию и возможность добавить Search и Duck.ai на страницу новой вкладки. В зависимости от версии приложения вы можете обновить через App Store или перейдя в Настройки > О программе."
+        },
+        "sk-SK": {
+          "titleText": "Aktualizujte pre získanie najnovších funkcií a ochrany",
+          "descriptionText": "Prichádzate o používanie Fire Window ako predvolené a možnosť pridať Search a Duck.ai na stránku nového panelu. V závislosti od verzie aplikácie môžete aktualizovať buď cez App Store, alebo prejsť do Nastavenia > O aplikácii."
+        },
+        "sl-SI": {
+          "titleText": "Posodobite za najnovejše funkcije in zaščito",
+          "descriptionText": "Zamudite uporabo Fire Window kot privzeto in možnost dodajanja Search in Duck.ai na svojo stran novega zavihka. Odvisno od različice aplikacije lahko posodobite preko App Store ali tako, da greste v Nastavitve > O aplikaciji."
+        },
+        "sv-SE": {
+          "titleText": "Uppdatera för att få de senaste funktionerna och skyddet",
+          "descriptionText": "Du missar användningen av Fire Window som standard och möjligheten att lägga till Search och Duck.ai på din nya fliksida. Beroende på din app-version kan du uppdatera via App Store eller genom att gå till Inställningar > Om."
+        },
+        "tr-TR": {
+          "titleText": "En son özellikler ve korumaları almak için güncelleyin",
+          "descriptionText": "Varsayılan olarak Fire Window kullanımını ve yeni sekme sayfanıza Search ve Duck.ai ekleme seçeneğini kaçırıyorsunuz. Uygulama sürümünüze bağlı olarak App Store üzerinden veya Ayarlar > Hakkında'ya giderek güncelleyebilirsiniz."
+        }
+      },
+      "matchingRules": [26]
     }
   ],
   "rules": [
@@ -727,6 +1159,42 @@
           "value": [
             "es-ES"
           ]
+        }
+      }
+    },
+    {
+      "id": 23,
+      "attributes": {
+        "appVersion": {
+          "min": "1.97.0",
+          "max": "1.106.0"
+        }
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "appVersion": {
+          "min": "1.107.0",
+          "max": "1.119.0"
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "appVersion": {
+          "min": "1.120.0",
+          "max": "1.131.0"
+        }
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "appVersion": {
+          "min": "1.132.0",
+          "max": "1.154.0"
         }
       }
     }
