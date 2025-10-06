@@ -1,5 +1,5 @@
 {
-  "version": 39,
+  "version": 40,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -49,6 +49,29 @@
         6,
         7,
         8
+      ]
+    },
+    {
+      "id": "windows_14_day_survey",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "Take our short survey and help us build the best browser.",
+        "placeholder": "Announce",
+        "primaryActionText": "Share Your Thoughts",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/241004?list=1",
+          "additionalParameters": {
+            "queryParams": "wv;atb;ddgv;sts;var;origin;last_search_state"
+          }
+        }
+      },
+      "matchingRules": [
+        10
+      ],
+      "exclusionRules": [
+        11
       ]
     },
     {
