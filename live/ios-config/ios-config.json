@@ -1,5 +1,5 @@
 {
-  "version": 78,
+  "version": 79,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -352,6 +352,30 @@
       "matchingRules": [
         4
       ]
+    },
+
+    {
+      "id": "ios_winback_offer_urgency",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Last day to save 25%!",
+        "descriptionText": "Stay protected with our VPN, private AI, and more. Resubscribe today and save 25%.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "See Offer",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?featurePage=winback&origin=funnel_newtab_ios_winback"
+        },
+        "secondaryActionText": "Not Now",
+        "secondaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [
+        19
+      ],
+      "exclusionRules": []
     }
   ],
   "rules": [
@@ -758,6 +782,14 @@
         },
         "locale": {
           "value": ["en-CA", "en-GB"]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "shouldShowWinBackOfferUrgencyMessage": {
+          "value": true
         }
       }
     }
