@@ -345,7 +345,7 @@
     },
 
     {
-      "id": "funnel_newtab_ios_paidaiannouncement",
+      "id": "funnel_newtab_macos_paidaiannouncement",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Try advanced AI for free",
