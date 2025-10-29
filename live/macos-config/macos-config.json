@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 36,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -294,7 +294,7 @@
       "content": {
         "messageType": "medium",
         "titleText": "Automatic Update Failed",
-        "descriptionText": "To get the latest version of DuckDuckGo  \n1\\. Go to **Settings > About**  \n2\\. Select **Check for updates but let me choose to install them**  \n3\\. Click **Restart To Update**",
+        "descriptionText": "To get the latest version, go to Settings > About, and turn on manual updates. Then click Restart To Update.",
         "placeholder": "CriticalUpdate"
       },
       "matchingRules": [10]
