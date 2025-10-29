@@ -262,7 +262,7 @@
       "id": 12,
       "attributes": {
         "locale": {
-          "value": [ "en-US", "en-CA", "en-UK", "de-DE" ]
+          "value": [ "en-US", "en-CA", "en-GB", "de-DE" ]
         },
         "pproSubscriber": {
           "value": false
