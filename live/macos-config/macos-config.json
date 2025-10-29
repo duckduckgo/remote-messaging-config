@@ -1,5 +1,5 @@
 {
-  "version": 36,
+  "version": 37,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -354,7 +354,7 @@
         "primaryActionText": "Try for Free",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?featurePage=duckai&origin=funnel_newtab_android_paidaiannouncement"
+          "value": "https://duckduckgo.com/pro?featurePage=duckai&origin=funnel_newtab_macos_paidaiannouncement"
         }
       },
       "translations": {

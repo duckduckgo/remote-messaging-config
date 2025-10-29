@@ -388,7 +388,7 @@
         "primaryActionText": "Try for Free",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/pro?featurePage=duckai&origin=funnel_newtab_android_paidaiannouncement"
+          "value": "https://duckduckgo.com/pro?featurePage=duckai&origin=funnel_newtab_ios_paidaiannouncement"
         }
       },
       "translations": {
