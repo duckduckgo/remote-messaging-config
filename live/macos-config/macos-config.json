@@ -812,7 +812,7 @@
       "id": 24,
       "attributes": {
         "appVersion": {
-          "min": "5.254.1"
+          "min": "1.163.0"
         },
         "pproEligible": {
           "value": true
