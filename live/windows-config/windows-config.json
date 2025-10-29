@@ -104,7 +104,7 @@
         "primaryActionText": "Try for Free",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/windows-preview"
+          "value": "https://duckduckgo.com/pro?featurePage=duckai&origin=funnel_newtab_windows_paidaiannouncement"
         }
       },
       "translations": {
