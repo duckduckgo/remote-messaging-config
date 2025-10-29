@@ -294,7 +294,7 @@
       "content": {
         "messageType": "medium",
         "titleText": "Automatic Update Failed",
-        "descriptionText": "To get the latest version, go to Settings > About and enable manual updates. Then click Restart To Update.",
+        "descriptionText": "To get the latest version, go to Settings > About, and turn on manual updates. Then click Restart To Update.",
         "placeholder": "CriticalUpdate"
       },
       "matchingRules": [10]
