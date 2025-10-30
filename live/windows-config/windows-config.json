@@ -269,6 +269,13 @@
         },
         "pproEligible": {
           "value": true
+        },
+        "daysSinceInstalled": {
+          "min": 7,
+          "max": 10000
+        },
+        "daysSinceDuckAiUsed": {
+          "max": 7
         }
       }
     }
