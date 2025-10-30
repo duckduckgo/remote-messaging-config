@@ -1,5 +1,5 @@
 {
-  "version": 36,
+  "version": 37,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -342,6 +342,31 @@
         }
       },
       "matchingRules": [23]
+    },
+
+    {
+      "id": "funnel_newtab_macos_paidaiannouncement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Try advanced AI for free",
+        "descriptionText": "Chat privately with GPT-5 and Claude Sonnet 4, plus get a secure VPN and more, free for 7 days.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Try for Free",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?featurePage=duckai&origin=funnel_newtab_macos_paidaiannouncement"
+        }
+      },
+      "translations": {
+        "de": {
+          "titleText": "Fortgeschrittene KI kostenlos testen",
+          "descriptionText": "Chatte privat mit GPT-5 und Claude Sonnet 4, und erhalte ein sicheres VPN und mehr, 7 Tage lang kostenlos.",
+          "primaryActionText": "Kostenlos testen"
+        }
+      },
+      "matchingRules": [
+        24
+      ]
     }
   ],
   "rules": [
@@ -780,6 +805,34 @@
         "appVersion": {
           "min": "1.97.0",
           "max": "1.154.0"
+        }
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "appVersion": {
+          "min": "1.163.0"
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "daysSinceDuckAiUsed": {
+          "max": 7
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "de-DE"
+          ]
         }
       }
     }
