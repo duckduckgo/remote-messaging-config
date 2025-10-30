@@ -1,5 +1,5 @@
 {
-  "version": 40,
+  "version": 41,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -93,6 +93,28 @@
       "exclusionRules": [
         9
       ]
+    },
+    {
+      "id": "free_duckai_cta",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Try advanced AI for free",
+        "descriptionText": "Chat privately with GPT-5 and Claude Sonnet 4, plus get a secure VPN and more, free for 7 days.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Try for Free",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?featurePage=duckai&origin=funnel_newtab_windows_paidaiannouncement"
+        }
+      },
+      "translations": {
+        "de-DE": {
+          "titleText": "Fortgeschrittene KI kostenlos testen",
+          "descriptionText": "Chatte privat mit GPT-5 und Claude Sonnet 4, und erhalte ein sicheres VPN und mehr, 7 Tage lang kostenlos.",
+          "primaryActionText": "Kostenlos testen"
+        }
+      },
+      "matchingRules": [ 12 ]
     }
   ],
   "rules": [
@@ -233,6 +255,27 @@
           "value": [
             "survey.dismissed"
           ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "locale": {
+          "value": [ "en-US", "en-CA", "en-GB", "de-DE" ]
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "daysSinceInstalled": {
+          "min": 7,
+          "max": 10000
+        },
+        "daysSinceDuckAiUsed": {
+          "max": 7
         }
       }
     }
