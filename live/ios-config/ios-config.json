@@ -1,5 +1,5 @@
 {
-  "version": 79,
+  "version": 80,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -358,7 +358,7 @@
       "id": "ios_winback_offer_urgency",
       "content": {
         "messageType": "big_two_action",
-        "titleText": "Last day to save 25%!",
+        "titleText": "Last chance to save 25%!",
         "descriptionText": "Stay protected with our VPN, private AI, and more. Resubscribe today and save 25%.",
         "placeholder": "PrivacyShield",
         "primaryActionText": "See Offer",
