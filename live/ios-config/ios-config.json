@@ -831,7 +831,7 @@
           "value": false
         },
         "daysSinceInstalled": {
-          "min": 0
+          "min": 7
         },
         "daysSinceDuckAiUsed": {
           "max": 7
