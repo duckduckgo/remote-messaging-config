@@ -99,4 +99,4 @@ jobs:
             ✅ Config validation passed!
             
             Your PR config is hosted at:
-            https://staticcdn.duckduckgo.com/remotemessaging/config/staging/pre/ios-config.json
+            https://staticcdn.duckduckgo.com/remotemessaging/config/staging/pre/${{ github.event.number }}/ios-config.json
