@@ -1,5 +1,5 @@
 {
-  "version": 37,
+  "version": 38,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -367,6 +367,26 @@
       "matchingRules": [
         24
       ]
+    },
+
+    {
+      "id": "macos_quarterly_satisfaction_survey_q4_2025",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "We really want to know which features would make our browser better.",
+        "placeholder": "Announce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/250206?list=5",
+          "additionalParameters": {
+            "queryParams": "delta;var;osv;ddgv;last_search_state"
+          }
+        }
+      },
+      "matchingRules": [25],
+      "exclusionRules": [26]
     }
   ],
   "rules": [
@@ -832,6 +852,44 @@
             "en-CA",
             "en-GB",
             "de-DE"
+          ]
+        }
+      }
+    },
+
+    {
+      "id": 25,
+      "targetPercentile": {
+        "before": 0.3
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        },
+        "appVersion": {
+          "min": "1.146.0"
+        },
+        "daysSinceInstalled": {
+          "min": 28
+        }
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "messageShown": {
+          "value": [
+            "macos_permanent_survey_tab_bar",
+            "macos_quarterly_satisfaction_survey_1",
+            "macos_quarterly_satisfaction_survey_2",
+            "macos_quarterly_satisfaction_survey_3",
+            "macos_quarterly_satisfaction_survey_6-25-part1",
+            "macos_quarterly_satisfaction_survey_6-25-part2"
           ]
         }
       }
