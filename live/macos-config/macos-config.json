@@ -1,5 +1,5 @@
 {
-  "version": 37,
+  "version": 38,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -366,6 +366,23 @@
       },
       "matchingRules": [
         24
+      ]
+    },
+
+    {
+      "id": "funnel_newtab_macos_blackfridaymmxxv_fridaylaunch",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Save 40% on VPN + private AI",
+        "descriptionText": "Get our VPN + private AI + more premium features. Black Friday deal ends Dec. 2.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "See Details",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?featurePage=blackfriday&origin=funnel_newtab_macos_blackfridaymmxxv_fridaylaunch"
+        }
+      },
+      "matchingRules": [
       ]
     }
   ],
