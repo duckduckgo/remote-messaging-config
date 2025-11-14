@@ -377,7 +377,6 @@
       ],
       "exclusionRules": []
     },
-
     {
       "id": "funnel_newtab_ios_paidaiannouncement",
       "content": {
@@ -400,6 +399,28 @@
       },
       "matchingRules": [
         20
+      ]
+    },
+    {
+      "id": "ios-customization-announcement-1",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Customize Your Buttons",
+        "descriptionText": "Pick your favorite shortcuts for the Address Bar and Toolbar while browsing.",
+        "placeholder": "Announce",
+        "primaryActionText": "Open Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "appearance"
+        },
+        "secondaryActionText": "Not Now",
+        "secondaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [
+        21
       ]
     }
   ],
@@ -842,6 +863,16 @@
             "en-CA",
             "en-GB",
             "de-DE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "allFeatureFlagsEnabled": {
+          "value": [
+            "mobileCustomization"
           ]
         }
       }
