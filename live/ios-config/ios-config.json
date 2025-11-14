@@ -417,6 +417,7 @@
         }
       },
       "matchingRules": [
+        21
       ]
     }
   ],
@@ -859,6 +860,25 @@
             "en-CA",
             "en-GB",
             "de-DE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "appVersion": {
+          "min": "7.193.0"
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
           ]
         }
       }
