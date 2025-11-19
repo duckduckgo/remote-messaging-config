@@ -1,5 +1,5 @@
 {
-  "version": 78,
+  "version": 79,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -346,6 +346,23 @@
       ]
     },
     {
+      "id": "funnel_newtab_android_blackfridaymmxxv_fridaylaunch",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Save 40% on VPN + private AI",
+        "descriptionText": "Get our VPN + private AI + more premium features. Black Friday deal ends Dec. 2.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "See Details",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?featurePage=blackfriday&origin=funnel_newtab_android_blackfridaymmxxv_fridaylaunch"
+        }
+      },
+      "matchingRules": [
+        1
+      ]
+    },
+    {
       "id": "android_quarterly_mobile_survey_q425",
       "content": {
         "messageType": "big_single_action",
@@ -370,6 +387,22 @@
     }
   ],
   "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        }
+      }
+    },
     {
       "id": 4,
       "attributes": {
