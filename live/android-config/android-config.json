@@ -363,6 +363,40 @@
       ]
     },
     {
+      "id": "funnel_newtab_android_blackfridaymmxxv_mondayreminder",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Save 40% on VPN + private AI",
+        "descriptionText": "Last chance to save big on our VPN + private AI + more premium features. Cyber Monday deal ends Dec. 2.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "See Details",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?featurePage=blackfriday&origin=funnel_newtab_android_blackfridaymmxxv_mondayreminder"
+        }
+      },
+      "matchingRules": [
+        2
+      ]
+    },
+    {
+      "id": "funnel_newtab_android_blackfridaymmxxv_mondayai",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Save 40% on advanced AI",
+        "descriptionText": "Chat privately with GPT-5, Claude Sonnet 4 and other advanced AI. Includes our VPN and more. Cyber Monday deal ends Dec. 2.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "See Details",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?featurePage=blackfriday&origin=funnel_newtab_android_blackfridaymmxxv_mondayai"
+        }
+      },
+      "matchingRules": [
+        3
+      ]
+    },
+    {
       "id": "android_quarterly_mobile_survey_q425",
       "content": {
         "messageType": "big_single_action",
@@ -395,6 +429,44 @@
         },
         "pproSubscriber": {
           "value": false
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "daysSinceDuckAiUsed": {
+          "min": 8
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "pproEligible": {
+          "value": true
+        },
+        "pproSubscriber": {
+          "value": false
+        },
+        "daysSinceDuckAiUsed": {
+          "max": 7
         },
         "locale": {
           "value": [
