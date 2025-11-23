@@ -230,7 +230,11 @@
             "duckPlayerEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "messageShown": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "isCurrentFreemiumPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
-            "allFeatureFlagsEnabled": { "$ref": "#/definitions/SingleValueStringArrayAttribute" }
+            "allFeatureFlagsEnabled": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
+            "subscriptionFreeTrialActive": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
+            "syncEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
+            "shouldShowWinBackOfferUrgencyMessage": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
+            "daysSinceDuckAiUsed": { "$ref": "#/definitions/NumericRangeAttribute" }
           },
           "additionalProperties": false
         }

@@ -20,10 +20,8 @@ npm i -g ajv-cli
 
 echo "### Validating JSON Schema" >> $GITHUB_STEP_SUMMARY
 
-# Capture output without exiting on failure
-AJV_OUTPUT=$(ajv validate -s "$SCHEMA_FILE" -d "$CONFIG_FILE" --all-errors 2>&1 || true)
-
-if [[ "$AJV_OUTPUT" != *"valid"* ]]; then
+# Capture output and fail on non-zero exit
+if ! AJV_OUTPUT=$(ajv validate -s "$SCHEMA_FILE" -d "$CONFIG_FILE" --all-errors 2>&1); then
   echo "$AJV_OUTPUT"  # Show in logs
 
   echo "::error file=$CONFIG_FILE,title=Schema Validation Failed::${AJV_OUTPUT//$'\n'/ }"
