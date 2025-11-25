@@ -15,9 +15,6 @@ if [ -z "$CONFIG_FILE" ] || [ -z "$SCHEMA_FILE" ]; then
     exit 1
 fi
 
-# Set GITHUB_STEP_SUMMARY to /dev/null if not provided
-GITHUB_STEP_SUMMARY="${GITHUB_STEP_SUMMARY:-/dev/null}"
-
 # 1. Validate JSON schema
 npm i -g ajv-cli
 
