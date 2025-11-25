@@ -886,10 +886,13 @@
     },
     {
       "id": 21,
-      "attributes": {
-        "formFactor": [
-          "phone"
-        ],
+      "attributes": {        
+        "formFactor": {
+          "value": [
+            "phone"
+          ],
+          "fallback": true
+        },
         "allFeatureFlagsEnabled": {
           "value": [
             "mobileCustomization"
