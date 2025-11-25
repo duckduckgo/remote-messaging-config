@@ -1,5 +1,5 @@
 {
-  "version": 43,
+  "version": 46,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -93,28 +93,6 @@
       "exclusionRules": [
         9
       ]
-    },
-    {
-      "id": "free_duckai_cta",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Try advanced AI for free",
-        "descriptionText": "Chat privately with GPT-5 and Claude Sonnet 4, plus get a secure VPN and more, free for 7 days.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Try for Free",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?featurePage=duckai&origin=funnel_newtab_windows_paidaiannouncement"
-        }
-      },
-      "translations": {
-        "de-DE": {
-          "titleText": "Fortgeschrittene KI kostenlos testen",
-          "descriptionText": "Chatte privat mit GPT-5 und Claude Sonnet 4, und erhalte ein sicheres VPN und mehr, 7 Tage lang kostenlos.",
-          "primaryActionText": "Kostenlos testen"
-        }
-      },
-      "matchingRules": [ 12 ]
     }
   ],
   "rules": [
@@ -254,119 +232,6 @@
         "interactedWithDeprecatedWindowsSurvey": {
           "value": [
             "survey.dismissed"
-          ]
-        }
-      }
-    },
-    {
-      "id": 12,
-      "attributes": {
-        "locale": {
-          "value": [ "en-US", "en-CA", "en-GB", "de-DE" ]
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "pproEligible": {
-          "value": true
-        },
-        "daysSinceInstalled": {
-          "min": 7,
-          "max": 10000
-        },
-        "daysSinceDuckAiUsed": {
-          "max": 7
-        }
-      }
-    },
-    {
-      "id": 13,
-      "attributes": {
-        "daysSinceInstalled": {
-          "min": 29,
-          "max": 10000
-        },
-        "locale": {
-          "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
-          ]
-        }
-      }
-    },
-    { "id": 14, "attributes": { "atb": { "value": "v490-7" } } },
-    { "id": 15, "attributes": { "atb": { "value": "v491-1" } } },
-    { "id": 16, "attributes": { "atb": { "value": "v491-2" } } },
-    { "id": 17, "attributes": { "atb": { "value": "v491-3" } } },
-    { "id": 18, "attributes": { "atb": { "value": "v491-4" } } },
-    { "id": 19, "attributes": { "atb": { "value": "v491-5" } } },
-    { "id": 20, "attributes": { "atb": { "value": "v491-6" } } },
-    { "id": 21, "attributes": { "atb": { "value": "v491-7" } } },
-    { "id": 22, "attributes": { "atb": { "value": "v492-1" } } },
-    { "id": 23, "attributes": { "atb": { "value": "v492-2" } } },
-    { "id": 24, "attributes": { "atb": { "value": "v492-3" } } },
-    { "id": 25, "attributes": { "atb": { "value": "v492-4" } } },
-    { "id": 26, "attributes": { "atb": { "value": "v492-5" } } },
-    { "id": 27, "attributes": { "atb": { "value": "v492-6" } } },
-    { "id": 28, "attributes": { "atb": { "value": "v492-7" } } },
-    { "id": 29, "attributes": { "atb": { "value": "v493-1" } } },
-    { "id": 30, "attributes": { "atb": { "value": "v493-2" } } },
-    { "id": 31, "attributes": { "atb": { "value": "v493-3" } } },
-    { "id": 32, "attributes": { "atb": { "value": "v493-4" } } },
-    { "id": 33, "attributes": { "atb": { "value": "v493-5" } } },
-    { "id": 34, "attributes": { "atb": { "value": "v493-6" } } },
-    { "id": 35, "attributes": { "atb": { "value": "v493-7" } } },
-    { "id": 36, "attributes": { "atb": { "value": "v494-1" } } },
-    { "id": 37, "attributes": { "atb": { "value": "v494-2" } } },
-    { "id": 38, "attributes": { "atb": { "value": "v494-3" } } },
-    { "id": 39, "attributes": { "atb": { "value": "v494-4" } } },
-    { "id": 40, "attributes": { "atb": { "value": "v494-5" } } },
-    { "id": 41, "attributes": { "atb": { "value": "v494-6" } } },
-    { "id": 42, "attributes": { "atb": { "value": "v494-7" } } },
-    { "id": 43, "attributes": { "atb": { "value": "v495-1" } } },
-    { "id": 44, "attributes": { "atb": { "value": "v495-2" } } },
-    { "id": 45, "attributes": { "atb": { "value": "v495-3" } } },
-    { "id": 46, "attributes": { "atb": { "value": "v495-4" } } },
-    { "id": 47, "attributes": { "atb": { "value": "v495-5" } } },
-    { "id": 48, "attributes": { "atb": { "value": "v495-6" } } },
-    { "id": 49, "attributes": { "atb": { "value": "v495-7" } } },
-    { "id": 50, "attributes": { "atb": { "value": "v496-1" } } },
-    { "id": 51, "attributes": { "atb": { "value": "v496-2" } } },
-    { "id": 52, "attributes": { "atb": { "value": "v496-3" } } },
-    { "id": 53, "attributes": { "atb": { "value": "v496-4" } } },
-    { "id": 54, "attributes": { "atb": { "value": "v496-5" } } },
-    { "id": 55, "attributes": { "atb": { "value": "v496-6" } } },
-    { "id": 56, "attributes": { "atb": { "value": "v496-7" } } },
-    { "id": 57, "attributes": { "atb": { "value": "v497-1" } } },
-    { "id": 58, "attributes": { "atb": { "value": "v497-2" } } },
-    { "id": 59, "attributes": { "atb": { "value": "v497-3" } } },
-    { "id": 60, "attributes": { "atb": { "value": "v497-4" } } },
-    { "id": 61, "attributes": { "atb": { "value": "v497-5" } } },
-    { "id": 62, "attributes": { "atb": { "value": "v497-6" } } },
-    { "id": 63, "attributes": { "atb": { "value": "v497-7" } } },
-    { "id": 64, "attributes": { "atb": { "value": "v498-1" } } },
-    { "id": 65, "attributes": { "atb": { "value": "v498-2" } } },
-    { "id": 66, "attributes": { "atb": { "value": "v498-3" } } },
-    { "id": 67, "attributes": { "atb": { "value": "v498-4" } } },
-    { "id": 68, "attributes": { "atb": { "value": "v498-5" } } },
-    { "id": 69, "attributes": { "atb": { "value": "v498-6" } } },
-    { "id": 70, "attributes": { "atb": { "value": "v498-7" } } },
-    { "id": 71, "attributes": { "atb": { "value": "v499-1" } } },
-    { "id": 72, "attributes": { "atb": { "value": "v499-2" } } },
-    { "id": 73, "attributes": { "atb": { "value": "v499-3" } } },
-    { "id": 74, "attributes": { "atb": { "value": "v499-4" } } },
-    { "id": 75, "attributes": { "atb": { "value": "v499-5" } } },
-    { "id": 76, "attributes": { "atb": { "value": "v499-6" } } },
-    {
-      "id": 77,
-      "attributes": {
-        "interactedWithMessage": {
-          "value": [
-            "windows_quarterly_satisfaction_survey_6-25-part1",
-            "windows_quarterly_satisfaction_survey_6-25-part2",
-            "windows_14_day_survey"
           ]
         }
       }
