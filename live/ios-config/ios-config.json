@@ -434,9 +434,9 @@
       "id": "ios-customization-announcement-1",
       "content": {
         "messageType": "big_two_action",
-        "titleText": "Customize Your Buttons",
-        "descriptionText": "Pick your favorite shortcuts for the Address Bar and Toolbar while browsing.",
-        "placeholder": "Announce",
+        "titleText": "Get quick access to your favorite features",
+        "descriptionText": "You can now customize the address bar quick-action button, and toolbar browsing button.",
+        "placeholder": "MobileCustomization",
         "primaryActionText": "Open Settings",
         "primaryAction": {
           "type": "navigation",
