@@ -1,6 +1,59 @@
 {
-  "version": 82,
+  "version": 86,
   "messages": [
+    {
+      "id": "whats_new_2025-11-24",
+      "surfaces": [
+        "modal"
+      ],
+      "content": {
+        "messageType": "cards_list",
+        "titleText": "What’s New",
+        "placeholder": "DDGAnnounce",
+        "descriptionText": "",
+        "listItems": [
+          {
+            "id": "enhanced_scam_blocker",
+            "type": "two_line_list_item",
+            "titleText": "Enhanced Scam Blocker",
+            "descriptionText": "Browse confidently with protection against even more sneaky online threats.",
+            "placeholder": "Radar",
+            "primaryAction": {
+              "type": "url_in_context",
+              "value": "https://spreadprivacy.com/scam-blocker/"
+            }
+          },
+          {
+            "id": "hide_search_images",
+            "type": "two_line_list_item",
+            "titleText": "Hide AI Images in Search",
+            "descriptionText": "Easily hide AI images in your search results with the \"AI images\" search filter.",
+            "placeholder": "ImageAI",
+            "primaryAction": {
+              "type": "url_in_context",
+              "value": "https://duckduckgo.com/settings?ko=-1&embedded=1&highlight=kbe#aifeatures"
+            }
+          },
+          {
+            "id": "import_passwords",
+            "type": "two_line_list_item",
+            "titleText": "Import From Safari",
+            "descriptionText": "Add your saved bookmarks and passwords in seconds!",
+            "placeholder": "KeyImport",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "import.passwords"
+            }
+          }
+        ],
+        "primaryActionText": "Got It",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [20]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -376,30 +429,6 @@
         19
       ],
       "exclusionRules": []
-    },
-    {
-      "id": "funnel_newtab_ios_paidaiannouncement",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Try advanced AI for free",
-        "descriptionText": "Chat privately with GPT-5 and Claude Sonnet 4, plus get a secure VPN and more, free for 7 days.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Try for Free",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?featurePage=duckai&origin=funnel_newtab_ios_paidaiannouncement"
-        }
-      },
-      "translations": {
-        "de": {
-          "titleText": "Fortgeschrittene KI kostenlos testen",
-          "descriptionText": "Chatte privat mit GPT-5 und Claude Sonnet 4, und erhalte ein sicheres VPN und mehr, 7 Tage lang kostenlos.",
-          "primaryActionText": "Kostenlos testen"
-        }
-      },
-      "matchingRules": [
-        20
-      ]
     },
     {
       "id": "ios-customization-announcement-1",
@@ -843,33 +872,24 @@
       "id": 20,
       "attributes": {
         "appVersion": {
-          "min": "7.193.0"
-        },
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        },
-        "daysSinceDuckAiUsed": {
-          "max": 7
+          "min": "7.195.0"
         },
         "locale": {
           "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "de-DE"
+            "en-US"
           ]
+        },
+        "daysSinceInstalled": {
+          "min": 7
         }
       }
     },
     {
       "id": 21,
       "attributes": {
+        "formFactor": [
+          "phone"
+        ],
         "allFeatureFlagsEnabled": {
           "value": [
             "mobileCustomization"
