@@ -1,5 +1,5 @@
 {
-  "version": 85,
+  "version": 86,
   "messages": [
     {
       "id": "whats_new_2025-11-24",
@@ -429,6 +429,28 @@
         19
       ],
       "exclusionRules": []
+    },
+    {
+      "id": "ios-customization-announcement-1",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Quick access to your favorite features",
+        "descriptionText": "Customize your address bar action button and toolbar browsing button.",
+        "placeholder": "MobileCustomization",
+        "primaryActionText": "Open Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "appearance"
+        },
+        "secondaryActionText": "Not Now",
+        "secondaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [
+        21
+      ]
     }
   ],
   "rules": [
@@ -859,6 +881,22 @@
         },
         "daysSinceInstalled": {
           "min": 7
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {        
+        "formFactor": {
+          "value": [
+            "phone"
+          ],
+          "fallback": true
+        },
+        "allFeatureFlagsEnabled": {
+          "value": [
+            "mobileCustomization"
+          ]
         }
       }
     }
