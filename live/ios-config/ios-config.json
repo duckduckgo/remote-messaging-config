@@ -2,59 +2,6 @@
   "version": 87,
   "messages": [
     {
-      "id": "whats_new_2025-11-24",
-      "surfaces": [
-        "modal"
-      ],
-      "content": {
-        "messageType": "cards_list",
-        "titleText": "What’s New",
-        "placeholder": "DDGAnnounce",
-        "descriptionText": "",
-        "listItems": [
-          {
-            "id": "enhanced_scam_blocker",
-            "type": "two_line_list_item",
-            "titleText": "Enhanced Scam Blocker",
-            "descriptionText": "Browse confidently with protection against even more sneaky online threats.",
-            "placeholder": "Radar",
-            "primaryAction": {
-              "type": "url_in_context",
-              "value": "https://spreadprivacy.com/scam-blocker/"
-            }
-          },
-          {
-            "id": "hide_search_images",
-            "type": "two_line_list_item",
-            "titleText": "Hide AI Images in Search",
-            "descriptionText": "Easily hide AI images in your search results with the \"AI images\" search filter.",
-            "placeholder": "ImageAI",
-            "primaryAction": {
-              "type": "url_in_context",
-              "value": "https://duckduckgo.com/settings?ko=-1&embedded=1&highlight=kbe#aifeatures"
-            }
-          },
-          {
-            "id": "import_passwords",
-            "type": "two_line_list_item",
-            "titleText": "Import From Safari",
-            "descriptionText": "Add your saved bookmarks and passwords in seconds!",
-            "placeholder": "KeyImport",
-            "primaryAction": {
-              "type": "navigation",
-              "value": "import.passwords"
-            }
-          }
-        ],
-        "primaryActionText": "Got It",
-        "primaryAction": {
-          "type": "dismiss",
-          "value": ""
-        }
-      },
-      "matchingRules": [20]
-    },
-    {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
