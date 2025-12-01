@@ -1,6 +1,24 @@
 {
-  "version": 46,
+  "version": 47,
   "messages": [
+    {
+      "id": "windows_black_friday_2025_promo",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Save 40% on VPN + private AI",
+        "descriptionText": "Get our VPN + private AI + more premium features. Black Friday deal ends Dec. 2.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "See Details",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?featurePage=blackfriday&origin=funnel_newtab_windows_blackfridaymmxxv_fridaylaunch "
+        }
+      },
+      "matchingRules": [
+        12
+      ],
+      "exclusionRules": []
+    },
     {
       "id": "windows_privacy_pro_exit_survey_1",
       "content": {
@@ -233,6 +251,20 @@
           "value": [
             "survey.dismissed"
           ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "pproSubscriber": {
+          "value": false
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "locale": {
+          "value": [ "en-US" ]
         }
       }
     }
