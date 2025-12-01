@@ -433,6 +433,152 @@
           "value": ""
         }
       },
+      "translations": {
+        "bg-BG": {
+          "titleText": "Бърз достъп до любимите ви функции",
+          "descriptionText": "Персонализирайте бутона за действие в адресната лента и бутона за навигация в лентата с инструменти.",
+          "primaryActionText": "Отвори Настройки",
+          "secondaryActionText": "Не сега"
+        },
+        "cs-CZ": {
+          "titleText": "Rychlý přístup k vašim oblíbeným funkcím",
+          "descriptionText": "Přizpůsobte si tlačítko akce v adresním řádku a tlačítko procházení na panelu nástrojů.",
+          "primaryActionText": "Otevřít nastavení",
+          "secondaryActionText": "Teď ne"
+        },
+        "da-DK": {
+          "titleText": "Hurtig adgang til dine yndlingsfunktioner",
+          "descriptionText": "Tilpas din adresselinje-handlingsknap og værktøjslinje-browsingknap.",
+          "primaryActionText": "Åbn indstillinger",
+          "secondaryActionText": "Ikke nu"
+        },
+        "de-DE": {
+          "titleText": "Schneller Zugriff auf Ihre Lieblingsfunktionen",
+          "descriptionText": "Passen Sie Ihre Aktionsschaltfläche in der Adressleiste und Ihre Browsing-Schaltfläche in der Symbolleiste an.",
+          "primaryActionText": "Einstellungen öffnen",
+          "secondaryActionText": "Nicht jetzt"
+        },
+        "el-GR": {
+          "titleText": "Γρήγορη πρόσβαση στις αγαπημένες σας λειτουργίες",
+          "descriptionText": "Προσαρμόστε το κουμπί ενέργειας στη γραμμή διευθύνσεων και το κουμπί περιήγησης στη γραμμή εργαλείων.",
+          "primaryActionText": "Άνοιγμα ρυθμίσεων",
+          "secondaryActionText": "Όχι τώρα"
+        },
+        "es-ES": {
+          "titleText": "Acceso rápido a tus funciones favoritas",
+          "descriptionText": "Personaliza el botón de acción de la barra de direcciones y el botón de navegación de la barra de herramientas.",
+          "primaryActionText": "Abrir configuración",
+          "secondaryActionText": "Ahora no"
+        },
+        "et-EE": {
+          "titleText": "Kiire juurdepääs oma lemmikfunktsioonidele",
+          "descriptionText": "Kohanda aadressiriba toimingunuppu ja tööriistariba sirvimisnuppu.",
+          "primaryActionText": "Ava seaded",
+          "secondaryActionText": "Mitte praegu"
+        },
+        "fi-FI": {
+          "titleText": "Nopea pääsy suosikkitoimintoihisi",
+          "descriptionText": "Mukauta osoitepalkin toimintopainiketta ja työkalupalkin selauspainiketta.",
+          "primaryActionText": "Avaa asetukset",
+          "secondaryActionText": "Ei nyt"
+        },
+        "fr-FR": {
+          "titleText": "Accès rapide à vos fonctionnalités préférées",
+          "descriptionText": "Personnalisez le bouton d'action de la barre d'adresse et le bouton de navigation de la barre d'outils.",
+          "primaryActionText": "Ouvrir les paramètres",
+          "secondaryActionText": "Pas maintenant"
+        },
+        "hr-HR": {
+          "titleText": "Brzi pristup vašim omiljenim funkcijama",
+          "descriptionText": "Prilagodite gumb za radnju u adresnoj traci i gumb za pregledavanje u alatnoj traci.",
+          "primaryActionText": "Otvori postavke",
+          "secondaryActionText": "Ne sada"
+        },
+        "hu-HU": {
+          "titleText": "Gyors hozzáférés kedvenc funkcióihoz",
+          "descriptionText": "Szabja testre a címsor műveletgombját és az eszköztár böngészőgombját.",
+          "primaryActionText": "Beállítások megnyitása",
+          "secondaryActionText": "Most nem"
+        },
+        "it-IT": {
+          "titleText": "Accesso rapido alle tue funzioni preferite",
+          "descriptionText": "Personalizza il pulsante di azione della barra degli indirizzi e il pulsante di navigazione della barra degli strumenti.",
+          "primaryActionText": "Apri impostazioni",
+          "secondaryActionText": "Non ora"
+        },
+        "lt-LT": {
+          "titleText": "Greitas prieiga prie mėgstamų funkcijų",
+          "descriptionText": "Tinkinkite adreso juostos veiksmų mygtuką ir įrankių juostos naršymo mygtuką.",
+          "primaryActionText": "Atidaryti nustatymus",
+          "secondaryActionText": "Ne dabar"
+        },
+        "lv-LV": {
+          "titleText": "Ātra piekļuve jūsu iecienītākajām funkcijām",
+          "descriptionText": "Pielāgojiet adreses joslas darbības pogu un rīkjoslas pārlūkošanas pogu.",
+          "primaryActionText": "Atvērt iestatījumus",
+          "secondaryActionText": "Ne tagad"
+        },
+        "nb": {
+          "titleText": "Rask tilgang til favorittfunksjonene dine",
+          "descriptionText": "Tilpass adresselinjens handlingsknapp og verktøylinjens nettleserknapp.",
+          "primaryActionText": "Åpne innstillinger",
+          "secondaryActionText": "Ikke nå"
+        },
+        "nl-NL": {
+          "titleText": "Snelle toegang tot uw favoriete functies",
+          "descriptionText": "Pas uw actieknop in de adresbalk en uw bladerknop in de werkbalk aan.",
+          "primaryActionText": "Instellingen openen",
+          "secondaryActionText": "Niet nu"
+        },
+        "pl-PL": {
+          "titleText": "Szybki dostęp do ulubionych funkcji",
+          "descriptionText": "Dostosuj przycisk akcji w pasku adresu i przycisk przeglądania na pasku narzędzi.",
+          "primaryActionText": "Otwórz ustawienia",
+          "secondaryActionText": "Nie teraz"
+        },
+        "pt-PT": {
+          "titleText": "Acesso rápido às suas funcionalidades favoritas",
+          "descriptionText": "Personalize o botão de ação da barra de endereços e o botão de navegação da barra de ferramentas.",
+          "primaryActionText": "Abrir definições",
+          "secondaryActionText": "Agora não"
+        },
+        "ro-RO": {
+          "titleText": "Acces rapid la funcțiile tale preferate",
+          "descriptionText": "Personalizează butonul de acțiune din bara de adrese și butonul de navigare din bara de instrumente.",
+          "primaryActionText": "Deschide setări",
+          "secondaryActionText": "Nu acum"
+        },
+        "ru-RU": {
+          "titleText": "Быстрый доступ к любимым функциям",
+          "descriptionText": "Настройте кнопку действия в адресной строке и кнопку навигации на панели инструментов.",
+          "primaryActionText": "Открыть настройки",
+          "secondaryActionText": "Не сейчас"
+        },
+        "sk-SK": {
+          "titleText": "Rýchly prístup k vašim obľúbeným funkciám",
+          "descriptionText": "Prispôsobte si tlačidlo akcie v adresnom riadku a tlačidlo prehliadania na paneli nástrojov.",
+          "primaryActionText": "Otvoriť nastavenia",
+          "secondaryActionText": "Teraz nie"
+        },
+        "sl-SI": {
+          "titleText": "Hiter dostop do vaših priljubljenih funkcij",
+          "descriptionText": "Prilagodite gumb za dejanje v naslovni vrstici in gumb za brskanje v orodni vrstici.",
+          "primaryActionText": "Odpri nastavitve",
+          "secondaryActionText": "Ne zdaj"
+        },
+        "sv-SE": {
+          "titleText": "Snabb åtkomst till dina favoritfunktioner",
+          "descriptionText": "Anpassa din åtgärdsknapp i adressfältet och din bläddringsknapp i verktygsfältet.",
+          "primaryActionText": "Öppna inställningar",
+          "secondaryActionText": "Inte nu"
+        },
+        "tr-TR": {
+          "titleText": "Favori özelliklerinize hızlı erişim",
+          "descriptionText": "Adres çubuğu işlem düğmesini ve araç çubuğu tarama düğmesini özelleştirin.",
+          "primaryActionText": "Ayarları aç",
+          "secondaryActionText": "Şimdi değil"
+        }
+      },
       "matchingRules": [
         24
       ]
