@@ -1,5 +1,5 @@
 {
-  "version": 43,
+  "version": 44,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -844,9 +844,6 @@
 
     {
       "id": 25,
-      "targetPercentile": {
-        "before": 0.6
-      },
       "attributes": {
         "locale": {
           "value": [
