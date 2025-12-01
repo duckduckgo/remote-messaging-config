@@ -3,10 +3,10 @@
   "messages": [
     {
       "id": "macos_permanent_survey_tab_bar",
+      "surfaces": ["tab_bar"],
       "content": {
         "messageType": "big_single_action",
         "titleText": "Help Us Improve!",
-        "surfaces": ["tab_bar"],
         "descriptionText": "We really want to know which features would make our browser better.",
         "placeholder": "Announce",
         "primaryActionText": "Tell Us What You Think",
