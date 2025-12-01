@@ -2,6 +2,44 @@
   "version": 50,
   "messages": [
     {
+      "id": "windows_cyber_monday_2025_promo",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Save 40% on advanced AI",
+        "descriptionText": "Chat privately with GPT-5, Claude Sonnet 4 and other advanced AI. Includes our VPN and more. Cyber Monday deal ends Dec. 2.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "See Details",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?featurePage=blackfriday&origin=funnel_newtab_windows_blackfridaymmxxv_mondayai"
+        }
+      },
+      "matchingRules": [
+        12
+      ],
+      "exclusionRules": []
+    },
+    {
+      "id": "windows_cyber_monday_2025_promo_reminder",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Save 40% on advanced AI",
+        "descriptionText": "Last chance to save big on our VPN + private AI + more premium features. Cyber Monday deal ends Dec. 2.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "See Details",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/pro?featurePage=blackfriday&origin=funnel_newtab_windows_blackfridaymmxxv_mondayreminder"
+        }
+      },
+      "matchingRules": [
+        13
+      ],
+      "exclusionRules": [
+        14
+      ]
+    },
+    {
       "id": "windows_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
@@ -233,6 +271,45 @@
           "value": [
             "survey.dismissed"
           ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "pproSubscriber": {
+          "value": false
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "locale": {
+          "value": [ "en-US" ]
+        },
+        "daysSinceDuckAiUsed": {
+          "max": 7
+        }
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "pproSubscriber": {
+          "value": false
+        },
+        "pproEligible": {
+          "value": true
+        },
+        "locale": {
+          "value": [ "en-US" ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [ "windows_cyber_monday_2025_promo" ]
         }
       }
     }
