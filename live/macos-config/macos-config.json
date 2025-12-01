@@ -2,6 +2,26 @@
   "version": 46,
   "messages": [
     {
+      "id": "macos_permanent_survey_tab_bar",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve!",
+        "surfaces": ["tab_bar"],
+        "descriptionText": "We really want to know which features would make our browser better.",
+        "placeholder": "Announce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/241004?list=2",
+          "additionalParameters": {
+            "queryParams": "delta;var;osv;ddgv;last_search_state"
+          }
+        }
+      },
+      "matchingRules": [12]
+    },
+
+    {
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
@@ -270,25 +290,6 @@
       "exclusionRules": [5, 6, 8]
     },
 
-
-    {
-      "id": "macos_permanent_survey_tab_bar",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help Us Improve!",
-        "descriptionText": "We really want to know which features would make our browser better.",
-        "placeholder": "Announce",
-        "primaryActionText": "Tell Us What You Think",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/241004?list=2",
-          "additionalParameters": {
-            "queryParams": "delta;var;osv;ddgv;last_search_state"
-          }
-        }
-      },
-      "matchingRules": [12]
-    },
     {
       "id": "macos_switch_to_manual_updates",
       "content": {
@@ -496,8 +497,7 @@
           "min": "1.121.0"
         },
         "daysSinceInstalled": {
-          "min": 14,
-          "max": 21
+          "min": 14
         },
         "locale": {
           "value": [
