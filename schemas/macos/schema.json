@@ -209,7 +209,6 @@
             "searchAtb": { "$ref": "#/definitions/SingleValueStringAttribute" },
             "expVariant": { "$ref": "#/definitions/SingleValueStringAttribute" },
             "emailEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
-            "widgetAdded": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "bookmarks": { "$ref": "#/definitions/NumericRangeAttribute" },
             "favorites": { "$ref": "#/definitions/NumericRangeAttribute" },
             "appTheme": { "$ref": "#/definitions/SingleValueStringAttribute" },
@@ -232,8 +231,6 @@
             "isCurrentFreemiumPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "allFeatureFlagsEnabled": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "subscriptionFreeTrialActive": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
-            "syncEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
-            "shouldShowWinBackOfferUrgencyMessage": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "daysSinceDuckAiUsed": { "$ref": "#/definitions/NumericRangeAttribute" }
           },
           "additionalProperties": false
