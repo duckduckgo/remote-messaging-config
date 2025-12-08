@@ -89,7 +89,7 @@
         },
         "placeholder": {
           "type": "string",
-          "enum": ["Announce", "DDGAnnounce", "CriticalUpdate", "AppUpdate", "MacComputer", "NewForMacAndWindows", "PrivacyShield", "Duck.ai", "VisualDesignUpdate"],
+          "enum": ["Announce", "DDGAnnounce", "CriticalUpdate", "AppUpdate", "MacComputer", "NewForMacAndWindows", "PrivacyShield", "Duck.ai", "VisualDesignUpdate", "MobileCustomization"],
           "description": "Placeholder type for the message"
         },
         "actionText": {
