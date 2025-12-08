@@ -377,45 +377,7 @@
       ],
       "exclusionRules": []
     },
-
-    {
-      "id": "funnel_newtab_ios_blackfridaymmxxv_mondayai",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Save 40% on advanced AI",
-        "descriptionText": "Chat privately with GPT-5, Claude Sonnet 4 and other advanced AI. Includes our VPN and more. Cyber Monday deal ends Dec. 2.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "See Details",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?featurePage=blackfriday&origin=funnel_newtab_ios_blackfridaymmxxv_mondayai"
-        }
-      },
-      "matchingRules": [
-        21
-      ]
-    },
-    {
-      "id": "funnel_newtab_ios_blackfridaymmxxv_mondayreminder",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Save 40% on VPN + private AI",
-        "descriptionText": "Last chance to save big on our VPN + private AI + more premium features. Cyber Monday deal ends Dec. 2.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "See Details",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?featurePage=blackfriday&origin=funnel_newtab_ios_blackfridaymmxxv_mondayreminder"
-        }
-      },
-      "matchingRules": [
-        22
-      ],
-      "exclusionRules": [
-        23
-      ]
-    },
-    {
+{
       "id": "ios-customization-announcement-1",
       "content": {
         "messageType": "big_two_action",
@@ -580,10 +542,10 @@
         }
       },
       "matchingRules": [
-        24
+        21
       ]
     }
-  ],
+ ],
   "rules": [
     {
       "id": 1,
@@ -1017,57 +979,6 @@
     },
     {
       "id": 21,
-      "attributes": {
-        "appVersion": {
-          "min": "7.193.0"
-        },
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "daysSinceDuckAiUsed": {
-          "max": 7
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        }
-      }
-    },
-    {
-      "id": 22,
-      "attributes": {
-        "appVersion": {
-          "min": "7.193.0"
-        },
-        "pproEligible": {
-          "value": true
-        },
-        "pproSubscriber": {
-          "value": false
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        }
-      }
-    },
-    {
-      "id": 23,
-      "attributes": {
-        "interactedWithMessage": {
-          "value": [
-            "funnel_newtab_ios_blackfridaymmxxv_mondayai"
-          ]
-        }
-      }
-    },
-    {
-      "id": 24,
       "attributes": {        
         "formFactor": {
           "value": [
