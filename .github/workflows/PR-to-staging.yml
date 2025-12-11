@@ -1,4 +1,4 @@
-name: PR to staging
+name: PR to staging (Android)
 
 on:
   pull_request:
