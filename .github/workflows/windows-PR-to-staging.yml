@@ -23,8 +23,25 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         SOURCE_DIR: 'live/windows-config'
         DEST_DIR: 'remotemessaging/config/staging/${{ github.event.number }}'
-    - uses: github-actions-up-and-running/pr-comment@f1f8ab2bf00dce6880a369ce08758a60c61d6c0b
-      if: github.event.action == 'opened'
+    - name: Post staging URL comment
+      if: github.event.action == 'opened' || github.event.action == 'synchronize' || github.event.action == 'reopened'
+      uses: actions/github-script@v7
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        message: 'Your PR is hosted at https://staticcdn.duckduckgo.com/remotemessaging/config/staging/${{ github.event.number }}/windows-config.json'
+        script: |
+          const url = `https://staticcdn.duckduckgo.com/remotemessaging/config/staging/${{ github.event.number }}/windows-config.json`;
+          const { data: comments } = await github.rest.issues.listComments({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: context.issue.number,
+          });
+          const exists = comments.some(comment => comment.body && comment.body.includes(url));
+          if (exists) {
+            core.info('Staging URL comment already exists; skipping.');
+            return;
+          }
+          await github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `Your PR is hosted at ${url}`,
+          });
