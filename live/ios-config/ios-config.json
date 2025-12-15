@@ -1,5 +1,5 @@
 {
-  "version": 90,
+  "version": 91,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -345,7 +345,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=3",
           "additionalParameters": {
-            "queryParams": "atb;var;ddgv;mo;osv"
+            "queryParams": "atb;var;ddgv;mo;osv;last_search_state;locale"
           }
         }
       },
@@ -607,11 +607,19 @@
       },
       "attributes": {
         "daysSinceInstalled": {
-          "min": 5,
-          "max": 8
+          "min": 14,
+          "max": 21
         },
         "appVersion": {
           "min": "7.124.0.1"
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
         }
       }
     },
