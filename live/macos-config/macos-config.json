@@ -298,50 +298,6 @@
         "placeholder": "CriticalUpdate"
       },
       "matchingRules": [10]
-    },
-    {
-      "id": "mac_user_update_app_promo_single",
-      "content": {
-        "messageType": "medium",
-        "titleText": "Update to get the latest features and protections",
-        "descriptionText": "Depending on your app version, you can update either via the App Store or by going to Settings > About.",
-        "placeholder": "AppUpdate"
-      },
-      "translations": {
-        "de-DE": {
-          "titleText": "Aktualisieren Sie, um die neuesten Funktionen und den Schutz zu erhalten",
-          "descriptionText": "Je nach App-Version können Sie entweder über den App Store oder über Einstellungen > Über aktualisieren."
-        },
-        "es-ES": {
-          "titleText": "Actualiza para obtener las últimas funcionalidades y protecciones del navegador",
-          "descriptionText": "Dependiendo de tu versión de la aplicación, puedes actualizar a través de la App Store o yendo a Configuración > Acerca de."
-        },
-        "fr-FR": {
-          "titleText": "Mettez à jour pour obtenir les dernières fonctionnalités et protections",
-          "descriptionText": "Selon votre version d'application, vous pouvez mettre à jour via l'App Store ou en allant dans Paramètres > À propos."
-        },
-        "it-IT": {
-          "titleText": "Aggiorna per ottenere le ultime funzionalità e protezioni",
-          "descriptionText": "A seconda della versione dell'app, puoi aggiornare tramite App Store o andando in Impostazioni > Informazioni."
-        },
-        "nl-NL": {
-          "titleText": "Werk bij om de nieuwste functies en bescherming te krijgen",
-          "descriptionText": "Afhankelijk van je app-versie kun je bijwerken via de App Store of door naar Instellingen > Over te gaan."
-        },
-        "pl-PL": {
-          "titleText": "Zaktualizuj, aby uzyskać najnowsze funkcje i ochronę",
-          "descriptionText": "W zależności od wersji aplikacji możesz zaktualizować przez App Store lub przechodząc do Ustawienia > O aplikacji."
-        },
-        "pt-PT": {
-          "titleText": "Atualiza para obteres as funcionalidades e proteções mais recentes",
-          "descriptionText": "Dependendo da versão da aplicação, podes atualizar através da App Store ou indo a Definições > Acerca de."
-        },
-        "ru-RU": {
-          "titleText": "Обновитесь, чтобы получить последние функции и защиту",
-          "descriptionText": "В зависимости от версии приложения вы можете обновить через App Store или перейдя в Настройки > О программе."
-        }
-      },
-      "matchingRules": [23]
     }
   ],
   "rules": [
