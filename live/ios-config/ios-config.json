@@ -1,8 +1,8 @@
 {
-  "version": 92,
+  "version": 93,
   "messages": [
     {
-      "id": "ios_pir_user_test_message",
+      "id": "ios_pir_test_message",
       "content": {
         "messageType": "small",
         "titleText": "Thanks for using PIR!",

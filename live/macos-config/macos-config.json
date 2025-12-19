@@ -1,8 +1,8 @@
 {
-  "version": 47,
+  "version": 48,
   "messages": [
     {
-      "id": "macos_pir_user_test_message",
+      "id": "macos_pir_test_message",
       "content": {
         "messageType": "small",
         "titleText": "Thanks for using PIR!",
