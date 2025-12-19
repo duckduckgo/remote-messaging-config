@@ -7,7 +7,12 @@
         "messageType": "small",
         "titleText": "Thanks for using PIR!",
         "descriptionText": "Thanks for using PIR!",
-        "placeholder": "PrivacyShield"
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Dismiss",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
       },
       "matchingRules": [22]
     },
