@@ -1,6 +1,15 @@
 {
-  "version": 91,
+  "version": 92,
   "messages": [
+    {
+      "id": "ios_pir_user_test_message",
+      "content": {
+        "messageType": "small",
+        "titleText": "Thanks for using PIR!",
+        "descriptionText": "Thanks for using PIR!"
+      },
+      "matchingRules": [22]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -998,6 +1007,14 @@
           "value": [
             "mobileCustomization"
           ]
+        }
+      }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "isCurrentPIRUser": {
+          "value": true
         }
       }
     }
