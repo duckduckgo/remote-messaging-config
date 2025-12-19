@@ -6,7 +6,8 @@
       "content": {
         "messageType": "small",
         "titleText": "Thanks for using PIR!",
-        "descriptionText": "Thanks for using PIR!"
+        "descriptionText": "Thanks for using PIR!",
+        "placeholder": "PrivacyShield"
       },
       "matchingRules": [22]
     },
