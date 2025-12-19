@@ -1,10 +1,10 @@
 {
-  "version": 48,
+  "version": 49,
   "messages": [
     {
       "id": "macos_pir_test_message",
       "content": {
-        "messageType": "small",
+        "messageType": "big_single_action",
         "titleText": "Thanks for using PIR!",
         "descriptionText": "Thanks for using PIR!",
         "placeholder": "PrivacyShield",
