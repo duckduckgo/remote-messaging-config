@@ -1,6 +1,32 @@
 {
-  "version": 86,
+  "version": 87,
   "messages": [
+    {
+      "id": "android_test",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Is this test message displayed?",
+        "descriptionText": "This is a test message to check if the image is displayed correctly.",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/image.png",
+        "placeholder": "SplitBarSettings",
+        "primaryActionText": "Open Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "appearance"
+        },
+        "surfaces": [
+          "modal"
+        ],
+        "secondaryActionText": "Maybe Later",
+        "secondaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [
+        25
+      ]
+    },
     {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
