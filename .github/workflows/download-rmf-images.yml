@@ -31,6 +31,7 @@ jobs:
         ls -lah illustrations/
 
     - name: Commit and push if changes
+      id: commit
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -38,8 +39,17 @@ jobs:
 
         if git diff --staged --quiet; then
           echo "No changes to commit"
+          echo "changes=false" >> $GITHUB_OUTPUT
         else
           git commit -m "Sync images from S3"
           git push
           echo "Changes committed and pushed"
+          echo "changes=true" >> $GITHUB_OUTPUT
         fi
+
+    - name: Comment on PR
+      if: steps.commit.outputs.changes == 'true'
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        gh pr comment ${{ github.event.pull_request.number }} --body "Images have been synced from the S3 bucket to match the latest commit."
