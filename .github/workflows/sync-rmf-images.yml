@@ -14,6 +14,51 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Detect and delete removed images from S3
+      id: delete_images
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+      run: |
+        S3_PATH="remotemessaging/illustrations/"
+
+        # Get the latest commit SHA
+        LATEST_COMMIT="${{ github.event.after }}"
+
+        echo "Checking for deleted files in latest commit: $LATEST_COMMIT"
+
+        # Detect files deleted in the most recent commit
+        DELETED_FILES=$(git diff --name-only --diff-filter=D HEAD~1 HEAD -- illustrations/ || echo "")
+
+        if [ -z "$DELETED_FILES" ]; then
+          echo "No images deleted in this commit"
+          echo "deleted=false" >> $GITHUB_OUTPUT
+          echo "deleted_count=0" >> $GITHUB_OUTPUT
+        else
+          echo "Deleted files in this commit:"
+          echo "$DELETED_FILES"
+
+          DELETED_COUNT=$(echo "$DELETED_FILES" | wc -l)
+          echo "deleted=true" >> $GITHUB_OUTPUT
+          echo "deleted_count=$DELETED_COUNT" >> $GITHUB_OUTPUT
+
+          # Delete each file from S3
+          echo "$DELETED_FILES" | while read -r file; do
+            if [ -n "$file" ]; then
+              # Extract just the filename from the path
+              filename=$(basename "$file")
+              s3_file="s3://${AWS_S3_BUCKET}/${S3_PATH}${filename}"
+              echo "Deleting $s3_file"
+              aws s3 rm "$s3_file"
+            fi
+          done
+
+          echo "Deleted $DELETED_COUNT file(s) from S3"
+        fi
 
     - name: Publish images to staging
       if: hashFiles('illustrations/**') != ''
@@ -49,3 +94,16 @@ jobs:
             repo: context.repo.repo,
             body: `Images uploaded to staging:\n- Staging illustrations: ${stagingUrl}`,
           });
+
+    - name: Comment on deleted images
+      if: steps.delete_images.outputs.deleted == 'true'
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        COUNT="${{ steps.delete_images.outputs.deleted_count }}"
+        if [ "$COUNT" = "1" ]; then
+          MESSAGE="1 image has been deleted from the S3 bucket to match the changes in this PR."
+        else
+          MESSAGE="$COUNT images have been deleted from the S3 bucket to match the changes in this PR."
+        fi
+        gh pr comment ${{ github.event.pull_request.number }} --body "$MESSAGE"

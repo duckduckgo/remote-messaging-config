@@ -15,8 +15,26 @@ jobs:
       with:
         ref: ${{ github.event.pull_request.head.ref }}
         repository: ${{ github.event.pull_request.head.repo.full_name }}
+        fetch-depth: 0
+
+    - name: Check for deleted illustrations in latest commit
+      id: check_changes
+      run: |
+        # Check specifically for deleted files in the latest commit
+        DELETED_FILES=$(git diff --name-only --diff-filter=D HEAD~1 HEAD -- illustrations/ || echo "")
+
+        if [ -n "$DELETED_FILES" ]; then
+          echo "has_deletions=true" >> $GITHUB_OUTPUT
+          echo "Latest commit has deleted illustrations - skipping download to avoid conflicts"
+          echo "Deleted files in latest commit:"
+          echo "$DELETED_FILES"
+        else
+          echo "has_deletions=false" >> $GITHUB_OUTPUT
+          echo "No deleted illustrations in latest commit - will sync from S3"
+        fi
 
     - name: Download images from S3
+      if: steps.check_changes.outputs.has_deletions == 'false'
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -31,6 +49,7 @@ jobs:
         ls -lah illustrations/
 
     - name: Commit and push if changes
+      if: steps.check_changes.outputs.has_deletions == 'false'
       id: commit
       run: |
         git config user.name "github-actions[bot]"
@@ -48,7 +67,7 @@ jobs:
         fi
 
     - name: Comment on PR
-      if: steps.commit.outputs.changes == 'true'
+      if: steps.check_changes.outputs.has_deletions == 'false' && steps.commit.outputs.changes == 'true'
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
