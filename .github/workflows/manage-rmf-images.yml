@@ -49,6 +49,7 @@ jobs:
     - name: Detect and delete removed images from S3
       if: steps.check_changes.outputs.has_changes == 'true'
       id: delete_images
+      continue-on-error: true
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
