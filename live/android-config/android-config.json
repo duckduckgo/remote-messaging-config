@@ -5,7 +5,7 @@
       "id": "android_test",
       "content": {
         "messageType": "big_two_action",
-        "titleText": "Is this test message displayed??",
+        "titleText": "Is this test message and image displayed??",
         "descriptionText": "This is a test message to check if the image is displayed correctly.",
         "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/image.png",
         "placeholder": "SplitBarSettings",
