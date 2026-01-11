@@ -1,12 +1,11 @@
-name: PR to staging
+name: PR to staging (Android)
 
 on:
-  push:
-      paths:
-      - 'live/android-config/android-config.json'
   pull_request:
     types:
       - opened
+      - reopened
+      - synchronize
     paths:
       - 'live/android-config/android-config.json'
 
@@ -15,8 +14,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: jakejarvis/s3-sync-action@7ed8b112447abb09f1da74f3466e4194fc7a6311
-      if: github.event_name == 'push'
+    - name: Publish to PR-specific staging
+      uses: jakejarvis/s3-sync-action@7ed8b112447abb09f1da74f3466e4194fc7a6311
+      with:
+        args: --acl public-read --follow-symlinks
+      env:
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        SOURCE_DIR: 'live/android-config'
+        DEST_DIR: 'remotemessaging/config/staging/${{ github.event.number }}'
+    - name: Publish to general staging
+      uses: jakejarvis/s3-sync-action@7ed8b112447abb09f1da74f3466e4194fc7a6311
       with:
         args: --acl public-read --follow-symlinks
       env:
@@ -25,8 +34,26 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         SOURCE_DIR: 'live/android-config'
         DEST_DIR: 'remotemessaging/config/staging'
-    - uses: github-actions-up-and-running/pr-comment@f1f8ab2bf00dce6880a369ce08758a60c61d6c0b
-      if: github.event.action == 'opened'
+    - name: Post staging URL comment
+      if: github.event.action == 'opened' || github.event.action == 'synchronize' || github.event.action == 'reopened'
+      uses: actions/github-script@v7
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        message: 'Your PR is hosted at https://staticcdn.duckduckgo.com/remotemessaging/config/staging/android-config.json'
+        script: |
+          const prUrl = `https://staticcdn.duckduckgo.com/remotemessaging/config/staging/${{ github.event.number }}/android-config.json`;
+          const stagingUrl = `https://staticcdn.duckduckgo.com/remotemessaging/config/staging/android-config.json`;
+          const { data: comments } = await github.rest.issues.listComments({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: context.issue.number,
+          });
+          const exists = comments.some(comment => comment.body && comment.body.includes(prUrl));
+          if (exists) {
+            core.info('Staging URL comment already exists; skipping.');
+            return;
+          }
+          await github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `Your PR is hosted at:\n- PR-specific: ${prUrl}\n- General staging: ${stagingUrl}`,
+          });

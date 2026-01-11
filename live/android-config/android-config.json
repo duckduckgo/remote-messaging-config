@@ -1,5 +1,5 @@
 {
-  "version": 84,
+  "version": 87,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -346,76 +346,47 @@
       ]
     },
     {
-      "id": "funnel_newtab_android_blackfridaymmxxv_mondayai",
+      "id": "android_permanent_survey_user_satisfaction",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Save 40% on advanced AI",
-        "descriptionText": "Chat privately with GPT-5, Claude Sonnet 4 and other advanced AI. Includes our VPN and more. Cyber Monday deal ends Dec. 2.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "See Details",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Take Survey",
         "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?featurePage=blackfriday&origin=funnel_newtab_android_blackfridaymmxxv_mondayai"
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;av;ddgv;man;mo;locale"
+          }
         }
       },
       "matchingRules": [
-        3
-      ]
-    },
-    {
-      "id": "funnel_newtab_android_blackfridaymmxxv_mondayreminder",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Save 40% on VPN + private AI",
-        "descriptionText": "Last chance to save big on our VPN + private AI + more premium features. Cyber Monday deal ends Dec. 2.",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "See Details",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/pro?featurePage=blackfriday&origin=funnel_newtab_android_blackfridaymmxxv_mondayreminder"
-        }
-      },
-      "matchingRules": [
-        2
-      ],
-      "exclusionRules": [
-        5
+        1
       ]
     }
   ],
   "rules": [
     {
-      "id": 2,
+      "id": 1,
+      "targetPercentile": {
+        "before": 0.2
+      },
       "attributes": {
-        "pproEligible": {
-          "value": true
-        },
         "pproSubscriber": {
           "value": false
         },
         "locale": {
           "value": [
-            "en-US"
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
           ]
-        }
-      }
-    },
-    {
-      "id": 3,
-      "attributes": {
-        "pproEligible": {
-          "value": true
         },
-        "pproSubscriber": {
-          "value": false
-        },
-        "daysSinceDuckAiUsed": {
-          "max": 7
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
+        "daysSinceInstalled": {
+          "min": 14,
+          "max": 21
         }
       }
     },
@@ -439,16 +410,6 @@
             "funnel_pro_androidrmf_announcement_vpn",
             "funnel_pro_androidrmf_announcement_wifi",
             "funnel_pro_androidrmf_announcement_holiday"
-          ]
-        }
-      }
-    },
-    {
-      "id": 5,
-      "attributes": {
-        "interactedWithMessage": {
-          "value": [
-            "funnel_newtab_android_blackfridaymmxxv_mondayai"
           ]
         }
       }
