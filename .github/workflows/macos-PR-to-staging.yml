@@ -34,6 +34,7 @@ jobs:
           script: |
             const errorType = process.env.VALIDATION_ERROR;
             const errorMessage = process.env.ERROR_MESSAGE;
+            const marker = '<!-- rmf-validation:macos -->';
             
             let title = '### ❌ Validation Failed\n\n';
             let body = '';
@@ -45,7 +46,7 @@ jobs:
                 body += '```\n' + errorMessage + '\n```\n\n';
                 body += '**How to fix:**\n';
                 body += '1. Check the error message above\n';
-                body += `2. Validate locally: \`ajv validate -s ${process.env.SCHEMA_FILE} -d ${process.env.CONFIG_FILE}\`\n`;
+                body += `2. Validate locally: \`./.github/scripts/validate-config.sh ${process.env.CONFIG_FILE} ${process.env.SCHEMA_FILE} main\`\n`;
                 break;
             
               case 'version':
@@ -63,13 +64,89 @@ jobs:
                 body += '1. Check the rule IDs in your matchingRules/exclusionRules\n';
                 body += '2. Ensure all referenced rules exist in the rules array\n';
                 break;
+
+              case 'orphan_rules':
+                body = `**Orphaned Rules**\n\n`;
+                body += 'Some rules are defined but never referenced by any message:\n\n';
+                body += '```\n' + errorMessage + '\n```\n\n';
+                body += '**How to fix:**\n';
+                body += '1. Remove the unused rule(s), or\n';
+                body += '2. Reference them from a message\'s matchingRules/exclusionRules\n';
+                break;
+
+              default:
+                body = `**Validation Error**\n\n`;
+                body += (errorMessage ? ('```\n' + errorMessage + '\n```\n\n') : '');
+                body += 'See job logs for details.\n';
+                break;
             }
-            
-            await github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: title + body
+
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issue_number = context.issue.number;
+            const commentBody = `${marker}\n${title}${body}`;
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number,
+              per_page: 100
+            });
+
+            const existing = comments.find(c => (c.body || '').includes(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner,
+                repo,
+                comment_id: existing.id,
+                body: commentBody
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number,
+                body: commentBody
+              });
+            }
+
+      - name: Update PR comment on success (sticky)
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = '<!-- rmf-validation:macos -->';
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issue_number = context.issue.number;
+
+            const runUrl = `https://github.com/${owner}/${repo}/actions/runs/${context.runId}`;
+            const commentBody =
+              `${marker}\n` +
+              `### ✅ Validation Passed\n\n` +
+              `Config validated successfully.\n\n` +
+              `- Config: \`${process.env.CONFIG_FILE}\`\n` +
+              `- Schema: \`${process.env.SCHEMA_FILE}\`\n` +
+              `- Run: ${runUrl}\n`;
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number,
+              per_page: 100
+            });
+
+            const existing = comments.find(c => (c.body || '').includes(marker));
+            if (!existing) {
+              return;
+            }
+
+            await github.rest.issues.updateComment({
+              owner,
+              repo,
+              comment_id: existing.id,
+              body: commentBody
             });
 
   publish:
