@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Remote Messaging Configuration",
-  "description": "JSON schema for DuckDuckGo remote messaging configuration",
+  "description": "JSON schema for DuckDuckGo macOS remote messaging configuration",
   "type": "object",
   "required": ["version", "messages", "rules"],
   "additionalProperties": false,
@@ -35,6 +35,13 @@
           "type": "string",
           "description": "Unique identifier for the message"
         },
+        "surfaces": {
+          "type": "array",
+          "description": "Array of surfaces where the message can be displayed",
+          "items": {
+            "$ref": "#/definitions/SurfaceType"
+          }
+        },
         "content": {
           "$ref": "#/definitions/MessageContent"
         },
@@ -42,7 +49,7 @@
           "type": "object",
           "description": "Localized content translations",
           "patternProperties": {
-            "^[a-z]{2}-[A-Z]{2}$": {
+            "^[a-z]{2}(?:-[A-Z]{2})?$": {
               "$ref": "#/definitions/ContentTranslation"
             }
           },
@@ -73,8 +80,7 @@
       "additionalProperties": false,
       "properties": {
         "messageType": {
-          "type": "string",
-          "enum": ["small", "medium", "big_single_action", "big_two_action", "promo_single_action"],
+          "$ref": "#/definitions/MessageType",
           "description": "Type of message to display"
         },
         "titleText": {
@@ -84,29 +90,19 @@
         },
         "descriptionText": {
           "type": "string",
-          "minLength": 1,
           "description": "Description text for the message"
         },
         "placeholder": {
-          "type": "string",
-          "enum": ["Announce", "DDGAnnounce", "CriticalUpdate", "AppUpdate", "MacComputer", "NewForMacAndWindows", "PrivacyShield", "Duck.ai", "VisualDesignUpdate"],
-          "description": "Placeholder type for the message"
-        },
-        "actionText": {
-          "type": "string",
-          "description": "Text for the action button (used in promo_single_action)"
-        },
-        "action": {
-          "$ref": "#/definitions/MessageAction",
-          "description": "Action for the button (used in promo_single_action)"
+          "$ref": "#/definitions/PlaceholderType",
+          "description": "Placeholder/illustration type for the message"
         },
         "primaryActionText": {
           "type": "string",
-          "description": "Text for the primary action button (used in big_single_action and big_two_action)"
+          "description": "Text for the primary action button (used in big_single_action, big_two_action)"
         },
         "primaryAction": {
           "$ref": "#/definitions/MessageAction",
-          "description": "Primary action (used in big_single_action and big_two_action)"
+          "description": "Primary action (used in big_single_action, big_two_action)"
         },
         "secondaryActionText": {
           "type": "string",
@@ -116,7 +112,27 @@
           "$ref": "#/definitions/MessageAction",
           "description": "Secondary action (used in big_two_action)"
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "messageType": { "const": "big_single_action" } },
+            "required": ["messageType"]
+          },
+          "then": {
+            "required": ["primaryActionText", "primaryAction"]
+          }
+        },
+        {
+          "if": {
+            "properties": { "messageType": { "const": "big_two_action" } },
+            "required": ["messageType"]
+          },
+          "then": {
+            "required": ["primaryActionText", "primaryAction", "secondaryActionText", "secondaryAction"]
+          }
+        }
+      ]
     },
     "MessageAction": {
       "type": "object",
@@ -124,8 +140,7 @@
       "additionalProperties": false,
       "properties": {
         "type": {
-          "type": "string",
-          "enum": ["share", "url", "appstore", "dismiss", "survey", "navigation"],
+          "$ref": "#/definitions/ActionType",
           "description": "Type of action to perform"
         },
         "value": {
@@ -147,15 +162,35 @@
             }
           }
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "navigation"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "$ref": "#/definitions/NavigationTarget"
+              }
+            }
+          }
+        }
+      ]
     },
     "ContentTranslation": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "messageType": {
-          "type": "string",
-          "enum": ["small", "medium", "big_single_action", "big_two_action", "promo_single_action"]
+          "$ref": "#/definitions/MessageType"
         },
         "titleText": {
           "type": "string"
@@ -220,6 +255,7 @@
             "pproDaysUntilExpiryOrRenewal": { "$ref": "#/definitions/NumericRangeAttribute" },
             "pproPurchasePlatform": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "pproSubscriptionStatus": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
+            "subscriptionFreeTrialActive": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "interactedWithMessage": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "interactedWithDeprecatedMacRemoteMessage": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "installedMacAppStore": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
@@ -229,8 +265,10 @@
             "duckPlayerEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "messageShown": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "isCurrentFreemiumPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
+            "isCurrentPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "allFeatureFlagsEnabled": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
-            "subscriptionFreeTrialActive": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
+            "syncEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
+            "shouldShowWinBackOfferUrgencyMessage": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "daysSinceDuckAiUsed": { "$ref": "#/definitions/NumericRangeAttribute" }
           },
           "additionalProperties": false
@@ -345,6 +383,39 @@
           "description": "Whether to use this as a fallback rule"
         }
       }
+    },
+    "NavigationTarget": {
+      "type": "string",
+      "description": "Valid navigation targets for the navigation action type",
+      "enum": ["feedback"]
+    },
+    "PlaceholderType": {
+      "type": "string",
+      "enum": [
+        "Announce",
+        "DDGAnnounce",
+        "CriticalUpdate",
+        "AppUpdate",
+        "Duck.ai",
+        "PrivacyShield",
+        "Radar",
+        "RadarCheckGreen",
+        "RadarCheckPurple",
+        "PIR",
+        "Subscription"
+      ]
+    },
+    "SurfaceType": {
+      "type": "string",
+      "enum": ["new_tab_page", "modal", "dedicated_tab", "tab_bar"]
+    },
+    "MessageType": {
+      "type": "string",
+      "enum": ["small", "medium", "big_single_action", "big_two_action"]
+    },
+    "ActionType": {
+      "type": "string",
+      "enum": ["share", "url", "url_in_context", "appstore", "dismiss", "survey", "navigation"]
     }
   }
 }

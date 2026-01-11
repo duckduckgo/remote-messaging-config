@@ -35,6 +35,13 @@
           "type": "string",
           "description": "Unique identifier for the message"
         },
+        "surfaces": {
+          "type": "array",
+          "description": "Surfaces the message can appear on",
+          "items": {
+            "$ref": "#/definitions/SurfaceType"
+          }
+        },
         "content": {
           "$ref": "#/definitions/MessageContent"
         },
@@ -42,7 +49,7 @@
           "type": "object",
           "description": "Localized content translations",
           "patternProperties": {
-            "^[a-z]{2}-[A-Z]{2}$": {
+            "^[a-z]{2}(?:-[A-Z]{2})?$": {
               "$ref": "#/definitions/ContentTranslation"
             }
           },
@@ -73,8 +80,7 @@
       "additionalProperties": false,
       "properties": {
         "messageType": {
-          "type": "string",
-          "enum": ["small", "medium", "big_single_action", "big_two_action", "promo_single_action"],
+          "$ref": "#/definitions/MessageType",
           "description": "Type of message to display"
         },
         "titleText": {
@@ -88,8 +94,7 @@
           "description": "Description text for the message"
         },
         "placeholder": {
-          "type": "string",
-          "enum": ["Announce", "DDGAnnounce", "CriticalUpdate", "AppUpdate", "MacComputer", "NewForMacAndWindows", "PrivacyShield", "Duck.ai", "VisualDesignUpdate"],
+          "$ref": "#/definitions/PlaceholderType",
           "description": "Placeholder type for the message"
         },
         "actionText": {
@@ -115,6 +120,98 @@
         "secondaryAction": {
           "$ref": "#/definitions/MessageAction",
           "description": "Secondary action (used in big_two_action)"
+        },
+        "listItems": {
+          "type": "array",
+          "description": "List items for cards_list message type",
+          "items": {
+            "$ref": "#/definitions/ListItem"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "messageType": { "const": "big_single_action" } },
+            "required": ["messageType"]
+          },
+          "then": {
+            "required": ["primaryActionText", "primaryAction"]
+          }
+        },
+        {
+          "if": {
+            "properties": { "messageType": { "const": "big_two_action" } },
+            "required": ["messageType"]
+          },
+          "then": {
+            "required": ["primaryActionText", "primaryAction", "secondaryActionText", "secondaryAction"]
+          }
+        },
+        {
+          "if": {
+            "properties": { "messageType": { "const": "promo_single_action" } },
+            "required": ["messageType"]
+          },
+          "then": {
+            "required": ["actionText", "action"]
+          }
+        },
+        {
+          "if": {
+            "properties": { "messageType": { "const": "cards_list" } },
+            "required": ["messageType"]
+          },
+          "then": {
+            "required": ["listItems", "primaryActionText", "primaryAction"]
+          }
+        }
+      ]
+    },
+    "ListItem": {
+      "type": "object",
+      "required": ["id", "type", "titleText"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the list item"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["two_line_list_item"],
+          "description": "Type of list item"
+        },
+        "titleText": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Title text for the list item"
+        },
+        "descriptionText": {
+          "type": "string",
+          "description": "Description text for the list item"
+        },
+        "placeholder": {
+          "$ref": "#/definitions/PlaceholderType",
+          "description": "Placeholder for the list item"
+        },
+        "primaryAction": {
+          "$ref": "#/definitions/MessageAction",
+          "description": "Primary action for the list item"
+        },
+        "matchingRules": {
+          "type": "array",
+          "description": "Array of rule IDs that must match for this list item to be shown",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "exclusionRules": {
+          "type": "array",
+          "description": "Array of rule IDs that must not match for this list item to be shown",
+          "items": {
+            "type": "integer"
+          }
         }
       }
     },
@@ -124,8 +221,7 @@
       "additionalProperties": false,
       "properties": {
         "type": {
-          "type": "string",
-          "enum": ["share", "url", "appstore", "dismiss", "survey", "navigation"],
+          "$ref": "#/definitions/ActionType",
           "description": "Type of action to perform"
         },
         "value": {
@@ -147,15 +243,40 @@
             }
           }
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "navigation"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "$ref": "#/definitions/NavigationTarget"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "NavigationTarget": {
+      "type": "string",
+      "description": "Valid navigation targets for the navigation action type",
+      "enum": ["duckai.settings", "settings", "feedback", "sync", "import.passwords", "appearance"]
     },
     "ContentTranslation": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "messageType": {
-          "type": "string",
-          "enum": ["small", "medium", "big_single_action", "big_two_action", "promo_single_action"]
+          "$ref": "#/definitions/MessageType"
         },
         "titleText": {
           "type": "string"
@@ -163,10 +284,33 @@
         "descriptionText": {
           "type": "string"
         },
+        "actionText": {
+          "type": "string",
+          "description": "Text for the action button (used in promo_single_action translations)"
+        },
         "primaryActionText": {
           "type": "string"
         },
         "secondaryActionText": {
+          "type": "string"
+        },
+        "listItems": {
+          "type": "object",
+          "description": "Translations for list items in cards_list messages",
+          "additionalProperties": {
+            "$ref": "#/definitions/ListItemTranslation"
+          }
+        }
+      }
+    },
+    "ListItemTranslation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "titleText": {
+          "type": "string"
+        },
+        "descriptionText": {
           "type": "string"
         }
       }
@@ -230,6 +374,7 @@
             "duckPlayerEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "messageShown": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "isCurrentFreemiumPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
+            "isCurrentPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "allFeatureFlagsEnabled": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "subscriptionFreeTrialActive": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "syncEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
@@ -348,6 +493,40 @@
           "description": "Whether to use this as a fallback rule"
         }
       }
+    },
+    "PlaceholderType": {
+      "type": "string",
+      "enum": [
+        "Announce",
+        "DDGAnnounce",
+        "CriticalUpdate",
+        "AppUpdate",
+        "MacComputer",
+        "NewForMacAndWindows",
+        "PrivacyShield",
+        "Duck.ai",
+        "VisualDesignUpdate",
+        "ImageAI",
+        "Radar",
+        "RadarCheckGreen",
+        "RadarCheckPurple",
+        "KeyImport",
+        "MobileCustomization",
+        "PIR",
+        "Subscription"
+      ]
+    },
+    "SurfaceType": {
+      "type": "string",
+      "enum": ["new_tab_page", "modal", "dedicated_tab", "tab_bar"]
+    },
+    "MessageType": {
+      "type": "string",
+      "enum": ["small", "medium", "big_single_action", "big_two_action", "promo_single_action", "cards_list"]
+    },
+    "ActionType": {
+      "type": "string",
+      "enum": ["share", "url", "url_in_context", "appstore", "dismiss", "survey", "navigation"]
     }
   }
 }
