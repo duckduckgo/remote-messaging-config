@@ -1,5 +1,5 @@
 {
-  "version": 87,
+  "version": 88,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -363,6 +363,28 @@
       },
       "matchingRules": [
         1
+      ]
+    },
+    {
+      "id": "android_promote_split_address_bar",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Want more space in your address bar?",
+        "descriptionText": "Try the split address bar option to separate your search input and easy access buttons.",
+        "placeholder": "SplitBarSettings",
+        "primaryActionText": "Open Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "appearance"
+        },
+        "secondaryActionText": "Maybe Later",
+        "secondaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [
+        25
       ]
     }
   ],
@@ -882,6 +904,22 @@
         "locale": {
           "value": [
             "sv-SE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "appVersion": {
+          "min": "5.261.0"
+        },
+        "locale": {
+          "value": [
+            "en-AU",
+            "en-CA",
+            "en-GB",
+            "en-US"
           ]
         }
       }
