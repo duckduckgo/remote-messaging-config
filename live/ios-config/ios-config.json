@@ -2,6 +2,22 @@
   "version": 94,
   "messages": [
     {
+      "id": "ios_rfm_image_test",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Some test title",
+        "descriptionText": "Some test description",
+        "imageUrl": "https://picsum.photos/id/10/400/300",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Some test action text",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://www.duckduckgo.com"
+        }
+      },
+      "matchingRules": [21]
+    },
+    {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
@@ -814,6 +830,14 @@
         },
         "daysSinceInstalled": {
           "min": 7
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 0
         }
       }
     }
