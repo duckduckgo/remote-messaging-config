@@ -370,7 +370,7 @@
     {
       "id": 1,
       "targetPercentile": {
-        "before": 0.2
+        "before": 0.4
       },
       "attributes": {
         "pproSubscriber": {
