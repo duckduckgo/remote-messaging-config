@@ -1,6 +1,21 @@
 {
-  "version": 94,
+  "version": 95,
   "messages": [
+    {
+      "id": "ios_pir_test_message",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Test: Personal Information Removal",
+        "descriptionText": "This is a test message for the personalInformationRemoval navigation action.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Go to PIR",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "personalInformationRemoval"
+        }
+      },
+      "matchingRules": [21]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -814,6 +829,14 @@
         },
         "daysSinceInstalled": {
           "min": 7
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 0
         }
       }
     }

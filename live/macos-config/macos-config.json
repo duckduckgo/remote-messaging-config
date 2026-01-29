@@ -1,6 +1,21 @@
 {
-  "version": 46,
+  "version": 47,
   "messages": [
+    {
+      "id": "macos_pir_test_message",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Test: Personal Information Removal",
+        "descriptionText": "This is a test message for the personalInformationRemoval navigation action.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Go to PIR",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "personalInformationRemoval"
+        }
+      },
+      "matchingRules": [23]
+    },
     {
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
@@ -727,6 +742,14 @@
           "value": [
             "es-ES"
           ]
+        }
+      }
+    },
+    {
+      "id": 23,
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 0
         }
       }
     }
