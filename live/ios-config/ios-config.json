@@ -837,9 +837,6 @@
     },
     {
       "id": 22,
-      "appVersion": {
-        "min": "7.195.0"
-      },
       "attributes": {
         "locale": {
           "value": [
