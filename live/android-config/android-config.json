@@ -1,5 +1,5 @@
 {
-  "version": 87,
+  "version": 89,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -370,7 +370,7 @@
     {
       "id": 1,
       "targetPercentile": {
-        "before": 0.2
+        "before": 0.4
       },
       "attributes": {
         "pproSubscriber": {

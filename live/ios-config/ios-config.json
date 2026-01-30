@@ -1,5 +1,5 @@
 {
-  "version": 94,
+  "version": 96,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -453,7 +453,7 @@
     {
       "id": 4,
       "targetPercentile": {
-        "before": 0.4
+        "before": 0.6
       },
       "attributes": {
         "daysSinceInstalled": {
