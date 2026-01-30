@@ -1,6 +1,24 @@
 {
-  "version": 93,
+  "version": 94,
   "messages": [
+    {
+      "id": "ios_privacy_pro_exit_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Why did you cancel your subscription?",
+        "descriptionText": "Your input helps improve DuckDuckGo for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&ppro_region=us",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [22]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -812,6 +830,23 @@
             "en-US"
           ]
         },
+        "daysSinceInstalled": {
+          "min": 7
+        }
+      }
+    },
+    {
+      "id": 22,
+      "appVersion": {
+        "min": "7.195.0"
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "nonExistingAttribute": "test",
         "daysSinceInstalled": {
           "min": 7
         }
