@@ -451,7 +451,7 @@
     {
       "id": 4,
       "targetPercentile": {
-        "before": 0.3
+        "before": 0.6
       },
       "attributes": {
         "daysSinceInstalled": {

@@ -12,6 +12,7 @@ Remote Messaging Config is organized as follows:
 - /live/: Hosts the configurations for each client.
 - /samples/: Contains example configurations.
 - /templates/: Provides template files for creating new configurations.
+- /illustrations/: Contains images and media assets used in messaging.
 
 # Remote Config URLs
 - Native apps using the Remote Messaging Configuration:
