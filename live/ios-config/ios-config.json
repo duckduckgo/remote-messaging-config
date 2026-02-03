@@ -800,22 +800,6 @@
           "value": true
         }
       }
-    },
-    {
-      "id": 20,
-      "attributes": {
-        "appVersion": {
-          "min": "7.195.0"
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        }
-      }
     }
   ]
 }
