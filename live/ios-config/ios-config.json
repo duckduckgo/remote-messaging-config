@@ -1,21 +1,56 @@
 {
-  "version": 95,
+  "version": 96,
   "messages": [
     {
-      "id": "ios_rfm_image_test",
+      "id": "whats_new_v1_test",
+      "surfaces": ["modal", "dedicated_tab"],
+      "matchingRules": [21],
       "content": {
-        "messageType": "big_single_action",
-        "titleText": "Some test title",
-        "descriptionText": "Some test description",
-        "imageUrl": "https://picsum.photos/id/10/400/300",
-        "placeholder": "PrivacyShield",
-        "primaryActionText": "Some test action text",
+        "messageType": "cards_list",
+        "titleText": "What's New",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/image.png",
+        "descriptionText": "",
+        "listItems": [
+          {
+            "id": "hide_search_images",
+            "type": "two_line_list_item",
+            "titleText": "Hide AI Images in Search",
+            "descriptionText": "Easily hide AI images from your search results",
+            "placeholder": "Announce",
+            "primaryAction": {
+              "type": "url_in_context",
+              "value": "https://example.com"
+            }
+          },
+          {
+            "id": "enhanced_scam_blocker",
+            "type": "two_line_list_item",
+            "titleText": "Enhanced Scam Blocker",
+            "descriptionText": "Browse confidently with protection against scam sites",
+            "placeholder": "PrivacyShield",
+            "primaryAction": {
+              "type": "url_in_context",
+              "value": "https://example.com"
+            }
+          },
+          {
+            "id": "duck_ai_chat",
+            "type": "two_line_list_item",
+            "titleText": "Duck AI Chat",
+            "descriptionText": "Private AI chat built into your browser",
+            "placeholder": "Duck.ai",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "import.passwords"
+            }
+          }
+        ],
+        "primaryActionText": "Got It",
         "primaryAction": {
-          "type": "survey",
-          "value": "https://www.duckduckgo.com"
+          "type": "dismiss",
+          "value": ""
         }
-      },
-      "matchingRules": [21]
+      }
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
