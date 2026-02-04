@@ -9,7 +9,7 @@
         "messageType": "cards_list",
         "titleText": "What's New",
         "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/image.png",
-        "descriptionText": "",
+        "descriptionText": "Description text",
         "listItems": [
           {
             "id": "hide_search_images",
