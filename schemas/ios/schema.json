@@ -127,6 +127,10 @@
           "items": {
             "$ref": "#/definitions/ListItem"
           }
+        },
+        "imageUrl": {
+          "type": "string",
+          "description": "URL of the image to display in the message"
         }
       },
       "allOf": [

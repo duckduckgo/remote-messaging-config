@@ -1,6 +1,76 @@
 {
-  "version": 95,
+  "version": 97,
   "messages": [
+    {
+      "id": "whats_new_remote_image_test",
+      "surfaces": ["modal", "dedicated_tab"],
+      "matchingRules": [20],
+      "content": {
+        "messageType": "cards_list",
+        "titleText": "What's New",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/image.png",
+        "descriptionText": "Description text",
+        "listItems": [
+          {
+            "id": "hide_search_images",
+            "type": "two_line_list_item",
+            "titleText": "Hide AI Images in Search",
+            "descriptionText": "Easily hide AI images from your search results",
+            "placeholder": "Announce",
+            "primaryAction": {
+              "type": "url_in_context",
+              "value": "https://example.com"
+            }
+          },
+          {
+            "id": "enhanced_scam_blocker",
+            "type": "two_line_list_item",
+            "titleText": "Enhanced Scam Blocker",
+            "descriptionText": "Browse confidently with protection against scam sites",
+            "placeholder": "PrivacyShield",
+            "primaryAction": {
+              "type": "url_in_context",
+              "value": "https://example.com"
+            }
+          },
+          {
+            "id": "duck_ai_chat",
+            "type": "two_line_list_item",
+            "titleText": "Duck AI Chat",
+            "descriptionText": "Private AI chat built into your browser",
+            "placeholder": "Duck.ai",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "import.passwords"
+            }
+          }
+        ],
+        "primaryActionText": "Got It",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      }
+    },
+    {
+      "id": "ntp_remote_image_test",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Why did you cancel your subscription?",
+        "descriptionText": "Your input helps improve DuckDuckGo for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/image.png",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&ppro_region=us",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [20]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -798,6 +868,14 @@
       "attributes": {
         "shouldShowWinBackOfferUrgencyMessage": {
           "value": true
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 0
         }
       }
     }
