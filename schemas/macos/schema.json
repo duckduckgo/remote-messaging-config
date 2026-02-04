@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Remote Messaging Configuration",
-  "description": "JSON schema for DuckDuckGo remote messaging configuration",
+  "description": "JSON schema for DuckDuckGo macOS remote messaging configuration",
   "type": "object",
   "required": ["version", "messages", "rules"],
   "additionalProperties": false,
@@ -37,7 +37,7 @@
         },
         "surfaces": {
           "type": "array",
-          "description": "Surfaces the message can appear on",
+          "description": "Array of surfaces where the message can be displayed",
           "items": {
             "$ref": "#/definitions/SurfaceType"
           }
@@ -90,28 +90,19 @@
         },
         "descriptionText": {
           "type": "string",
-          "minLength": 1,
           "description": "Description text for the message"
         },
         "placeholder": {
           "$ref": "#/definitions/PlaceholderType",
-          "description": "Placeholder type for the message"
-        },
-        "actionText": {
-          "type": "string",
-          "description": "Text for the action button (used in promo_single_action)"
-        },
-        "action": {
-          "$ref": "#/definitions/MessageAction",
-          "description": "Action for the button (used in promo_single_action)"
+          "description": "Placeholder/illustration type for the message"
         },
         "primaryActionText": {
           "type": "string",
-          "description": "Text for the primary action button (used in big_single_action and big_two_action)"
+          "description": "Text for the primary action button (used in big_single_action, big_two_action)"
         },
         "primaryAction": {
           "$ref": "#/definitions/MessageAction",
-          "description": "Primary action (used in big_single_action and big_two_action)"
+          "description": "Primary action (used in big_single_action, big_two_action)"
         },
         "secondaryActionText": {
           "type": "string",
@@ -120,13 +111,6 @@
         "secondaryAction": {
           "$ref": "#/definitions/MessageAction",
           "description": "Secondary action (used in big_two_action)"
-        },
-        "listItems": {
-          "type": "array",
-          "description": "List items for cards_list message type",
-          "items": {
-            "$ref": "#/definitions/ListItem"
-          }
         }
       },
       "allOf": [
@@ -147,73 +131,8 @@
           "then": {
             "required": ["primaryActionText", "primaryAction", "secondaryActionText", "secondaryAction"]
           }
-        },
-        {
-          "if": {
-            "properties": { "messageType": { "const": "promo_single_action" } },
-            "required": ["messageType"]
-          },
-          "then": {
-            "required": ["actionText", "action"]
-          }
-        },
-        {
-          "if": {
-            "properties": { "messageType": { "const": "cards_list" } },
-            "required": ["messageType"]
-          },
-          "then": {
-            "required": ["listItems", "primaryActionText", "primaryAction"]
-          }
         }
       ]
-    },
-    "ListItem": {
-      "type": "object",
-      "required": ["id", "type", "titleText"],
-      "additionalProperties": false,
-      "properties": {
-        "id": {
-          "type": "string",
-          "description": "Unique identifier for the list item"
-        },
-        "type": {
-          "type": "string",
-          "enum": ["two_line_list_item"],
-          "description": "Type of list item"
-        },
-        "titleText": {
-          "type": "string",
-          "minLength": 1,
-          "description": "Title text for the list item"
-        },
-        "descriptionText": {
-          "type": "string",
-          "description": "Description text for the list item"
-        },
-        "placeholder": {
-          "$ref": "#/definitions/PlaceholderType",
-          "description": "Placeholder for the list item"
-        },
-        "primaryAction": {
-          "$ref": "#/definitions/MessageAction",
-          "description": "Primary action for the list item"
-        },
-        "matchingRules": {
-          "type": "array",
-          "description": "Array of rule IDs that must match for this list item to be shown",
-          "items": {
-            "type": "integer"
-          }
-        },
-        "exclusionRules": {
-          "type": "array",
-          "description": "Array of rule IDs that must not match for this list item to be shown",
-          "items": {
-            "type": "integer"
-          }
-        }
-      }
     },
     "MessageAction": {
       "type": "object",
@@ -266,11 +185,6 @@
         }
       ]
     },
-    "NavigationTarget": {
-      "type": "string",
-      "description": "Valid navigation targets for the navigation action type",
-      "enum": ["duckai.settings", "settings", "feedback", "sync", "import.passwords", "appearance"]
-    },
     "ContentTranslation": {
       "type": "object",
       "additionalProperties": false,
@@ -284,33 +198,10 @@
         "descriptionText": {
           "type": "string"
         },
-        "actionText": {
-          "type": "string",
-          "description": "Text for the action button (used in promo_single_action translations)"
-        },
         "primaryActionText": {
           "type": "string"
         },
         "secondaryActionText": {
-          "type": "string"
-        },
-        "listItems": {
-          "type": "object",
-          "description": "Translations for list items in cards_list messages",
-          "additionalProperties": {
-            "$ref": "#/definitions/ListItemTranslation"
-          }
-        }
-      }
-    },
-    "ListItemTranslation": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "titleText": {
-          "type": "string"
-        },
-        "descriptionText": {
           "type": "string"
         }
       }
@@ -353,7 +244,6 @@
             "searchAtb": { "$ref": "#/definitions/SingleValueStringAttribute" },
             "expVariant": { "$ref": "#/definitions/SingleValueStringAttribute" },
             "emailEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
-            "widgetAdded": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "bookmarks": { "$ref": "#/definitions/NumericRangeAttribute" },
             "favorites": { "$ref": "#/definitions/NumericRangeAttribute" },
             "appTheme": { "$ref": "#/definitions/SingleValueStringAttribute" },
@@ -365,6 +255,7 @@
             "pproDaysUntilExpiryOrRenewal": { "$ref": "#/definitions/NumericRangeAttribute" },
             "pproPurchasePlatform": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "pproSubscriptionStatus": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
+            "subscriptionFreeTrialActive": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "interactedWithMessage": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "interactedWithDeprecatedMacRemoteMessage": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "installedMacAppStore": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
@@ -376,7 +267,6 @@
             "isCurrentFreemiumPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "isCurrentPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "allFeatureFlagsEnabled": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
-            "subscriptionFreeTrialActive": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "syncEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "shouldShowWinBackOfferUrgencyMessage": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "daysSinceDuckAiUsed": { "$ref": "#/definitions/NumericRangeAttribute" }
@@ -494,6 +384,11 @@
         }
       }
     },
+    "NavigationTarget": {
+      "type": "string",
+      "description": "Valid navigation targets for the navigation action type",
+      "enum": ["feedback"]
+    },
     "PlaceholderType": {
       "type": "string",
       "enum": [
@@ -501,17 +396,11 @@
         "DDGAnnounce",
         "CriticalUpdate",
         "AppUpdate",
-        "MacComputer",
-        "NewForMacAndWindows",
-        "PrivacyShield",
         "Duck.ai",
-        "VisualDesignUpdate",
-        "ImageAI",
+        "PrivacyShield",
         "Radar",
         "RadarCheckGreen",
         "RadarCheckPurple",
-        "KeyImport",
-        "MobileCustomization",
         "PIR",
         "Subscription"
       ]
@@ -522,7 +411,7 @@
     },
     "MessageType": {
       "type": "string",
-      "enum": ["small", "medium", "big_single_action", "big_two_action", "promo_single_action", "cards_list"]
+      "enum": ["small", "medium", "big_single_action", "big_two_action"]
     },
     "ActionType": {
       "type": "string",

@@ -874,22 +874,6 @@
     {
       "id": 20,
       "attributes": {
-        "appVersion": {
-          "min": "7.195.0"
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        }
-      }
-    },
-    {
-      "id": 21,
-      "attributes": {
         "daysSinceInstalled": {
           "min": 0
         }
