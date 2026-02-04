@@ -4,7 +4,7 @@
     {
       "id": "whats_new_remote_image_test",
       "surfaces": ["modal", "dedicated_tab"],
-      "matchingRules": [21],
+      "matchingRules": [20],
       "content": {
         "messageType": "cards_list",
         "titleText": "What's New",
@@ -69,7 +69,7 @@
           }
         }
       },
-      "matchingRules": [21]
+      "matchingRules": [20]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
