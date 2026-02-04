@@ -2,7 +2,7 @@
   "version": 96,
   "messages": [
     {
-      "id": "whats_new_v1_test",
+      "id": "whats_new_remote_image_test",
       "surfaces": ["modal", "dedicated_tab"],
       "matchingRules": [21],
       "content": {
@@ -51,6 +51,25 @@
           "value": ""
         }
       }
+    },
+    {
+      "id": "ntp_remote_image_test",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Why did you cancel your subscription?",
+        "descriptionText": "Your input helps improve DuckDuckGo for all subscribers.",
+        "placeholder": "PrivacyShield",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/image.png",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/privacypro_exitsurvey?list=3&ppro_region=us",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;mo;ppro_status;ppro_platform;ppro_billing;ppro_days_since_purchase;ppro_days_until_exp"
+          }
+        }
+      },
+      "matchingRules": [21]
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
