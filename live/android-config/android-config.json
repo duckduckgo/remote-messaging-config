@@ -54,14 +54,14 @@
             }
           },
           {
-            "id": "import_passwords",
-            "type": "two_line_list_item",
-            "titleText": "Import From Chrome",
-            "descriptionText": "Add your saved bookmarks and passwords in seconds!",
-            "placeholder": "KeyImport",
-            "primaryAction": {
-              "type": "dismiss",
-              "value": "import.passwords"
+            "id":"import_passwords",
+            "type":"two_line_list_item",
+            "titleText":"Simpler Password Management",
+            "descriptionText":"Use DuckDuckGo to manage passwords on apps and sites across your whole device.",
+            "placeholder":"KeyImport",
+            "primaryAction":{
+              "type":"defaultCredentialProvider",
+              "value":""
             }
           }
         ],
@@ -92,8 +92,8 @@
               "descriptionText": "Navega con confianza con protección contra amenazas en línea aún más engañosas."
             },
             "import_passwords": {
-              "titleText": "Importar desde Chrome",
-              "descriptionText": "¡Añade tus marcadores y contraseñas guardadas en segundos!"
+              "titleText": "Manejo de contraseñas más simple",
+              "descriptionText": "Usa DuckDuckGo para gestionar contraseñas en aplicaciones y sitios web en todo tu dispositivo."
             }
           },
           "primaryActionText": "¡Entendido!"
