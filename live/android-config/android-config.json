@@ -417,6 +417,9 @@
           "value": [
             "en-US"
           ]
+        },
+        "daysSinceInstalled": {
+          "min": 10
         }
       }
     },
