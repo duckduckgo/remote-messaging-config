@@ -1,5 +1,5 @@
 {
-  "version": 89,
+  "version": 90,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -364,6 +364,26 @@
       "matchingRules": [
         1
       ]
+    },
+    {
+      "id": "macos_promo_feb2025",
+      "content": {
+        "messageType": "promo_single_action",
+        "titleText": "Get the desktop browser built for data protection, not data collection.",
+        "descriptionText": "Visit <b>duckduckgo.com/browser</b> on your computer to download.",
+        "placeholder": "MacAndWindows",
+        "actionText": "Send Myself The Link",
+        "action": {
+          "type": "share",
+          "value": "Visit https://duckduckgo.com/app",
+          "additionalParameters": {
+            "title": "Get DuckDuckGo Browser for Mac or Windows"
+          }
+        }
+      },
+      "matchingRules": [
+        2
+      ]
     }
   ],
   "rules": [
@@ -387,6 +407,16 @@
         "daysSinceInstalled": {
           "min": 14,
           "max": 21
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US"
+          ]
         }
       }
     },
