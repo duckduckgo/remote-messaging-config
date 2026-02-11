@@ -413,6 +413,9 @@
     {
       "id": 2,
       "attributes": {
+        "appVersion": {
+          "min": "5.266.0"
+        },
         "locale": {
           "value": [
             "en-US"
