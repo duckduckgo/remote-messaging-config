@@ -372,7 +372,7 @@
         "titleText": "Get the desktop browser built for data protection, not data collection.",
         "descriptionText": "Visit <b>duckduckgo.com/browser</b> on your computer to download.",
         "placeholder": "MacAndWindows",
-        "actionText": "Send Myself The Link",
+        "actionText": "Send Link to Myself",
         "action": {
           "type": "share",
           "value": "Visit https://duckduckgo.com/app",
@@ -422,7 +422,7 @@
           ]
         },
         "daysSinceInstalled": {
-          "min": 10
+          "min": 7
         }
       }
     },
