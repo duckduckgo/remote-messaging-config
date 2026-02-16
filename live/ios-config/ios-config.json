@@ -376,6 +376,26 @@
         19
       ],
       "exclusionRules": []
+    },
+    {
+      "id": "macos_promo_feb2026",
+      "content": {
+        "messageType": "promo_single_action",
+        "titleText": "Get the desktop browser built for data protection, not data collection.",
+        "descriptionText": "Visit <b>duckduckgo.com/browser</b> on your computer to download.",
+        "placeholder": "MacAndWindows",
+        "actionText": "Send Link to Myself",
+        "action": {
+          "type": "share",
+          "value": "https://duckduckgo.com/browser?origin=funnel_browser_iosrmf_desktopinstall",
+          "additionalParameters": {
+            "title": "Get DuckDuckGo Browser for Mac or Windows"
+          }
+        }
+      },
+      "matchingRules": [
+        20
+      ]
     }
  ],
   "rules": [
@@ -798,6 +818,22 @@
       "attributes": {
         "shouldShowWinBackOfferUrgencyMessage": {
           "value": true
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "appVersion": {
+          "min": "7.207.0"
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "daysSinceInstalled": {
+          "min": 7
         }
       }
     }
