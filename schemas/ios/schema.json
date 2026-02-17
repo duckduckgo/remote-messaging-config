@@ -502,6 +502,7 @@
         "CriticalUpdate",
         "AppUpdate",
         "MacComputer",
+        "MacAndWindows",
         "NewForMacAndWindows",
         "PrivacyShield",
         "Duck.ai",
