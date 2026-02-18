@@ -375,7 +375,7 @@
         "actionText": "Send Link to Myself",
         "action": {
           "type": "share",
-          "value": "Visit https://duckduckgo.com/app?origin=funnel_browser_androidrmf_desktopinstall",
+          "value": "Visit https://duckduckgo.com/browser?origin=funnel_browser_androidrmf_desktopinstall",
           "additionalParameters": {
             "title": "Get DuckDuckGo Browser for Mac or Windows"
           }
