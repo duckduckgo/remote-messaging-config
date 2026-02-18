@@ -385,42 +385,42 @@
         "fr-FR": {
           "titleText": "Choisissez le navigateur de bureau conçu pour la protection des données, pas pour leur collecte.",
           "descriptionText": "Visitez <b>duckduckgo.com/browser</b> sur votre ordinateur pour le télécharger.",
-          "primaryActionText": "M'envoyer le lien"
+          "actionText": "M'envoyer le lien"
         },
         "de-DE": {
           "titleText": "Hol dir den Desktop-Browser, der für den Datenschutz und nicht für die Datensammlung entwickelt wurde.",
           "descriptionText": "Besuche <b>duckduckgo.com/browser</b> auf deinem Computer, um ihn herunterzuladen.",
-          "primaryActionText": "Link an mich senden"
+          "actionText": "Link an mich senden"
         },
         "nl-NL": {
           "titleText": "Kies een desktopbrowser die is ontworpen voor gegevensbescherming, niet voor het verzamelen van gegevens.",
           "descriptionText": "Bezoek <b>duckduckgo.com/browser</b> op je computer om de browser te downloaden.",
-          "primaryActionText": "Link naar mezelf sturen"
+          "actionText": "Link naar mezelf sturen"
         },
         "es-ES": {
           "titleText": "Obtén el navegador de escritorio diseñado para proteger tus datos, no para recopilarlos.",
           "descriptionText": "Visita <b>duckduckgo.com/browser</b> en tu ordenador para descargarlo.",
-          "primaryActionText": "Enviarme a mí el enlace"
+          "actionText": "Enviarme a mí el enlace"
         },
         "it-IT": {
           "titleText": "Scarica il browser per desktop progettato per la protezione dei dati, non per la loro raccolta.",
           "descriptionText": "Visita <b>duckduckgo.com/browser</b> sul computer per scaricarlo.",
-          "primaryActionText": "Invia il link a te stesso"
+          "actionText": "Invia il link a te stesso"
         },
         "pl-PL": {
           "titleText": "Pobierz przeglądarkę komputerową stworzoną z myślą o ochronie danych, a nie ich zbieraniu.",
           "descriptionText": "Odwiedź stronę <b>duckduckgo.com/browser</b> na Twoim komputerze, aby pobrać.",
-          "primaryActionText": "Wyślij sobie link"
+          "actionText": "Wyślij sobie link"
         },
         "pt-PT": {
           "titleText": "Obtém o navegador para computados concebido para proteção de dados, não para recolha de dados.",
           "descriptionText": "Visita <b>duckduckgo.com/browser</b> no teu computador para transferir.",
-          "primaryActionText": "Enviar link para mim"
+          "actionText": "Enviar link para mim"
         },
         "ru-RU": {
           "titleText": "Настольный браузер, который защищает, а не собирает данные",
           "descriptionText": "Для скачивания посетите страницу <b>duckduckgo.com/browser</b> на компьютере.",
-          "primaryActionText": "Отправить себе ссылку"
+          "actionText": "Отправить себе ссылку"
         }
       },
       "matchingRules": [
