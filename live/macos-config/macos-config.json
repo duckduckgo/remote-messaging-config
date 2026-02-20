@@ -290,6 +290,22 @@
       "matchingRules": [12]
     },
     {
+      "id": "macos_very_critical_update",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Update macOS",
+        "descriptionText": "A macOS update is available. Keeping your Mac up to date helps protect your privacy and security.",
+        "placeholder": "VeryCriticalUpdate",
+        "primaryActionText": "Open Software Update",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "softwareUpdate"
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
       "id": "macos_switch_to_manual_updates",
       "content": {
         "messageType": "medium",
