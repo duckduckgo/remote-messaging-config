@@ -1,5 +1,5 @@
 {
-  "version": 46,
+  "version": 47,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -300,6 +300,33 @@
         "primaryAction": {
           "type": "navigation",
           "value": "softwareUpdate"
+        }
+      },
+      "translations": {
+        "fr": {
+          "titleText": "Mise à jour de macOS requise",
+          "descriptionText": "La mise à jour vers la dernière version corrige des problèmes de chargement et renforce la sécurité.",
+          "primaryActionText": "Mettre à jour macOS"
+        },
+        "de": {
+          "titleText": "macOS-Update erforderlich",
+          "descriptionText": "Mit der neuesten Version beheben Sie Ladefehler und verbessern die Sicherheit.",
+          "primaryActionText": "macOS aktualisieren"
+        },
+        "nl": {
+          "titleText": "U moet macOS bijwerken",
+          "descriptionText": "Door bij te werken naar de nieuwste versie worden laadproblemen opgelost en de beveiliging verbeterd.",
+          "primaryActionText": "macOS bijwerken"
+        },
+        "it": {
+          "titleText": "È necessario aggiornare macOS",
+          "descriptionText": "Aggiornare all'ultima versione risolverà i problemi di caricamento dei siti e migliorerà la sicurezza.",
+          "primaryActionText": "Aggiorna macOS"
+        },
+        "es": {
+          "titleText": "Debe actualizar macOS",
+          "descriptionText": "Actualizar a la última versión resolverá problemas de carga de sitios web y mejorará la seguridad.",
+          "primaryActionText": "Actualizar macOS"
         }
       },
       "matchingRules": [],
