@@ -33,7 +33,7 @@
             "descriptionText": "Choose a color theme to suit your style in our browsers for Windows and Mac.",
             "placeholder": "Radar",
             "primaryAction": {
-              "type": "url_in_context",
+              "type": "share",
               "value": "https://duckduckgo.com/app"
             },
             "matchingRules": [
