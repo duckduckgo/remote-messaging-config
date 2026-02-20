@@ -79,7 +79,7 @@
           ]
         },
         "daysSinceInstalled": {
-          "min": 7
+          "min": 0
         }
       }
     }
