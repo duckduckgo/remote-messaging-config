@@ -1,5 +1,5 @@
 {
-  "version": 46,
+  "version": 47,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -288,6 +288,92 @@
         }
       },
       "matchingRules": [12]
+    },
+    {
+      "id": "macos_very_critical_update",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Updating macOS is recommended",
+        "descriptionText": "Updating to the latest version will fix site loading issues and enhance security.",
+        "placeholder": "VeryCriticalUpdate",
+        "primaryActionText": "Update macOS",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "softwareUpdate"
+        }
+      },
+      "translations": {
+        "fr": {
+          "titleText": "La mise à jour de macOS est recommandée",
+          "descriptionText": "La mise à jour vers la dernière version corrige des problèmes de chargement et renforce la sécurité.",
+          "primaryActionText": "Mettre à jour macOS"
+        },
+        "de": {
+          "titleText": "macOS-Update empfohlen",
+          "descriptionText": "Mit der neuesten Version beheben Sie Ladefehler und verbessern die Sicherheit.",
+          "primaryActionText": "macOS aktualisieren"
+        },
+        "nl": {
+          "titleText": "Het wordt aanbevolen macOS bij te werken",
+          "descriptionText": "Door bij te werken naar de nieuwste versie worden laadproblemen opgelost en de beveiliging verbeterd.",
+          "primaryActionText": "macOS bijwerken"
+        },
+        "it": {
+          "titleText": "Si consiglia di aggiornare macOS",
+          "descriptionText": "Aggiornare all'ultima versione risolverà i problemi di caricamento dei siti e migliorerà la sicurezza.",
+          "primaryActionText": "Aggiorna macOS"
+        },
+        "es": {
+          "titleText": "Se recomienda actualizar macOS",
+          "descriptionText": "Actualizar a la última versión resolverá problemas de carga de sitios web y mejorará la seguridad.",
+          "primaryActionText": "Actualizar macOS"
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "macos_critical_update_url",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Updating macOS is recommended",
+        "descriptionText": "Updating to the latest version will fix site loading issues and enhance security.",
+        "placeholder": "CriticalUpdate",
+        "primaryActionText": "How to Update",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://support.apple.com/en-us/108382"
+        }
+      },
+      "translations": {
+        "fr": {
+          "titleText": "La mise à jour de macOS est recommandée",
+          "descriptionText": "La mise à jour vers la dernière version corrige des problèmes de chargement et renforce la sécurité.",
+          "primaryActionText": "Comment mettre à jour"
+        },
+        "de": {
+          "titleText": "macOS-Update empfohlen",
+          "descriptionText": "Mit der neuesten Version beheben Sie Ladefehler und verbessern die Sicherheit.",
+          "primaryActionText": "So aktualisieren Sie"
+        },
+        "nl": {
+          "titleText": "Het wordt aanbevolen macOS bij te werken",
+          "descriptionText": "Door bij te werken naar de nieuwste versie worden laadproblemen opgelost en de beveiliging verbeterd.",
+          "primaryActionText": "Hoe bij te werken"
+        },
+        "it": {
+          "titleText": "Si consiglia di aggiornare macOS",
+          "descriptionText": "Aggiornare all'ultima versione risolverà i problemi di caricamento dei siti e migliorerà la sicurezza.",
+          "primaryActionText": "Come aggiornare"
+        },
+        "es": {
+          "titleText": "Se recomienda actualizar macOS",
+          "descriptionText": "Actualizar a la última versión resolverá problemas de carga de sitios web y mejorará la seguridad.",
+          "primaryActionText": "Cómo actualizar"
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
     },
     {
       "id": "macos_switch_to_manual_updates",
