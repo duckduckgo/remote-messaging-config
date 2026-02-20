@@ -293,10 +293,10 @@
       "id": "macos_very_critical_update",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Update macOS",
-        "descriptionText": "A macOS update is available. Keeping your Mac up to date helps protect your privacy and security.",
+        "titleText": "You need to update macOS",
+        "descriptionText": "Updating to the latest version will fix site loading issues and enhance security.",
         "placeholder": "VeryCriticalUpdate",
-        "primaryActionText": "Open Software Update",
+        "primaryActionText": "Update macOS",
         "primaryAction": {
           "type": "navigation",
           "value": "softwareUpdate"
