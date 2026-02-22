@@ -28,10 +28,13 @@
             "type": "two_line_list_item",
             "titleText": "Pick a Theme",
             "descriptionText": "Choose a color theme to suit your style in our browsers for Windows and Mac.",
-            "placeholder": "ImageAI",
+            "placeholder": "NewTabOptions",
             "primaryAction": {
-              "type": "url_in_context",
-              "value": "https://duckduckgo.com/browser"
+              "type": "share",
+              "value": "https://duckduckgo.com/browser",
+              "additionalParameters": {
+                "title": "Get DuckDuckGo Browser for Mac or Windows"
+              }
             }
           },
           {
@@ -39,7 +42,7 @@
             "type": "two_line_list_item",
             "titleText": "Customize Your App Buttons",
             "descriptionText": "Add your favorite toolbar and address bar shortcuts in Settings > Appearance.",
-            "placeholder": "KeyImport"
+            "placeholder": "SplitBarMobile"
           }
         ],
         "primaryActionText": "Got It",
