@@ -90,7 +90,6 @@
         },
         "descriptionText": {
           "type": "string",
-          "minLength": 1,
           "description": "Description text for the message"
         },
         "placeholder": {
@@ -513,7 +512,9 @@
         "KeyImport",
         "MobileCustomization",
         "PIR",
-        "Subscription"
+        "Subscription",
+        "NewTabOptions",
+        "SplitBarMobile"
       ]
     },
     "SurfaceType": {

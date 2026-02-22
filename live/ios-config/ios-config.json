@@ -1,6 +1,58 @@
 {
-  "version": 95,
+  "version": 96,
   "messages": [
+    {
+      "id": "whats_new_2026-02-19",
+      "surfaces": [
+        "modal"
+      ],
+      "content": {
+        "messageType": "cards_list",
+        "titleText": "What’s New",
+        "placeholder": "DDGAnnounce",
+        "descriptionText": "",
+        "listItems": [
+          {
+            "id": "more_duckai_options",
+            "type": "two_line_list_item",
+            "titleText": "Enjoy More Duck.ai Options",
+            "descriptionText": "Turn ideas into images instantly and talk to AI privately with real-time voice chat.",
+            "placeholder": "Duck.ai",
+            "primaryAction": {
+              "type": "url_in_context",
+              "value": "https://duck.ai/"
+            }
+          },
+          {
+            "id": "pick_theme",
+            "type": "two_line_list_item",
+            "titleText": "Pick a Theme",
+            "descriptionText": "Choose a color theme to suit your style in our browsers for Windows and Mac.",
+            "placeholder": "NewTabOptions",
+            "primaryAction": {
+              "type": "share",
+              "value": "https://duckduckgo.com/browser",
+              "additionalParameters": {
+                "title": "Get DuckDuckGo Browser for Mac or Windows"
+              }
+            }
+          },
+          {
+            "id": "customize_app_buttons",
+            "type": "two_line_list_item",
+            "titleText": "Customize Your App Buttons",
+            "descriptionText": "Add your favorite toolbar and address bar shortcuts in Settings > Appearance.",
+            "placeholder": "SplitBarMobile"
+          }
+        ],
+        "primaryActionText": "Got It",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": []
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
