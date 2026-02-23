@@ -17,7 +17,7 @@
             "type": "two_line_list_item",
             "titleText": "Enjoy More Duck.ai Options",
             "descriptionText": "Turn ideas into images instantly and talk to AI privately with real-time voice chat.",
-            "placeholder": "DuckAi",
+            "placeholder": "Duck.ai",
             "primaryAction": {
               "type": "url",
               "value": "https://duck.ai/chat?q=DuckDuckGo+AI+Chat&duckai=5"
@@ -31,10 +31,10 @@
             "type": "two_line_list_item",
             "titleText": "Pick a Theme",
             "descriptionText": "Choose a color theme to suit your style in our browsers for Windows and Mac.",
-            "placeholder": "Radar",
+            "placeholder": "NewTabOptions",
             "primaryAction": {
               "type": "share",
-              "value": "https://duckduckgo.com/app"
+              "value": "https://duckduckgo.com/browser?funnel_whatsnew_android"
             },
             "matchingRules": [
               2
@@ -45,7 +45,7 @@
             "type": "two_line_list_item",
             "titleText": "Import Google Bookmarks",
             "descriptionText": "Import your bookmarks directly from Google in just a few taps!",
-            "placeholder": "KeyImport",
+            "placeholder": "BookmarksImport",
             "primaryAction": {
               "type": "navigation",
               "value": "importGoogleBookmarks",
@@ -71,7 +71,7 @@
       "id": 2,
       "attributes": {
         "appVersion": {
-          "min": "5.266.0"
+          "min": "5.268.1"
         },
         "locale": {
           "value": [
