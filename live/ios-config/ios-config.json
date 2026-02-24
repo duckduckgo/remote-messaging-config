@@ -19,8 +19,8 @@
             "descriptionText": "Turn ideas into images instantly and talk to AI privately with real-time voice chat.",
             "placeholder": "Duck.ai",
             "primaryAction": {
-              "type": "url_in_context",
-              "value": "https://duck.ai/"
+              "type": "url",
+              "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4"
             }
           },
           {
