@@ -1,5 +1,5 @@
 {
-  "version": 97,
+  "version": 96,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -872,6 +872,8 @@
         "locale": {
           "value": [
             "en-US",
+            "en-GB",
+            "en-CA",
             "fr-FR",
             "de-DE",
             "nl-NL",
