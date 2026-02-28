@@ -294,7 +294,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Updating macOS is recommended",
-        "descriptionText": "Updating to the latest version will fix site loading issues and enhance security.",
+        "descriptionText": "If a system update is available it may fix site loading issues and enhance security.",
         "placeholder": "VeryCriticalUpdate",
         "primaryActionText": "Update macOS",
         "primaryAction": {
@@ -305,27 +305,27 @@
       "translations": {
         "fr": {
           "titleText": "La mise à jour de macOS est recommandée",
-          "descriptionText": "La mise à jour vers la dernière version corrige des problèmes de chargement et renforce la sécurité.",
+          "descriptionText": "Si une mise à jour système est disponible, elle peut corriger des problèmes de chargement de sites et renforcer la sécurité.",
           "primaryActionText": "Mettre à jour macOS"
         },
         "de": {
           "titleText": "macOS-Update empfohlen",
-          "descriptionText": "Mit der neuesten Version beheben Sie Ladefehler und verbessern die Sicherheit.",
+          "descriptionText": "Falls ein Softwareupdate verfügbar ist, kann es Probleme beim Laden von Websites beheben und die Sicherheit verbessern.",
           "primaryActionText": "macOS aktualisieren"
         },
         "nl": {
           "titleText": "Het wordt aanbevolen macOS bij te werken",
-          "descriptionText": "Door bij te werken naar de nieuwste versie worden laadproblemen opgelost en de beveiliging verbeterd.",
+          "descriptionText": "Als er een systeemupdate beschikbaar is, kan deze laadproblemen van websites verhelpen en de beveiliging verbeteren.",
           "primaryActionText": "macOS bijwerken"
         },
         "it": {
           "titleText": "Si consiglia di aggiornare macOS",
-          "descriptionText": "Aggiornare all'ultima versione risolverà i problemi di caricamento dei siti e migliorerà la sicurezza.",
+          "descriptionText": "Se è disponibile un aggiornamento di sistema, potrebbe risolvere i problemi di caricamento dei siti e migliorare la sicurezza.",
           "primaryActionText": "Aggiorna macOS"
         },
         "es": {
           "titleText": "Se recomienda actualizar macOS",
-          "descriptionText": "Actualizar a la última versión resolverá problemas de carga de sitios web y mejorará la seguridad.",
+          "descriptionText": "Si hay una actualización del sistema disponible, podría solucionar problemas de carga de sitios web y mejorar la seguridad.",
           "primaryActionText": "Actualizar macOS"
         }
       },
