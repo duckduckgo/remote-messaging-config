@@ -305,27 +305,27 @@
       "translations": {
         "fr": {
           "titleText": "La mise à jour de macOS est recommandée",
-          "descriptionText": "Si une mise à jour système est disponible, elle peut corriger des problèmes de chargement de sites et renforcer la sécurité.",
+          "descriptionText": "Si une mise à jour système est disponible, elle peut corriger des problèmes de chargement de sites web et renforcer la sécurité.",
           "primaryActionText": "Mettre à jour macOS"
         },
         "de": {
           "titleText": "macOS-Update empfohlen",
-          "descriptionText": "Falls ein Softwareupdate verfügbar ist, kann es Probleme beim Laden von Websites beheben und die Sicherheit verbessern.",
+          "descriptionText": "Falls ein Softwareupdate verfügbar ist, kann es Probleme beim Laden von Webseiten beheben und die Sicherheit verbessern.",
           "primaryActionText": "macOS aktualisieren"
         },
         "nl": {
           "titleText": "Het wordt aanbevolen macOS bij te werken",
-          "descriptionText": "Als er een systeemupdate beschikbaar is, kan deze laadproblemen van websites verhelpen en de beveiliging verbeteren.",
+          "descriptionText": "Als er een systeemupdate beschikbaar is, kan deze laadproblemen van websites oplossen en de beveiliging verbeteren.",
           "primaryActionText": "macOS bijwerken"
         },
         "it": {
           "titleText": "Si consiglia di aggiornare macOS",
-          "descriptionText": "Se è disponibile un aggiornamento di sistema, potrebbe risolvere i problemi di caricamento dei siti e migliorare la sicurezza.",
+          "descriptionText": "Se è disponibile un aggiornamento di sistema, potrebbe risolvere i problemi di caricamento dei siti web e migliorare la sicurezza.",
           "primaryActionText": "Aggiorna macOS"
         },
         "es": {
           "titleText": "Se recomienda actualizar macOS",
-          "descriptionText": "Si hay una actualización del sistema disponible, podría solucionar problemas de carga de sitios web y mejorar la seguridad.",
+          "descriptionText": "Si hay una actualización del sistema disponible, puede solucionar problemas para cargar sitios web y mejorar la seguridad.",
           "primaryActionText": "Actualizar macOS"
         }
       },
