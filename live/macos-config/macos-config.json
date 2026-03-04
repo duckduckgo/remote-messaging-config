@@ -373,7 +373,7 @@
         }
       },
       "matchingRules": [23],
-      "exclusionRules": []
+      "exclusionRules": [10]
     },
     {
       "id": "macos_switch_to_manual_updates",
