@@ -329,7 +329,7 @@
           "primaryActionText": "Actualizar macOS"
         }
       },
-      "matchingRules": [],
+      "matchingRules": [24],
       "exclusionRules": []
     },
     {
@@ -372,7 +372,7 @@
           "primaryActionText": "Cómo actualizar"
         }
       },
-      "matchingRules": [],
+      "matchingRules": [23],
       "exclusionRules": []
     },
     {
@@ -813,6 +813,22 @@
           "value": [
             "es-ES"
           ]
+        }
+      }
+    },
+    {
+      "id": 23,
+      "attributes": {
+        "appVersion": {
+          "max": "1.179.0"
+        }
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "appVersion": {
+          "min": "1.180.0"
         }
       }
     }
