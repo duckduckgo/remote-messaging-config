@@ -1,5 +1,5 @@
 {
-  "version": 90,
+  "version": 92,
   "messages": [
     {
       "id": "whats_new_february_2026",
@@ -15,26 +15,12 @@
           {
             "id": "duck_ai_item",
             "type": "two_line_list_item",
-            "titleText": "Enjoy More Duck.ai Options",
+            "titleText": "Private Voice Chat and Image Generation in Duck.ai",
             "descriptionText": "Turn ideas into images instantly and talk to AI privately with real-time voice chat.",
             "placeholder": "Duck.ai",
             "primaryAction": {
               "type": "url",
               "value": "https://duck.ai/chat?q=DuckDuckGo+AI+Chat&duckai=5"
-            },
-            "matchingRules": [
-              2
-            ]
-          },
-          {
-            "id": "pick_theme_item",
-            "type": "two_line_list_item",
-            "titleText": "Pick a Theme",
-            "descriptionText": "Choose a color theme to suit your style in our browsers for Windows and Mac.",
-            "placeholder": "NewTabOptions",
-            "primaryAction": {
-              "type": "share",
-              "value": "https://duckduckgo.com/browser?funnel_whatsnew_android"
             },
             "matchingRules": [
               2
@@ -52,6 +38,40 @@
               "additionalParameters": {
                 "payload": "{\"launchSource\":\"remote_message\"}"
               }
+            },
+            "matchingRules": [
+              2
+            ]
+          },
+          {
+            "id": "pick_theme_item",
+            "type": "two_line_list_item",
+            "titleText": "Pick a Theme on Desktop",
+            "descriptionText": "Choose a color theme to suit your style in our desktop browsers. Get the Windows or Mac app now.",
+            "placeholder": "NewTabOptions",
+            "primaryAction": {
+              "type": "share",
+              "value": "https://duckduckgo.com/browser?funnel_whatsnew_androidrmf_febxxvi"
+            },
+            "matchingRules": [
+              2
+            ]
+          },
+          {
+            "id": "section-ddg_tips",
+            "type": "section_title",
+            "titleText": "DuckDuckTips",
+            "itemIDs": ["revisit_what_s_new"]
+          },
+          {
+            "id": "revisit_what_s_new",
+            "type": "two_line_list_item",
+            "titleText": "Revisit What’s New",
+            "descriptionText": "Look at What’s New any time by going to Settings and scrolling down to the About section.",
+            "placeholder": "Announce",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "settings"
             },
             "matchingRules": [
               2
