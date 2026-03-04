@@ -822,6 +822,9 @@
         "pproSubscriber": {
           "value": true
         },
+        "pproSubscriptionStatus": {
+          "value": ["active"]
+        },
         "isCurrentPIRUser": {
           "value": false
         },
