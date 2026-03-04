@@ -327,6 +327,21 @@
           "titleText": "Se recomienda actualizar macOS",
           "descriptionText": "Si hay una actualización del sistema disponible, puede solucionar problemas para cargar sitios web y mejorar la seguridad.",
           "primaryActionText": "Actualizar macOS"
+        },
+        "pl": {
+          "titleText": "Zalecana jest aktualizacja systemu macOS",
+          "descriptionText": "Jeśli dostępna jest aktualizacja systemu, może ona rozwiązać problemy z ładowaniem stron i zwiększyć bezpieczeństwo.",
+          "primaryActionText": "Zaktualizuj macOS"
+        },
+        "ru": {
+          "titleText": "Рекомендуется обновить macOS",
+          "descriptionText": "Если доступно обновление системы, оно может устранить проблемы с загрузкой сайтов и повысить безопасность.",
+          "primaryActionText": "Обновить macOS"
+        },
+        "pt": {
+          "titleText": "É recomendável atualizar o macOS",
+          "descriptionText": "Se uma atualização do sistema estiver disponível, pode corrigir problemas de carregamento de sites e melhorar a segurança.",
+          "primaryActionText": "Atualizar macOS"
         }
       },
       "matchingRules": [24],
@@ -370,6 +385,21 @@
           "titleText": "Se recomienda actualizar macOS",
           "descriptionText": "Actualizar a la última versión resolverá problemas de carga de sitios web y mejorará la seguridad.",
           "primaryActionText": "Cómo actualizar"
+        },
+        "pl": {
+          "titleText": "Zalecana jest aktualizacja systemu macOS",
+          "descriptionText": "Aktualizacja do najnowszej wersji rozwiąże problemy z ładowaniem stron i zwiększy bezpieczeństwo.",
+          "primaryActionText": "Jak zaktualizować"
+        },
+        "ru": {
+          "titleText": "Рекомендуется обновить macOS",
+          "descriptionText": "Обновление до последней версии устранит проблемы с загрузкой сайтов и повысит безопасность.",
+          "primaryActionText": "Как обновить"
+        },
+        "pt": {
+          "titleText": "É recomendável atualizar o macOS",
+          "descriptionText": "A atualização para a versão mais recente corrigirá problemas de carregamento de sites e melhorará a segurança.",
+          "primaryActionText": "Como atualizar"
         }
       },
       "matchingRules": [23],
