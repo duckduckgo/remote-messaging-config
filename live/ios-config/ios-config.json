@@ -1,6 +1,21 @@
 {
-  "version": 97,
+  "version": 98,
   "messages": [
+    {
+      "id": "ios_pir_announcement_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Personal Information Removal",
+        "descriptionText": "Personal Information Removal is now available on iOS! Start your first scan now from Settings.",
+        "placeholder": "pir",
+        "primaryActionText": "Set Up Now",
+        "primaryAction": {
+          "type": "navigate",
+          "value": "pir.main"
+        }
+      },
+      "matchingRules": [20]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -798,6 +813,20 @@
       "attributes": {
         "shouldShowWinBackOfferUrgencyMessage": {
           "value": true
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "isCurrentPIRUser": {
+          "value": false
+        },
+        "appVersion": {
+          "min": "7.209.0"
         }
       }
     }
