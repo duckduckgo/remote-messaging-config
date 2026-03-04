@@ -851,6 +851,9 @@
       "attributes": {
         "appVersion": {
           "max": "1.179.0"
+        },
+        "osApi": {
+          "max": "14"
         }
       }
     },
@@ -859,6 +862,9 @@
       "attributes": {
         "appVersion": {
           "min": "1.180.0"
+        },
+        "osApi": {
+          "max": "14"
         }
       }
     }
