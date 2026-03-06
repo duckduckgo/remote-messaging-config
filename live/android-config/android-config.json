@@ -1,6 +1,31 @@
 {
-  "version": 91,
+  "version": 92,
   "messages": [
+    {
+      "id": "android_deprecation_early_notice_os8",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Important: Upgrade to Android 9 or higher to stay protected",
+        "descriptionText": "From June 9, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the app, but updates and fixes will stop, and your privacy may be affected.",
+        "placeholder": "Announce"
+      },
+      "matchingRules": [25]
+    },
+    {
+      "id": "android_deprecation_early_notice_os8_ppro",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Important: Upgrade to Android 9 or request subscription refund",
+        "descriptionText": "From June 9, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the app, but updates and fixes will stop, and your privacy may be affected.",
+        "placeholder": "Announce",
+        "primaryActionText": "Request Subscription Refund",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/subscription-support"
+        }
+      },
+      "matchingRules": [26]
+    },
     {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
@@ -883,6 +908,30 @@
           "value": [
             "sv-SE"
           ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "osApi": {
+          "min": 26,
+          "max": 27
+        },
+        "pproSubscriber": {
+          "value": false
+        }
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "osApi": {
+          "min": 26,
+          "max": 27
+        },
+        "pproSubscriber": {
+          "value": true
         }
       }
     }
