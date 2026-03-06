@@ -6,7 +6,7 @@
       "content": {
         "messageType": "medium",
         "titleText": "Important: Upgrade to Android 9 or higher to stay protected",
-        "descriptionText": "From June 9, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the app, but updates and fixes will stop, and your privacy may be affected.",
+        "descriptionText": "From June 9, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the browser, but updates and fixes will stop, and your privacy may be affected.",
         "placeholder": "Announce"
       },
       "matchingRules": [25]
@@ -16,7 +16,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Important: Upgrade to Android 9 or request subscription refund",
-        "descriptionText": "From June 9, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the app, but updates and fixes will stop, and your privacy may be affected.",
+        "descriptionText": "From June 9, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the browser, but updates and fixes will stop, and your privacy may be affected.",
         "placeholder": "Announce",
         "primaryActionText": "Request Subscription Refund",
         "primaryAction": {
