@@ -54,7 +54,7 @@
             "id": "revisit_what_s_new",
             "type": "two_line_list_item",
             "titleText": "Revisit What’s New",
-            "descriptionText": "See What’s New any time by going to Settings and scrolling to the About section.",
+            "descriptionText": "See the latest any time in Settings > What’s New.",
             "placeholder": "Announce"
           }
         ],
