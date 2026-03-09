@@ -15,7 +15,7 @@
           {
             "id": "duck_ai_item",
             "type": "two_line_list_item",
-            "titleText": "Private Voice Chat and Image Generation in Duck.ai",
+            "titleText": "Try Voice Chat and Image Generation in Duck.ai",
             "descriptionText": "Turn ideas into images instantly and talk to AI privately with real-time voice chat.",
             "placeholder": "Duck.ai",
             "primaryAction": {
@@ -66,8 +66,8 @@
           {
             "id": "revisit_what_s_new",
             "type": "two_line_list_item",
-            "titleText": "Revisit What’s New",
-            "descriptionText": "Look at What’s New any time by going to Settings and scrolling down to the About section.",
+            "titleText": "Revisit What's New",
+            "descriptionText": "See the latest any time in Settings > What's New.",
             "placeholder": "Announce",
             "primaryAction": {
               "type": "navigation",
