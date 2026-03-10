@@ -827,6 +827,9 @@
         },
         "appVersion": {
           "min": "7.209.0"
+        },
+        "locale": {
+          "value": ["en-US"]
         }
       }
     }
