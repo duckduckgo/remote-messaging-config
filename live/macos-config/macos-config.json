@@ -747,11 +747,7 @@
     },
     {
       "id": 23,
-      "attributes": {
-        "appVersion": {
-          "max": "1.173.0"
-        }
-      }
+      "attributes": {}
     }
   ]
 }
