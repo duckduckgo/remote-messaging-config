@@ -1,5 +1,5 @@
 {
-  "version": 46,
+  "version": 47,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -298,6 +298,21 @@
         "placeholder": "CriticalUpdate"
       },
       "matchingRules": [10]
+    },
+    {
+      "id": "macos_update_app",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Your DuckDuckGo app is out of date",
+        "descriptionText": "You're running an old version of DuckDuckGo that may be missing important fixes and improvements. Download the latest version to stay up to date.",
+        "placeholder": "AppUpdate",
+        "primaryActionText": "Download Latest",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/mac"
+        }
+      },
+      "matchingRules": [23]
     }
   ],
   "rules": [
@@ -727,6 +742,14 @@
           "value": [
             "es-ES"
           ]
+        }
+      }
+    },
+    {
+      "id": 23,
+      "attributes": {
+        "appVersion": {
+          "max": "1.173.0"
         }
       }
     }
