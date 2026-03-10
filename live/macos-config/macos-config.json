@@ -303,7 +303,7 @@
       "id": "macos_update_app",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "DuckDuckGo app is out of date",
+        "titleText": "Your DuckDuckGo app is out of date",
         "descriptionText": "You're running an old version of DuckDuckGo that is missing important fixes and improvements. Download the latest version to stay up to date.",
         "placeholder": "AppUpdate",
         "primaryActionText": "Download Latest",
