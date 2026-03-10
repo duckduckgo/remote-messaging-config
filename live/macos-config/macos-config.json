@@ -304,7 +304,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Your DuckDuckGo app is out of date",
-        "descriptionText": "You're running an old version of DuckDuckGo that may be missing important fixes and improvements. Download the latest version to stay up to date.",
+        "descriptionText": "You're running an old version of DuckDuckGo that is missing important fixes and improvements.\n\nDownload the latest version to stay up to date.",
         "placeholder": "AppUpdate",
         "primaryActionText": "Download Latest",
         "primaryAction": {
