@@ -269,7 +269,7 @@
     "NavigationTarget": {
       "type": "string",
       "description": "Valid navigation targets for the navigation action type",
-      "enum": ["duckai.settings", "settings", "feedback", "sync", "import.passwords", "appearance"]
+      "enum": ["duckai.settings", "pir.main", "settings", "feedback", "sync", "import.passwords", "appearance"]
     },
     "ContentTranslation": {
       "type": "object",
