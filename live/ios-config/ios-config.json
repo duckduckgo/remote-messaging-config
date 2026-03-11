@@ -6,7 +6,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Personal Information Removal",
-        "descriptionText": "Personal Information Removal is now available on iOS! Start your first scan now from Settings.",
+        "descriptionText": "Personal Information Removal is now available to subscribers on iOS! Start your first scan now from Settings.",
         "placeholder": "PIR",
         "primaryActionText": "Set Up Now",
         "primaryAction": {
