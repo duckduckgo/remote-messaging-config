@@ -306,7 +306,7 @@
         "titleText": "Your DuckDuckGo app is out of date",
         "descriptionText": "This version is missing important fixes and improvements. Download the latest version to stay up to date.",
         "placeholder": "AppUpdate",
-        "primaryActionText": "Download Latest",
+        "primaryActionText": "Go to App Store",
         "primaryAction": {
           "type": "url",
           "value": "https://duckduckgo.com/mac"
@@ -321,7 +321,7 @@
         "titleText": "Your DuckDuckGo app is out of date",
         "descriptionText": "This version is missing important fixes and improvements. Update now to get the latest — this update will also enable automatic updates going forward.",
         "placeholder": "AppUpdate",
-        "primaryActionText": "Download Latest",
+        "primaryActionText": "Update Now",
         "primaryAction": {
           "type": "url",
           "value": "https://duckduckgo.com/mac"
