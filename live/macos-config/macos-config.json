@@ -300,7 +300,7 @@
       "matchingRules": [10]
     },
     {
-      "id": "macos_update_app",
+      "id": "macos_update_app_appstore",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Your DuckDuckGo app is out of date",
@@ -313,6 +313,21 @@
         }
       },
       "matchingRules": [23]
+    },
+    {
+      "id": "macos_update_app_sparkle",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Your DuckDuckGo app is out of date",
+        "descriptionText": "This version is missing important fixes and improvements. Update now to get the latest — this update will also enable automatic updates going forward.",
+        "placeholder": "AppUpdate",
+        "primaryActionText": "Download Latest",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/mac"
+        }
+      },
+      "matchingRules": [24]
     }
   ],
   "rules": [
@@ -747,7 +762,19 @@
     },
     {
       "id": 23,
-      "attributes": {}
+      "attributes": {
+        "installedMacAppStore": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "installedMacAppStore": {
+          "value": false
+        }
+      }
     }
   ]
 }
