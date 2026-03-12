@@ -1,6 +1,90 @@
 {
-  "version": 92,
+  "version": 93,
   "messages": [
+    {
+      "id": "whats_new_march_2026",
+      "surfaces": [
+        "modal"
+      ],
+      "content": {
+        "messageType": "cards_list",
+        "titleText": "What's New",
+        "placeholder": "DDGAnnounce",
+        "descriptionText": " ",
+        "listItems": [
+          {
+            "id": "duck_ai_item",
+            "type": "two_line_list_item",
+            "titleText": "Try Voice Chat and Image Generation in Duck.ai",
+            "descriptionText": "Turn ideas into images instantly and talk to AI privately with real-time voice chat.",
+            "placeholder": "Duck.ai",
+            "primaryAction": {
+              "type": "url",
+              "value": "https://duck.ai/chat?q=DuckDuckGo+AI+Chat&duckai=5"
+            },
+            "matchingRules": [
+              27
+            ]
+          },
+          {
+            "id": "import_google_bookmarks_item",
+            "type": "two_line_list_item",
+            "titleText": "Import Google Bookmarks",
+            "descriptionText": "Import your bookmarks directly from Google in just a few taps!",
+            "placeholder": "BookmarksImport",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "importGoogleBookmarks",
+              "additionalParameters": {
+                "payload": "{\"launchSource\":\"remote_message\"}"
+              }
+            },
+            "matchingRules": [
+              27
+            ]
+          },
+          {
+            "id": "pick_theme_item",
+            "type": "two_line_list_item",
+            "titleText": "Pick a Theme on Desktop",
+            "descriptionText": "Choose a color theme to suit your style in our desktop browsers. Get the Windows or Mac app now.",
+            "placeholder": "NewTabOptions",
+            "primaryAction": {
+              "type": "share",
+              "value": "https://duckduckgo.com/browser?funnel_whatsnew_androidrmf_febxxvi"
+            },
+            "matchingRules": [
+              27
+            ]
+          },
+          {
+            "id": "section-ddg_tips",
+            "type": "section_title",
+            "titleText": "DuckDuckTips",
+            "itemIDs": ["revisit_what_s_new"]
+          },
+          {
+            "id": "revisit_what_s_new",
+            "type": "two_line_list_item",
+            "titleText": "Revisit What's New",
+            "descriptionText": "See the latest any time in Settings > What's New.",
+            "placeholder": "Announce",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "settings"
+            },
+            "matchingRules": [
+              27
+            ]
+          }
+        ],
+        "primaryActionText": "Got It",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      }
+    },
     {
       "id": "android_deprecation_early_notice_os8",
       "content": {
@@ -932,6 +1016,22 @@
         },
         "pproSubscriber": {
           "value": true
+        }
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "appVersion": {
+          "min": "5.269.0"
+        },
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "daysSinceInstalled": {
+          "min": 7
         }
       }
     }
