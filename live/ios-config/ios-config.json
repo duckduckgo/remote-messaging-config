@@ -1,6 +1,71 @@
 {
-  "version": 97,
+  "version": 98,
   "messages": [
+    {
+      "id": "whats_new_march_2026",
+      "surfaces": [
+        "modal"
+      ],
+      "content": {
+        "messageType": "cards_list",
+        "titleText": "What’s New",
+        "placeholder": "DDGAnnounce",
+        "descriptionText": "",
+        "listItems": [
+          {
+            "id": "duck_ai_item",
+            "type": "two_line_list_item",
+            "titleText": "Try Voice Chat and Image Generation in Duck.ai",
+            "descriptionText": "Turn ideas into images instantly and talk to AI privately with real-time voice chat.",
+            "placeholder": "Duck.ai",
+            "primaryAction": {
+              "type": "url",
+              "value": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=4"
+            }
+          },
+          {
+            "id": "customize_app_buttons",
+            "type": "two_line_list_item",
+            "titleText": "Customize Your App Buttons",
+            "descriptionText": "Add your favorite toolbar and address bar shortcuts in Settings > Appearance.",
+            "placeholder": "SplitBarMobile"
+          },
+          {
+            "id": "pick_theme",
+            "type": "two_line_list_item",
+            "titleText": "Pick a Theme on Desktop",
+            "descriptionText": "Choose a color theme to suit your style in our desktop browsers. Get the Windows or Mac app now.",
+            "placeholder": "NewTabOptions",
+            "primaryAction": {
+              "type": "share",
+              "value": "https://duckduckgo.com/browser?funnel_whatsnew_iosrmf_febxxvi",
+              "additionalParameters": {
+                "title": "Get DuckDuckGo Browser for Mac or Windows"
+              }
+            }
+          },
+          {
+            "id": "section-ddg_tips",
+            "type": "section_title",
+            "titleText": "DuckDuckTips",
+            "itemIDs": ["revisit_what_s_new"]
+          },
+          {
+            "id": "revisit_what_s_new",
+            "type": "two_line_list_item",
+            "titleText": "Revisit What’s New",
+            "descriptionText": "See the latest any time in Settings > What’s New.",
+            "placeholder": "Announce"
+          }
+        ],
+        "primaryActionText": "Got It",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [20]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -798,6 +863,20 @@
       "attributes": {
         "shouldShowWinBackOfferUrgencyMessage": {
           "value": true
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "appVersion": {
+          "min": "7.210.0.4"
+        },
+        "locale": {
+          "value": ["en-US"]
+        },
+        "daysSinceInstalled": {
+          "min": 7
         }
       }
     }
