@@ -11,7 +11,7 @@
         "primaryActionText": "Upgrade to Pro",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/subscriptions/plans?featurePage=duckai&origin=funnel_newtab_macrmf_protier"
+          "value": "https://duckduckgo.com/subscriptions/plans?tier=pro&origin=funnel_newtab_macrmf_protier"
         }
       },
       "translations": {
