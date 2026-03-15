@@ -1,5 +1,5 @@
 {
-  "version": 93,
+  "version": 94,
   "messages": [
     {
       "id": "whats_new_march_2026",
@@ -109,6 +109,93 @@
         }
       },
       "matchingRules": [26]
+    },
+    {
+      "id": "funnel_newtab_androidrmf_protier",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Want higher Duck.ai limits? Try the new Pro plan.",
+        "descriptionText": "Get Claude Opus 4.6 and 2x higher usage limits on the DuckDuckGo subscription\u2019s Pro plan.",
+        "placeholder": "Duck.ai",
+        "primaryActionText": "Upgrade to Pro",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "subscriptions.upgrade",
+          "additionalParameters": {
+            "payload": "{\"origin\": \"funnel_newtab_androidrmf_protier\"}"
+          }
+        }
+      },
+      "translations": {
+        "fr-FR": {
+          "titleText": "Envie de limites plus \u00e9lev\u00e9es sur Duck.ai\u00a0? D\u00e9couvrez l\u2019offre Pro.",
+          "descriptionText": "Acc\u00e9dez \u00e0 Claude Opus 4.6 et doublez vos limites d\u2019utilisation avec l\u2019abonnement DuckDuckGo Pro.",
+          "primaryActionText": "Passer \u00e0 Pro"
+        },
+        "fr-CA": {
+          "titleText": "Envie de limites plus \u00e9lev\u00e9es sur Duck.ai\u00a0? D\u00e9couvrez l\u2019offre Pro.",
+          "descriptionText": "Acc\u00e9dez \u00e0 Claude Opus 4.6 et doublez vos limites d\u2019utilisation avec l\u2019abonnement DuckDuckGo Pro.",
+          "primaryActionText": "Passer \u00e0 Pro"
+        },
+        "fr-LU": {
+          "titleText": "Envie de limites plus \u00e9lev\u00e9es sur Duck.ai\u00a0? D\u00e9couvrez l\u2019offre Pro.",
+          "descriptionText": "Acc\u00e9dez \u00e0 Claude Opus 4.6 et doublez vos limites d\u2019utilisation avec l\u2019abonnement DuckDuckGo Pro.",
+          "primaryActionText": "Passer \u00e0 Pro"
+        },
+        "fr-BE": {
+          "titleText": "Envie de limites plus \u00e9lev\u00e9es sur Duck.ai\u00a0? D\u00e9couvrez l\u2019offre Pro.",
+          "descriptionText": "Acc\u00e9dez \u00e0 Claude Opus 4.6 et doublez vos limites d\u2019utilisation avec l\u2019abonnement DuckDuckGo Pro.",
+          "primaryActionText": "Passer \u00e0 Pro"
+        },
+        "es-ES": {
+          "titleText": "\u00bfQuieres mayores l\u00edmites en Duck.ai? Prueba el nuevo plan Pro.",
+          "descriptionText": "Obt\u00e9n Claude Opus 4.6 y el doble de l\u00edmites de uso con la subscripci\u00f3n Pro de DuckDuckGo.",
+          "primaryActionText": "Actualiza a Pro"
+        },
+        "it-IT": {
+          "titleText": "Vuoi limiti pi\u00f9 alti su Duck.ai? Prova il nuovo piano Pro.",
+          "descriptionText": "Claude Opus 4.6 e limiti di utilizzo 2 volte pi\u00f9 alti, con il piano Pro dell\u2019abbonamento DuckDuckGo.",
+          "primaryActionText": "Passa a Pro"
+        },
+        "de-DE": {
+          "titleText": "Willst du ein h\u00f6heres Duck.ai-Kontingent? Probiere den neuen Pro-Tarif aus.",
+          "descriptionText": "Hole dir Claude Opus 4.6 und zweimal h\u00f6here Nutzungskontingente im DuckDuckGo-Abo Pro-Tarif.",
+          "primaryActionText": "Upgrade auf Pro"
+        },
+        "de-LU": {
+          "titleText": "Willst du ein h\u00f6heres Duck.ai-Kontingent? Probiere den neuen Pro-Tarif aus.",
+          "descriptionText": "Hole dir Claude Opus 4.6 und zweimal h\u00f6here Nutzungskontingente im DuckDuckGo-Abo Pro-Tarif.",
+          "primaryActionText": "Upgrade auf Pro"
+        },
+        "de-AT": {
+          "titleText": "Willst du ein h\u00f6heres Duck.ai-Kontingent? Probiere den neuen Pro-Tarif aus.",
+          "descriptionText": "Hole dir Claude Opus 4.6 und zweimal h\u00f6here Nutzungskontingente im DuckDuckGo-Abo Pro-Tarif.",
+          "primaryActionText": "Upgrade auf Pro"
+        },
+        "de-BE": {
+          "titleText": "Willst du ein h\u00f6heres Duck.ai-Kontingent? Probiere den neuen Pro-Tarif aus.",
+          "descriptionText": "Hole dir Claude Opus 4.6 und zweimal h\u00f6here Nutzungskontingente im DuckDuckGo-Abo Pro-Tarif.",
+          "primaryActionText": "Upgrade auf Pro"
+        },
+        "nl-NL": {
+          "titleText": "Wil je hogere limieten voor Duck.ai? Probeer het nieuwe Pro-abonnement.",
+          "descriptionText": "Krijg toegang tot Claude Opus 4.6 en twee keer hogere gebruikslimieten met het Pro-abonnement van DuckDuckGo.",
+          "primaryActionText": "Upgraden naar Pro"
+        },
+        "nl-BE": {
+          "titleText": "Wil je hogere limieten voor Duck.ai? Probeer het nieuwe Pro-abonnement.",
+          "descriptionText": "Krijg toegang tot Claude Opus 4.6 en twee keer hogere gebruikslimieten met het Pro-abonnement van DuckDuckGo.",
+          "primaryActionText": "Upgraden naar Pro"
+        },
+        "sv-SE": {
+          "titleText": "Vill du ha h\u00f6gre Duck.ai-gr\u00e4nser? Prova det nya Pro-abonnemanget.",
+          "descriptionText": "F\u00e5 Claude Opus 4.6 och dubbelt s\u00e5 h\u00f6ga anv\u00e4ndningsgr\u00e4nser med DuckDuckGo-prenumerationens Pro-plan.",
+          "primaryActionText": "Uppgradera till Pro"
+        }
+      },
+      "matchingRules": [
+        28
+      ]
     },
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -1032,6 +1119,76 @@
         },
         "daysSinceInstalled": {
           "min": 7
+        }
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "appVersion": {
+          "min": "5.269.0"
+        },
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active"
+          ]
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "daysSinceDuckAiUsed": {
+          "max": 14
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-FR",
+            "en-DE",
+            "en-NL",
+            "en-BG",
+            "en-CZ",
+            "en-DK",
+            "en-GR",
+            "en-EE",
+            "en-FI",
+            "en-HR",
+            "en-IT",
+            "en-LT",
+            "en-LV",
+            "en-PL",
+            "en-PT",
+            "en-RO",
+            "sk-SK",
+            "en-SK",
+            "en-SI",
+            "en-SE",
+            "en-IE",
+            "en-MT",
+            "en-CY",
+            "en-LU",
+            "en-AT",
+            "en-BE",
+            "fr-FR",
+            "fr-CA",
+            "fr-LU",
+            "fr-BE",
+            "es-ES",
+            "sv-SE",
+            "de-DE",
+            "de-LU",
+            "de-AT",
+            "de-BE",
+            "nl-NL",
+            "nl-BE",
+            "it-IT"
+          ]
         }
       }
     }
