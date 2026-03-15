@@ -116,7 +116,7 @@
         "messageType": "big_single_action",
         "titleText": "Want higher Duck.ai limits? Try the new Pro plan.",
         "descriptionText": "Get Claude Opus 4.6 and 2x higher usage limits on the DuckDuckGo subscription\u2019s Pro plan.",
-        "placeholder": "Duck.ai",
+        "placeholder": "DuckAi",
         "primaryActionText": "Upgrade to Pro",
         "primaryAction": {
           "type": "navigation",
