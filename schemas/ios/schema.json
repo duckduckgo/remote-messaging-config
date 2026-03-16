@@ -90,7 +90,6 @@
         },
         "descriptionText": {
           "type": "string",
-          "minLength": 1,
           "description": "Description text for the message"
         },
         "placeholder": {
@@ -179,7 +178,7 @@
         },
         "type": {
           "type": "string",
-          "enum": ["two_line_list_item"],
+          "enum": ["two_line_list_item", "section_title"],
           "description": "Type of list item"
         },
         "titleText": {
@@ -199,6 +198,13 @@
           "$ref": "#/definitions/MessageAction",
           "description": "Primary action for the list item"
         },
+        "itemIDs": {
+          "type": "array",
+          "description": "Referenced list item IDs for section title rows",
+          "items": {
+            "type": "string"
+          }
+        },
         "matchingRules": {
           "type": "array",
           "description": "Array of rule IDs that must match for this list item to be shown",
@@ -213,7 +219,18 @@
             "type": "integer"
           }
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "type": { "const": "section_title" } },
+            "required": ["type"]
+          },
+          "then": {
+            "required": ["itemIDs"]
+          }
+        }
+      ]
     },
     "MessageAction": {
       "type": "object",
@@ -514,7 +531,9 @@
         "KeyImport",
         "MobileCustomization",
         "PIR",
-        "Subscription"
+        "Subscription",
+        "NewTabOptions",
+        "SplitBarMobile"
       ]
     },
     "SurfaceType": {
