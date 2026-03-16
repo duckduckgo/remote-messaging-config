@@ -934,22 +934,6 @@
           "value": true
         }
       }
-    },
-    {
-      "id": 27,
-      "attributes": {
-        "appVersion": {
-          "min": "5.269.0"
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        }
-      }
     }
   ]
 }
