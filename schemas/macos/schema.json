@@ -387,7 +387,7 @@
     "NavigationTarget": {
       "type": "string",
       "description": "Valid navigation targets for the navigation action type",
-      "enum": ["feedback"]
+      "enum": ["feedback", "softwareUpdate"]
     },
     "PlaceholderType": {
       "type": "string",
@@ -402,7 +402,8 @@
         "RadarCheckGreen",
         "RadarCheckPurple",
         "PIR",
-        "Subscription"
+        "Subscription",
+        "VeryCriticalUpdate"
       ]
     },
     "SurfaceType": {
