@@ -440,7 +440,7 @@
         "primaryActionText": "Update Now",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/mac"
+          "value": "duck://settings/about"
         }
       },
       "matchingRules": [26]
