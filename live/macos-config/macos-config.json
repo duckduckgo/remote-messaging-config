@@ -425,7 +425,7 @@
         "primaryActionText": "Go to App Store",
         "primaryAction": {
           "type": "url",
-          "value": "https://duckduckgo.com/mac"
+          "value": "https://apps.apple.com/app/duckduckgo-privacy-browser/id663592361"
         }
       },
       "matchingRules": [25]
