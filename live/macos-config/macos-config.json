@@ -420,7 +420,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Your DuckDuckGo app is out of date",
-        "descriptionText": "This version is missing important fixes and improvements. Download the latest version to stay up to date.",
+        "descriptionText": "Download the latest version for important fixes and improvements, and to stay up to date.",
         "placeholder": "AppUpdate",
         "primaryActionText": "Go to App Store",
         "primaryAction": {
@@ -435,7 +435,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Your DuckDuckGo app is out of date",
-        "descriptionText": "This version is missing important fixes and improvements. Update now to get the latest — this update will also enable automatic updates going forward.",
+        "descriptionText": "Update now to get important fixes and improvements. This will also turn on automatic updates going forward.",
         "placeholder": "AppUpdate",
         "primaryActionText": "Update Now",
         "primaryAction": {
