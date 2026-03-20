@@ -31,7 +31,7 @@ message_hash() {
 build_id_list() {
   local ids="$1"
   while IFS= read -r msg_id; do
-    echo "- ${msg_id}"
+    echo "• ${msg_id}"
   done <<< "$ids"
 }
 
