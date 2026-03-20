@@ -438,6 +438,22 @@
     },
 
     {
+      "id": "ios_test_asana_notification",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Test notification message",
+        "descriptionText": "This is a test message for Asana notification testing. Remove before merging.",
+        "placeholder": "Announce",
+        "primaryActionText": "Learn More",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com"
+        }
+      },
+      "matchingRules": [22]
+    },
+
+    {
       "id": "ios_winback_offer_urgency",
       "content": {
         "messageType": "big_two_action",
@@ -881,6 +897,15 @@
       "attributes": {
         "shouldShowWinBackOfferUrgencyMessage": {
           "value": true
+        }
+      }
+    },
+
+    {
+      "id": 22,
+      "attributes": {
+        "appVersion": {
+          "min": "7.300.0"
         }
       }
     },
