@@ -78,9 +78,9 @@ if [ -z "$added" ] && [ -z "$removed" ] && [ -z "$modified" ]; then
 fi
 
 commit_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}"
-description+="${commit_url}"
+description+="Commit: ${commit_url}"
 
-task_name="${platform} RMF Config Updated (v${version})"
+task_name="${platform} RMF config version ${version} deployed"
 
 {
   echo "task_name=${task_name}"
