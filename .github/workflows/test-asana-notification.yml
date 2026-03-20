@@ -1,0 +1,29 @@
+name: Test Asana Notification
+
+on:
+  push:
+    branches:
+      - sam/apple-rmf-deployment-notifications
+    paths:
+      - 'live/ios-config/ios-config.json'
+
+jobs:
+  test-notification:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@main
+      with:
+        fetch-depth: 2
+    - name: Summarize Config Changes for Deployment Notification
+      id: summarize
+      run: .github/scripts/summarize-config-changes.sh live/ios-config/ios-config.json
+    - name: Create Deployment Notification Task
+      continue-on-error: true
+      uses: duckduckgo/native-github-asana-sync@v1.1
+      with:
+        action: create-asana-task
+        asana-pat: ${{ secrets.ASANA_ACCESS_TOKEN }}
+        asana-project: ${{ vars.APPLE_DEPLOYMENTS_ASANA_PROJECT_ID }}
+        asana-section: ${{ vars.APPLE_DEPLOYMENTS_SECTION_ID }}
+        asana-task-name: ${{ steps.summarize.outputs.task_name }}
+        asana-task-description: ${{ steps.summarize.outputs.task_description }}
