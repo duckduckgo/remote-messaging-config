@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
+      with:
+        fetch-depth: 2
     - uses: jakejarvis/s3-sync-action@7ed8b112447abb09f1da74f3466e4194fc7a6311
       with:
         args: --acl public-read --follow-symlinks
@@ -41,3 +43,18 @@ jobs:
           echo "HTTP Error $HTTP_RESPONSE for version ${VERSION}"
           exit 1
         fi
+    - name: Summarize Config Changes for Deployment Notification
+      if: github.event_name == 'push'
+      id: summarize
+      run: .github/scripts/summarize-config-changes.sh live/macos-config/macos-config.json
+    - name: Create Deployment Notification Task
+      if: github.event_name == 'push'
+      continue-on-error: true
+      uses: duckduckgo/native-github-asana-sync@v1.1
+      with:
+        action: create-asana-task
+        asana-pat: ${{ secrets.ASANA_ACCESS_TOKEN }}
+        asana-project: ${{ vars.APPLE_DEPLOYMENTS_ASANA_PROJECT_ID }}
+        asana-section: ${{ vars.APPLE_DEPLOYMENTS_SECTION_ID }}
+        asana-task-name: ${{ steps.summarize.outputs.task_name }}
+        asana-task-description: ${{ steps.summarize.outputs.task_description }}
