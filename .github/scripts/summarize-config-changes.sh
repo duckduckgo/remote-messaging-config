@@ -32,6 +32,17 @@ message_hash() {
   jq -c --arg id "$1" '[.messages[] | select(.id == $id)]' "$2" | shasum -a 256 | awk '{print $1}'
 }
 
+# Build an HTML list of message IDs
+build_id_list() {
+  local ids="$1"
+  local result="<ul>"
+  while IFS= read -r msg_id; do
+    result+="<li><code>${msg_id}</code></li>"
+  done <<< "$ids"
+  result+="</ul>"
+  echo "$result"
+}
+
 current_ids=$(extract_ids "$config_path")
 
 description=""
@@ -56,54 +67,42 @@ if [ "$has_previous" = true ]; then
   fi
 
   if [ -n "$added" ]; then
-    description+="**Added messages:**"$'\n'
-    while IFS= read -r msg_id; do
-      description+="- \`${msg_id}\`"$'\n'
-    done <<< "$added"
-    description+=$'\n'
+    description+="<strong>Added messages:</strong>"
+    description+="$(build_id_list "$added")"
   fi
 
   if [ -n "$removed" ]; then
-    description+="**Removed messages:**"$'\n'
-    while IFS= read -r msg_id; do
-      description+="- \`${msg_id}\`"$'\n'
-    done <<< "$removed"
-    description+=$'\n'
+    description+="<strong>Removed messages:</strong>"
+    description+="$(build_id_list "$removed")"
   fi
 
   if [ -n "$modified" ]; then
-    description+="**Modified messages:**"$'\n'
-    while IFS= read -r msg_id; do
-      description+="- \`${msg_id}\`"$'\n'
-    done <<< "$modified"
-    description+=$'\n'
+    description+="<strong>Modified messages:</strong>"
+    description+="$(build_id_list "$modified")"
   fi
 
   if [ -z "$added" ] && [ -z "$removed" ] && [ -z "$modified" ]; then
     old_version=$(jq -r '.version' "$old_config")
-    description+="No message changes. Version bumped from ${old_version} to ${version}."$'\n'
+    description+="No message changes. Version bumped from ${old_version} to ${version}."
   fi
 else
   # No previous commit available — list all current message IDs
   if [ -n "$current_ids" ]; then
-    description+="**Current messages (no previous version available):**"$'\n'
-    while IFS= read -r msg_id; do
-      description+="- \`${msg_id}\`"$'\n'
-    done <<< "$current_ids"
-    description+=$'\n'
+    description+="<strong>Current messages (no previous version available):</strong>"
+    description+="$(build_id_list "$current_ids")"
   else
-    description+="Initial config with no messages."$'\n'
+    description+="Initial config with no messages."
   fi
 fi
 
 commit_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}"
-description+=$'\n'"[View commit](${commit_url})"
+description+="<a href=\"${commit_url}\">View commit</a>"
 
 task_name="${platform} RMF Config Updated (v${version})"
 
 {
   echo "task_name=${task_name}"
   echo "task_description<<DESCRIPTION_EOF"
-  echo "$description"
+  echo "<body>${description}</body>"
   echo "DESCRIPTION_EOF"
 } >> "$GITHUB_OUTPUT"

@@ -438,7 +438,7 @@
     },
 
     {
-      "id": "ios_test_asana_notification",
+      "id": "ios_test_asana_notification_2",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Test notification message",
