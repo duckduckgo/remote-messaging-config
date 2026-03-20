@@ -45,10 +45,11 @@ jobs:
         fi
     - name: Summarize Config Changes for Deployment Notification
       if: github.event_name == 'push'
+      continue-on-error: true
       id: summarize
       run: .github/scripts/summarize-config-changes.sh live/macos-config/macos-config.json
     - name: Create Deployment Notification Task
-      if: github.event_name == 'push'
+      if: github.event_name == 'push' && steps.summarize.outcome == 'success'
       continue-on-error: true
       uses: duckduckgo/native-github-asana-sync@v1.1
       with:
