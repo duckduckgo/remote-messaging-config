@@ -348,7 +348,7 @@
           "value": ["stripe"]
         },
         "pproSubscriptionStatus": {
-          "value": ["active"]
+          "value": "active"
         },
         "daysSinceDuckAiUsed": {
           "max": 14
