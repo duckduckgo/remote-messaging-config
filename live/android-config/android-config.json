@@ -447,7 +447,7 @@
     {
       "id": 1,
       "targetPercentile": {
-        "before": 0.4
+        "before": 0.2
       },
       "attributes": {
         "pproSubscriber": {
