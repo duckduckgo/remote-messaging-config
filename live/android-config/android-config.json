@@ -1,5 +1,5 @@
 {
-  "version": 95,
+  "version": 96,
   "messages": [
     {
       "id": "android_deprecation_early_notice_os8",
@@ -447,7 +447,7 @@
     {
       "id": 1,
       "targetPercentile": {
-        "before": 0.4
+        "before": 0.2
       },
       "attributes": {
         "pproSubscriber": {
