@@ -388,6 +388,9 @@
       },
       "matchingRules": [
         1
+      ],
+      "exclusionRules": [
+        27
       ]
     },
     {
@@ -432,11 +435,6 @@
         "daysSinceInstalled": {
           "min": 14,
           "max": 21
-        },
-        "interactedWithMessage": {
-          "value": [
-            "android_survey_net_attribute_rating_d0_3"
-          ]
         }
       }
     },
@@ -976,6 +974,16 @@
         },
         "pproSubscriber": {
           "value": true
+        }
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_survey_net_attribute_rating_d0_3"
+          ]
         }
       }
     }
