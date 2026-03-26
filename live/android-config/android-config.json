@@ -411,6 +411,9 @@
       },
       "matchingRules": [
         2
+      ],
+      "exclusionRules": [
+        5
       ]
     }
   ],
@@ -459,10 +462,12 @@
     },
     {
       "id": 3,
-      "interactedWithMessage": {
-        "value": [
-          "android_survey_net_attribute_rating_d0_3"
-        ]
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_survey_net_attribute_rating_d0_3"
+          ]
+        }
       }
     },
     {
@@ -485,6 +490,16 @@
             "funnel_pro_androidrmf_announcement_vpn",
             "funnel_pro_androidrmf_announcement_wifi",
             "funnel_pro_androidrmf_announcement_holiday"
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_permanent_survey_user_satisfaction"
           ]
         }
       }
