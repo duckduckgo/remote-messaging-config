@@ -1,5 +1,5 @@
 {
-  "version": 97,
+  "version": 98,
   "messages": [
     {
       "id": "android_deprecation_early_notice_os8",
@@ -388,6 +388,29 @@
       },
       "matchingRules": [
         1
+      ],
+      "exclusionRules": [
+        3
+      ]
+    },
+    {
+      "id": "android_survey_net_attribute_rating_d0_3",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/260307",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;av;ddgv;man;mo;locale"
+          }
+        }
+      },
+      "matchingRules": [
+        2
       ]
     }
   ],
@@ -412,6 +435,35 @@
         "daysSinceInstalled": {
           "min": 14,
           "max": 21
+        }
+      }
+    },
+    {
+      "id": 2,
+      "targetPercentile": {
+        "before": 0.3
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        },
+        "daysSinceInstalled": {
+          "max": 3
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_survey_net_attribute_rating_d0_3"
+          ]
         }
       }
     },
