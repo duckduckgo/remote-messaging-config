@@ -23,6 +23,29 @@
       "exclusionRules": []
     },
     {
+      "id": "windows_quarterly_satisfaction_survey_q2_26",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "We'd love to know which features would make our browser better.",
+        "placeholder": "Announce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/250206?list=8",
+          "additionalParameters": {
+            "queryParams": "wv;delta;ddgv;sts;var;last_search_state"
+          }
+        }
+      },
+      "matchingRules": [
+        15
+      ],
+      "exclusionRules": [
+        16
+      ]
+    },
+    {
       "id": "windows_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
@@ -92,7 +115,8 @@
         10
       ],
       "exclusionRules": [
-        11,14
+        11,
+        14
       ]
     }
   ],
@@ -278,7 +302,31 @@
       "id": 14,
       "attributes": {
         "interactedWithMessage": {
-          "value": [ "windows_onboarding_v4_survey"]
+          "value": [ "windows_onboarding_v4_survey" ]
+        }
+      }
+    },
+    {
+      "id": 15,
+      "targetPercentile": {
+        "before": 0.5
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [ "windows_onboarding_v4_survey", "windows_14_day_survey", "windows_quarterly_satisfaction_survey_q4_25" ]
         }
       }
     }
