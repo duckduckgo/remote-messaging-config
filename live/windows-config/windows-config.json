@@ -1,6 +1,50 @@
 {
-  "version": 50,
+  "version": 55,
   "messages": [
+    {
+      "id": "windows_onboarding_v4_survey",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "Take our short survey and help us build the best browser.",
+        "placeholder": "Announce",
+        "primaryActionText": "Share Your Thoughts",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/260400?list=1",
+          "additionalParameters": {
+            "queryParams": "wv;atb;ddgv;sts;var;origin;last_search_state"
+          }
+        }
+      },
+      "matchingRules": [
+        13
+      ],
+      "exclusionRules": []
+    },
+    {
+      "id": "windows_quarterly_satisfaction_survey_q2_26",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "We'd love to know which features would make our browser better.",
+        "placeholder": "Announce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/250206?list=8",
+          "additionalParameters": {
+            "queryParams": "wv;delta;ddgv;sts;var;last_search_state"
+          }
+        }
+      },
+      "matchingRules": [
+        15
+      ],
+      "exclusionRules": [
+        16
+      ]
+    },
     {
       "id": "windows_privacy_pro_exit_survey_1",
       "content": {
@@ -71,27 +115,8 @@
         10
       ],
       "exclusionRules": [
-        11
-      ]
-    },
-    {
-      "id": "windows_preview_cta",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Get early access to the latest features in \nDuckDuckGo Preview for Windows",
-        "descriptionText": "Try out the latest browser features and send feedback to help us improve DuckDuckGo.",
-        "placeholder": "DDGAnnounce",
-        "primaryActionText": "Learn More",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/windows-preview"
-        }
-      },
-      "matchingRules": [
-        1
-      ],
-      "exclusionRules": [
-        9
+        11,
+        14
       ]
     }
   ],
@@ -206,7 +231,7 @@
     {
       "id": 10,
       "targetPercentile": {
-        "before": 0.5
+        "before": 0.75
       },
       "attributes": {
         "daysSinceInstalled": {
@@ -250,6 +275,58 @@
         },
         "daysSinceDuckAiUsed": {
           "max": 7
+        }
+      }
+    },
+    {
+      "id": 13,
+      "targetPercentile": {
+        "before": 0.5
+      },
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 0,
+          "max": 3
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [ "windows_onboarding_v4_survey" ]
+        }
+      }
+    },
+    {
+      "id": 15,
+      "targetPercentile": {
+        "before": 0.5
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [ "windows_onboarding_v4_survey", "windows_14_day_survey", "windows_quarterly_satisfaction_survey_q4_25" ]
         }
       }
     }
