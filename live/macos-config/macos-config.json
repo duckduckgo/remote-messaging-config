@@ -955,6 +955,9 @@
     {
       "id": 27,
       "attributes": {
+        "appVersion": {
+          "max": "1.182.0"
+        },
         "installedMacAppStore": {
           "value": true
         }
@@ -963,6 +966,9 @@
     {
       "id": 28,
       "attributes": {
+        "appVersion": {
+          "max": "1.182.0"
+        },
         "installedMacAppStore": {
           "value": false
         }
