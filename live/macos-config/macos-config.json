@@ -415,6 +415,7 @@
       },
       "matchingRules": [10]
     },
+
     {
       "id": "macos_quarterly_satisfaction_survey_q2_2026",
       "content": {
@@ -917,6 +918,7 @@
         }
       }
     },
+
     {
       "id": 25,
       "targetPercentile": {
