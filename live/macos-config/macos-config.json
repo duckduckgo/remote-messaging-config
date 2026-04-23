@@ -448,6 +448,48 @@
           "value": "https://apps.apple.com/us/app/duckduckgo-duck-ai-vpn/id663592361"
         }
       },
+      "translations": {
+        "fr": {
+          "titleText": "Votre application DuckDuckGo n'est pas à jour",
+          "descriptionText": "Téléchargez la dernière version pour obtenir d'importantes corrections et améliorations, et pour rester à jour.",
+          "primaryActionText": "Aller à l'App Store"
+        },
+        "de": {
+          "titleText": "Ihre DuckDuckGo-App ist veraltet",
+          "descriptionText": "Laden Sie die neueste Version herunter, um wichtige Korrekturen und Verbesserungen zu erhalten und auf dem neuesten Stand zu bleiben.",
+          "primaryActionText": "Zum App Store"
+        },
+        "nl": {
+          "titleText": "Uw DuckDuckGo-app is verouderd",
+          "descriptionText": "Download de nieuwste versie voor belangrijke oplossingen en verbeteringen, en om up-to-date te blijven.",
+          "primaryActionText": "Naar de App Store"
+        },
+        "it": {
+          "titleText": "La tua app DuckDuckGo non è aggiornata",
+          "descriptionText": "Scarica la versione più recente per importanti correzioni e miglioramenti e per rimanere aggiornato.",
+          "primaryActionText": "Vai all'App Store"
+        },
+        "es": {
+          "titleText": "Tu aplicación DuckDuckGo está desactualizada",
+          "descriptionText": "Descarga la última versión para obtener importantes correcciones y mejoras, y mantenerte al día.",
+          "primaryActionText": "Ir al App Store"
+        },
+        "pl": {
+          "titleText": "Twoja aplikacja DuckDuckGo jest nieaktualna",
+          "descriptionText": "Pobierz najnowszą wersję, aby uzyskać ważne poprawki i ulepszenia oraz być na bieżąco.",
+          "primaryActionText": "Przejdź do App Store"
+        },
+        "ru": {
+          "titleText": "Ваше приложение DuckDuckGo устарело",
+          "descriptionText": "Загрузите последнюю версию, чтобы получить важные исправления и улучшения и оставаться в курсе обновлений.",
+          "primaryActionText": "Перейти в App Store"
+        },
+        "pt": {
+          "titleText": "A tua aplicação DuckDuckGo está desatualizada",
+          "descriptionText": "Transfere a versão mais recente para obter correções e melhorias importantes e ficar atualizado.",
+          "primaryActionText": "Ir para a App Store"
+        }
+      },
       "matchingRules": [27]
     },
     {
@@ -461,6 +503,48 @@
         "primaryAction": {
           "type": "url",
           "value": "duck://settings/about"
+        }
+      },
+      "translations": {
+        "fr": {
+          "titleText": "Votre application DuckDuckGo n'est pas à jour",
+          "descriptionText": "Mettez à jour maintenant pour obtenir d'importantes corrections et améliorations. Cela activera également les mises à jour automatiques à l'avenir.",
+          "primaryActionText": "Mettre à jour maintenant"
+        },
+        "de": {
+          "titleText": "Ihre DuckDuckGo-App ist veraltet",
+          "descriptionText": "Aktualisieren Sie jetzt, um wichtige Korrekturen und Verbesserungen zu erhalten. Dadurch werden zukünftig auch automatische Updates aktiviert.",
+          "primaryActionText": "Jetzt aktualisieren"
+        },
+        "nl": {
+          "titleText": "Uw DuckDuckGo-app is verouderd",
+          "descriptionText": "Werk nu bij voor belangrijke oplossingen en verbeteringen. Hiermee worden voortaan ook automatische updates ingeschakeld.",
+          "primaryActionText": "Nu bijwerken"
+        },
+        "it": {
+          "titleText": "La tua app DuckDuckGo non è aggiornata",
+          "descriptionText": "Aggiorna ora per ottenere importanti correzioni e miglioramenti. In questo modo attiverai anche gli aggiornamenti automatici in futuro.",
+          "primaryActionText": "Aggiorna ora"
+        },
+        "es": {
+          "titleText": "Tu aplicación DuckDuckGo está desactualizada",
+          "descriptionText": "Actualiza ahora para obtener importantes correcciones y mejoras. Esto también activará las actualizaciones automáticas en adelante.",
+          "primaryActionText": "Actualizar ahora"
+        },
+        "pl": {
+          "titleText": "Twoja aplikacja DuckDuckGo jest nieaktualna",
+          "descriptionText": "Zaktualizuj teraz, aby uzyskać ważne poprawki i ulepszenia. Spowoduje to również włączenie automatycznych aktualizacji w przyszłości.",
+          "primaryActionText": "Zaktualizuj teraz"
+        },
+        "ru": {
+          "titleText": "Ваше приложение DuckDuckGo устарело",
+          "descriptionText": "Обновите сейчас, чтобы получить важные исправления и улучшения. Это также включит автоматические обновления в будущем.",
+          "primaryActionText": "Обновить сейчас"
+        },
+        "pt": {
+          "titleText": "A tua aplicação DuckDuckGo está desatualizada",
+          "descriptionText": "Atualiza agora para obter correções e melhorias importantes. Isto também ativará as atualizações automáticas no futuro.",
+          "primaryActionText": "Atualizar agora"
         }
       },
       "matchingRules": [28]
