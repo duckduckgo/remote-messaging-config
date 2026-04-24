@@ -480,7 +480,7 @@
           "primaryActionText": "Przejdź do App Store"
         },
         "ru": {
-          "titleText": "Доступно обновление приложения DuckDuckGo",
+          "titleText": "Ваше приложение DuckDuckGo устарело",
           "descriptionText": "Загрузите последнюю версию, чтобы получить важные исправления и улучшения и оставаться на актуальной версии.",
           "primaryActionText": "Перейти в App Store"
         },
@@ -537,7 +537,7 @@
           "primaryActionText": "Zaktualizuj teraz"
         },
         "ru": {
-          "titleText": "Доступно обновление приложения DuckDuckGo",
+          "titleText": "Ваше приложение DuckDuckGo устарело",
           "descriptionText": "Обновите сейчас, чтобы получить важные исправления и улучшения. Это также включит автоматические обновления в дальнейшем.",
           "primaryActionText": "Обновить сейчас"
         },
