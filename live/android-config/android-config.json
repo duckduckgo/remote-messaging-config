@@ -1,5 +1,5 @@
 {
-  "version": 101,
+  "version": 102,
   "messages": [
     {
       "id": "android_deprecation_early_notice_os8",
@@ -441,7 +441,7 @@
     {
       "id": 2,
       "targetPercentile": {
-        "before": 0.1
+        "before": 0.05
       },
       "attributes": {
         "locale": {
