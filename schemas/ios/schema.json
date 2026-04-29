@@ -391,6 +391,7 @@
             "duckPlayerEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "messageShown": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "isCurrentFreemiumPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
+            "isFreemiumPIREligible": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "isCurrentPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "allFeatureFlagsEnabled": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "subscriptionFreeTrialActive": { "$ref": "#/definitions/SingleValueBooleanAttribute" },

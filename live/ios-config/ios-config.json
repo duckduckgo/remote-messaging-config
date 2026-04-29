@@ -1,5 +1,5 @@
 {
-  "version": 105,
+  "version": 106,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -352,6 +352,28 @@
       "matchingRules": [
         4
       ]
+    },
+
+    {
+      "id": "ios_pir_freemium_entry_point",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Personal Information Removal",
+        "descriptionText": "Find your personal info on sites that sell it.",
+        "placeholder": "PIR",
+        "primaryActionText": "Free Scan",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "pir.main"
+        }
+      },
+      "matchingRules": [
+        20
+      ],
+      "exclusionRules": []
     },
 
     {
@@ -797,6 +819,17 @@
       "id": 19,
       "attributes": {
         "shouldShowWinBackOfferUrgencyMessage": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "appVersion": {
+          "min": "7.218.0"
+        },
+        "isFreemiumPIREligible": {
           "value": true
         }
       }
