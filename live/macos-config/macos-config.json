@@ -1,5 +1,5 @@
 {
-  "version": 53,
+  "version": 54,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -406,16 +406,6 @@
       "exclusionRules": []
     },
     {
-      "id": "macos_switch_to_manual_updates",
-      "content": {
-        "messageType": "medium",
-        "titleText": "Automatic Update Failed",
-        "descriptionText": "To get the latest version, go to Settings > About, and turn on manual updates. Then click Restart To Update.",
-        "placeholder": "CriticalUpdate"
-      },
-      "matchingRules": [10]
-    },
-    {
       "id": "macos_update_app_appstore",
       "content": {
         "messageType": "big_single_action",
@@ -660,18 +650,6 @@
       "attributes": {
         "interactedWithDeprecatedMacRemoteMessage": {
           "value": ["privacy_pro_survey_1"]
-        }
-      }
-    },
-    {
-      "id": 10,
-      "attributes": {
-        "appVersion": {
-          "min": "1.99.0",
-          "max": "1.102.0"
-        },
-        "installedMacAppStore": {
-          "value": false
         }
       }
     },
