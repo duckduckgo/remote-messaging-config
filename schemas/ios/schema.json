@@ -392,6 +392,8 @@
             "messageShown": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "isCurrentFreemiumPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "isFreemiumPIREligible": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
+            "freemiumPIRDidActivate": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
+            "freemiumPIRFirstScanResult": { "$ref": "#/definitions/SingleValueStringAttribute" },
             "isCurrentPIRUser": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "allFeatureFlagsEnabled": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "subscriptionFreeTrialActive": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
