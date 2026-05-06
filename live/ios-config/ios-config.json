@@ -869,7 +869,7 @@
       "id": 20,
       "attributes": {
         "appVersion": {
-          "min": "7.218.0"
+          "min": "7.220.0"
         },
         "isFreemiumPIREligible": {
           "value": true
@@ -883,7 +883,7 @@
       "id": 21,
       "attributes": {
         "appVersion": {
-          "min": "7.218.0"
+          "min": "7.220.0"
         },
         "isFreemiumPIREligible": {
           "value": true
@@ -897,7 +897,7 @@
       "id": 22,
       "attributes": {
         "appVersion": {
-          "min": "7.218.0"
+          "min": "7.220.0"
         },
         "isFreemiumPIREligible": {
           "value": true
