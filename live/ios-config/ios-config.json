@@ -1,5 +1,5 @@
 {
-  "version": 105,
+  "version": 107,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -352,6 +352,70 @@
       "matchingRules": [
         4
       ]
+    },
+
+    {
+      "id": "ios_pir_freemium_entry_point",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Personal Information Removal",
+        "descriptionText": "Find your personal info on sites that sell it.",
+        "placeholder": "PIR",
+        "primaryActionText": "Free Scan",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "pir.main"
+        }
+      },
+      "matchingRules": [
+        20
+      ],
+      "exclusionRules": []
+    },
+    {
+      "id": "ios_pir_freemium_scan_complete_results",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Personal Information Removal",
+        "descriptionText": "Your free personal info scan found records about you.",
+        "placeholder": "PIR",
+        "primaryActionText": "View Results",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "pir.main"
+        }
+      },
+      "matchingRules": [
+        21
+      ],
+      "exclusionRules": []
+    },
+    {
+      "id": "ios_pir_freemium_scan_complete_no_results",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Personal Information Removal",
+        "descriptionText": "Good news, your free personal info scan didn't find any records about you. We'll keep checking periodically.",
+        "placeholder": "PIR",
+        "primaryActionText": "View Results",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "pir.main"
+        }
+      },
+      "matchingRules": [
+        22
+      ],
+      "exclusionRules": []
     },
 
     {
@@ -798,6 +862,39 @@
       "attributes": {
         "shouldShowWinBackOfferUrgencyMessage": {
           "value": true
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "isFreemiumPIREligible": {
+          "value": true
+        },
+        "freemiumPIRDidActivate": {
+          "value": false
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "isFreemiumPIREligible": {
+          "value": true
+        },
+        "freemiumPIRFirstScanResult": {
+          "value": "matchesFound"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "isFreemiumPIREligible": {
+          "value": true
+        },
+        "freemiumPIRFirstScanResult": {
+          "value": "noMatches"
         }
       }
     }
