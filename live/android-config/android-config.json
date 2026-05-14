@@ -752,6 +752,22 @@
       ]
     },
     {
+      "id": "wip_youtube_ad_block",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Watch YouTube Ad-free",
+        "descriptionText": "Our browser now blocks ads on YouTube, so you can watch without interruption",
+        "placeholder": "DDGAnnounce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube_new.png",
+        "primaryActionText": "Got It",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": []
+    },
+    {
       "id": "whats_new_q2_2026",
       "surfaces": [
         "modal"
