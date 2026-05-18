@@ -71,6 +71,9 @@
         },
         "metrics": {
           "$ref": "#/definitions/Metrics"
+        },
+        "displayConditions": {
+          "$ref": "#/definitions/DisplayConditions"
         }
       }
     },
@@ -286,7 +289,27 @@
     "NavigationTarget": {
       "type": "string",
       "description": "Valid navigation targets for the navigation action type",
-      "enum": ["duckai.settings", "pir.main", "settings", "feedback", "sync", "import.passwords", "appearance"]
+      "enum": ["duckai.settings", "pir.main", "settings", "settings.general", "feedback", "sync", "import.passwords", "appearance"]
+    },
+    "DisplayConditions": {
+      "type": "object",
+      "description": "Client-side display conditions that gate when a message is shown",
+      "additionalProperties": false,
+      "properties": {
+        "trigger": {
+          "$ref": "#/definitions/MessageTrigger"
+        },
+        "dismissAfterDaysShown": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Auto-dismiss the message N days after first display per user, even without interaction"
+        }
+      }
+    },
+    "MessageTrigger": {
+      "type": "string",
+      "description": "Trigger context required for a message to be eligible to show",
+      "enum": ["after_idle"]
     },
     "ContentTranslation": {
       "type": "object",
