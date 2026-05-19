@@ -1,5 +1,5 @@
 {
-  "version": 54,
+  "version": 55,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -518,6 +518,20 @@
         }
       },
       "matchingRules": [28]
+    },
+    {
+      "id": "macos_big_sur_support_dropped",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "macOS Big Sur support is ending",
+        "descriptionText": "Future DuckDuckGo updates require macOS Monterey or later. Update macOS to keep getting new features, fixes, and security improvements.",
+        "placeholder": "VeryCriticalUpdate",
+        "primaryActionText": "Update macOS",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "softwareUpdate"
+        }
+      }
     }
   ],
   "rules": [
