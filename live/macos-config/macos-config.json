@@ -523,7 +523,7 @@
       "id": "macos_big_sur_support_dropped",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "DuckDuckGo no longer supports macOS Big Sur",
+        "titleText": "Big Sur support has ended",
         "descriptionText": "Update macOS to Monterey or later to keep getting new DuckDuckGo features, fixes, and security improvements.",
         "placeholder": "VeryCriticalUpdate",
         "primaryActionText": "Update macOS",
