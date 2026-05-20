@@ -1,27 +1,6 @@
 {
-  "version": 56,
+  "version": 57,
   "messages": [
-    {
-      "id": "windows_onboarding_v4_survey",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help Us Improve",
-        "descriptionText": "Take our short survey and help us build the best browser.",
-        "placeholder": "Announce",
-        "primaryActionText": "Share Your Thoughts",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/260400?list=1",
-          "additionalParameters": {
-            "queryParams": "wv;atb;ddgv;sts;var;origin;last_search_state"
-          }
-        }
-      },
-      "matchingRules": [
-        13
-      ],
-      "exclusionRules": []
-    },
     {
       "id": "windows_privacy_pro_exit_survey_1",
       "content": {
@@ -98,18 +77,6 @@
     }
   ],
   "rules": [
-    {
-      "id": 1,
-      "targetPercentile": {
-        "before": 0.80
-      },
-      "attributes": {
-        "daysSinceInstalled": {
-          "min": 14,
-          "max": 10000
-        }
-      }
-    },
     {
       "id": 2,
       "attributes": {
@@ -198,14 +165,6 @@
       }
     },
     {
-      "id": 9,
-      "attributes": {
-        "flavor": {
-          "value": [ "beta", "dev", "canary", "preview" ]
-        }
-      }
-    },
-    {
       "id": 10,
       "targetPercentile": {
         "before": 0.75
@@ -234,43 +193,6 @@
         "interactedWithDeprecatedWindowsSurvey": {
           "value": [
             "survey.dismissed"
-          ]
-        }
-      }
-    },
-    {
-      "id": 12,
-      "attributes": {
-        "pproSubscriber": {
-          "value": false
-        },
-        "pproEligible": {
-          "value": true
-        },
-        "locale": {
-          "value": [ "en-US" ]
-        },
-        "daysSinceDuckAiUsed": {
-          "max": 7
-        }
-      }
-    },
-    {
-      "id": 13,
-      "targetPercentile": {
-        "before": 0.5
-      },
-      "attributes": {
-        "daysSinceInstalled": {
-          "min": 0,
-          "max": 3
-        },
-        "locale": {
-          "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
           ]
         }
       }
