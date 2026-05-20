@@ -1085,6 +1085,9 @@
       "attributes": {
         "appVersion": {
           "min": "7.220.0"
+        },
+        "daysSinceInstalled": {
+          "min": 58
         }
       }
     }
