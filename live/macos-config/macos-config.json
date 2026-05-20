@@ -1,5 +1,5 @@
 {
-  "version": 55,
+  "version": 56,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -531,6 +531,15 @@
           "type": "navigation",
           "value": "softwareUpdate"
         }
+      }
+    },
+    {
+      "id": "macos_big_sur_support_dropped_no_cta",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Big Sur support has ended",
+        "descriptionText": "DuckDuckGo updates have ended for macOS Big Sur. Your browser will keep working as it does today.",
+        "placeholder": "VeryCriticalUpdate"
       }
     }
   ],
