@@ -259,6 +259,7 @@
             "interactedWithMessage": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "interactedWithDeprecatedMacRemoteMessage": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "installedMacAppStore": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
+            "canUpgradeOS": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "pinnedTabs": { "$ref": "#/definitions/NumericRangeAttribute" },
             "customHomePage": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "duckPlayerOnboarded": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
