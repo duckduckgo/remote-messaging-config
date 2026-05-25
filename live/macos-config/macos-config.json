@@ -525,11 +525,11 @@
         "messageType": "big_single_action",
         "titleText": "Big Sur support has ended",
         "descriptionText": "Update macOS to Monterey or later to keep getting new DuckDuckGo features, fixes, and security improvements.",
-        "placeholder": "CriticalUpdate",
+        "placeholder": "VeryCriticalUpdate",
         "primaryActionText": "Update macOS",
         "primaryAction": {
-          "type": "url",
-          "value": "x-apple.systempreferences:com.apple.preferences.softwareupdate"
+          "type": "navigation",
+          "value": "softwareUpdate"
         }
       },
       "matchingRules": [29]
@@ -540,7 +540,7 @@
         "messageType": "medium",
         "titleText": "Big Sur support has ended",
         "descriptionText": "DuckDuckGo updates have ended for macOS Big Sur. Your browser will keep working as it does today.",
-        "placeholder": "CriticalUpdate"
+        "placeholder": "VeryCriticalUpdate"
       },
       "matchingRules": [30]
     }
