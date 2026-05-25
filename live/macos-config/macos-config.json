@@ -1,5 +1,5 @@
 {
-  "version": 54,
+  "version": 55,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -518,6 +518,31 @@
         }
       },
       "matchingRules": [28]
+    },
+    {
+      "id": "macos_big_sur_eos_update_cta",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Big Sur support has ended",
+        "descriptionText": "Update macOS to Monterey or later to keep getting new DuckDuckGo features, fixes, and security improvements.",
+        "placeholder": "CriticalUpdate",
+        "primaryActionText": "Update macOS",
+        "primaryAction": {
+          "type": "url",
+          "value": "x-apple.systempreferences:com.apple.preferences.softwareupdate"
+        }
+      },
+      "matchingRules": [29]
+    },
+    {
+      "id": "macos_big_sur_eos_no_cta",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Big Sur support has ended",
+        "descriptionText": "DuckDuckGo updates have ended for macOS Big Sur. Your browser will keep working as it does today.",
+        "placeholder": "CriticalUpdate"
+      },
+      "matchingRules": [30]
     }
   ],
   "rules": [
@@ -978,6 +1003,28 @@
           "max": "1.182.0"
         },
         "installedMacAppStore": {
+          "value": false
+        }
+      }
+    },
+    {
+      "id": 29,
+      "attributes": {
+        "isInternalUser": {
+          "value": true
+        },
+        "canUpgradeOS": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "isInternalUser": {
+          "value": true
+        },
+        "canUpgradeOS": {
           "value": false
         }
       }
