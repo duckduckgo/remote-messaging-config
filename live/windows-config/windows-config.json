@@ -1,5 +1,5 @@
 {
-  "version": 57,
+  "version": 58,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -167,7 +167,7 @@
     {
       "id": 10,
       "targetPercentile": {
-        "before": 0.75
+        "before": 0.50
       },
       "attributes": {
         "daysSinceInstalled": {
