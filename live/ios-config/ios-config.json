@@ -1,5 +1,5 @@
 {
-  "version": 108,
+  "version": 109,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -1055,6 +1055,9 @@
         },
         "freemiumPIRDidActivate": {
           "value": false
+        },
+        "daysSinceInstalled": {
+          "min": 5
         }
       }
     },
