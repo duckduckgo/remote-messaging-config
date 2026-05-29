@@ -1055,6 +1055,9 @@
         },
         "freemiumPIRDidActivate": {
           "value": false
+        },
+        "daysSinceInstalled": {
+          "min": 5
         }
       }
     },
