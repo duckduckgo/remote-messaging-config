@@ -1,12 +1,12 @@
 {
-  "version": 104,
+  "version": 105,
   "messages": [
     {
       "id": "android_deprecation_urgent_notice_os8",
       "content": {
         "messageType": "medium",
         "titleText": "Important reminder: Upgrade to Android 9 or higher to stay protected",
-        "descriptionText": "After June 9, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the browser, but updates and fixes will stop, and your privacy may be affected.",
+        "descriptionText": "After July 9, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the browser, but updates and fixes will stop, and your privacy may be affected.",
         "placeholder": "CriticalUpdate"
       },
       "matchingRules": [25]
@@ -16,7 +16,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Important reminder: Upgrade to Android 9 or request subscription refund",
-        "descriptionText": "After June 9, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the browser, but updates and fixes will stop, and your privacy may be affected.",
+        "descriptionText": "After July 9, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the browser, but updates and fixes will stop, and your privacy may be affected.",
         "placeholder": "CriticalUpdate",
         "primaryActionText": "Request Subscription Refund",
         "primaryAction": {
