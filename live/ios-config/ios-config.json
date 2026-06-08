@@ -1115,6 +1115,9 @@
         "pproSubscriber": {
           "value": true
         },
+        "pproSubscriptionStatus": {
+          "value": ["active", "expiring"]
+        },
         "isCurrentPIRUser": {
           "value": false
         },
