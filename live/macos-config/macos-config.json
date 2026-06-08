@@ -482,7 +482,7 @@
         },
         "de": {
           "titleText": "Der Support für Big Sur ist eingestellt",
-          "descriptionText": "Aktualisiere macOS auf Monterey oder neuer, um weiterhin neue DuckDuckGo-Funktionen, Fehlerbehebungen und Sicherheitsverbesserungen zu erhalten.",
+          "descriptionText": "Aktualisieren Sie macOS auf Monterey oder neuer, um weiterhin neue DuckDuckGo-Funktionen, Fehlerbehebungen und Sicherheitsverbesserungen zu erhalten.",
           "primaryActionText": "macOS aktualisieren"
         },
         "nl": {
@@ -512,7 +512,7 @@
         },
         "pt": {
           "titleText": "O suporte ao Big Sur foi encerrado",
-          "descriptionText": "Atualize o macOS para o Monterey ou posterior para continuar recebendo novos recursos, correções e melhorias de segurança do DuckDuckGo.",
+          "descriptionText": "Atualiza o macOS para o Monterey ou posterior para continuares a receber novas funcionalidades, correções e melhorias de segurança do DuckDuckGo.",
           "primaryActionText": "Atualizar macOS"
         }
       },
@@ -533,11 +533,11 @@
         },
         "de": {
           "titleText": "Der Support für Big Sur ist eingestellt",
-          "descriptionText": "Die DuckDuckGo-Updates für macOS Big Sur wurden eingestellt. Dein Browser funktioniert weiterhin wie bisher."
+          "descriptionText": "Die DuckDuckGo-Updates für macOS Big Sur wurden eingestellt. Ihr Browser funktioniert weiterhin wie bisher."
         },
         "nl": {
           "titleText": "De ondersteuning voor Big Sur is beëindigd",
-          "descriptionText": "De DuckDuckGo-updates voor macOS Big Sur zijn beëindigd. Je browser blijft werken zoals nu."
+          "descriptionText": "De DuckDuckGo-updates voor macOS Big Sur zijn beëindigd. Uw browser blijft werken zoals nu."
         },
         "it": {
           "titleText": "Il supporto per Big Sur è terminato",
@@ -557,7 +557,7 @@
         },
         "pt": {
           "titleText": "O suporte ao Big Sur foi encerrado",
-          "descriptionText": "As atualizações do DuckDuckGo para o macOS Big Sur foram encerradas. Seu navegador continuará funcionando como hoje."
+          "descriptionText": "As atualizações do DuckDuckGo para o macOS Big Sur foram encerradas. O teu navegador continuará a funcionar como hoje."
         }
       },
       "matchingRules": [30]
@@ -583,7 +583,7 @@
         },
         "de": {
           "titleText": "Der Support für Big Sur ist eingestellt",
-          "descriptionText": "Aktualisiere macOS auf Monterey oder neuer, um weiterhin neue DuckDuckGo-Funktionen, Fehlerbehebungen und Sicherheitsverbesserungen zu erhalten.",
+          "descriptionText": "Aktualisieren Sie macOS auf Monterey oder neuer, um weiterhin neue DuckDuckGo-Funktionen, Fehlerbehebungen und Sicherheitsverbesserungen zu erhalten.",
           "primaryActionText": "macOS aktualisieren"
         },
         "nl": {
@@ -613,7 +613,7 @@
         },
         "pt": {
           "titleText": "O suporte ao Big Sur foi encerrado",
-          "descriptionText": "Atualize o macOS para o Monterey ou posterior para continuar recebendo novos recursos, correções e melhorias de segurança do DuckDuckGo.",
+          "descriptionText": "Atualiza o macOS para o Monterey ou posterior para continuares a receber novas funcionalidades, correções e melhorias de segurança do DuckDuckGo.",
           "primaryActionText": "Atualizar macOS"
         }
       },
