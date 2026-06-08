@@ -474,6 +474,48 @@
           "value": "softwareUpdate"
         }
       },
+      "translations": {
+        "fr": {
+          "titleText": "La prise en charge de Big Sur est terminée",
+          "descriptionText": "Mettez à jour macOS vers Monterey ou une version ultérieure pour continuer à bénéficier des nouvelles fonctionnalités, corrections et améliorations de sécurité de DuckDuckGo.",
+          "primaryActionText": "Mettre à jour macOS"
+        },
+        "de": {
+          "titleText": "Der Support für Big Sur ist eingestellt",
+          "descriptionText": "Aktualisiere macOS auf Monterey oder neuer, um weiterhin neue DuckDuckGo-Funktionen, Fehlerbehebungen und Sicherheitsverbesserungen zu erhalten.",
+          "primaryActionText": "macOS aktualisieren"
+        },
+        "nl": {
+          "titleText": "De ondersteuning voor Big Sur is beëindigd",
+          "descriptionText": "Werk macOS bij naar Monterey of nieuwer om nieuwe DuckDuckGo-functies, oplossingen en beveiligingsverbeteringen te blijven ontvangen.",
+          "primaryActionText": "macOS bijwerken"
+        },
+        "it": {
+          "titleText": "Il supporto per Big Sur è terminato",
+          "descriptionText": "Aggiorna macOS a Monterey o versioni successive per continuare a ricevere nuove funzionalità, correzioni e miglioramenti della sicurezza di DuckDuckGo.",
+          "primaryActionText": "Aggiorna macOS"
+        },
+        "es": {
+          "titleText": "El soporte para Big Sur ha finalizado",
+          "descriptionText": "Actualiza macOS a Monterey o una versión posterior para seguir recibiendo nuevas funciones, correcciones y mejoras de seguridad de DuckDuckGo.",
+          "primaryActionText": "Actualizar macOS"
+        },
+        "pl": {
+          "titleText": "Wsparcie dla Big Sur zostało zakończone",
+          "descriptionText": "Zaktualizuj macOS do wersji Monterey lub nowszej, aby nadal otrzymywać nowe funkcje, poprawki i ulepszenia zabezpieczeń DuckDuckGo.",
+          "primaryActionText": "Zaktualizuj macOS"
+        },
+        "ru": {
+          "titleText": "Поддержка Big Sur прекращена",
+          "descriptionText": "Обновите macOS до Monterey или более новой версии, чтобы продолжать получать новые функции, исправления и улучшения безопасности DuckDuckGo.",
+          "primaryActionText": "Обновить macOS"
+        },
+        "pt": {
+          "titleText": "O suporte ao Big Sur foi encerrado",
+          "descriptionText": "Atualize o macOS para o Monterey ou posterior para continuar recebendo novos recursos, correções e melhorias de segurança do DuckDuckGo.",
+          "primaryActionText": "Atualizar macOS"
+        }
+      },
       "matchingRules": [29]
     },
     {
@@ -483,6 +525,40 @@
         "titleText": "Big Sur support has ended",
         "descriptionText": "DuckDuckGo updates have ended for macOS Big Sur. Your browser will keep working as it does today.",
         "placeholder": "VeryCriticalUpdate"
+      },
+      "translations": {
+        "fr": {
+          "titleText": "La prise en charge de Big Sur est terminée",
+          "descriptionText": "Les mises à jour de DuckDuckGo sont terminées pour macOS Big Sur. Votre navigateur continuera de fonctionner comme aujourd'hui."
+        },
+        "de": {
+          "titleText": "Der Support für Big Sur ist eingestellt",
+          "descriptionText": "Die DuckDuckGo-Updates für macOS Big Sur wurden eingestellt. Dein Browser funktioniert weiterhin wie bisher."
+        },
+        "nl": {
+          "titleText": "De ondersteuning voor Big Sur is beëindigd",
+          "descriptionText": "De DuckDuckGo-updates voor macOS Big Sur zijn beëindigd. Je browser blijft werken zoals nu."
+        },
+        "it": {
+          "titleText": "Il supporto per Big Sur è terminato",
+          "descriptionText": "Gli aggiornamenti di DuckDuckGo per macOS Big Sur sono terminati. Il tuo browser continuerà a funzionare come oggi."
+        },
+        "es": {
+          "titleText": "El soporte para Big Sur ha finalizado",
+          "descriptionText": "Las actualizaciones de DuckDuckGo para macOS Big Sur han finalizado. Tu navegador seguirá funcionando como hasta ahora."
+        },
+        "pl": {
+          "titleText": "Wsparcie dla Big Sur zostało zakończone",
+          "descriptionText": "Aktualizacje DuckDuckGo dla macOS Big Sur zostały zakończone. Twoja przeglądarka będzie nadal działać tak jak obecnie."
+        },
+        "ru": {
+          "titleText": "Поддержка Big Sur прекращена",
+          "descriptionText": "Обновления DuckDuckGo для macOS Big Sur прекращены. Ваш браузер продолжит работать так же, как сегодня."
+        },
+        "pt": {
+          "titleText": "O suporte ao Big Sur foi encerrado",
+          "descriptionText": "As atualizações do DuckDuckGo para o macOS Big Sur foram encerradas. Seu navegador continuará funcionando como hoje."
+        }
       },
       "matchingRules": [30]
     },
@@ -497,6 +573,48 @@
         "primaryAction": {
           "type": "navigation",
           "value": "softwareUpdate"
+        }
+      },
+      "translations": {
+        "fr": {
+          "titleText": "La prise en charge de Big Sur est terminée",
+          "descriptionText": "Mettez à jour macOS vers Monterey ou une version ultérieure pour continuer à bénéficier des nouvelles fonctionnalités, corrections et améliorations de sécurité de DuckDuckGo.",
+          "primaryActionText": "Mettre à jour macOS"
+        },
+        "de": {
+          "titleText": "Der Support für Big Sur ist eingestellt",
+          "descriptionText": "Aktualisiere macOS auf Monterey oder neuer, um weiterhin neue DuckDuckGo-Funktionen, Fehlerbehebungen und Sicherheitsverbesserungen zu erhalten.",
+          "primaryActionText": "macOS aktualisieren"
+        },
+        "nl": {
+          "titleText": "De ondersteuning voor Big Sur is beëindigd",
+          "descriptionText": "Werk macOS bij naar Monterey of nieuwer om nieuwe DuckDuckGo-functies, oplossingen en beveiligingsverbeteringen te blijven ontvangen.",
+          "primaryActionText": "macOS bijwerken"
+        },
+        "it": {
+          "titleText": "Il supporto per Big Sur è terminato",
+          "descriptionText": "Aggiorna macOS a Monterey o versioni successive per continuare a ricevere nuove funzionalità, correzioni e miglioramenti della sicurezza di DuckDuckGo.",
+          "primaryActionText": "Aggiorna macOS"
+        },
+        "es": {
+          "titleText": "El soporte para Big Sur ha finalizado",
+          "descriptionText": "Actualiza macOS a Monterey o una versión posterior para seguir recibiendo nuevas funciones, correcciones y mejoras de seguridad de DuckDuckGo.",
+          "primaryActionText": "Actualizar macOS"
+        },
+        "pl": {
+          "titleText": "Wsparcie dla Big Sur zostało zakończone",
+          "descriptionText": "Zaktualizuj macOS do wersji Monterey lub nowszej, aby nadal otrzymywać nowe funkcje, poprawki i ulepszenia zabezpieczeń DuckDuckGo.",
+          "primaryActionText": "Zaktualizuj macOS"
+        },
+        "ru": {
+          "titleText": "Поддержка Big Sur прекращена",
+          "descriptionText": "Обновите macOS до Monterey или более новой версии, чтобы продолжать получать новые функции, исправления и улучшения безопасности DuckDuckGo.",
+          "primaryActionText": "Обновить macOS"
+        },
+        "pt": {
+          "titleText": "O suporte ao Big Sur foi encerrado",
+          "descriptionText": "Atualize o macOS para o Monterey ou posterior para continuar recebendo novos recursos, correções e melhorias de segurança do DuckDuckGo.",
+          "primaryActionText": "Atualizar macOS"
         }
       },
       "matchingRules": [31]
