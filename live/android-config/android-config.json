@@ -1,5 +1,5 @@
 {
-  "version": 105,
+  "version": 106,
   "messages": [
     {
       "id": "android_deprecation_urgent_notice_os8",
@@ -412,6 +412,34 @@
       "matchingRules": [
         2
       ]
+    },
+    {
+      "id": "funnel_newtab_adblockermf_android1",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Watch YouTube without ads!",
+        "descriptionText": "Our browser now blocks ads on YouTube videos, so you can watch without interruption.",
+        "placeholder": "DDGAnnounce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube_new.png"
+      },
+      "matchingRules": [],
+      "exclusionRules": [
+        9
+      ]
+    },
+    {
+      "id": "funnel_newtab_adblockermf_android2",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Block ads on YouTube!",
+        "descriptionText": "Our browser now blocks ads directly on YouTube, plus you can still use Duck Player as a private theater mode.",
+        "placeholder": "DDGAnnounce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube_new.png"
+      },
+      "matchingRules": [],
+      "exclusionRules": [
+        10
+      ]
     }
   ],
   "rules": [
@@ -553,6 +581,32 @@
         "interactedWithMessage": {
           "value": [
             "android_privacy_pro_exit_survey_1"
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "duckPlayerEnabled": {
+          "value": true
+        },
+        "interactedWithMessage": {
+          "value": [
+            "funnel_newtab_adblockermf_android2"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "duckPlayerEnabled": {
+          "value": false
+        },
+        "interactedWithMessage": {
+          "value": [
+            "funnel_newtab_adblockermf_android1"
           ]
         }
       }
