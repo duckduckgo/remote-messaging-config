@@ -543,6 +543,21 @@
         "placeholder": "VeryCriticalUpdate"
       },
       "matchingRules": [30]
+    },
+    {
+      "id": "macos_big_sur_eos_update_cta_legacy",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Big Sur support has ended",
+        "descriptionText": "Update macOS to Monterey or later to keep getting new DuckDuckGo features, fixes, and security improvements.",
+        "placeholder": "VeryCriticalUpdate",
+        "primaryActionText": "Update macOS",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "softwareUpdate"
+        }
+      },
+      "matchingRules": [31]
     }
   ],
   "rules": [
@@ -682,7 +697,7 @@
       "id": 12,
       "attributes": {
         "appVersion": {
-          "min": "9999.0.0"
+          "min": "1.121.0"
         },
         "daysSinceInstalled": {
           "min": 14,
@@ -1010,8 +1025,12 @@
     {
       "id": 29,
       "attributes": {
-        "isInternalUser": {
-          "value": true
+        "appVersion": {
+          "min": "1.193.0"
+        },
+        "osApi": {
+          "min": "11.0.0",
+          "max": "11.999.999"
         },
         "canUpgradeOS": {
           "value": true
@@ -1021,11 +1040,27 @@
     {
       "id": 30,
       "attributes": {
-        "isInternalUser": {
-          "value": true
+        "appVersion": {
+          "min": "1.193.0"
+        },
+        "osApi": {
+          "min": "11.0.0",
+          "max": "11.999.999"
         },
         "canUpgradeOS": {
           "value": false
+        }
+      }
+    },
+    {
+      "id": 31,
+      "attributes": {
+        "appVersion": {
+          "max": "1.192.999"
+        },
+        "osApi": {
+          "min": "11.0.0",
+          "max": "11.999.999"
         }
       }
     }
