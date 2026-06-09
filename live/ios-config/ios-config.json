@@ -1111,6 +1111,9 @@
     },
     {
       "id": 24,
+      "targetPercentile": {
+        "before": 0.5
+      },
       "attributes": {
         "pproSubscriber": {
           "value": true
