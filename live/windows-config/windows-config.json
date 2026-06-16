@@ -1,5 +1,5 @@
 {
-  "version": 59,
+  "version": 60,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -93,6 +93,38 @@
         }
       },
       "matchingRules": [ 15 ],
+      "exclusionRules": []
+    },
+    {
+      "id": "windows_stable_previewpromo_2026",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Be the first to try our newest features!",
+        "descriptionText": "Get DuckDuckGo Preview for Windows, and try the latest features before anyone else.",
+        "placeholder": "Preview",
+        "primaryActionText": "Get Early Access",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/windows-preview"
+        }
+      },
+      "matchingRules": [ 16 ],
+      "exclusionRules": []
+    },
+    {
+      "id": "windows_preview_syncpromo_2026",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Set up Sync on DuckDuckGo Preview",
+        "descriptionText": "Using a previous version of our browser on Windows? Sync your passwords & bookmarks.",
+        "placeholder": "Preview",
+        "primaryActionText": "Set Up Sync",
+        "primaryAction": {
+          "type": "url",
+          "value": "duck://settings/sync"
+        }
+      },
+      "matchingRules": [ 17 ],
       "exclusionRules": []
     }
   ],
@@ -241,6 +273,45 @@
         },
         "atb": {
           "max": "v513-6"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "targetPercentile": {
+        "before": 0.80
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB"
+          ]
+        },
+        "flavor": {
+          "value": "stable"
+        },
+        "defaultBrowser": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 17,
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB"
+          ]
+        },
+        "flavor": {
+          "value": "preview"
+        },
+        "sync": {
+          "value": false
         }
       }
     }
