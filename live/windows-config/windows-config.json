@@ -1,5 +1,5 @@
 {
-  "version": 60,
+  "version": 61,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -290,7 +290,7 @@
           ]
         },
         "flavor": {
-          "value": "stable"
+          "value": [ "stable" ]
         },
         "defaultBrowser": {
           "value": true
@@ -308,7 +308,7 @@
           ]
         },
         "flavor": {
-          "value": "preview"
+          "value": [ "preview" ]
         },
         "sync": {
           "value": false
