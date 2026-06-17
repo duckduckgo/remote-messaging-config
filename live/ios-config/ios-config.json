@@ -404,7 +404,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Personal Information Removal",
-        "descriptionText": "Good news, your free personal info scan didn't find any records about you. We'll keep checking periodically.",
+        "descriptionText": "Good news, your free personal info scan didn't find any records about you.",
         "placeholder": "PIR",
         "primaryActionText": "View Results",
         "primaryAction": {
