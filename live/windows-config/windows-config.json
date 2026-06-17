@@ -1,5 +1,5 @@
 {
-  "version": 61,
+  "version": 62,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -74,26 +74,6 @@
         11,
         14
       ]
-    },
-    {
-      "id": "windows_promote_open_on_startup",
-      "content": {
-        "messageType": "big_two_action",
-        "titleText": "Open DuckDuckGo when your computer starts up",
-        "descriptionText": "Get easy access to the DuckDuckGo browser when you start up your computer. ",
-        "placeholder": "DDGAnnounce",
-        "primaryActionText": "Enable in Settings",
-        "primaryAction": {
-          "type": "url",
-          "value": "duck://settings/general"
-        },
-        "secondaryActionText": "Not Now",
-        "secondaryAction": {
-          "type": "dismiss"
-        }
-      },
-      "matchingRules": [ 15 ],
-      "exclusionRules": []
     },
     {
       "id": "windows_stable_previewpromo_2026",
@@ -254,25 +234,6 @@
       "attributes": {
         "interactedWithMessage": {
           "value": [ "windows_onboarding_v4_survey" ]
-        }
-      }
-    },
-    {
-      "id": 15,
-      "attributes": {
-        "locale": {
-          "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
-          ]
-        },
-        "appVersion": {
-          "min": "0.142.10"
-        },
-        "atb": {
-          "max": "v513-6"
         }
       }
     },
