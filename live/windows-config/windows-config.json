@@ -1,5 +1,5 @@
 {
-  "version": 62,
+  "version": 63,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "id": "windows_stable_previewpromo_2026",
+      "id": "windows_stable_previewpromo_2026_2",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Be the first to try our newest features!",
@@ -240,7 +240,7 @@
     {
       "id": 16,
       "targetPercentile": {
-        "before": 0.80
+        "before": 0.40
       },
       "attributes": {
         "locale": {
@@ -254,7 +254,7 @@
           "value": [ "stable" ]
         },
         "defaultBrowser": {
-          "value": true
+          "value": false
         }
       }
     },
