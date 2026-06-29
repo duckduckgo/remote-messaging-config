@@ -618,6 +618,104 @@
         }
       },
       "matchingRules": [31]
+    },
+    {
+      "id": "funnel_newtab_adblockermf_mac1",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Watch YouTube without ads!",
+        "descriptionText": "Our browser now blocks ads on YouTube videos, so you can watch without interruption.",
+        "placeholder": "YoutubeNew"
+      },
+      "translations": {
+        "fr": {
+          "titleText": "Regardez YouTube sans publicités !",
+          "descriptionText": "Notre navigateur bloque désormais les publicités sur YouTube, pour des vidéos sans interruption."
+        },
+        "de": {
+          "titleText": "YouTube ohne Werbung ansehen!",
+          "descriptionText": "Unser Browser blockiert jetzt Werbung in YouTube-Videos, sodass du ohne Unterbrechung schauen kannst."
+        },
+        "nl": {
+          "titleText": "Bekijk YouTube zonder advertenties!",
+          "descriptionText": "Onze browser blokkeert nu advertenties bij YouTube-video's, zodat je ongestoord kunt kijken."
+        },
+        "it": {
+          "titleText": "Guarda YouTube senza annunci!",
+          "descriptionText": "Ora il nostro browser blocca gli annunci nei video di YouTube, così puoi guardarli senza interruzioni."
+        },
+        "es": {
+          "titleText": "¡Mira YouTube sin anuncios!",
+          "descriptionText": "Nuestro navegador ahora bloquea los anuncios en vídeos de YouTube, para que puedas verlos sin interrupciones."
+        },
+        "pl": {
+          "titleText": "Oglądaj YouTube bez reklam!",
+          "descriptionText": "Nasza przeglądarka blokuje teraz reklamy na filmach YouTube, dzięki czemu możesz oglądać bez przerwy."
+        },
+        "pt": {
+          "titleText": "Vê o YouTube sem anúncios!",
+          "descriptionText": "Agora, o nosso navegador bloqueia anúncios nos vídeos do YouTube para que possas assistir sem interrupções."
+        },
+        "ru": {
+          "titleText": "Смотрите YouTube без рекламы!",
+          "descriptionText": "Наш браузер теперь блокирует рекламу на YouTube, так что вы можете смотреть без перерывов."
+        }
+      },
+      "matchingRules": [
+        32
+      ],
+      "exclusionRules": [
+        33
+      ]
+    },
+    {
+      "id": "funnel_newtab_adblockermf_mac2",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Block ads on YouTube!",
+        "descriptionText": "Our browser now blocks ads directly on YouTube, plus you can still use Duck Player as a private theater mode.",
+        "placeholder": "YoutubeNew"
+      },
+      "translations": {
+        "fr": {
+          "titleText": "Bloquez les publicités sur YouTube !",
+          "descriptionText": "Notre navigateur bloque désormais les publicités directement sur YouTube. Duck Player reste disponible si vous avez besoin d'un mode « salle de projection privée »."
+        },
+        "de": {
+          "titleText": "Werbung auf YouTube blockieren!",
+          "descriptionText": "Unser Browser blockiert ab sofort Werbung direkt auf YouTube, außerdem kannst du Duck Player weiterhin als privaten Theatermodus nutzen."
+        },
+        "nl": {
+          "titleText": "Blokkeer advertenties op YouTube!",
+          "descriptionText": "Onze browser blokkeert advertenties nu direct op YouTube, en je kunt Duck Player nog steeds gebruiken als theater modus."
+        },
+        "it": {
+          "titleText": "Blocca gli annunci su YouTube!",
+          "descriptionText": "Ora il nostro browser blocca gli annunci direttamente su YouTube e puoi ancora utilizzare Duck Player come modalità cinema privata."
+        },
+        "es": {
+          "titleText": "¡Bloquea anuncios en YouTube!",
+          "descriptionText": "Nuestro navegador ahora bloquea los anuncios directamente en YouTube; además, puedes seguir usando Duck Player en modo cine."
+        },
+        "pl": {
+          "titleText": "Blokuj reklamy na YouTube!",
+          "descriptionText": "Nasza przeglądarka blokuje teraz reklamy bezpośrednio na YouTube, a ponadto nadal możesz używać Duck Playera w prywatnym trybie kina."
+        },
+        "pt": {
+          "titleText": "Bloqueia anúncios no YouTube!",
+          "descriptionText": "O nosso navegador agora bloqueia anúncios diretamente no YouTube, além disso, ainda podes usar o Duck Player como modo de teatro privado."
+        },
+        "ru": {
+          "titleText": "Блокировка рекламы на YouTube",
+          "descriptionText": "Наш браузер теперь блокирует рекламу прямо на YouTube, плюс вы по-прежнему можете использовать Duck Player для режима частного кинотеатра."
+        }
+      },
+      "matchingRules": [
+        32
+      ],
+      "exclusionRules": [
+        34
+      ]
     }
   ],
   "rules": [
@@ -1110,6 +1208,73 @@
         "osApi": {
           "min": "11.0.0",
           "max": "11.999.999"
+        }
+      }
+    },
+    {
+      "id": 32,
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-GB",
+            "en-US",
+            "en-CA",
+            "fr-FR",
+            "fr-CA",
+            "fr-LU",
+            "fr-BE",
+            "de-DE",
+            "de-AT",
+            "de-LU",
+            "de-BE",
+            "nl-NL",
+            "nl-BE",
+            "it-IT",
+            "es-ES",
+            "pl-PL",
+            "pt-PT",
+            "ru-RU",
+            "en-FR",
+            "en-DE",
+            "en-NL",
+            "en-ES",
+            "en-IT",
+            "en-PL",
+            "en-PT",
+            "en-RU",
+            "en-IE",
+            "en-MT",
+            "en-CY",
+            "en-LU",
+            "en-AT",
+            "en-BE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 33,
+      "attributes": {
+        "duckPlayerEnabled": {
+          "value": true
+        },
+        "interactedWithMessage": {
+          "value": [
+            "funnel_newtab_adblockermf_mac2"
+          ]
+        }
+      }
+    },
+    {
+      "id": 34,
+      "attributes": {
+        "duckPlayerEnabled": {
+          "value": false
+        },
+        "interactedWithMessage": {
+          "value": [
+            "funnel_newtab_adblockermf_mac1"
+          ]
         }
       }
     }
