@@ -1258,6 +1258,9 @@
         "duckPlayerEnabled": {
           "value": true
         },
+        "appVersion": {
+          "min": "1.195.0"
+        },
         "interactedWithMessage": {
           "value": [
             "funnel_newtab_adblockermf_mac2"
@@ -1270,6 +1273,9 @@
       "attributes": {
         "duckPlayerEnabled": {
           "value": false
+        },
+        "appVersion": {
+          "min": "1.195.0"
         },
         "interactedWithMessage": {
           "value": [

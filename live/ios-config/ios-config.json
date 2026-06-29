@@ -728,6 +728,10 @@
         "tr": {
           "titleText": "YouTube'u reklamsız izle!",
           "descriptionText": "Tarayıcımız artık YouTube videolarındaki reklamları engelliyor, böylece kesintisiz izleyebilirsin."
+        },
+        "jp": {
+          "titleText": "広告なしでYouTubeを見ましょう！",
+          "descriptionText": "DuckDuckGoブラウザではYouTube広告がブロックされるため、中断されずに動画を視聴できます。"
         }
       },
       "matchingRules": [
@@ -842,6 +846,10 @@
         "tr": {
           "titleText": "YouTube'daki reklamları engelle!",
           "descriptionText": "Tarayıcımız artık doğrudan YouTube'daki reklamları engelliyor, ayrıca Duck Player'ı hâlâ özel bir sinema modu olarak kullanabiliyorsun."
+        },
+        "jp": {
+          "titleText": "YouTubeで広告をブロック！",
+          "descriptionText": "DuckDuckGoブラウザで、YouTube広告を直接ブロックできるようになりました。しかも、Duck Playerはプライベートシアターモードで引き続き利用可能です。"
         }
       },
       "matchingRules": [
@@ -1361,6 +1369,7 @@
             "sk-SK",
             "sl-SI",
             "tr-TR",
+            "ja-JP",
             "en-FR",
             "en-DE",
             "en-NL",
@@ -1402,6 +1411,9 @@
         "duckPlayerEnabled": {
           "value": true
         },
+        "appVersion": {
+          "min": "7.225.0"
+        },
         "interactedWithMessage": {
           "value": [
             "funnel_newtab_adblockermf_ios2"
@@ -1414,6 +1426,9 @@
       "attributes": {
         "duckPlayerEnabled": {
           "value": false
+        },
+        "appVersion": {
+          "min": "7.225.0"
         },
         "interactedWithMessage": {
           "value": [
