@@ -729,7 +729,7 @@
           "titleText": "YouTube'u reklamsız izle!",
           "descriptionText": "Tarayıcımız artık YouTube videolarındaki reklamları engelliyor, böylece kesintisiz izleyebilirsin."
         },
-        "jp": {
+        "ja": {
           "titleText": "広告なしでYouTubeを見ましょう！",
           "descriptionText": "DuckDuckGoブラウザではYouTube広告がブロックされるため、中断されずに動画を視聴できます。"
         }
@@ -738,7 +738,7 @@
         24
       ],
       "exclusionRules": [
-        25
+        26
       ]
     },
     {
@@ -847,16 +847,16 @@
           "titleText": "YouTube'daki reklamları engelle!",
           "descriptionText": "Tarayıcımız artık doğrudan YouTube'daki reklamları engelliyor, ayrıca Duck Player'ı hâlâ özel bir sinema modu olarak kullanabiliyorsun."
         },
-        "jp": {
+        "ja": {
           "titleText": "YouTubeで広告をブロック！",
           "descriptionText": "DuckDuckGoブラウザで、YouTube広告を直接ブロックできるようになりました。しかも、Duck Playerはプライベートシアターモードで引き続き利用可能です。"
         }
       },
       "matchingRules": [
-        24
+        25
       ],
       "exclusionRules": [
-        26
+        27
       ]
     }
   ],
@@ -1402,18 +1402,99 @@
             "en-BE",
             "en-HU"
           ]
+        },
+        "appVersion": {
+          "min": "7.225.0"
+        },
+        "duckPlayerEnabled": {
+          "value": false
         }
       }
     },
     {
       "id": 25,
       "attributes": {
-        "duckPlayerEnabled": {
-          "value": true
+        "locale": {
+          "value": [
+            "en-GB",
+            "en-US",
+            "en-CA",
+            "fr-FR",
+            "fr-CA",
+            "fr-LU",
+            "fr-BE",
+            "de-DE",
+            "de-AT",
+            "de-LU",
+            "de-BE",
+            "nl-NL",
+            "nl-BE",
+            "it-IT",
+            "es-ES",
+            "pl-PL",
+            "pt-PT",
+            "ru-RU",
+            "sv-SE",
+            "bg-BG",
+            "hr-HR",
+            "cs-CZ",
+            "da-DK",
+            "et-EE",
+            "fi-FI",
+            "el-GR",
+            "hu-HU",
+            "lv-LV",
+            "lt-LT",
+            "nb-NO",
+            "ro-RO",
+            "sk-SK",
+            "sl-SI",
+            "tr-TR",
+            "ja-JP",
+            "en-FR",
+            "en-DE",
+            "en-NL",
+            "en-ES",
+            "en-BG",
+            "en-CZ",
+            "en-DK",
+            "en-GR",
+            "en-EE",
+            "en-FI",
+            "en-HR",
+            "en-IT",
+            "en-LT",
+            "en-LV",
+            "en-NO",
+            "en-PL",
+            "en-PT",
+            "en-RO",
+            "en-RU",
+            "en-SK",
+            "en-SI",
+            "en-SE",
+            "en-TR",
+            "en-JP",
+            "en-IE",
+            "en-MT",
+            "en-CY",
+            "en-LU",
+            "en-AT",
+            "en-BE",
+            "en-HU"
+          ]
         },
         "appVersion": {
           "min": "7.225.0"
         },
+        "duckPlayerEnabled": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
         "interactedWithMessage": {
           "value": [
             "funnel_newtab_adblockermf_ios2"
@@ -1422,14 +1503,8 @@
       }
     },
     {
-      "id": 26,
+      "id": 27,
       "attributes": {
-        "duckPlayerEnabled": {
-          "value": false
-        },
-        "appVersion": {
-          "min": "7.225.0"
-        },
         "interactedWithMessage": {
           "value": [
             "funnel_newtab_adblockermf_ios1"
