@@ -665,7 +665,7 @@
         32
       ],
       "exclusionRules": [
-        33
+        34
       ]
     },
     {
@@ -711,10 +711,10 @@
         }
       },
       "matchingRules": [
-        32
+        33
       ],
       "exclusionRules": [
-        34
+        35
       ]
     }
   ],
@@ -1249,18 +1249,65 @@
             "en-AT",
             "en-BE"
           ]
+        },
+        "appVersion": {
+          "min": "1.195.0"
+        },
+        "duckPlayerEnabled": {
+          "value": false
         }
       }
     },
     {
       "id": 33,
       "attributes": {
-        "duckPlayerEnabled": {
-          "value": true
+        "locale": {
+          "value": [
+            "en-GB",
+            "en-US",
+            "en-CA",
+            "fr-FR",
+            "fr-CA",
+            "fr-LU",
+            "fr-BE",
+            "de-DE",
+            "de-AT",
+            "de-LU",
+            "de-BE",
+            "nl-NL",
+            "nl-BE",
+            "it-IT",
+            "es-ES",
+            "pl-PL",
+            "pt-PT",
+            "ru-RU",
+            "en-FR",
+            "en-DE",
+            "en-NL",
+            "en-ES",
+            "en-IT",
+            "en-PL",
+            "en-PT",
+            "en-RU",
+            "en-IE",
+            "en-MT",
+            "en-CY",
+            "en-LU",
+            "en-AT",
+            "en-BE"
+          ]
         },
         "appVersion": {
           "min": "1.195.0"
         },
+        "duckPlayerEnabled": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 34,
+      "attributes": {
         "interactedWithMessage": {
           "value": [
             "funnel_newtab_adblockermf_mac2"
@@ -1269,14 +1316,8 @@
       }
     },
     {
-      "id": 34,
+      "id": 35,
       "attributes": {
-        "duckPlayerEnabled": {
-          "value": false
-        },
-        "appVersion": {
-          "min": "1.195.0"
-        },
         "interactedWithMessage": {
           "value": [
             "funnel_newtab_adblockermf_mac1"
