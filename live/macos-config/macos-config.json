@@ -1,6 +1,24 @@
 {
-  "version": 55,
+  "version": 56,
   "messages": [
+    {
+      "id": "macos_ppro_tier_test",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Pro Tier Test Message",
+        "descriptionText": "Subscription tier test",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Open Test Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://duckduckgo.com/ppro-tier-test",
+          "additionalParameters": {
+            "queryParams": "ppro_status;ppro_platform;ppro_billing;ppro_tier"
+          }
+        }
+      },
+      "matchingRules": [32]
+    },
     {
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
@@ -1110,6 +1128,14 @@
         "osApi": {
           "min": "11.0.0",
           "max": "11.999.999"
+        }
+      }
+    },
+    {
+      "id": 32,
+      "attributes": {
+        "pproSubscriptionTier": {
+          "value": ["pro"]
         }
       }
     }
