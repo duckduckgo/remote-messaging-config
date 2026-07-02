@@ -11,7 +11,7 @@
         "primaryActionText": "Open Test Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://duckduckgo.com/ppro-tier-test",
+          "value": "https://example.com",
           "additionalParameters": {
             "queryParams": "ppro_status;ppro_platform;ppro_billing;ppro_tier"
           }
