@@ -1,6 +1,54 @@
 {
-  "version": 106,
+  "version": 107,
   "messages": [
+    {
+      "id": "android_ntp_after_idle_existing_users_without_hatch_2026",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Here goes the title",
+        "descriptionText": "We now give your fresh tab when you open the tap.",
+        "placeholder": "DDGAnnounce",
+        "secondaryActionText": "Got It",
+        "secondaryAction": {
+          "type": "dismiss"
+        },
+        "primaryActionText": "Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "settingsGeneral"
+        }
+      },
+      "surfaces": ["new_tab_page"],
+      "displayConditions": {
+        "trigger": "after_idle",
+        "dismissAfterDaysShown": 3
+      },
+      "matchingRules": [27]
+    },
+    {
+      "id": "android_ntp_after_idle_existing_users_with_hatch_2026",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Here goes the title",
+        "descriptionText": "We now give your fresh tab when you open the tap. Or you can tap the link above to return to your last used tab.",
+        "placeholder": "DDGAnnounce",
+        "secondaryActionText": "Got It",
+        "secondaryAction": {
+          "type": "dismiss"
+        },
+        "primaryActionText": "Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "settingsGeneral"
+        }
+      },
+      "surfaces": ["new_tab_page"],
+      "displayConditions": {
+        "trigger": "after_idle",
+        "dismissAfterDaysShown": 3
+      },
+      "matchingRules": [28]
+    },
     {
       "id": "android_deprecation_urgent_notice_os8",
       "content": {
@@ -984,6 +1032,22 @@
         },
         "pproSubscriber": {
           "value": true
+        }
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "ntpAfterIdleState": {
+          "value": ["eligibleCardHidden"]
+        }
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "ntpAfterIdleState": {
+          "value": ["eligibleCardShown"]
         }
       }
     }
