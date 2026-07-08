@@ -1,5 +1,5 @@
 {
-  "version": 113,
+  "version": 114,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -362,9 +362,9 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Personal Information Removal",
-        "descriptionText": "Find your personal info on sites that sell it.",
+        "descriptionText": "DuckDuckGo will find your personal info on sites that store and sell it.",
         "placeholder": "PIR",
-        "primaryActionText": "Free Scan",
+        "primaryActionText": "Start Free Scan",
         "primaryAction": {
           "type": "navigation",
           "value": "pir.main"
