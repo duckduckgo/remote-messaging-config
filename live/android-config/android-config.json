@@ -1,5 +1,5 @@
 {
-  "version": 106,
+  "version": 107,
   "messages": [
     {
       "id": "android_deprecation_urgent_notice_os8",
@@ -420,7 +420,7 @@
         "titleText": "Watch YouTube without ads!",
         "descriptionText": "Our browser now blocks ads on YouTube videos, so you can watch without interruption.",
         "placeholder": "DDGAnnounce",
-        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube_new.png"
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube_new_4x.png"
       },
       "translations": {
         "fr": {
@@ -534,7 +534,7 @@
         "titleText": "Block ads on YouTube!",
         "descriptionText": "Our browser now blocks ads directly on YouTube, plus you can still use Duck Player as a private theater mode.",
         "placeholder": "DDGAnnounce",
-        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube_new.png"
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube_new_4x.png"
       },
       "translations": {
         "fr": {
