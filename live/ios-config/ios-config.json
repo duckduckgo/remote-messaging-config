@@ -1,5 +1,5 @@
 {
-  "version": 114,
+  "version": 115,
   "messages": [
     {
       "id": "ios_privacy_pro_exit_survey_1",
@@ -857,6 +857,56 @@
       ],
       "exclusionRules": [
         27
+      ]
+    },
+    {
+      "id": "whats_new_q2_2026",
+      "content": {
+        "messageType": "cards_list",
+        "titleText": "What's New",
+        "descriptionText": "What's new in DuckDuckGo.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Dismiss",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        },
+        "listItems": [
+          {
+            "id": "sync_duck_ai_chats_across_devices",
+            "type": "two_line_list_item",
+            "titleText": "Sync Duck.ai Chats Across Devices",
+            "descriptionText": "Sync your chats across desktop and mobile by visiting Duck.ai Settings > Sync & Backup.",
+            "placeholder": "Duck.ai",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckaI-chat-feature-96-4x.png",
+            "primaryAction": {
+              "type": "url",
+              "value": "http://duck.ai/"
+            }
+          },
+          {
+            "id": "browse_with_fire_tabs",
+            "type": "two_line_list_item",
+            "titleText": "Browse with Fire Tabs",
+            "descriptionText": "Use Fire Tabs to isolate your browsing from normal tabs and browse without saving local history.",
+            "placeholder": "Announce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/fire-feature-96-4x.png"
+          },
+          {
+            "id": "explore_more_subscription_options",
+            "type": "two_line_list_item",
+            "titleText": "Explore More Subscription Options",
+            "descriptionText": "Pick from two plans: Plus (for all four protections) or Pro (for more powerful AI functionality).",
+            "placeholder": "PrivacyShield",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/subscription-feature-96-4x.png",
+            "primaryAction": {
+              "type": "url",
+              "value": "https://duckduckgo.com/pro/plans?origin=funnel_whatsnew_iosrmf_julyxxvi"
+            }
+          }
+        ]
+      },
+      "matchingRules": [
       ]
     }
   ],
