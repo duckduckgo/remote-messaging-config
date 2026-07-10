@@ -1,5 +1,5 @@
 {
-  "version": 58,
+  "version": 64,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -74,6 +74,184 @@
         11,
         14
       ]
+    },
+    {
+      "id": "windows_stable_previewpromo_2026_2",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Be the first to try our newest features!",
+        "descriptionText": "Get DuckDuckGo Preview for Windows, and try the latest features before anyone else.",
+        "placeholder": "Preview",
+        "primaryActionText": "Get Early Access",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/windows-preview"
+        }
+      },
+      "matchingRules": [ 16 ],
+      "exclusionRules": []
+    },
+    {
+      "id": "windows_preview_syncpromo_2026",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Set up Sync on DuckDuckGo Preview",
+        "descriptionText": "Using a previous version of our browser on Windows? Sync your passwords & bookmarks.",
+        "placeholder": "Preview",
+        "primaryActionText": "Set Up Sync",
+        "primaryAction": {
+          "type": "url",
+          "value": "duck://settings/sync"
+        }
+      },
+      "matchingRules": [ 17 ],
+      "exclusionRules": []
+    },
+    {
+      "id": "funnel_newtab_adblockermf_windows1",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Watch YouTube without ads!",
+        "descriptionText": "Our browser now blocks ads on YouTube videos, so you can watch without interruption.",
+        "placeholder": "YoutubeNew"
+      },
+      "translations": {
+        "fr-FR": {
+          "titleText": "Regardez YouTube sans publicités !",
+          "descriptionText": "Notre navigateur bloque désormais les publicités sur YouTube, pour des vidéos sans interruption."
+        },
+        "fr-CA": {
+          "titleText": "Regardez YouTube sans publicités !",
+          "descriptionText": "Notre navigateur bloque désormais les publicités sur YouTube, pour des vidéos sans interruption."
+        },
+        "fr-LU": {
+          "titleText": "Regardez YouTube sans publicités !",
+          "descriptionText": "Notre navigateur bloque désormais les publicités sur YouTube, pour des vidéos sans interruption."
+        },
+        "fr-BE": {
+          "titleText": "Regardez YouTube sans publicités !",
+          "descriptionText": "Notre navigateur bloque désormais les publicités sur YouTube, pour des vidéos sans interruption."
+        },
+        "de-DE": {
+          "titleText": "YouTube ohne Werbung ansehen!",
+          "descriptionText": "Unser Browser blockiert jetzt Werbung in YouTube-Videos, sodass du ohne Unterbrechung schauen kannst."
+        },
+        "de-AT": {
+          "titleText": "YouTube ohne Werbung ansehen!",
+          "descriptionText": "Unser Browser blockiert jetzt Werbung in YouTube-Videos, sodass du ohne Unterbrechung schauen kannst."
+        },
+        "de-LU": {
+          "titleText": "YouTube ohne Werbung ansehen!",
+          "descriptionText": "Unser Browser blockiert jetzt Werbung in YouTube-Videos, sodass du ohne Unterbrechung schauen kannst."
+        },
+        "de-BE": {
+          "titleText": "YouTube ohne Werbung ansehen!",
+          "descriptionText": "Unser Browser blockiert jetzt Werbung in YouTube-Videos, sodass du ohne Unterbrechung schauen kannst."
+        },
+        "nl-NL": {
+          "titleText": "Bekijk YouTube zonder advertenties!",
+          "descriptionText": "Onze browser blokkeert nu advertenties bij YouTube-video's, zodat je ongestoord kunt kijken."
+        },
+        "nl-BE": {
+          "titleText": "Bekijk YouTube zonder advertenties!",
+          "descriptionText": "Onze browser blokkeert nu advertenties bij YouTube-video's, zodat je ongestoord kunt kijken."
+        },
+        "it-IT": {
+          "titleText": "Guarda YouTube senza annunci!",
+          "descriptionText": "Ora il nostro browser blocca gli annunci nei video di YouTube, così puoi guardarli senza interruzioni."
+        },
+        "es-ES": {
+          "titleText": "¡Mira YouTube sin anuncios!",
+          "descriptionText": "Nuestro navegador ahora bloquea los anuncios en vídeos de YouTube, para que puedas verlos sin interrupciones."
+        },
+        "pl-PL": {
+          "titleText": "Oglądaj YouTube bez reklam!",
+          "descriptionText": "Nasza przeglądarka blokuje teraz reklamy na filmach YouTube, dzięki czemu możesz oglądać bez przerwy."
+        },
+        "pt-PT": {
+          "titleText": "Vê o YouTube sem anúncios!",
+          "descriptionText": "Agora, o nosso navegador bloqueia anúncios nos vídeos do YouTube para que possas assistir sem interrupções."
+        },
+        "ru-RU": {
+          "titleText": "Смотрите YouTube без рекламы!",
+          "descriptionText": "Наш браузер теперь блокирует рекламу на YouTube, так что вы можете смотреть без перерывов."
+        }
+      },
+      "matchingRules": [ 18 ],
+      "exclusionRules": [ 20 ]
+    },
+    {
+      "id": "funnel_newtab_adblockermf_windows2",
+      "content": {
+        "messageType": "medium",
+        "titleText": "Block ads on YouTube!",
+        "descriptionText": "Our browser now blocks ads directly on YouTube, plus you can still use Duck Player as a private theater mode.",
+        "placeholder": "YoutubeNew"
+      },
+      "translations": {
+        "fr-FR": {
+          "titleText": "Bloquez les publicités sur YouTube !",
+          "descriptionText": "Notre navigateur bloque désormais les publicités directement sur YouTube. Duck Player reste disponible si vous avez besoin d’un mode « salle de projection privée »."
+        },
+        "fr-CA": {
+          "titleText": "Bloquez les publicités sur YouTube !",
+          "descriptionText": "Notre navigateur bloque désormais les publicités directement sur YouTube. Duck Player reste disponible si vous avez besoin d’un mode « salle de projection privée »."
+        },
+        "fr-LU": {
+          "titleText": "Bloquez les publicités sur YouTube !",
+          "descriptionText": "Notre navigateur bloque désormais les publicités directement sur YouTube. Duck Player reste disponible si vous avez besoin d’un mode « salle de projection privée »."
+        },
+        "fr-BE": {
+          "titleText": "Bloquez les publicités sur YouTube !",
+          "descriptionText": "Notre navigateur bloque désormais les publicités directement sur YouTube. Duck Player reste disponible si vous avez besoin d’un mode « salle de projection privée »."
+        },
+        "de-DE": {
+          "titleText": "Werbung auf YouTube blockieren!",
+          "descriptionText": "Unser Browser blockiert ab sofort Werbung direkt auf YouTube, außerdem kannst du Duck Player weiterhin als privaten Theatermodus nutzen."
+        },
+        "de-AT": {
+          "titleText": "Werbung auf YouTube blockieren!",
+          "descriptionText": "Unser Browser blockiert ab sofort Werbung direkt auf YouTube, außerdem kannst du Duck Player weiterhin als privaten Theatermodus nutzen."
+        },
+        "de-LU": {
+          "titleText": "Werbung auf YouTube blockieren!",
+          "descriptionText": "Unser Browser blockiert ab sofort Werbung direkt auf YouTube, außerdem kannst du Duck Player weiterhin als privaten Theatermodus nutzen."
+        },
+        "de-BE": {
+          "titleText": "Werbung auf YouTube blockieren!",
+          "descriptionText": "Unser Browser blockiert ab sofort Werbung direkt auf YouTube, außerdem kannst du Duck Player weiterhin als privaten Theatermodus nutzen."
+        },
+        "nl-NL": {
+          "titleText": "Blokkeer advertenties op YouTube!",
+          "descriptionText": "Onze browser blokkeert advertenties nu direct op YouTube, en je kunt Duck Player nog steeds gebruiken als theater modus."
+        },
+        "nl-BE": {
+          "titleText": "Blokkeer advertenties op YouTube!",
+          "descriptionText": "Onze browser blokkeert advertenties nu direct op YouTube, en je kunt Duck Player nog steeds gebruiken als theater modus."
+        },
+        "it-IT": {
+          "titleText": "Blocca gli annunci su YouTube!",
+          "descriptionText": "Ora il nostro browser blocca gli annunci direttamente su YouTube e puoi ancora utilizzare Duck Player come modalità cinema privata."
+        },
+        "es-ES": {
+          "titleText": "¡Bloquea anuncios en YouTube!",
+          "descriptionText": "Nuestro navegador ahora bloquea los anuncios directamente en YouTube; además, puedes seguir usando Duck Player en modo cine."
+        },
+        "pl-PL": {
+          "titleText": "Blokuj reklamy na YouTube!",
+          "descriptionText": "Nasza przeglądarka blokuje teraz reklamy bezpośrednio na YouTube, a ponadto nadal możesz używać Duck Playera w prywatnym trybie kina."
+        },
+        "pt-PT": {
+          "titleText": "Bloqueia anúncios no YouTube!",
+          "descriptionText": "O nosso navegador agora bloqueia anúncios diretamente no YouTube, além disso, ainda podes usar o Duck Player como modo de teatro privado."
+        },
+        "ru-RU": {
+          "titleText": "Блокировка рекламы на YouTube",
+          "descriptionText": "Наш браузер теперь блокирует рекламу прямо на YouTube, плюс вы по-прежнему можете использовать Duck Player для режима частного кинотеатра."
+        }
+      },
+      "matchingRules": [ 19 ],
+      "exclusionRules": [ 21 ]
     }
   ],
   "rules": [
@@ -202,6 +380,77 @@
       "attributes": {
         "interactedWithMessage": {
           "value": [ "windows_onboarding_v4_survey" ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "targetPercentile": {
+        "before": 0.40
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB"
+          ]
+        },
+        "flavor": {
+          "value": [ "stable" ]
+        },
+        "defaultBrowser": {
+          "value": false
+        }
+      }
+    },
+    {
+      "id": 17,
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB"
+          ]
+        },
+        "flavor": {
+          "value": [ "preview" ]
+        },
+        "sync": {
+          "value": false
+        }
+      }
+    },
+    {
+      "id": 18,
+      "attributes": {
+        "duckPlayerEnabled": {
+          "value": false
+        }
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "duckPlayerEnabled": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [ "funnel_newtab_adblockermf_windows2" ]
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [ "funnel_newtab_adblockermf_windows1" ]
         }
       }
     }
