@@ -1125,8 +1125,8 @@
           "value": false
         },
         "appVersion": {
-          "min": "7.224.0",
-          "max": "7.226.0"
+          "min": "7.227.0",
+          "max": "7.229.0"
         },
         "locale": {
           "value": ["en-US"]
