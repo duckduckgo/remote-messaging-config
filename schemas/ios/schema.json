@@ -409,6 +409,7 @@
             "pproDaysUntilExpiryOrRenewal": { "$ref": "#/definitions/NumericRangeAttribute" },
             "pproPurchasePlatform": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "pproSubscriptionStatus": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
+            "pproSubscriptionTier": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "interactedWithMessage": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "interactedWithDeprecatedMacRemoteMessage": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "installedMacAppStore": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
