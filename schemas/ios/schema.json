@@ -99,6 +99,10 @@
           "$ref": "#/definitions/PlaceholderType",
           "description": "Placeholder type for the message"
         },
+        "imageUrl": {
+          "type": "string",
+          "description": "Remote image URL for the message"
+        },
         "actionText": {
           "type": "string",
           "description": "Text for the action button (used in promo_single_action)"

@@ -405,7 +405,8 @@
         "RadarCheckPurple",
         "PIR",
         "Subscription",
-        "VeryCriticalUpdate"
+        "VeryCriticalUpdate",
+        "YoutubeNew"
       ]
     },
     "SurfaceType": {
