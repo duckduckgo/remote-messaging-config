@@ -427,7 +427,8 @@
             "subscriptionFreeTrialActive": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "syncEnabled": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "shouldShowWinBackOfferUrgencyMessage": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
-            "daysSinceDuckAiUsed": { "$ref": "#/definitions/NumericRangeAttribute" }
+            "daysSinceDuckAiUsed": { "$ref": "#/definitions/NumericRangeAttribute" },
+            "ntpAfterIdleState": { "$ref": "#/definitions/SingleValueStringArrayAttribute" }
           },
           "additionalProperties": false
         }
