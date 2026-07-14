@@ -392,6 +392,31 @@
       "exclusionRules": [
         3
       ]
+    },
+    {
+      "id": "internal_message_annoyance_survey_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help us improve the app!",
+        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/260701?list=2",
+          "additionalParameters": {
+            "queryParams": "var;delta;av;ddgv;last_search_state"
+          }
+        }
+      },
+      "matchingRules": [
+        27
+      ],
+      "exclusionRules": [
+        6,
+        7,
+        28
+      ]
     }
   ],
   "rules": [
@@ -945,6 +970,34 @@
         },
         "pproSubscriber": {
           "value": true
+        }
+      }
+    },
+    {
+      "id": 27,
+      "targetPercentile": {
+        "before": 0.2
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        }
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_survey_net_attribute_rating_d0_3",
+            "android_permanent_survey_user_satisfaction",
+            "android_quarterly_mobile_survey_q226"
+          ]
         }
       }
     }
