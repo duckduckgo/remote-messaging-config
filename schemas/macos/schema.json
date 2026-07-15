@@ -255,6 +255,7 @@
             "pproDaysUntilExpiryOrRenewal": { "$ref": "#/definitions/NumericRangeAttribute" },
             "pproPurchasePlatform": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "pproSubscriptionStatus": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
+            "pproSubscriptionTier": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "subscriptionFreeTrialActive": { "$ref": "#/definitions/SingleValueBooleanAttribute" },
             "interactedWithMessage": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
             "interactedWithDeprecatedMacRemoteMessage": { "$ref": "#/definitions/SingleValueStringArrayAttribute" },
@@ -404,7 +405,8 @@
         "RadarCheckPurple",
         "PIR",
         "Subscription",
-        "VeryCriticalUpdate"
+        "VeryCriticalUpdate",
+        "YoutubeNew"
       ]
     },
     "SurfaceType": {

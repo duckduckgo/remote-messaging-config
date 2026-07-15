@@ -1,6 +1,21 @@
 {
-  "version": 110,
+  "version": 118,
   "messages": [
+    {
+      "id": "ios_pir_announcement_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Personal Information Removal",
+        "descriptionText": "Personal Information Removal is now available to subscribers on iOS! Start your first scan now from Settings.",
+        "placeholder": "PIR",
+        "primaryActionText": "Set Up Now",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "pir.main"
+        }
+      },
+      "matchingRules": [28]
+    },
     {
       "id": "ios_privacy_pro_exit_survey_1",
       "content": {
@@ -362,9 +377,9 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "Personal Information Removal",
-        "descriptionText": "Find your personal info on sites that sell it.",
+        "descriptionText": "DuckDuckGo will find your personal info on sites that store and sell it.",
         "placeholder": "PIR",
-        "primaryActionText": "Free Scan",
+        "primaryActionText": "Start Free Scan",
         "primaryAction": {
           "type": "navigation",
           "value": "pir.main"
@@ -621,7 +636,193 @@
       "matchingRules": [
         23
       ],
-      "exclusionRules": []
+      "exclusionRules": [
+        30
+      ]
+    },
+    {
+      "id": "ios_ntp_after_idle_existing_users_without_hatch_2026",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Start searching faster!",
+        "descriptionText": "We now give you a fresh tab when you open the app.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Got It",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        },
+        "secondaryActionText": "Customize",
+        "secondaryAction": {
+          "type": "navigation",
+          "value": "settings.general"
+        }
+      },
+      "translations": {
+        "bg": {
+          "titleText": "Започнете да търсите по-бързо!",
+          "descriptionText": "Сега при отваряне на приложението се отваря нов раздел.",
+          "primaryActionText": "Разбрах",
+          "secondaryActionText": "Персонализирай"
+        },
+        "cs": {
+          "titleText": "Začni vyhledávat rychleji!",
+          "descriptionText": "Nyní ti při otevření aplikace zobrazíme novou kartu.",
+          "primaryActionText": "Rozumím",
+          "secondaryActionText": "Přizpůsobit"
+        },
+        "da": {
+          "titleText": "Begynd at søge hurtigere!",
+          "descriptionText": "Vi giver dig nu en ny fane, når du åbner appen.",
+          "primaryActionText": "Forstået",
+          "secondaryActionText": "Tilpas"
+        },
+        "de": {
+          "titleText": "Suchen schneller starten!",
+          "descriptionText": "Beim Öffnen der App stellen wir dir jetzt direkt einen neuen Tab zur Verfügung.",
+          "primaryActionText": "Verstanden",
+          "secondaryActionText": "Anpassen"
+        },
+        "el": {
+          "titleText": "Ξεκίνα την αναζήτηση πιο γρήγορα!",
+          "descriptionText": "Πλέον, σου δίνουμε μια νέα καρτέλα όταν ανοίγεις την εφαρμογή.",
+          "primaryActionText": "Κατάλαβα",
+          "secondaryActionText": "Προσαρμογή"
+        },
+        "es": {
+          "titleText": "¡Empieza a buscar más rápido!",
+          "descriptionText": "Ahora, cuando abres la aplicación, se abre una pestaña nueva.",
+          "primaryActionText": "Entendido",
+          "secondaryActionText": "Personalizar"
+        },
+        "et": {
+          "titleText": "Alusta otsimist kiiremini!",
+          "descriptionText": "Nüüd kuvatakse rakenduse avamisel uus vahekaart.",
+          "primaryActionText": "Sain aru",
+          "secondaryActionText": "Kohanda"
+        },
+        "fi": {
+          "titleText": "Aloita haku nopeammin!",
+          "descriptionText": "Saat nyt uuden välilehden, kun avaat sovelluksen.",
+          "primaryActionText": "Selvä",
+          "secondaryActionText": "Mukauta"
+        },
+        "fr": {
+          "titleText": "Lancez vos recherches plus vite !",
+          "descriptionText": "Désormais, un nouvel onglet s'ouvre lorsque vous lancez l'application.",
+          "primaryActionText": "J'ai compris",
+          "secondaryActionText": "Personnaliser"
+        },
+        "hr": {
+          "titleText": "Kreni brže pretraživati!",
+          "descriptionText": "Kada otvoriš aplikaciju, čeka te nova kartica.",
+          "primaryActionText": "U redu",
+          "secondaryActionText": "Prilagodi"
+        },
+        "hu": {
+          "titleText": "Kezdj el gyorsabban keresni!",
+          "descriptionText": "Mostantól új lapot nyitunk, amikor visszatérsz az appba.",
+          "primaryActionText": "Értem",
+          "secondaryActionText": "Testreszabás"
+        },
+        "it": {
+          "titleText": "Inizia a cercare più velocemente!",
+          "descriptionText": "Ora ti offriamo una nuova scheda quando apri l'app.",
+          "primaryActionText": "Ho capito",
+          "secondaryActionText": "Personalizza"
+        },
+        "ja": {
+          "titleText": "もっと速く検索しよう！",
+          "descriptionText": "アプリを開くと、新しいタブが表示されるようになりました。",
+          "primaryActionText": "了解",
+          "secondaryActionText": "カスタマイズ"
+        },
+        "lt": {
+          "titleText": "Pradėkite ieškoti greičiau!",
+          "descriptionText": "Dabar, kai atidarote programėlę, pateikiame naują skirtuką.",
+          "primaryActionText": "Supratau",
+          "secondaryActionText": "Pritaikyti"
+        },
+        "lv": {
+          "titleText": "Sāc meklēt ātrāk!",
+          "descriptionText": "Tagad, atverot lietotni, tiek atvērta jauna cilne.",
+          "primaryActionText": "Sapratu",
+          "secondaryActionText": "Pielāgot"
+        },
+        "nb": {
+          "titleText": "Begynn å søke raskere!",
+          "descriptionText": "Vi gir deg nå en ny fane når du åpner appen.",
+          "primaryActionText": "Den er grei",
+          "secondaryActionText": "Tilpass"
+        },
+        "nl": {
+          "titleText": "Begin sneller met zoeken!",
+          "descriptionText": "Je krijgt nu een nieuw tabblad als je de app opent.",
+          "primaryActionText": "Ik snap het",
+          "secondaryActionText": "Aanpassen"
+        },
+        "pl": {
+          "titleText": "Wyszukuj szybciej!",
+          "descriptionText": "Teraz po otwarciu aplikacji dostajesz nową kartę.",
+          "primaryActionText": "Rozumiem",
+          "secondaryActionText": "Dostosuj"
+        },
+        "pt": {
+          "titleText": "Faz pesquisas mais rápidas!",
+          "descriptionText": "Agora apresentamos um separador novo quando abres a aplicação.",
+          "primaryActionText": "Entendi",
+          "secondaryActionText": "Personalizar"
+        },
+        "ro": {
+          "titleText": "Începe să cauți mai repede!",
+          "descriptionText": "Acum îți oferim o filă nouă atunci când deschizi aplicația.",
+          "primaryActionText": "Am înțeles",
+          "secondaryActionText": "Personalizează"
+        },
+        "ru": {
+          "titleText": "Ищи быстрее!",
+          "descriptionText": "Теперь при открытии приложения открывается новая вкладка.",
+          "primaryActionText": "Понятно",
+          "secondaryActionText": "Настроить"
+        },
+        "sk": {
+          "titleText": "Začni vyhľadávať rýchlejšie!",
+          "descriptionText": "Teraz ti pri otvorení aplikácie zobrazíme novú kartu.",
+          "primaryActionText": "Rozumiem",
+          "secondaryActionText": "Prispôsobiť"
+        },
+        "sl": {
+          "titleText": "Začni iskati hitreje!",
+          "descriptionText": "Zdaj vam ob odprtju aplikacije ponudimo nov zavihek.",
+          "primaryActionText": "Razumem",
+          "secondaryActionText": "Prilagodi"
+        },
+        "sv": {
+          "titleText": "Börja söka snabbare!",
+          "descriptionText": "Vi ger dig nu en ny flik när du öppnar appen.",
+          "primaryActionText": "Jag förstår",
+          "secondaryActionText": "Anpassa"
+        },
+        "tr": {
+          "titleText": "Daha hızlı aramaya başla!",
+          "descriptionText": "Uygulamayı açtığınızda artık karşınıza yeni bir sekme çıkar.",
+          "primaryActionText": "Anladım",
+          "secondaryActionText": "Özelleştir"
+        }
+      },
+      "displayConditions": {
+        "trigger": "after_idle",
+        "dismissAfterDaysShown": 5
+      },
+      "matchingRules": [
+        29
+      ],
+      "exclusionRules": [
+        31
+      ]
     }
   ],
   "rules": [
@@ -681,7 +882,7 @@
     {
       "id": 4,
       "targetPercentile": {
-        "before": 0.6
+        "before": 0.3
       },
       "attributes": {
         "daysSinceInstalled": {
@@ -1087,10 +1288,67 @@
       "id": 23,
       "attributes": {
         "appVersion": {
-          "min": "7.220.0"
+          "min": "7.227.0"
         },
         "daysSinceInstalled": {
           "min": 58
+        },
+        "ntpAfterIdleState": {
+          "value": ["eligibleCardShown"]
+        }
+      }
+    },
+    {
+      "id": 28,
+      "targetPercentile": {
+        "before": 0.5
+      },
+      "attributes": {
+        "pproSubscriber": {
+          "value": true
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active", "expiring"]
+        },
+        "isCurrentPIRUser": {
+          "value": false
+        },
+        "appVersion": {
+          "min": "7.227.0",
+          "max": "7.229.0"
+        },
+        "locale": {
+          "value": ["en-US"]
+        }
+      }
+    },
+    {
+      "id": 29,
+      "attributes": {
+        "appVersion": {
+          "min": "7.227.0"
+        },
+        "daysSinceInstalled": {
+          "min": 58
+        },
+        "ntpAfterIdleState": {
+          "value": ["eligibleCardHidden"]
+        }
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "messageShown": {
+          "value": ["ios_ntp_after_idle_existing_users_without_hatch_2026"]
+        }
+      }
+    },
+    {
+      "id": 31,
+      "attributes": {
+        "messageShown": {
+          "value": ["ios_ntp_after_idle_existing_users_2026"]
         }
       }
     }
