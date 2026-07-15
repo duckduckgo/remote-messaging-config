@@ -1,5 +1,5 @@
 {
-  "version": 118,
+  "version": 119,
   "messages": [
     {
       "id": "ios_pir_announcement_1",
@@ -1250,6 +1250,9 @@
     },
     {
       "id": 20,
+      "targetPercentile": {
+        "before": 0
+      },
       "attributes": {
         "isFreemiumPIREligible": {
           "value": true
