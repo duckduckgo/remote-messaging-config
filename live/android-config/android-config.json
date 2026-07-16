@@ -6,7 +6,7 @@
       "content": {
         "messageType": "big_two_action",
         "titleText": "Start searching faster!",
-        "descriptionText": "We now give your fresh tab when you open the app.",
+        "descriptionText": "We now give you a fresh tab when you open the app.",
         "placeholder": "DDGAnnounce",
         "secondaryActionText": "Got It",
         "secondaryAction": {
@@ -15,7 +15,7 @@
         "primaryActionText": "Settings",
         "primaryAction": {
           "type": "navigation",
-          "value": "settingsGeneral"
+          "value": "settingsAfterInactivity"
         }
       },
       "surfaces": ["new_tab_page"],
@@ -31,7 +31,7 @@
       "content": {
         "messageType": "big_two_action",
         "titleText": "Start searching faster!",
-        "descriptionText": "We now give your fresh tab when you open the app. Or you can tap the link above to return to your last used tab.",
+        "descriptionText": "We now give you a fresh tab when you open the app. Or you can tap the link above to return to your last used tab.",
         "placeholder": "DDGAnnounce",
         "secondaryActionText": "Got It",
         "secondaryAction": {
@@ -40,7 +40,7 @@
         "primaryActionText": "Settings",
         "primaryAction": {
           "type": "navigation",
-          "value": "settingsGeneral"
+          "value": "settingsAfterInactivity"
         }
       },
       "surfaces": ["new_tab_page"],
