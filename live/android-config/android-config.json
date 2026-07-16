@@ -8,12 +8,12 @@
         "titleText": "Start searching faster!",
         "descriptionText": "We now give you a fresh tab when you open the app.",
         "placeholder": "DDGAnnounce",
-        "secondaryActionText": "Got It",
-        "secondaryAction": {
+        "primaryActionText": "Got It",
+        "primaryAction": {
           "type": "dismiss"
         },
-        "primaryActionText": "Settings",
-        "primaryAction": {
+        "secondaryActionText": "Settings",
+        "secondaryAction": {
           "type": "navigation",
           "value": "settingsAfterInactivity"
         }
@@ -185,12 +185,12 @@
         "titleText": "Start searching faster!",
         "descriptionText": "We now give you a fresh tab when you open the app. Or you can tap the link above to return to your last used tab.",
         "placeholder": "DDGAnnounce",
-        "secondaryActionText": "Got It",
-        "secondaryAction": {
+        "primaryActionText": "Got It",
+        "primaryAction": {
           "type": "dismiss"
         },
-        "primaryActionText": "Settings",
-        "primaryAction": {
+        "secondaryActionText": "Settings",
+        "secondaryAction": {
           "type": "navigation",
           "value": "settingsAfterInactivity"
         }
