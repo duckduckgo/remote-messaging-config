@@ -1,5 +1,5 @@
 {
-  "version": 108,
+  "version": 109,
   "messages": [
     {
       "id": "android_ntp_after_idle_existing_users_without_hatch_2026",
@@ -16,6 +16,158 @@
         "primaryAction": {
           "type": "navigation",
           "value": "settingsAfterInactivity"
+        }
+      },
+      "translations": {
+        "bg": {
+          "titleText": "Започнете да търсите по-бързо!",
+          "descriptionText": "Сега при отваряне на приложението се отваря нов раздел.",
+          "primaryActionText": "Разбрах",
+          "secondaryActionText": "Персонализирай"
+        },
+        "cs": {
+          "titleText": "Začni vyhledávat rychleji!",
+          "descriptionText": "Nyní ti při otevření aplikace zobrazíme novou kartu.",
+          "primaryActionText": "Rozumím",
+          "secondaryActionText": "Přizpůsobit"
+        },
+        "da": {
+          "titleText": "Begynd at søge hurtigere!",
+          "descriptionText": "Vi giver dig nu en ny fane, når du åbner appen.",
+          "primaryActionText": "Forstået",
+          "secondaryActionText": "Tilpas"
+        },
+        "de": {
+          "titleText": "Suchen schneller starten!",
+          "descriptionText": "Beim Öffnen der App stellen wir dir jetzt direkt einen neuen Tab zur Verfügung.",
+          "primaryActionText": "Verstanden",
+          "secondaryActionText": "Anpassen"
+        },
+        "el": {
+          "titleText": "Ξεκίνα την αναζήτηση πιο γρήγορα!",
+          "descriptionText": "Πλέον, σου δίνουμε μια νέα καρτέλα όταν ανοίγεις την εφαρμογή.",
+          "primaryActionText": "Κατάλαβα",
+          "secondaryActionText": "Προσαρμογή"
+        },
+        "es": {
+          "titleText": "¡Empieza a buscar más rápido!",
+          "descriptionText": "Ahora, cuando abres la aplicación, se abre una pestaña nueva.",
+          "primaryActionText": "Entendido",
+          "secondaryActionText": "Personalizar"
+        },
+        "et": {
+          "titleText": "Alusta otsimist kiiremini!",
+          "descriptionText": "Nüüd kuvatakse rakenduse avamisel uus vahekaart.",
+          "primaryActionText": "Sain aru",
+          "secondaryActionText": "Kohanda"
+        },
+        "fi": {
+          "titleText": "Aloita haku nopeammin!",
+          "descriptionText": "Saat nyt uuden välilehden, kun avaat sovelluksen.",
+          "primaryActionText": "Selvä",
+          "secondaryActionText": "Mukauta"
+        },
+        "fr": {
+          "titleText": "Lancez vos recherches plus vite !",
+          "descriptionText": "Désormais, un nouvel onglet s'ouvre lorsque vous lancez l'application.",
+          "primaryActionText": "J'ai compris",
+          "secondaryActionText": "Personnaliser"
+        },
+        "hr": {
+          "titleText": "Kreni brže pretraživati!",
+          "descriptionText": "Kada otvoriš aplikaciju, čeka te nova kartica.",
+          "primaryActionText": "U redu",
+          "secondaryActionText": "Prilagodi"
+        },
+        "hu": {
+          "titleText": "Kezdj el gyorsabban keresni!",
+          "descriptionText": "Mostantól új lapot nyitunk, amikor visszatérsz az appba.",
+          "primaryActionText": "Értem",
+          "secondaryActionText": "Testreszabás"
+        },
+        "it": {
+          "titleText": "Inizia a cercare più velocemente!",
+          "descriptionText": "Ora ti offriamo una nuova scheda quando apri l'app.",
+          "primaryActionText": "Ho capito",
+          "secondaryActionText": "Personalizza"
+        },
+        "ja": {
+          "titleText": "もっと速く検索しよう！",
+          "descriptionText": "アプリを開くと、新しいタブが表示されるようになりました。",
+          "primaryActionText": "了解",
+          "secondaryActionText": "カスタマイズ"
+        },
+        "lt": {
+          "titleText": "Pradėkite ieškoti greičiau!",
+          "descriptionText": "Dabar, kai atidarote programėlę, pateikiame naują skirtuką.",
+          "primaryActionText": "Supratau",
+          "secondaryActionText": "Pritaikyti"
+        },
+        "lv": {
+          "titleText": "Sāc meklēt ātrāk!",
+          "descriptionText": "Tagad, atverot lietotni, tiek atvērta jauna cilne.",
+          "primaryActionText": "Sapratu",
+          "secondaryActionText": "Pielāgot"
+        },
+        "nb": {
+          "titleText": "Begynn å søke raskere!",
+          "descriptionText": "Vi gir deg nå en ny fane når du åpner appen.",
+          "primaryActionText": "Den er grei",
+          "secondaryActionText": "Tilpass"
+        },
+        "nl": {
+          "titleText": "Begin sneller met zoeken!",
+          "descriptionText": "Je krijgt nu een nieuw tabblad als je de app opent.",
+          "primaryActionText": "Ik snap het",
+          "secondaryActionText": "Aanpassen"
+        },
+        "pl": {
+          "titleText": "Wyszukuj szybciej!",
+          "descriptionText": "Teraz po otwarciu aplikacji dostajesz nową kartę.",
+          "primaryActionText": "Rozumiem",
+          "secondaryActionText": "Dostosuj"
+        },
+        "pt": {
+          "titleText": "Faz pesquisas mais rápidas!",
+          "descriptionText": "Agora apresentamos um separador novo quando abres a aplicação.",
+          "primaryActionText": "Entendi",
+          "secondaryActionText": "Personalizar"
+        },
+        "ro": {
+          "titleText": "Începe să cauți mai repede!",
+          "descriptionText": "Acum îți oferim o filă nouă atunci când deschizi aplicația.",
+          "primaryActionText": "Am înțeles",
+          "secondaryActionText": "Personalizează"
+        },
+        "ru": {
+          "titleText": "Ищи быстрее!",
+          "descriptionText": "Теперь при открытии приложения открывается новая вкладка.",
+          "primaryActionText": "Понятно",
+          "secondaryActionText": "Настроить"
+        },
+        "sk": {
+          "titleText": "Začni vyhľadávať rýchlejšie!",
+          "descriptionText": "Teraz ti pri otvorení aplikácie zobrazíme novú kartu.",
+          "primaryActionText": "Rozumiem",
+          "secondaryActionText": "Prispôsobiť"
+        },
+        "sl": {
+          "titleText": "Začni iskati hitreje!",
+          "descriptionText": "Zdaj vam ob odprtju aplikacije ponudimo nov zavihek.",
+          "primaryActionText": "Razumem",
+          "secondaryActionText": "Prilagodi"
+        },
+        "sv": {
+          "titleText": "Börja söka snabbare!",
+          "descriptionText": "Vi ger dig nu en ny flik när du öppnar appen.",
+          "primaryActionText": "Jag förstår",
+          "secondaryActionText": "Anpassa"
+        },
+        "tr": {
+          "titleText": "Daha hızlı aramaya başla!",
+          "descriptionText": "Uygulamayı açtığınızda artık karşınıza yeni bir sekme çıkar.",
+          "primaryActionText": "Anladım",
+          "secondaryActionText": "Özelleştir"
         }
       },
       "surfaces": ["new_tab_page"],
@@ -41,6 +193,158 @@
         "primaryAction": {
           "type": "navigation",
           "value": "settingsAfterInactivity"
+        }
+      },
+      "translations": {
+        "bg": {
+          "titleText": "Започнете да търсите по-бързо!",
+          "descriptionText": "Сега при отваряне на приложението се отваря нов раздел. Можете също да изберете връзката по-горе, за да се върнете към последно използвания раздел.",
+          "primaryActionText": "Разбрах",
+          "secondaryActionText": "Персонализирай"
+        },
+        "cs": {
+          "titleText": "Začni vyhledávat rychleji!",
+          "descriptionText": "Nyní ti při otevření aplikace zobrazíme novou kartu. Nebo můžeš klepnout na odkaz výše a vrátit se na naposledy použitou kartu.",
+          "primaryActionText": "Rozumím",
+          "secondaryActionText": "Přizpůsobit"
+        },
+        "da": {
+          "titleText": "Begynd at søge hurtigere!",
+          "descriptionText": "Vi giver dig nu en ny fane, når du åbner appen. Eller du kan trykke på linket ovenfor for at vende tilbage til den fane, du brugte sidst.",
+          "primaryActionText": "Forstået",
+          "secondaryActionText": "Tilpas"
+        },
+        "de": {
+          "titleText": "Suchen schneller starten!",
+          "descriptionText": "Beim Öffnen der App stellen wir dir jetzt direkt einen neuen Tab zur Verfügung. Oder du tippst auf den obigen Link, um zum zuletzt verwendeten Tab zurückzukehren.",
+          "primaryActionText": "Verstanden",
+          "secondaryActionText": "Anpassen"
+        },
+        "el": {
+          "titleText": "Ξεκίνα την αναζήτηση πιο γρήγορα!",
+          "descriptionText": "Πλέον, σου δίνουμε μια νέα καρτέλα όταν ανοίγεις την εφαρμογή. Ή μπορείς να πατήσεις τον παραπάνω σύνδεσμο για να επιστρέψεις στην καρτέλα που χρησιμοποίησες τελευταία φορά.",
+          "primaryActionText": "Κατάλαβα",
+          "secondaryActionText": "Προσαρμογή"
+        },
+        "es": {
+          "titleText": "¡Empieza a buscar más rápido!",
+          "descriptionText": "Ahora, cuando abres la aplicación, se abre una pestaña nueva. O puedes pulsar el enlace de arriba para volver a tu última pestaña utilizada.",
+          "primaryActionText": "Entendido",
+          "secondaryActionText": "Personalizar"
+        },
+        "et": {
+          "titleText": "Alusta otsimist kiiremini!",
+          "descriptionText": "Nüüd kuvatakse rakenduse avamisel uus vahekaart. Või saad viimati kasutatud vahekaardile naasmiseks puudutada ülalolevat linki.",
+          "primaryActionText": "Sain aru",
+          "secondaryActionText": "Kohanda"
+        },
+        "fi": {
+          "titleText": "Aloita haku nopeammin!",
+          "descriptionText": "Saat nyt uuden välilehden, kun avaat sovelluksen. Tai voit palata viimeksi käyttämääsi välilehteen napauttamalla yllä olevaa linkkiä.",
+          "primaryActionText": "Selvä",
+          "secondaryActionText": "Mukauta"
+        },
+        "fr": {
+          "titleText": "Lancez vos recherches plus vite !",
+          "descriptionText": "Désormais, un nouvel onglet s'ouvre lorsque vous lancez l'application. Vous pouvez également cliquer sur le lien ci-dessus pour revenir à l'onglet que vous consultiez en dernier.",
+          "primaryActionText": "J'ai compris",
+          "secondaryActionText": "Personnaliser"
+        },
+        "hr": {
+          "titleText": "Kreni brže pretraživati!",
+          "descriptionText": "Kada otvoriš aplikaciju, čeka te nova kartica. U protivnom, možeš dodirnuti gornju poveznicu za povratak na posljednju korištenu karticu.",
+          "primaryActionText": "U redu",
+          "secondaryActionText": "Prilagodi"
+        },
+        "hu": {
+          "titleText": "Kezdj el gyorsabban keresni!",
+          "descriptionText": "Mostantól új lapot nyitunk, amikor visszatérsz az appba. Vagy koppints a fenti hivatkozásra, ha vissza szeretnél térni a legutóbb használt lapodra.",
+          "primaryActionText": "Értem",
+          "secondaryActionText": "Testreszabás"
+        },
+        "it": {
+          "titleText": "Inizia a cercare più velocemente!",
+          "descriptionText": "Ora ti offriamo una nuova scheda quando apri l'app. Oppure puoi toccare il link qui sopra per tornare all'ultima scheda utilizzata.",
+          "primaryActionText": "Ho capito",
+          "secondaryActionText": "Personalizza"
+        },
+        "ja": {
+          "titleText": "もっと速く検索しよう！",
+          "descriptionText": "アプリを開くと、新しいタブが表示されるようになりました。上のリンクをタップして、最後に使用したタブに戻ることもできます。",
+          "primaryActionText": "了解",
+          "secondaryActionText": "カスタマイズ"
+        },
+        "lt": {
+          "titleText": "Pradėkite ieškoti greičiau!",
+          "descriptionText": "Dabar, kai atidarote programėlę, pateikiame naują skirtuką. Arba galite paliesti aukščiau esančią nuorodą, kad grįžtumėte į paskutinį naudotą skirtuką.",
+          "primaryActionText": "Supratau",
+          "secondaryActionText": "Pritaikyti"
+        },
+        "lv": {
+          "titleText": "Sāc meklēt ātrāk!",
+          "descriptionText": "Tagad, atverot lietotni, tiek atvērta jauna cilne. Vai arī tu vari pieskarties iepriekšminētajai saitei, lai atgrieztos pie pēdējās izmantotās cilnes.",
+          "primaryActionText": "Sapratu",
+          "secondaryActionText": "Pielāgot"
+        },
+        "nb": {
+          "titleText": "Begynn å søke raskere!",
+          "descriptionText": "Vi gir deg nå en ny fane når du åpner appen. Eller du kan trykke på lenken ovenfor for å gå tilbake til fanen du brukte sist.",
+          "primaryActionText": "Den er grei",
+          "secondaryActionText": "Tilpass"
+        },
+        "nl": {
+          "titleText": "Begin sneller met zoeken!",
+          "descriptionText": "Je krijgt nu een nieuw tabblad als je de app opent. Of je kunt op de bovenstaande link tikken om terug te keren naar je laatst gebruikte tabblad.",
+          "primaryActionText": "Ik snap het",
+          "secondaryActionText": "Aanpassen"
+        },
+        "pl": {
+          "titleText": "Wyszukuj szybciej!",
+          "descriptionText": "Teraz po otwarciu aplikacji dostajesz nową kartę. Albo możesz dotknąć powyższego linku, aby wrócić do ostatnio używanej karty.",
+          "primaryActionText": "Rozumiem",
+          "secondaryActionText": "Dostosuj"
+        },
+        "pt": {
+          "titleText": "Faz pesquisas mais rápidas!",
+          "descriptionText": "Agora apresentamos um separador novo quando abres a aplicação. Ou podes tocar no link acima para voltares ao último separador utilizado.",
+          "primaryActionText": "Entendi",
+          "secondaryActionText": "Personalizar"
+        },
+        "ro": {
+          "titleText": "Începe să cauți mai repede!",
+          "descriptionText": "Acum îți oferim o filă nouă atunci când deschizi aplicația. Sau poți atinge linkul de mai sus pentru a reveni la ultima filă utilizată.",
+          "primaryActionText": "Am înțeles",
+          "secondaryActionText": "Personalizează"
+        },
+        "ru": {
+          "titleText": "Ищи быстрее!",
+          "descriptionText": "Теперь при открытии приложения открывается новая вкладка. Нажмите на ссылку выше, чтобы вернуться к последней использованной вкладке.",
+          "primaryActionText": "Понятно",
+          "secondaryActionText": "Настроить"
+        },
+        "sk": {
+          "titleText": "Začni vyhľadávať rýchlejšie!",
+          "descriptionText": "Teraz ti pri otvorení aplikácie zobrazíme novú kartu. Alebo môžeš ťuknúť na odkaz vyššie a vrátiť sa na naposledy použitú kartu.",
+          "primaryActionText": "Rozumiem",
+          "secondaryActionText": "Prispôsobiť"
+        },
+        "sl": {
+          "titleText": "Začni iskati hitreje!",
+          "descriptionText": "Zdaj vam ob odprtju aplikacije ponudimo nov zavihek. Ali pa tapnite zgornjo povezavo, da se vrnete na zadnji uporabljeni zavihek.",
+          "primaryActionText": "Razumem",
+          "secondaryActionText": "Prilagodi"
+        },
+        "sv": {
+          "titleText": "Börja söka snabbare!",
+          "descriptionText": "Vi ger dig nu en ny flik när du öppnar appen. Eller så kan du trycka på länken ovan för att gå tillbaka till din senast använda flik.",
+          "primaryActionText": "Jag förstår",
+          "secondaryActionText": "Anpassa"
+        },
+        "tr": {
+          "titleText": "Daha hızlı aramaya başla!",
+          "descriptionText": "Uygulamayı açtığınızda artık karşınıza yeni bir sekme çıkar. Dilerseniz son kullandığınız sekmeye dönmek için yukarıdaki bağlantıya dokunabilirsiniz.",
+          "primaryActionText": "Anladım",
+          "secondaryActionText": "Özelleştir"
         }
       },
       "surfaces": ["new_tab_page"],
