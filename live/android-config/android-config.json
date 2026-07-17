@@ -12,7 +12,7 @@
         "primaryAction": {
           "type": "dismiss"
         },
-        "secondaryActionText": "Settings",
+        "secondaryActionText": "Customize",
         "secondaryAction": {
           "type": "navigation",
           "value": "settingsAfterInactivity"
@@ -189,7 +189,7 @@
         "primaryAction": {
           "type": "dismiss"
         },
-        "secondaryActionText": "Settings",
+        "secondaryActionText": "Customize",
         "secondaryAction": {
           "type": "navigation",
           "value": "settingsAfterInactivity"
