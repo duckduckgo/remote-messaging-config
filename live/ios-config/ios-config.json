@@ -1,5 +1,5 @@
 {
-  "version": 118,
+  "version": 119,
   "messages": [
     {
       "id": "ios_pir_announcement_1",
@@ -14,7 +14,10 @@
           "value": "pir.main"
         }
       },
-      "matchingRules": [28]
+      "matchingRules": [28],
+      "displayConditions": {
+        "dismissAfterDaysShown": 5
+      }
     },
     {
       "id": "ios_privacy_pro_exit_survey_1",
