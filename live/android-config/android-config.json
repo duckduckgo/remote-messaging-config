@@ -746,6 +746,169 @@
       "exclusionRules": [
         3
       ]
+    },
+    {
+      "id": "android_fire_tabs_promo",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Try Fire Tabs",
+        "descriptionText": "Browse without saving local history or sign in to sites with a different account.",
+        "placeholder": "Announce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/fire-mode-rmf.png",
+        "primaryActionText": "Try Fire Tabs",
+        "primaryAction": { "type": "navigation", "value": "tabSwitcherWithParams", "additionalParameters": { "payload": "{\"browserMode\":\"FIRE\"}" } },
+        "secondaryActionText": "Not Now",
+        "secondaryAction": { "type": "dismiss", "value": "", "additionalParameters": {} }
+      },
+      "matchingRules": [31],
+      "exclusionRules": [32],
+      "translations": {
+        "sk": {
+          "titleText": "Vyskúšajte Fire Tabs",
+          "descriptionText": "Prehliadajte web bez ukladania lokálnej histórie alebo sa prihláste na stránky pomocou iného účtu.",
+          "primaryActionText": "Vyskúšajte Fire Tabs",
+          "secondaryActionText": "Teraz nie"
+        },
+        "ru": {
+          "titleText": "Попробуйте Fire Tabs",
+          "descriptionText": "Просматривайте сайты без сохранения локальной истории или входите под другой учётной записью.",
+          "primaryActionText": "Попробуйте Fire Tabs",
+          "secondaryActionText": "Не сейчас"
+        },
+        "it": {
+          "titleText": "Prova Fire Tabs",
+          "descriptionText": "Naviga senza salvare la cronologia locale o accedi ai siti con un altro account.",
+          "primaryActionText": "Prova Fire Tabs",
+          "secondaryActionText": "Non ora"
+        },
+        "ro": {
+          "titleText": "Încearcă Fire Tabs",
+          "descriptionText": "Navighează fără a salva istoricul local sau conectează-te la site-uri cu un alt cont.",
+          "primaryActionText": "Încearcă Fire Tabs",
+          "secondaryActionText": "Nu acum"
+        },
+        "cs": {
+          "titleText": "Vyzkoušejte Fire Tabs",
+          "descriptionText": "Prohlížejte web bez ukládání místní historie nebo se přihlaste na weby pod jiným účtem.",
+          "primaryActionText": "Vyzkoušejte Fire Tabs",
+          "secondaryActionText": "Teď ne"
+        },
+        "lt": {
+          "titleText": "Išbandykite Fire Tabs",
+          "descriptionText": "Naršykite neišsaugodami vietinės naršymo istorijos arba prisijunkite prie svetainių su kita paskyra.",
+          "primaryActionText": "Išbandykite Fire Tabs",
+          "secondaryActionText": "Ne dabar"
+        },
+        "da": {
+          "titleText": "Prøv Fire Tabs",
+          "descriptionText": "Surf uden at gemme lokal historik, eller log ind på websteder med en anden konto.",
+          "primaryActionText": "Prøv Fire Tabs",
+          "secondaryActionText": "Ikke nu"
+        },
+        "nb": {
+          "titleText": "Prøv Fire Tabs",
+          "descriptionText": "Surf uten å lagre lokal historikk, eller logg inn på nettsteder med en annen konto.",
+          "primaryActionText": "Prøv Fire Tabs",
+          "secondaryActionText": "Ikke nå"
+        },
+        "sl": {
+          "titleText": "Preizkusite Fire Tabs",
+          "descriptionText": "Brskajte brez shranjevanja lokalne zgodovine ali se v spletna mesta prijavite z drugim računom.",
+          "primaryActionText": "Preizkusite Fire Tabs",
+          "secondaryActionText": "Ne zdaj"
+        },
+        "hr": {
+          "titleText": "Isprobajte Fire Tabs",
+          "descriptionText": "Pregledavajte bez spremanja lokalne povijesti ili se prijavite na web-mjesta s drugim računom.",
+          "primaryActionText": "Isprobajte Fire Tabs",
+          "secondaryActionText": "Ne sada"
+        },
+        "et": {
+          "titleText": "Proovige Fire Tabs",
+          "descriptionText": "Sirvige ilma kohalikku ajalugu salvestamata või logige saitidele sisse teise kontoga.",
+          "primaryActionText": "Proovige Fire Tabs",
+          "secondaryActionText": "Mitte praegu"
+        },
+        "de": {
+          "titleText": "Fire Tabs testen",
+          "descriptionText": "Surfe, ohne lokalen Verlauf zu speichern, oder melde dich mit einem anderen Konto bei Websites an.",
+          "primaryActionText": "Fire Tabs testen",
+          "secondaryActionText": "Nicht jetzt"
+        },
+        "el": {
+          "titleText": "Δοκιμάστε τα Fire Tabs",
+          "descriptionText": "Περιηγηθείτε χωρίς αποθήκευση τοπικού ιστορικού ή συνδεθείτε σε ιστότοπους με διαφορετικό λογαριασμό.",
+          "primaryActionText": "Δοκιμάστε τα Fire Tabs",
+          "secondaryActionText": "Όχι τώρα"
+        },
+        "pl": {
+          "titleText": "Wypróbuj Fire Tabs",
+          "descriptionText": "Przeglądaj bez zapisywania lokalnej historii lub zaloguj się na stronach za pomocą innego konta.",
+          "primaryActionText": "Wypróbuj Fire Tabs",
+          "secondaryActionText": "Nie teraz"
+        },
+        "hu": {
+          "titleText": "Próbáld ki a Fire Tabs funkciót",
+          "descriptionText": "Böngéssz a helyi előzmények mentése nélkül, vagy jelentkezz be webhelyekre egy másik fiókkal.",
+          "primaryActionText": "Próbáld ki a Fire Tabs funkciót",
+          "secondaryActionText": "Most nem"
+        },
+        "pt": {
+          "titleText": "Experimente o Fire Tabs",
+          "descriptionText": "Navegue sem guardar o histórico local ou inicie sessão em sites com uma conta diferente.",
+          "primaryActionText": "Experimente o Fire Tabs",
+          "secondaryActionText": "Agora não"
+        },
+        "fr": {
+          "titleText": "Essayer Fire Tabs",
+          "descriptionText": "Naviguez sans enregistrer l'historique local ou connectez-vous à des sites avec un autre compte.",
+          "primaryActionText": "Essayer Fire Tabs",
+          "secondaryActionText": "Pas maintenant"
+        },
+        "tr": {
+          "titleText": "Fire Tabs'ı deneyin",
+          "descriptionText": "Yerel geçmişi kaydetmeden gezinin veya sitelerde farklı bir hesapla oturum açın.",
+          "primaryActionText": "Fire Tabs'ı deneyin",
+          "secondaryActionText": "Şimdi değil"
+        },
+        "bg": {
+          "titleText": "Изпробвайте Fire Tabs",
+          "descriptionText": "Сърфирайте, без да запазвате локална история, или влизайте в сайтове с друг акаунт.",
+          "primaryActionText": "Изпробвайте Fire Tabs",
+          "secondaryActionText": "Не сега"
+        },
+        "fi": {
+          "titleText": "Kokeile Fire Tabs -ominaisuutta",
+          "descriptionText": "Selaa tallentamatta paikallista historiaa tai kirjaudu sivustoille eri tilillä.",
+          "primaryActionText": "Kokeile Fire Tabs -ominaisuutta",
+          "secondaryActionText": "Ei nyt"
+        },
+        "es": {
+          "titleText": "Prueba Fire Tabs",
+          "descriptionText": "Navega sin guardar el historial local o inicia sesión en sitios con una cuenta diferente.",
+          "primaryActionText": "Prueba Fire Tabs",
+          "secondaryActionText": "Ahora no"
+        },
+        "lv": {
+          "titleText": "Izmēģini Fire Tabs",
+          "descriptionText": "Pārlūko bez lokālās vēstures saglabāšanas vai piesakies vietnēs ar citu kontu.",
+          "primaryActionText": "Izmēģini Fire Tabs",
+          "secondaryActionText": "Ne tagad"
+        },
+        "nl": {
+          "titleText": "Probeer Fire Tabs",
+          "descriptionText": "Surf zonder lokale geschiedenis op te slaan of meld je aan bij sites met een ander account.",
+          "primaryActionText": "Probeer Fire Tabs",
+          "secondaryActionText": "Niet nu"
+        },
+        "sv": {
+          "titleText": "Prova Fire Tabs",
+          "descriptionText": "Surfa utan att spara lokal historik eller logga in på webbplatser med ett annat konto.",
+          "primaryActionText": "Prova Fire Tabs",
+          "secondaryActionText": "Inte nu"
+        }
+      },
+      "surfaces": ["new_tab_page"]
     }
   ],
   "rules": [
@@ -1331,6 +1494,22 @@
       "attributes": {
         "messageShown": {
           "value": ["android_ntp_after_idle_existing_users_without_hatch_2026"]
+        }
+      }
+    },
+    {
+      "id": 31,
+      "attributes": {
+        "fireModeAvailable": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 32,
+      "attributes": {
+        "fireModeUsed": {
+          "value": true
         }
       }
     }
