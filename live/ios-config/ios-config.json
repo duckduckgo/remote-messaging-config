@@ -1,5 +1,5 @@
 {
-  "version": 119,
+  "version": 120,
   "messages": [
     {
       "id": "ios_pir_announcement_1",
@@ -1307,7 +1307,7 @@
     {
       "id": 28,
       "targetPercentile": {
-        "before": 0.5
+        "before": 1.0
       },
       "attributes": {
         "pproSubscriber": {
