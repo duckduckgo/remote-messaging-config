@@ -1253,6 +1253,9 @@
     },
     {
       "id": 20,
+      "targetPercentile": {
+        "before": 0
+      },
       "attributes": {
         "isFreemiumPIREligible": {
           "value": true
