@@ -1,5 +1,5 @@
 {
-  "version": 120,
+  "version": 121,
   "messages": [
     {
       "id": "ios_pir_announcement_1",
@@ -391,7 +391,10 @@
       "matchingRules": [
         20
       ],
-      "exclusionRules": []
+      "exclusionRules": [],
+      "displayConditions": {
+        "dismissAfterDaysShown": 5
+      }
     },
     {
       "id": "ios_pir_freemium_scan_complete_results",
