@@ -1260,6 +1260,9 @@
         "before": 0
       },
       "attributes": {
+        "appVersion": {
+          "min": "7.230.0"
+        },
         "isFreemiumPIREligible": {
           "value": true
         },
@@ -1274,6 +1277,9 @@
     {
       "id": 21,
       "attributes": {
+        "appVersion": {
+          "min": "7.230.0"
+        },
         "isFreemiumPIREligible": {
           "value": true
         },
@@ -1285,6 +1291,9 @@
     {
       "id": 22,
       "attributes": {
+        "appVersion": {
+          "min": "7.230.0"
+        },
         "isFreemiumPIREligible": {
           "value": true
         },
