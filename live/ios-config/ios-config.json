@@ -1,5 +1,5 @@
 {
-  "version": 120,
+  "version": 121,
   "messages": [
     {
       "id": "ios_pir_announcement_1",
@@ -391,7 +391,10 @@
       "matchingRules": [
         20
       ],
-      "exclusionRules": []
+      "exclusionRules": [],
+      "displayConditions": {
+        "dismissAfterDaysShown": 5
+      }
     },
     {
       "id": "ios_pir_freemium_scan_complete_results",
@@ -1257,6 +1260,9 @@
         "before": 0
       },
       "attributes": {
+        "appVersion": {
+          "min": "7.230.0"
+        },
         "isFreemiumPIREligible": {
           "value": true
         },
@@ -1271,6 +1277,9 @@
     {
       "id": 21,
       "attributes": {
+        "appVersion": {
+          "min": "7.230.0"
+        },
         "isFreemiumPIREligible": {
           "value": true
         },
@@ -1282,6 +1291,9 @@
     {
       "id": 22,
       "attributes": {
+        "appVersion": {
+          "min": "7.230.0"
+        },
         "isFreemiumPIREligible": {
           "value": true
         },
