@@ -1,5 +1,5 @@
 {
-  "version": 66,
+  "version": 67,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -74,6 +74,24 @@
         11,
         14
       ]
+    },
+    {
+      "id": "windows_deprecate_x86_1",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "x86 Support is Ending",
+        "descriptionText": "With version number 0.169.0 we're ending support for x86 architecture.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Learn more",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/duckduckgo-help-pages/get-duckduckgo/get-duckduckgo-browser-on-windows#ending-support-for-x86"
+        }
+      },
+      "matchingRules": [
+        15
+      ],
+      "exclusionRules": []
     }
   ],
   "rules": [
@@ -202,6 +220,14 @@
       "attributes": {
         "interactedWithMessage": {
           "value": [ "windows_onboarding_v4_survey" ]
+        }
+      }
+    },
+    {
+      "id": 15,
+      "attributes": {
+        "osArch": {
+          "value": "X86"
         }
       }
     }
