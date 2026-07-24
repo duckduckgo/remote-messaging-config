@@ -81,7 +81,7 @@
         "messageType": "big_single_action",
         "titleText": "x86 Support is Ending",
         "descriptionText": "With version number 0.169.0 we're ending support for x86 architecture.",
-        "placeholder": "DDGAnnounce",
+        "placeholder": "CriticalUpdate",
         "primaryActionText": "Learn more",
         "primaryAction": {
           "type": "url",
