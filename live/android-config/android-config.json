@@ -1259,6 +1259,9 @@
     {
       "id": 5,
       "attributes": {
+        "appVersion": {
+          "min": "5.289.0"
+        },
         "locale": {
           "value": [
             "en-GB",
