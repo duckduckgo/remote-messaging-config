@@ -80,7 +80,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "x86 Support is Ending",
-        "descriptionText": "With version number 0.169.0 we're ending support for x86 architecture.",
+        "descriptionText": "With version number 0.169.0 we're ending support for x86 architecture. To continue receiving updates, you'll have to install the x64 version of Windows 10, or upgrade to Windows 11.",
         "placeholder": "CriticalUpdate",
         "primaryActionText": "Learn more",
         "primaryAction": {
