@@ -1,5 +1,5 @@
 {
-  "version": 121,
+  "version": 122,
   "messages": [
     {
       "id": "whats_new_q2_2026",
@@ -8,6 +8,7 @@
         "titleText": "What's New",
         "descriptionText": "What's new in DuckDuckGo.",
         "placeholder": "DDGAnnounce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckduckgo-feature-96-4x.png",
         "primaryActionText": "Dismiss",
         "primaryAction": {
           "type": "dismiss",
@@ -29,7 +30,7 @@
           {
             "id": "browse_with_fire_tabs",
             "type": "two_line_list_item",
-            "titleText": "Browse with Fire Tabs",
+            "titleText": "Browse With Fire Tabs",
             "descriptionText": "Use Fire Tabs to isolate your browsing from normal tabs and browse without saving local history.",
             "placeholder": "Announce",
             "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/fire-feature-96-4x.png"
