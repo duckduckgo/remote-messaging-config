@@ -8,7 +8,7 @@
         "titleText": "What's New",
         "descriptionText": "What's new in DuckDuckGo.",
         "placeholder": "DDGAnnounce",
-        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckduckgo-feature-96-4x.png",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckduckgo-feature-96-2-4x.png",
         "primaryActionText": "Dismiss",
         "primaryAction": {
           "type": "dismiss",
