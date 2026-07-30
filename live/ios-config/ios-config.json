@@ -50,6 +50,7 @@
         ]
       },
       "matchingRules": [
+        32
       ]
     },
     {
@@ -1418,6 +1419,20 @@
       "attributes": {
         "messageShown": {
           "value": ["ios_ntp_after_idle_existing_users_2026"]
+        }
+      }
+    },
+    {
+      "id": 32,
+      "attributes": {
+        "appVersion": {
+          "min": "7.225.0"
+        },
+        "locale": {
+          "value": ["en-US"]
+        },
+        "daysSinceInstalled": {
+          "min": 7
         }
       }
     }
