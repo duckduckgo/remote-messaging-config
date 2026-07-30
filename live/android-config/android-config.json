@@ -1,5 +1,5 @@
 {
-  "version": 111,
+  "version": 112,
   "messages": [
     {
       "id": "android_ntp_after_idle_existing_users_without_hatch_2026",
@@ -909,6 +909,21 @@
         }
       },
       "surfaces": ["new_tab_page"]
+    },
+    {
+      "id": "android_post_onboarding_announcement",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Test: Post-Onboarding Message",
+        "descriptionText": "This is a test message shown right after onboarding. It stays visible until dismissed.",
+        "placeholder": "Announce",
+        "primaryActionText": "Got It",
+        "primaryAction": {
+          "type": "dismiss"
+        }
+      },
+      "matchingRules": [33],
+      "exclusionRules": []
     }
   ],
   "rules": [
@@ -1510,6 +1525,14 @@
       "attributes": {
         "fireModeUsed": {
           "value": true
+        }
+      }
+    },
+    {
+      "id": 33,
+      "attributes": {
+        "daysSinceInstalled": {
+          "min": 0
         }
       }
     }
