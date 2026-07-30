@@ -1,5 +1,5 @@
 {
-  "version": 112,
+  "version": 113,
   "messages": [
     {
       "id": "android_ntp_after_idle_existing_users_without_hatch_2026",
@@ -1260,7 +1260,7 @@
       "id": 5,
       "attributes": {
         "appVersion": {
-          "min": "5.289.0"
+          "min": "5.291.1"
         },
         "locale": {
           "value": [
