@@ -1582,6 +1582,9 @@
         },
         "daysSinceInstalled": {
           "min": 7
+        },
+        "appVersion": {
+          "min": "5.288.0"
         }
       }
     }
