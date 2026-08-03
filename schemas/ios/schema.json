@@ -201,6 +201,10 @@
           "$ref": "#/definitions/PlaceholderType",
           "description": "Placeholder for the list item"
         },
+        "imageUrl": {
+          "type": "string",
+          "description": "Remote image URL for the list item. When present, the client uses this image and falls back to placeholder while loading or if loading fails."
+        },
         "primaryAction": {
           "$ref": "#/definitions/MessageAction",
           "description": "Primary action for the list item"

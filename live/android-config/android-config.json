@@ -1,22 +1,378 @@
 {
-  "version": 107,
+  "version": 112,
   "messages": [
+    {
+      "id": "android_ntp_after_idle_existing_users_without_hatch_2026",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Start searching faster!",
+        "descriptionText": "We now give you a fresh tab when you open the app.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Got It",
+        "primaryAction": {
+          "type": "dismiss"
+        },
+        "secondaryActionText": "Customize",
+        "secondaryAction": {
+          "type": "navigation",
+          "value": "settingsAfterInactivity"
+        }
+      },
+      "translations": {
+        "bg": {
+          "titleText": "Започнете да търсите по-бързо!",
+          "descriptionText": "Сега при отваряне на приложението се отваря нов раздел.",
+          "primaryActionText": "Разбрах",
+          "secondaryActionText": "Персонализирай"
+        },
+        "cs": {
+          "titleText": "Začni vyhledávat rychleji!",
+          "descriptionText": "Nyní ti při otevření aplikace zobrazíme novou kartu.",
+          "primaryActionText": "Rozumím",
+          "secondaryActionText": "Přizpůsobit"
+        },
+        "da": {
+          "titleText": "Begynd at søge hurtigere!",
+          "descriptionText": "Vi giver dig nu en ny fane, når du åbner appen.",
+          "primaryActionText": "Forstået",
+          "secondaryActionText": "Tilpas"
+        },
+        "de": {
+          "titleText": "Suchen schneller starten!",
+          "descriptionText": "Beim Öffnen der App stellen wir dir jetzt direkt einen neuen Tab zur Verfügung.",
+          "primaryActionText": "Verstanden",
+          "secondaryActionText": "Anpassen"
+        },
+        "el": {
+          "titleText": "Ξεκίνα την αναζήτηση πιο γρήγορα!",
+          "descriptionText": "Πλέον, σου δίνουμε μια νέα καρτέλα όταν ανοίγεις την εφαρμογή.",
+          "primaryActionText": "Κατάλαβα",
+          "secondaryActionText": "Προσαρμογή"
+        },
+        "es": {
+          "titleText": "¡Empieza a buscar más rápido!",
+          "descriptionText": "Ahora, cuando abres la aplicación, se abre una pestaña nueva.",
+          "primaryActionText": "Entendido",
+          "secondaryActionText": "Personalizar"
+        },
+        "et": {
+          "titleText": "Alusta otsimist kiiremini!",
+          "descriptionText": "Nüüd kuvatakse rakenduse avamisel uus vahekaart.",
+          "primaryActionText": "Sain aru",
+          "secondaryActionText": "Kohanda"
+        },
+        "fi": {
+          "titleText": "Aloita haku nopeammin!",
+          "descriptionText": "Saat nyt uuden välilehden, kun avaat sovelluksen.",
+          "primaryActionText": "Selvä",
+          "secondaryActionText": "Mukauta"
+        },
+        "fr": {
+          "titleText": "Lancez vos recherches plus vite !",
+          "descriptionText": "Désormais, un nouvel onglet s'ouvre lorsque vous lancez l'application.",
+          "primaryActionText": "J'ai compris",
+          "secondaryActionText": "Personnaliser"
+        },
+        "hr": {
+          "titleText": "Kreni brže pretraživati!",
+          "descriptionText": "Kada otvoriš aplikaciju, čeka te nova kartica.",
+          "primaryActionText": "U redu",
+          "secondaryActionText": "Prilagodi"
+        },
+        "hu": {
+          "titleText": "Kezdj el gyorsabban keresni!",
+          "descriptionText": "Mostantól új lapot nyitunk, amikor visszatérsz az appba.",
+          "primaryActionText": "Értem",
+          "secondaryActionText": "Testreszabás"
+        },
+        "it": {
+          "titleText": "Inizia a cercare più velocemente!",
+          "descriptionText": "Ora ti offriamo una nuova scheda quando apri l'app.",
+          "primaryActionText": "Ho capito",
+          "secondaryActionText": "Personalizza"
+        },
+        "ja": {
+          "titleText": "もっと速く検索しよう！",
+          "descriptionText": "アプリを開くと、新しいタブが表示されるようになりました。",
+          "primaryActionText": "了解",
+          "secondaryActionText": "カスタマイズ"
+        },
+        "lt": {
+          "titleText": "Pradėkite ieškoti greičiau!",
+          "descriptionText": "Dabar, kai atidarote programėlę, pateikiame naują skirtuką.",
+          "primaryActionText": "Supratau",
+          "secondaryActionText": "Pritaikyti"
+        },
+        "lv": {
+          "titleText": "Sāc meklēt ātrāk!",
+          "descriptionText": "Tagad, atverot lietotni, tiek atvērta jauna cilne.",
+          "primaryActionText": "Sapratu",
+          "secondaryActionText": "Pielāgot"
+        },
+        "nb": {
+          "titleText": "Begynn å søke raskere!",
+          "descriptionText": "Vi gir deg nå en ny fane når du åpner appen.",
+          "primaryActionText": "Den er grei",
+          "secondaryActionText": "Tilpass"
+        },
+        "nl": {
+          "titleText": "Begin sneller met zoeken!",
+          "descriptionText": "Je krijgt nu een nieuw tabblad als je de app opent.",
+          "primaryActionText": "Ik snap het",
+          "secondaryActionText": "Aanpassen"
+        },
+        "pl": {
+          "titleText": "Wyszukuj szybciej!",
+          "descriptionText": "Teraz po otwarciu aplikacji dostajesz nową kartę.",
+          "primaryActionText": "Rozumiem",
+          "secondaryActionText": "Dostosuj"
+        },
+        "pt": {
+          "titleText": "Faz pesquisas mais rápidas!",
+          "descriptionText": "Agora apresentamos um separador novo quando abres a aplicação.",
+          "primaryActionText": "Entendi",
+          "secondaryActionText": "Personalizar"
+        },
+        "ro": {
+          "titleText": "Începe să cauți mai repede!",
+          "descriptionText": "Acum îți oferim o filă nouă atunci când deschizi aplicația.",
+          "primaryActionText": "Am înțeles",
+          "secondaryActionText": "Personalizează"
+        },
+        "ru": {
+          "titleText": "Ищи быстрее!",
+          "descriptionText": "Теперь при открытии приложения открывается новая вкладка.",
+          "primaryActionText": "Понятно",
+          "secondaryActionText": "Настроить"
+        },
+        "sk": {
+          "titleText": "Začni vyhľadávať rýchlejšie!",
+          "descriptionText": "Teraz ti pri otvorení aplikácie zobrazíme novú kartu.",
+          "primaryActionText": "Rozumiem",
+          "secondaryActionText": "Prispôsobiť"
+        },
+        "sl": {
+          "titleText": "Začni iskati hitreje!",
+          "descriptionText": "Zdaj vam ob odprtju aplikacije ponudimo nov zavihek.",
+          "primaryActionText": "Razumem",
+          "secondaryActionText": "Prilagodi"
+        },
+        "sv": {
+          "titleText": "Börja söka snabbare!",
+          "descriptionText": "Vi ger dig nu en ny flik när du öppnar appen.",
+          "primaryActionText": "Jag förstår",
+          "secondaryActionText": "Anpassa"
+        },
+        "tr": {
+          "titleText": "Daha hızlı aramaya başla!",
+          "descriptionText": "Uygulamayı açtığınızda artık karşınıza yeni bir sekme çıkar.",
+          "primaryActionText": "Anladım",
+          "secondaryActionText": "Özelleştir"
+        }
+      },
+      "surfaces": ["new_tab_page"],
+      "displayConditions": {
+        "trigger": "after_idle",
+        "dismissAfterDaysShown": 3
+      },
+      "matchingRules": [27],
+      "exclusionRules": [29]
+    },
+    {
+      "id": "android_ntp_after_idle_existing_users_with_hatch_2026",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Start searching faster!",
+        "descriptionText": "We now give you a fresh tab when you open the app. Or you can tap the link above to return to your last used tab.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Got It",
+        "primaryAction": {
+          "type": "dismiss"
+        },
+        "secondaryActionText": "Customize",
+        "secondaryAction": {
+          "type": "navigation",
+          "value": "settingsAfterInactivity"
+        }
+      },
+      "translations": {
+        "bg": {
+          "titleText": "Започнете да търсите по-бързо!",
+          "descriptionText": "Сега при отваряне на приложението се отваря нов раздел. Можете също да изберете връзката по-горе, за да се върнете към последно използвания раздел.",
+          "primaryActionText": "Разбрах",
+          "secondaryActionText": "Персонализирай"
+        },
+        "cs": {
+          "titleText": "Začni vyhledávat rychleji!",
+          "descriptionText": "Nyní ti při otevření aplikace zobrazíme novou kartu. Nebo můžeš klepnout na odkaz výše a vrátit se na naposledy použitou kartu.",
+          "primaryActionText": "Rozumím",
+          "secondaryActionText": "Přizpůsobit"
+        },
+        "da": {
+          "titleText": "Begynd at søge hurtigere!",
+          "descriptionText": "Vi giver dig nu en ny fane, når du åbner appen. Eller du kan trykke på linket ovenfor for at vende tilbage til den fane, du brugte sidst.",
+          "primaryActionText": "Forstået",
+          "secondaryActionText": "Tilpas"
+        },
+        "de": {
+          "titleText": "Suchen schneller starten!",
+          "descriptionText": "Beim Öffnen der App stellen wir dir jetzt direkt einen neuen Tab zur Verfügung. Oder du tippst auf den obigen Link, um zum zuletzt verwendeten Tab zurückzukehren.",
+          "primaryActionText": "Verstanden",
+          "secondaryActionText": "Anpassen"
+        },
+        "el": {
+          "titleText": "Ξεκίνα την αναζήτηση πιο γρήγορα!",
+          "descriptionText": "Πλέον, σου δίνουμε μια νέα καρτέλα όταν ανοίγεις την εφαρμογή. Ή μπορείς να πατήσεις τον παραπάνω σύνδεσμο για να επιστρέψεις στην καρτέλα που χρησιμοποίησες τελευταία φορά.",
+          "primaryActionText": "Κατάλαβα",
+          "secondaryActionText": "Προσαρμογή"
+        },
+        "es": {
+          "titleText": "¡Empieza a buscar más rápido!",
+          "descriptionText": "Ahora, cuando abres la aplicación, se abre una pestaña nueva. O puedes pulsar el enlace de arriba para volver a tu última pestaña utilizada.",
+          "primaryActionText": "Entendido",
+          "secondaryActionText": "Personalizar"
+        },
+        "et": {
+          "titleText": "Alusta otsimist kiiremini!",
+          "descriptionText": "Nüüd kuvatakse rakenduse avamisel uus vahekaart. Või saad viimati kasutatud vahekaardile naasmiseks puudutada ülalolevat linki.",
+          "primaryActionText": "Sain aru",
+          "secondaryActionText": "Kohanda"
+        },
+        "fi": {
+          "titleText": "Aloita haku nopeammin!",
+          "descriptionText": "Saat nyt uuden välilehden, kun avaat sovelluksen. Tai voit palata viimeksi käyttämääsi välilehteen napauttamalla yllä olevaa linkkiä.",
+          "primaryActionText": "Selvä",
+          "secondaryActionText": "Mukauta"
+        },
+        "fr": {
+          "titleText": "Lancez vos recherches plus vite !",
+          "descriptionText": "Désormais, un nouvel onglet s'ouvre lorsque vous lancez l'application. Vous pouvez également cliquer sur le lien ci-dessus pour revenir à l'onglet que vous consultiez en dernier.",
+          "primaryActionText": "J'ai compris",
+          "secondaryActionText": "Personnaliser"
+        },
+        "hr": {
+          "titleText": "Kreni brže pretraživati!",
+          "descriptionText": "Kada otvoriš aplikaciju, čeka te nova kartica. U protivnom, možeš dodirnuti gornju poveznicu za povratak na posljednju korištenu karticu.",
+          "primaryActionText": "U redu",
+          "secondaryActionText": "Prilagodi"
+        },
+        "hu": {
+          "titleText": "Kezdj el gyorsabban keresni!",
+          "descriptionText": "Mostantól új lapot nyitunk, amikor visszatérsz az appba. Vagy koppints a fenti hivatkozásra, ha vissza szeretnél térni a legutóbb használt lapodra.",
+          "primaryActionText": "Értem",
+          "secondaryActionText": "Testreszabás"
+        },
+        "it": {
+          "titleText": "Inizia a cercare più velocemente!",
+          "descriptionText": "Ora ti offriamo una nuova scheda quando apri l'app. Oppure puoi toccare il link qui sopra per tornare all'ultima scheda utilizzata.",
+          "primaryActionText": "Ho capito",
+          "secondaryActionText": "Personalizza"
+        },
+        "ja": {
+          "titleText": "もっと速く検索しよう！",
+          "descriptionText": "アプリを開くと、新しいタブが表示されるようになりました。上のリンクをタップして、最後に使用したタブに戻ることもできます。",
+          "primaryActionText": "了解",
+          "secondaryActionText": "カスタマイズ"
+        },
+        "lt": {
+          "titleText": "Pradėkite ieškoti greičiau!",
+          "descriptionText": "Dabar, kai atidarote programėlę, pateikiame naują skirtuką. Arba galite paliesti aukščiau esančią nuorodą, kad grįžtumėte į paskutinį naudotą skirtuką.",
+          "primaryActionText": "Supratau",
+          "secondaryActionText": "Pritaikyti"
+        },
+        "lv": {
+          "titleText": "Sāc meklēt ātrāk!",
+          "descriptionText": "Tagad, atverot lietotni, tiek atvērta jauna cilne. Vai arī tu vari pieskarties iepriekšminētajai saitei, lai atgrieztos pie pēdējās izmantotās cilnes.",
+          "primaryActionText": "Sapratu",
+          "secondaryActionText": "Pielāgot"
+        },
+        "nb": {
+          "titleText": "Begynn å søke raskere!",
+          "descriptionText": "Vi gir deg nå en ny fane når du åpner appen. Eller du kan trykke på lenken ovenfor for å gå tilbake til fanen du brukte sist.",
+          "primaryActionText": "Den er grei",
+          "secondaryActionText": "Tilpass"
+        },
+        "nl": {
+          "titleText": "Begin sneller met zoeken!",
+          "descriptionText": "Je krijgt nu een nieuw tabblad als je de app opent. Of je kunt op de bovenstaande link tikken om terug te keren naar je laatst gebruikte tabblad.",
+          "primaryActionText": "Ik snap het",
+          "secondaryActionText": "Aanpassen"
+        },
+        "pl": {
+          "titleText": "Wyszukuj szybciej!",
+          "descriptionText": "Teraz po otwarciu aplikacji dostajesz nową kartę. Albo możesz dotknąć powyższego linku, aby wrócić do ostatnio używanej karty.",
+          "primaryActionText": "Rozumiem",
+          "secondaryActionText": "Dostosuj"
+        },
+        "pt": {
+          "titleText": "Faz pesquisas mais rápidas!",
+          "descriptionText": "Agora apresentamos um separador novo quando abres a aplicação. Ou podes tocar no link acima para voltares ao último separador utilizado.",
+          "primaryActionText": "Entendi",
+          "secondaryActionText": "Personalizar"
+        },
+        "ro": {
+          "titleText": "Începe să cauți mai repede!",
+          "descriptionText": "Acum îți oferim o filă nouă atunci când deschizi aplicația. Sau poți atinge linkul de mai sus pentru a reveni la ultima filă utilizată.",
+          "primaryActionText": "Am înțeles",
+          "secondaryActionText": "Personalizează"
+        },
+        "ru": {
+          "titleText": "Ищи быстрее!",
+          "descriptionText": "Теперь при открытии приложения открывается новая вкладка. Нажмите на ссылку выше, чтобы вернуться к последней использованной вкладке.",
+          "primaryActionText": "Понятно",
+          "secondaryActionText": "Настроить"
+        },
+        "sk": {
+          "titleText": "Začni vyhľadávať rýchlejšie!",
+          "descriptionText": "Teraz ti pri otvorení aplikácie zobrazíme novú kartu. Alebo môžeš ťuknúť na odkaz vyššie a vrátiť sa na naposledy použitú kartu.",
+          "primaryActionText": "Rozumiem",
+          "secondaryActionText": "Prispôsobiť"
+        },
+        "sl": {
+          "titleText": "Začni iskati hitreje!",
+          "descriptionText": "Zdaj vam ob odprtju aplikacije ponudimo nov zavihek. Ali pa tapnite zgornjo povezavo, da se vrnete na zadnji uporabljeni zavihek.",
+          "primaryActionText": "Razumem",
+          "secondaryActionText": "Prilagodi"
+        },
+        "sv": {
+          "titleText": "Börja söka snabbare!",
+          "descriptionText": "Vi ger dig nu en ny flik när du öppnar appen. Eller så kan du trycka på länken ovan för att gå tillbaka till din senast använda flik.",
+          "primaryActionText": "Jag förstår",
+          "secondaryActionText": "Anpassa"
+        },
+        "tr": {
+          "titleText": "Daha hızlı aramaya başla!",
+          "descriptionText": "Uygulamayı açtığınızda artık karşınıza yeni bir sekme çıkar. Dilerseniz son kullandığınız sekmeye dönmek için yukarıdaki bağlantıya dokunabilirsiniz.",
+          "primaryActionText": "Anladım",
+          "secondaryActionText": "Özelleştir"
+        }
+      },
+      "surfaces": ["new_tab_page"],
+      "displayConditions": {
+        "trigger": "after_idle",
+        "dismissAfterDaysShown": 3
+      },
+      "matchingRules": [28],
+      "exclusionRules": [30]
+    },
     {
       "id": "android_deprecation_urgent_notice_os8",
       "content": {
         "messageType": "medium",
         "titleText": "Important reminder: Upgrade to Android 9 or higher to stay protected",
-        "descriptionText": "After July 23, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the browser, but updates and fixes will stop, and your privacy may be affected.",
+        "descriptionText": "After August 14, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the browser, but updates and fixes will stop, and your privacy may be affected.",
         "placeholder": "CriticalUpdate"
       },
-      "matchingRules": [25]
+      "matchingRules": [
+        25
+      ]
     },
     {
       "id": "android_deprecation_urgent_notice_os8_ppro",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Important reminder: Upgrade to Android 9 or request subscription refund",
-        "descriptionText": "After July 23, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the browser, but updates and fixes will stop, and your privacy may be affected.",
+        "descriptionText": "After August 14, 2026, DuckDuckGo will stop supporting Android 8 and 8.1. You can still use the browser, but updates and fixes will stop, and your privacy may be affected.",
         "placeholder": "CriticalUpdate",
         "primaryActionText": "Request Subscription Refund",
         "primaryAction": {
@@ -24,7 +380,9 @@
           "value": "https://duckduckgo.com/subscription-support"
         }
       },
-      "matchingRules": [26]
+      "matchingRules": [
+        26
+      ]
     },
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -394,24 +752,222 @@
       ]
     },
     {
-      "id": "android_survey_net_attribute_rating_d0_3",
+      "id": "whats_new_q2_2026",
+      "surfaces": [
+        "modal"
+      ],
       "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help us improve the app!",
-        "descriptionText": "Take our short anonymous survey and share your feedback.",
+        "messageType": "cards_list",
+        "titleText": "What's New",
+        "descriptionText": "What's new in DuckDuckGo.",
         "placeholder": "DDGAnnounce",
-        "primaryActionText": "Take Survey",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckduckgo-feature-96-2-4x.png",
+        "primaryActionText": "Dismiss",
         "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/260307",
-          "additionalParameters": {
-            "queryParams": "atb;var;delta;av;ddgv;man;mo;locale"
+          "type": "dismiss",
+          "value": ""
+        },
+        "listItems": [
+          {
+            "id": "sync_duck_ai_chats_across_devices",
+            "type": "two_line_list_item",
+            "titleText": "Sync Duck.ai Chats Across Devices",
+            "descriptionText": "Sync your chats across desktop and mobile by visiting Duck.ai Settings > Sync & Backup.",
+            "placeholder": "Duck.ai",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckai-chat-feature-96-4x.png",
+            "primaryAction": {
+              "type": "url",
+              "value": "https://duck.ai/"
+            }
+          },
+          {
+            "id": "burn_single_tabs",
+            "type": "two_line_list_item",
+            "titleText": "Burn Single Tabs",
+            "descriptionText": "Enjoy the option to burn individual tabs or Duck.ai chats with the Fire Button.",
+            "placeholder": "Announce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/fire-feature-96-4x.png"
+          },
+          {
+            "id": "explore_more_subscription_options",
+            "type": "two_line_list_item",
+            "titleText": "Explore More Subscription Options",
+            "descriptionText": "Pick from two plans: Plus (for all four protections) or Pro (for more powerful AI functionality).",
+            "placeholder": "PrivacyShield",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/subscription-feature-96-4x.png",
+            "primaryAction": {
+              "type": "url",
+              "value": "https://duckduckgo.com/pro/plans?origin=funnel_whatsnew_android_julyxxvi"
+            }
           }
-        }
+        ]
       },
       "matchingRules": [
-        2
+        33
       ]
+    },
+    {
+      "id": "android_fire_tabs_promo",
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "Try Fire Tabs",
+        "descriptionText": "Browse without saving local history or sign in to sites with a different account.",
+        "placeholder": "Announce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/fire-mode-rmf.png",
+        "primaryActionText": "Try Fire Tabs",
+        "primaryAction": { "type": "navigation", "value": "tabSwitcherWithParams", "additionalParameters": { "payload": "{\"browserMode\":\"FIRE\"}" } },
+        "secondaryActionText": "Not Now",
+        "secondaryAction": { "type": "dismiss", "value": "", "additionalParameters": {} }
+      },
+      "matchingRules": [31],
+      "exclusionRules": [32],
+      "translations": {
+        "sk": {
+          "titleText": "Vyskúšajte Fire Tabs",
+          "descriptionText": "Prehliadajte web bez ukladania lokálnej histórie alebo sa prihláste na stránky pomocou iného účtu.",
+          "primaryActionText": "Vyskúšajte Fire Tabs",
+          "secondaryActionText": "Teraz nie"
+        },
+        "ru": {
+          "titleText": "Попробуйте Fire Tabs",
+          "descriptionText": "Просматривайте сайты без сохранения локальной истории или входите под другой учётной записью.",
+          "primaryActionText": "Попробуйте Fire Tabs",
+          "secondaryActionText": "Не сейчас"
+        },
+        "it": {
+          "titleText": "Prova Fire Tabs",
+          "descriptionText": "Naviga senza salvare la cronologia locale o accedi ai siti con un altro account.",
+          "primaryActionText": "Prova Fire Tabs",
+          "secondaryActionText": "Non ora"
+        },
+        "ro": {
+          "titleText": "Încearcă Fire Tabs",
+          "descriptionText": "Navighează fără a salva istoricul local sau conectează-te la site-uri cu un alt cont.",
+          "primaryActionText": "Încearcă Fire Tabs",
+          "secondaryActionText": "Nu acum"
+        },
+        "cs": {
+          "titleText": "Vyzkoušejte Fire Tabs",
+          "descriptionText": "Prohlížejte web bez ukládání místní historie nebo se přihlaste na weby pod jiným účtem.",
+          "primaryActionText": "Vyzkoušejte Fire Tabs",
+          "secondaryActionText": "Teď ne"
+        },
+        "lt": {
+          "titleText": "Išbandykite Fire Tabs",
+          "descriptionText": "Naršykite neišsaugodami vietinės naršymo istorijos arba prisijunkite prie svetainių su kita paskyra.",
+          "primaryActionText": "Išbandykite Fire Tabs",
+          "secondaryActionText": "Ne dabar"
+        },
+        "da": {
+          "titleText": "Prøv Fire Tabs",
+          "descriptionText": "Surf uden at gemme lokal historik, eller log ind på websteder med en anden konto.",
+          "primaryActionText": "Prøv Fire Tabs",
+          "secondaryActionText": "Ikke nu"
+        },
+        "nb": {
+          "titleText": "Prøv Fire Tabs",
+          "descriptionText": "Surf uten å lagre lokal historikk, eller logg inn på nettsteder med en annen konto.",
+          "primaryActionText": "Prøv Fire Tabs",
+          "secondaryActionText": "Ikke nå"
+        },
+        "sl": {
+          "titleText": "Preizkusite Fire Tabs",
+          "descriptionText": "Brskajte brez shranjevanja lokalne zgodovine ali se v spletna mesta prijavite z drugim računom.",
+          "primaryActionText": "Preizkusite Fire Tabs",
+          "secondaryActionText": "Ne zdaj"
+        },
+        "hr": {
+          "titleText": "Isprobajte Fire Tabs",
+          "descriptionText": "Pregledavajte bez spremanja lokalne povijesti ili se prijavite na web-mjesta s drugim računom.",
+          "primaryActionText": "Isprobajte Fire Tabs",
+          "secondaryActionText": "Ne sada"
+        },
+        "et": {
+          "titleText": "Proovige Fire Tabs",
+          "descriptionText": "Sirvige ilma kohalikku ajalugu salvestamata või logige saitidele sisse teise kontoga.",
+          "primaryActionText": "Proovige Fire Tabs",
+          "secondaryActionText": "Mitte praegu"
+        },
+        "de": {
+          "titleText": "Fire Tabs testen",
+          "descriptionText": "Surfe, ohne lokalen Verlauf zu speichern, oder melde dich mit einem anderen Konto bei Websites an.",
+          "primaryActionText": "Fire Tabs testen",
+          "secondaryActionText": "Nicht jetzt"
+        },
+        "el": {
+          "titleText": "Δοκιμάστε τα Fire Tabs",
+          "descriptionText": "Περιηγηθείτε χωρίς αποθήκευση τοπικού ιστορικού ή συνδεθείτε σε ιστότοπους με διαφορετικό λογαριασμό.",
+          "primaryActionText": "Δοκιμάστε τα Fire Tabs",
+          "secondaryActionText": "Όχι τώρα"
+        },
+        "pl": {
+          "titleText": "Wypróbuj Fire Tabs",
+          "descriptionText": "Przeglądaj bez zapisywania lokalnej historii lub zaloguj się na stronach za pomocą innego konta.",
+          "primaryActionText": "Wypróbuj Fire Tabs",
+          "secondaryActionText": "Nie teraz"
+        },
+        "hu": {
+          "titleText": "Próbáld ki a Fire Tabs funkciót",
+          "descriptionText": "Böngéssz a helyi előzmények mentése nélkül, vagy jelentkezz be webhelyekre egy másik fiókkal.",
+          "primaryActionText": "Próbáld ki a Fire Tabs funkciót",
+          "secondaryActionText": "Most nem"
+        },
+        "pt": {
+          "titleText": "Experimente o Fire Tabs",
+          "descriptionText": "Navegue sem guardar o histórico local ou inicie sessão em sites com uma conta diferente.",
+          "primaryActionText": "Experimente o Fire Tabs",
+          "secondaryActionText": "Agora não"
+        },
+        "fr": {
+          "titleText": "Essayer Fire Tabs",
+          "descriptionText": "Naviguez sans enregistrer l'historique local ou connectez-vous à des sites avec un autre compte.",
+          "primaryActionText": "Essayer Fire Tabs",
+          "secondaryActionText": "Pas maintenant"
+        },
+        "tr": {
+          "titleText": "Fire Tabs'ı deneyin",
+          "descriptionText": "Yerel geçmişi kaydetmeden gezinin veya sitelerde farklı bir hesapla oturum açın.",
+          "primaryActionText": "Fire Tabs'ı deneyin",
+          "secondaryActionText": "Şimdi değil"
+        },
+        "bg": {
+          "titleText": "Изпробвайте Fire Tabs",
+          "descriptionText": "Сърфирайте, без да запазвате локална история, или влизайте в сайтове с друг акаунт.",
+          "primaryActionText": "Изпробвайте Fire Tabs",
+          "secondaryActionText": "Не сега"
+        },
+        "fi": {
+          "titleText": "Kokeile Fire Tabs -ominaisuutta",
+          "descriptionText": "Selaa tallentamatta paikallista historiaa tai kirjaudu sivustoille eri tilillä.",
+          "primaryActionText": "Kokeile Fire Tabs -ominaisuutta",
+          "secondaryActionText": "Ei nyt"
+        },
+        "es": {
+          "titleText": "Prueba Fire Tabs",
+          "descriptionText": "Navega sin guardar el historial local o inicia sesión en sitios con una cuenta diferente.",
+          "primaryActionText": "Prueba Fire Tabs",
+          "secondaryActionText": "Ahora no"
+        },
+        "lv": {
+          "titleText": "Izmēģini Fire Tabs",
+          "descriptionText": "Pārlūko bez lokālās vēstures saglabāšanas vai piesakies vietnēs ar citu kontu.",
+          "primaryActionText": "Izmēģini Fire Tabs",
+          "secondaryActionText": "Ne tagad"
+        },
+        "nl": {
+          "titleText": "Probeer Fire Tabs",
+          "descriptionText": "Surf zonder lokale geschiedenis op te slaan of meld je aan bij sites met een ander account.",
+          "primaryActionText": "Probeer Fire Tabs",
+          "secondaryActionText": "Niet nu"
+        },
+        "sv": {
+          "titleText": "Prova Fire Tabs",
+          "descriptionText": "Surfa utan att spara lokal historik eller logga in på webbplatser med ett annat konto.",
+          "primaryActionText": "Prova Fire Tabs",
+          "secondaryActionText": "Inte nu"
+        }
+      },
+      "surfaces": ["new_tab_page"]
     }
   ],
   "rules": [
@@ -435,25 +991,6 @@
         "daysSinceInstalled": {
           "min": 14,
           "max": 21
-        }
-      }
-    },
-    {
-      "id": 2,
-      "targetPercentile": {
-        "before": 0.1
-      },
-      "attributes": {
-        "locale": {
-          "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
-          ]
-        },
-        "daysSinceInstalled": {
-          "max": 3
         }
       }
     },
@@ -984,6 +1521,70 @@
         },
         "pproSubscriber": {
           "value": true
+        }
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "ntpAfterIdleState": {
+          "value": ["eligibleCardHidden"]
+        }
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "ntpAfterIdleState": {
+          "value": ["eligibleCardShown"]
+        }
+      }
+    },
+    {
+      "id": 29,
+      "attributes": {
+        "messageShown": {
+          "value": ["android_ntp_after_idle_existing_users_with_hatch_2026"]
+        }
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "messageShown": {
+          "value": ["android_ntp_after_idle_existing_users_without_hatch_2026"]
+        }
+      }
+    },
+    {
+      "id": 31,
+      "attributes": {
+        "fireModeAvailable": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 32,
+      "attributes": {
+        "fireModeUsed": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 33,
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "appVersion": {
+          "min": "5.288.0"
         }
       }
     }
