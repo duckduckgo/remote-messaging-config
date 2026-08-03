@@ -24,7 +24,7 @@
             "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckai-chat-feature-96-4x.png",
             "primaryAction": {
               "type": "url",
-              "value": "http://duck.ai/"
+              "value": "https://duck.ai/"
             }
           },
           {
