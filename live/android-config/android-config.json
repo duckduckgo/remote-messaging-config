@@ -862,7 +862,8 @@
         5
       ],
       "exclusionRules": [
-        9
+        9,
+        34
       ]
     },
     {
@@ -976,7 +977,8 @@
         5
       ],
       "exclusionRules": [
-        10
+        10,
+        34
       ]
     },
     {
@@ -1404,11 +1406,6 @@
       "attributes": {
         "duckPlayerEnabled": {
           "value": true
-        },
-        "interactedWithMessage": {
-          "value": [
-            "funnel_newtab_adblockermf_android2"
-          ]
         }
       }
     },
@@ -1417,11 +1414,6 @@
       "attributes": {
         "duckPlayerEnabled": {
           "value": false
-        },
-        "interactedWithMessage": {
-          "value": [
-            "funnel_newtab_adblockermf_android1"
-          ]
         }
       }
     },
@@ -1916,6 +1908,17 @@
         },
         "appVersion": {
           "min": "5.288.0"
+        }
+      }
+    },
+    {
+      "id": 34,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "funnel_newtab_adblockermf_android1",
+            "funnel_newtab_adblockermf_android2"
+          ]
         }
       }
     }
