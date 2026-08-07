@@ -957,20 +957,6 @@
           "value": ["en-US"]
         }
       }
-    },
-    {
-      "id": 32,
-      "attributes": {
-        "appVersion": {
-          "min": "7.225.0"
-        },
-        "locale": {
-          "value": ["en-US"]
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        }
-      }
     }
   ]
 }
