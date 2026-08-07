@@ -1,5 +1,5 @@
 {
-  "version": 113,
+  "version": 114,
   "messages": [
     {
       "id": "android_ntp_after_idle_existing_users_without_hatch_2026",
@@ -982,61 +982,6 @@
       ]
     },
     {
-      "id": "whats_new_q2_2026",
-      "surfaces": [
-        "modal"
-      ],
-      "content": {
-        "messageType": "cards_list",
-        "titleText": "What's New",
-        "descriptionText": "What's new in DuckDuckGo.",
-        "placeholder": "DDGAnnounce",
-        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckduckgo-feature-96-2-4x.png",
-        "primaryActionText": "Dismiss",
-        "primaryAction": {
-          "type": "dismiss",
-          "value": ""
-        },
-        "listItems": [
-          {
-            "id": "sync_duck_ai_chats_across_devices",
-            "type": "two_line_list_item",
-            "titleText": "Sync Duck.ai Chats Across Devices",
-            "descriptionText": "Sync your chats across desktop and mobile by visiting Duck.ai Settings > Sync & Backup.",
-            "placeholder": "Duck.ai",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckai-chat-feature-96-4x.png",
-            "primaryAction": {
-              "type": "url",
-              "value": "https://duck.ai/"
-            }
-          },
-          {
-            "id": "burn_single_tabs",
-            "type": "two_line_list_item",
-            "titleText": "Burn Single Tabs",
-            "descriptionText": "Enjoy the option to burn individual tabs or Duck.ai chats with the Fire Button.",
-            "placeholder": "Announce",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/fire-feature-96-4x.png"
-          },
-          {
-            "id": "explore_more_subscription_options",
-            "type": "two_line_list_item",
-            "titleText": "Explore More Subscription Options",
-            "descriptionText": "Pick from two plans: Plus (for all four protections) or Pro (for more powerful AI functionality).",
-            "placeholder": "PrivacyShield",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/subscription-feature-96-4x.png",
-            "primaryAction": {
-              "type": "url",
-              "value": "https://duckduckgo.com/pro/plans?origin=funnel_whatsnew_android_julyxxvi"
-            }
-          }
-        ]
-      },
-      "matchingRules": [
-        33
-      ]
-    },
-    {
       "id": "android_fire_tabs_promo",
       "content": {
         "messageType": "big_two_action",
@@ -1892,22 +1837,6 @@
       "attributes": {
         "fireModeUsed": {
           "value": true
-        }
-      }
-    },
-    {
-      "id": 33,
-      "attributes": {
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        },
-        "appVersion": {
-          "min": "5.288.0"
         }
       }
     },
