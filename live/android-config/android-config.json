@@ -1116,22 +1116,6 @@
       }
     },
     {
-      "id": 27,
-      "attributes": {
-        "ntpAfterIdleState": {
-          "value": ["eligibleCardHidden"]
-        }
-      }
-    },
-    {
-      "id": 28,
-      "attributes": {
-        "ntpAfterIdleState": {
-          "value": ["eligibleCardShown"]
-        }
-      }
-    },
-    {
       "id": 31,
       "attributes": {
         "fireModeAvailable": {
