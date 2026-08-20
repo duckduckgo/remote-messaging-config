@@ -11,7 +11,7 @@
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://duckduckgo.com/survey",
+          "value": "https://example.com/survey",
           "additionalParameters": {
             "queryParams": "atb;var;delta;osv;ddgv;last_duck_ai_usage"
           }
@@ -30,7 +30,7 @@
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://duckduckgo.com/survey",
+          "value": "https://example.com/survey",
           "additionalParameters": {
             "queryParams": "atb;var;delta;osv;ddgv"
           }
@@ -49,7 +49,7 @@
         "primaryActionText": "Take Survey",
         "primaryAction": {
           "type": "survey",
-          "value": "https://duckduckgo.com/survey",
+          "value": "https://example.com/survey",
           "additionalParameters": {
             "queryParams": "atb;var;delta;osv;ddgv;last_search_state;last_duck_ai_usage"
           }
