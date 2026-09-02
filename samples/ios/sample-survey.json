@@ -1,0 +1,72 @@
+{
+  "version": 0,
+  "messages": [
+    {
+      "id": "survey-with-basic-parameters",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve DuckDuckGo",
+        "descriptionText": "Share your feedback about your experience with DuckDuckGo.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://example.com/survey",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;osv;ddgv;mo;locale"
+          }
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "survey-with-duck-ai-usage",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve Duck.ai",
+        "descriptionText": "Share your feedback about your experience with Duck.ai.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://example.com/survey",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;osv;ddgv;last_duck_ai_usage"
+          }
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "survey-with-search-and-duck-ai-usage",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tell Us About Your Search Experience",
+        "descriptionText": "Share your feedback about using Search and Duck.ai.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://example.com/survey",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;osv;ddgv;last_search_state;last_duck_ai_usage"
+          }
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    }
+  ],
+  "rules": []
+}
