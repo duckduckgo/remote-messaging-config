@@ -1,6 +1,100 @@
 {
-  "version": 130,
+  "version": 131,
   "messages": [
+    {
+      "id": "ntp-layout-preview-20260921-01-small",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "small",
+        "titleText": "RMF preview: compact message",
+        "descriptionText": "A short inline message. Check its spacing between the search field and favorites."
+      },
+      "metrics": {
+        "state": "disabled"
+      }
+    },
+    {
+      "id": "ntp-layout-preview-20260921-02-medium",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "medium",
+        "titleText": "RMF preview: illustrated message",
+        "descriptionText": "This longer description checks text wrapping alongside a built-in illustration. Try a larger text size and rotate the device to inspect the layout.",
+        "placeholder": "DDGAnnounce"
+      },
+      "metrics": {
+        "state": "disabled"
+      }
+    },
+    {
+      "id": "ntp-layout-preview-20260921-03-big-single-action",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "RMF preview: one action",
+        "descriptionText": "A larger illustrated card with one button. Dismiss it to continue testing the next message.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Dismiss preview",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "metrics": {
+        "state": "disabled"
+      }
+    },
+    {
+      "id": "ntp-layout-preview-20260921-04-big-two-action",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "RMF preview: two actions",
+        "descriptionText": "Check both buttons and the card height. The primary action opens example.com; the secondary action dismisses this preview.",
+        "placeholder": "AppUpdate",
+        "primaryActionText": "Open example",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://example.com/"
+        },
+        "secondaryActionText": "Dismiss preview",
+        "secondaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "metrics": {
+        "state": "disabled"
+      }
+    },
+    {
+      "id": "ntp-layout-preview-20260921-05-promo-single-action",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "promo_single_action",
+        "titleText": "RMF preview: promotional card",
+        "descriptionText": "Check the promotional presentation, illustration, and action placement.",
+        "placeholder": "NewForMacAndWindows",
+        "actionText": "Dismiss preview",
+        "action": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "metrics": {
+        "state": "disabled"
+      }
+    },
     {
       "id": "ios_pir_announcement_1",
       "content": {
