@@ -20,6 +20,9 @@
           }
         }
       },
+      "displayConditions": {
+        "maxImpressions": 3
+      },
       "matchingRules": [],
       "exclusionRules": []
     },
