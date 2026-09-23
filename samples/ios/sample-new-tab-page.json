@@ -1,0 +1,22 @@
+{
+  "version": 0,
+  "messages": [
+    {
+      "id": "ios-small-message",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "small",
+        "titleText": "Privacy, Simplified",
+        "descriptionText": "DuckDuckGo helps protect your everyday browsing."
+      },
+      "displayConditions": {
+        "maxImpressions": 3
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    }
+  ],
+  "rules": []
+}
