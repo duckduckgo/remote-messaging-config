@@ -11,8 +11,90 @@
         "titleText": "Privacy, Simplified",
         "descriptionText": "DuckDuckGo helps protect your everyday browsing."
       },
-      "displayConditions": {
-        "maxImpressions": 3
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "ios-medium-message",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "medium",
+        "titleText": "Explore DuckDuckGo",
+        "descriptionText": "Discover more privacy features in the browser.",
+        "placeholder": "DDGAnnounce"
+      },
+      "translations": {
+        "es": {
+          "titleText": "Explora DuckDuckGo",
+          "descriptionText": "Descubre más funciones de privacidad en el navegador."
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "ios-single-action-message",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Browse With More Privacy",
+        "descriptionText": "Learn how DuckDuckGo protects your browsing.",
+        "placeholder": "PrivacyShield",
+        "primaryActionText": "Learn More",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/app"
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "ios-two-action-message",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "New Update Available",
+        "descriptionText": "A new version of DuckDuckGo is ready to install.",
+        "placeholder": "AppUpdate",
+        "primaryActionText": "Update",
+        "primaryAction": {
+          "type": "appstore",
+          "value": "com.duckduckgo.mobile.ios"
+        },
+        "secondaryActionText": "Not Now",
+        "secondaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "ios-share-promo",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "promo_single_action",
+        "titleText": "Share DuckDuckGo",
+        "descriptionText": "Help friends and family browse more privately.",
+        "placeholder": "Announce",
+        "actionText": "Share",
+        "action": {
+          "type": "share",
+          "value": "https://duckduckgo.com/app",
+          "additionalParameters": {
+            "title": "Try the DuckDuckGo browser"
+          }
+        }
       },
       "matchingRules": [],
       "exclusionRules": []

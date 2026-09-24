@@ -1,0 +1,54 @@
+{
+  "version": 0,
+  "messages": [
+    {
+      "id": "ios-featured-cards-list",
+      "surfaces": [
+        "modal"
+      ],
+      "content": {
+        "messageType": "cards_list",
+        "titleText": "Featured Update",
+        "descriptionText": "See how a featured card appears in a modal message.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Done",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        },
+        "listItems": [
+          {
+            "id": "youtube-ad-blocking-feature",
+            "type": "featured_two_line_single_action_list_item",
+            "titleText": "Watch YouTube Without Ads",
+            "descriptionText": "DuckDuckGo can block ads in YouTube videos while you browse.",
+            "placeholder": "Announce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube_new_4x.png",
+            "primaryActionText": "Learn More",
+            "primaryAction": {
+              "type": "url_in_context",
+              "value": "https://duckduckgo.com/duckduckgo-help-pages/duck-player"
+            }
+          }
+        ]
+      },
+      "translations": {
+        "es": {
+          "titleText": "Actualización destacada",
+          "descriptionText": "Descubre cómo aparece una tarjeta destacada en un mensaje modal.",
+          "primaryActionText": "Listo",
+          "listItems": {
+            "youtube-ad-blocking-feature": {
+              "titleText": "Mira YouTube sin anuncios",
+              "descriptionText": "DuckDuckGo puede bloquear los anuncios de los vídeos de YouTube mientras navegas.",
+              "primaryActionText": "Más información"
+            }
+          }
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    }
+  ],
+  "rules": []
+}

@@ -419,7 +419,7 @@
     },
     "ActionType": {
       "type": "string",
-      "enum": ["share", "url", "url_in_context", "appstore", "dismiss", "survey", "navigation"]
+      "enum": ["share", "url", "appstore", "dismiss", "survey", "navigation"]
     }
   }
 }

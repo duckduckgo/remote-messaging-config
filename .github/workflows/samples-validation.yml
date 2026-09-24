@@ -1,0 +1,32 @@
+name: Validate samples
+
+on:
+  pull_request:
+    paths:
+      - 'samples/**'
+      - 'schemas/ios/schema.json'
+      - 'schemas/macos/schema.json'
+      - '.github/workflows/samples-validation.yml'
+
+jobs:
+  validate:
+    name: Validate Sample Configs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate iOS samples
+        run: |
+          for file in samples/ios/*.json; do
+            npx --yes ajv-cli@5.0.0 validate -s schemas/ios/schema.json -d "$file" --all-errors
+          done
+
+      - name: Validate macOS samples
+        run: |
+          for file in samples/macos/*.json; do
+            npx --yes ajv-cli@5.0.0 validate -s schemas/macos/schema.json -d "$file" --all-errors
+          done

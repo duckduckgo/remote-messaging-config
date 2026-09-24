@@ -1,0 +1,85 @@
+{
+  "version": 0,
+  "messages": [
+    {
+      "id": "macos-small-message",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "small",
+        "titleText": "Privacy, Simplified",
+        "descriptionText": "DuckDuckGo helps protect your everyday browsing."
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "macos-informational-message",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "medium",
+        "titleText": "A More Private Browser",
+        "descriptionText": "DuckDuckGo includes privacy protections designed for everyday browsing.",
+        "placeholder": "PrivacyShield"
+      },
+      "translations": {
+        "es": {
+          "titleText": "Un navegador más privado",
+          "descriptionText": "DuckDuckGo incluye protecciones de privacidad diseñadas para la navegación diaria."
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": [],
+      "metrics": {
+        "state": "disabled"
+      }
+    },
+    {
+      "id": "macos-software-update-message",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "A macOS Update Is Available",
+        "descriptionText": "Update macOS to continue receiving the latest security improvements.",
+        "placeholder": "CriticalUpdate",
+        "primaryActionText": "Open Software Update",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "softwareUpdate"
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "macos-release-notes-message",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_two_action",
+        "titleText": "See What's New",
+        "descriptionText": "Learn about the latest DuckDuckGo improvements.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "View Release Notes",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://example.com/release-notes"
+        },
+        "secondaryActionText": "Not Now",
+        "secondaryAction": {
+          "type": "dismiss",
+          "value": ""
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    }
+  ],
+  "rules": []
+}
