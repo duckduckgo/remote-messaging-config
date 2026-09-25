@@ -1,0 +1,21 @@
+{
+  "version": 0,
+  "messages": [
+    {
+      "id": "ios-medium-message-with-image-url",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "medium",
+        "titleText": "Remote Image Example",
+        "descriptionText": "This message loads a remote image and uses the placeholder while loading or if the request fails.",
+        "placeholder": "Announce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/fire-feature-96-4x.png"
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    }
+  ],
+  "rules": []
+}

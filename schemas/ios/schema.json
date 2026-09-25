@@ -185,7 +185,7 @@
         },
         "type": {
           "type": "string",
-          "enum": ["two_line_list_item", "section_title"],
+          "enum": ["two_line_list_item", "featured_two_line_single_action_list_item", "section_title"],
           "description": "Type of list item"
         },
         "titleText": {
@@ -204,6 +204,10 @@
         "imageUrl": {
           "type": "string",
           "description": "Remote image URL for the list item. When present, the client uses this image and falls back to placeholder while loading or if loading fails."
+        },
+        "primaryActionText": {
+          "type": "string",
+          "description": "Text for the featured list item action button"
         },
         "primaryAction": {
           "$ref": "#/definitions/MessageAction",
@@ -239,6 +243,21 @@
           },
           "then": {
             "required": ["itemIDs"]
+          }
+        },
+        {
+          "if": {
+            "properties": { "type": { "const": "featured_two_line_single_action_list_item" } },
+            "required": ["type"]
+          },
+          "then": {
+            "required": ["descriptionText"],
+            "properties": {
+              "descriptionText": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
           }
         }
       ]
@@ -311,6 +330,11 @@
           "type": "integer",
           "minimum": 1,
           "description": "Auto-dismiss the message N days after first display per user, even without interaction"
+        },
+        "maxImpressions": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Auto-dismiss the message after N confirmed displays per user on iOS"
         }
       }
     },
@@ -359,6 +383,9 @@
           "type": "string"
         },
         "descriptionText": {
+          "type": "string"
+        },
+        "primaryActionText": {
           "type": "string"
         }
       }

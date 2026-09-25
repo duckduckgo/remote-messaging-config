@@ -1,0 +1,28 @@
+{
+  "version": 0,
+  "messages": [
+    {
+      "id": "macos-tab-bar-survey-with-usage-state",
+      "surfaces": [
+        "tab_bar"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Share Feedback",
+        "descriptionText": "Tell us about your Search and Duck.ai experience.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://example.com/survey",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;osv;ddgv;last_search_state;last_duck_ai_usage"
+          }
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    }
+  ],
+  "rules": []
+}
