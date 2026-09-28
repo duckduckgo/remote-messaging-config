@@ -1,5 +1,5 @@
 {
-  "version": 131,
+  "version": 132,
   "messages": [
     {
       "id": "ios_pir_announcement_1",
@@ -889,7 +889,7 @@
     {
       "id": 20,
       "targetPercentile": {
-        "before": 0.75
+        "before": 0.9
       },
       "attributes": {
         "appVersion": {
