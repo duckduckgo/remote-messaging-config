@@ -1,0 +1,28 @@
+{
+  "version": 0,
+  "messages": [
+    {
+      "id": "macos-new-tab-survey-with-usage-state",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve DuckDuckGo",
+        "descriptionText": "Share feedback about Search and Duck.ai.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://example.com/survey",
+          "additionalParameters": {
+            "queryParams": "atb;var;delta;osv;ddgv;last_search_state;last_duck_ai_usage"
+          }
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    }
+  ],
+  "rules": []
+}

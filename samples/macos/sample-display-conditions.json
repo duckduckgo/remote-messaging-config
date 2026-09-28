@@ -1,0 +1,44 @@
+{
+  "version": 0,
+  "messages": [
+    {
+      "id": "macos-test-ntp-max-impressions-8",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "medium",
+        "titleText": "NTP impression-limit test",
+        "descriptionText": "Test-only message. It should stop displaying after 8 confirmed impressions."
+      },
+      "displayConditions": {
+        "maxImpressions": 8
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    },
+    {
+      "id": "macos-test-tab-bar-max-impressions-8",
+      "surfaces": [
+        "tab_bar"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Tab-bar impression-limit test",
+        "descriptionText": "Test-only message. It should stop displaying after 8 confirmed impressions.",
+        "placeholder": "Announce",
+        "primaryActionText": "Take Survey",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://example.com/survey"
+        }
+      },
+      "displayConditions": {
+        "maxImpressions": 8
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    }
+  ],
+  "rules": []
+}

@@ -1,0 +1,80 @@
+{
+  "version": 0,
+  "messages": [
+    {
+      "id": "ios-whats-new-cards-list",
+      "surfaces": [
+        "modal"
+      ],
+      "content": {
+        "messageType": "cards_list",
+        "titleText": "What's New",
+        "descriptionText": "Discover recent DuckDuckGo improvements.",
+        "placeholder": "DDGAnnounce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckduckgo-feature-96-2-4x.png",
+        "primaryActionText": "Done",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        },
+        "listItems": [
+          {
+            "id": "private-ai-chat",
+            "type": "two_line_list_item",
+            "titleText": "Chat Privately With Duck.ai",
+            "descriptionText": "Use private AI chat without exposing your conversations to model providers.",
+            "placeholder": "Duck.ai",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckai-chat-feature-96-4x.png",
+            "primaryAction": {
+              "type": "url_in_context",
+              "value": "https://duck.ai/"
+            }
+          },
+          {
+            "id": "privacy-features-section",
+            "type": "section_title",
+            "titleText": "More Privacy Features",
+            "itemIDs": [
+              "personal-information-removal"
+            ]
+          },
+          {
+            "id": "personal-information-removal",
+            "type": "two_line_list_item",
+            "titleText": "Remove Personal Information",
+            "descriptionText": "Find and remove personal information from data broker sites.",
+            "placeholder": "PIR",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/subscription-feature-96-4x.png",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "pir.main"
+            }
+          }
+        ]
+      },
+      "translations": {
+        "es": {
+          "titleText": "Novedades",
+          "descriptionText": "Descubre las mejoras recientes de DuckDuckGo.",
+          "primaryActionText": "Listo",
+          "listItems": {
+            "private-ai-chat": {
+              "titleText": "Chatea de forma privada con Duck.ai",
+              "descriptionText": "Usa un chat de IA privado sin exponer tus conversaciones a los proveedores de modelos."
+            },
+            "privacy-features-section": {
+              "titleText": "Más funciones de privacidad"
+            },
+            "personal-information-removal": {
+              "titleText": "Elimina información personal",
+              "descriptionText": "Encuentra y elimina información personal de sitios de corredores de datos."
+            }
+          }
+        }
+      },
+      "matchingRules": [],
+      "exclusionRules": []
+    }
+  ],
+  "rules": []
+}

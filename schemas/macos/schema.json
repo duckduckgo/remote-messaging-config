@@ -71,6 +71,9 @@
         },
         "metrics": {
           "$ref": "#/definitions/Metrics"
+        },
+        "displayConditions": {
+          "$ref": "#/definitions/DisplayConditions"
         }
       }
     },
@@ -214,6 +217,18 @@
           "type": "string",
           "enum": ["disabled", "enabled"],
           "description": "Metrics collection state"
+        }
+      }
+    },
+    "DisplayConditions": {
+      "type": "object",
+      "description": "Client-side display conditions that gate when a message is shown",
+      "additionalProperties": false,
+      "properties": {
+        "maxImpressions": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Auto-dismiss the message after N confirmed displays per user on macOS"
         }
       }
     },
@@ -419,7 +434,7 @@
     },
     "ActionType": {
       "type": "string",
-      "enum": ["share", "url", "url_in_context", "appstore", "dismiss", "survey", "navigation"]
+      "enum": ["share", "url", "appstore", "dismiss", "survey", "navigation"]
     }
   }
 }
