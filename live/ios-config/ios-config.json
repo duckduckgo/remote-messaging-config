@@ -1,6 +1,30 @@
 {
-  "version": 132,
+  "version": 133,
   "messages": [
+    {
+      "id": "ios_test_can_upgrade_os_true",
+      "content": {
+        "messageType": "medium",
+        "titleText": "[TEST] canUpgradeOS = true",
+        "descriptionText": "Test message for the iOS canUpgradeOS matcher. This device can update to a newer iOS. Do not merge.",
+        "placeholder": "Announce"
+      },
+      "matchingRules": [
+        29
+      ]
+    },
+    {
+      "id": "ios_test_can_upgrade_os_false",
+      "content": {
+        "messageType": "medium",
+        "titleText": "[TEST] canUpgradeOS = false",
+        "descriptionText": "Test message for the iOS canUpgradeOS matcher. This device can't update to a newer iOS. Do not merge.",
+        "placeholder": "CriticalUpdate"
+      },
+      "matchingRules": [
+        30
+      ]
+    },
     {
       "id": "ios_pir_announcement_1",
       "content": {
@@ -464,6 +488,28 @@
     }
   ],
   "rules": [
+    {
+      "id": 29,
+      "attributes": {
+        "isInternalUser": {
+          "value": true
+        },
+        "canUpgradeOS": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "isInternalUser": {
+          "value": true
+        },
+        "canUpgradeOS": {
+          "value": false
+        }
+      }
+    },
     {
       "id": 1,
       "attributes": {
