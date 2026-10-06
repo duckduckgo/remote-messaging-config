@@ -1,6 +1,237 @@
 {
-  "version": 132,
+  "version": 133,
   "messages": [
+    {
+      "id": "ios15_eos_early_notice_can_update",
+      "content": {
+        "messageType": "medium",
+        "titleText": "We're ending support for iOS 15 soon",
+        "descriptionText": "Our app will stop supporting iOS 15 on January 11, 2027. You can still use the last available version, but won't receive updates or fixes. Update to iOS 16 or later to stay fully supported.",
+        "placeholder": "Announce"
+      },
+      "translations": {
+        "bg": {
+          "titleText": "Скоро прекратяваме поддръжката на iOS 15",
+          "descriptionText": "От 11 януари 2027 г. нашето приложение вече няма да поддържа iOS 15. Можете да продължите да използвате последната налична версия, но няма да получавате актуализации и корекции. Актуализирайте до iOS 16 или по-нова версия, за да запазите пълната поддръжка."
+        },
+        "cs": {
+          "titleText": "Brzy ukončíme podporu iOS 15",
+          "descriptionText": "Naše aplikace přestane 11. ledna 2027 podporovat iOS 15. Poslední dostupnou verzi můžeš dál používat, ale nebudeš dostávat aktualizace ani opravy. Aktualizuj na iOS 16 nebo novější, aby aplikace byla dál plně podporovaná."
+        },
+        "da": {
+          "titleText": "Vi stopper snart understøttelsen af iOS 15",
+          "descriptionText": "Vores app stopper med at understøtte iOS 15 den 11. januar 2027. Du kan stadig bruge den seneste tilgængelige version, men du får ikke opdateringer eller rettelser. Opdater til iOS 16 eller nyere for fortsat at have fuld understøttelse."
+        },
+        "de": {
+          "titleText": "Wir beenden bald die Unterstützung für iOS 15",
+          "descriptionText": "Unsere App unterstützt iOS 15 ab dem 11. Januar 2027 nicht mehr. Du kannst die letzte verfügbare Version weiterhin nutzen, erhältst aber keine Updates oder Fehlerbehebungen mehr. Aktualisiere auf iOS 16 oder neuer, um weiterhin vollständig unterstützt zu werden."
+        },
+        "el": {
+          "titleText": "Σύντομα θα σταματήσουμε την υποστήριξη του iOS 15",
+          "descriptionText": "Η εφαρμογή μας θα σταματήσει να υποστηρίζει το iOS 15 στις 11 Ιανουαρίου 2027. Μπορείς να συνεχίσεις να χρησιμοποιείς την τελευταία διαθέσιμη έκδοση, αλλά δεν θα λαμβάνεις ενημερώσεις ή διορθώσεις. Κάνε ενημέρωση σε iOS 16 ή νεότερη έκδοση για να συνεχίσεις να έχεις πλήρη υποστήριξη."
+        },
+        "es": {
+          "titleText": "Pronto dejaremos de dar soporte a iOS 15",
+          "descriptionText": "Nuestra aplicación dejará de ser compatible con iOS 15 el 11 de enero de 2027. Podrás seguir usando la última versión disponible, pero no recibirás actualizaciones ni correcciones. Actualiza a iOS 16 o posterior para seguir teniendo soporte completo."
+        },
+        "et": {
+          "titleText": "Lõpetame peagi iOS 15 toe",
+          "descriptionText": "Meie rakendus lõpetab iOS 15 toetamise 11. jaanuaril 2027. Saad endiselt kasutada viimast saadaolevat versiooni, kuid ei saa enam värskendusi ega parandusi. Täieliku toe säilitamiseks värskenda iOS 16-le või uuemale versioonile."
+        },
+        "fi": {
+          "titleText": "iOS 15:n tuki päättyy pian",
+          "descriptionText": "Sovelluksemme lopettaa iOS 15:n tukemisen 11.1.2027. Voit edelleen käyttää viimeisintä saatavilla olevaa versiota, mutta et saa enää päivityksiä tai korjauksia. Päivitä iOS 16:een tai uudempaan, jotta saat edelleen täyden tuen."
+        },
+        "fr": {
+          "titleText": "Nous mettrons bientôt fin à la prise en charge d'iOS 15",
+          "descriptionText": "Notre application ne prendra plus en charge iOS 15 à partir du 11 janvier 2027. Vous pourrez toujours utiliser la dernière version disponible, mais vous ne recevrez plus de mises à jour ni de correctifs. Passez à iOS 16 ou version ultérieure pour continuer à bénéficier d'une prise en charge complète."
+        },
+        "hr": {
+          "titleText": "Uskoro prestajemo podržavati iOS 15",
+          "descriptionText": "Od 11. siječnja 2027. naša aplikacija više neće podržavati iOS 15. I dalje možeš koristiti posljednju dostupnu verziju, ali nećeš primati ažuriranja ni ispravke. Ažuriraj na iOS 16 ili noviji za punu podršku."
+        },
+        "hu": {
+          "titleText": "Hamarosan megszüntetjük az iOS 15 támogatását",
+          "descriptionText": "Alkalmazásunk 2027. január 11-től nem támogatja az iOS 15-öt. Továbbra is használhatod a legutóbbi elérhető verziót, de nem kapsz frissítéseket és javításokat. A teljes támogatás megtartásához frissíts iOS 16-ra vagy újabbra."
+        },
+        "it": {
+          "titleText": "Presto termineremo il supporto per iOS 15",
+          "descriptionText": "La nostra app non supporterà più iOS 15 a partire dall'11 gennaio 2027. Potrai continuare a usare l'ultima versione disponibile, ma non riceverai aggiornamenti o correzioni. Aggiorna a iOS 16 o versioni successive per continuare a ricevere il supporto completo."
+        },
+        "ja": {
+          "titleText": "iOS 15のサポートを間もなく終了します",
+          "descriptionText": "本アプリは2027年1月11日をもってiOS 15のサポートを終了します。利用可能な最後のバージョンは引き続きご利用いただけますが、アップデートや修正は提供されなくなります。引き続きフルサポートを受けるには、iOS 16以降にアップデートしてください。"
+        },
+        "lt": {
+          "titleText": "Netrukus nutrauksime iOS 15 palaikymą",
+          "descriptionText": "Nuo 2027 m. sausio 11 d. mūsų programėlė nebepalaikys iOS 15. Galėsite toliau naudoti naujausią prieinamą versiją, tačiau negausite atnaujinimų ar pataisymų. Atnaujinkite į iOS 16 ar naujesnę versiją, kad išliktų visas palaikymas."
+        },
+        "lv": {
+          "titleText": "Drīzumā pārtrauksim iOS 15 atbalstu",
+          "descriptionText": "Mūsu lietotne pārtrauks atbalstīt iOS 15 2027. gada 11. janvārī. Tu joprojām vari izmantot pēdējo pieejamo versiju, taču nesaņemsi atjauninājumus vai labojumus. Atjaunini uz iOS 16 vai jaunāku versiju, lai saglabātu pilnu atbalstu."
+        },
+        "nb": {
+          "titleText": "Vi avslutter snart støtten for iOS 15",
+          "descriptionText": "Fra 11. januar 2027 slutter appen vår å støtte iOS 15. Du kan fortsatt bruke den siste tilgjengelige versjonen, men du får ikke oppdateringer eller feilrettinger. Oppdater til iOS 16 eller nyere for å fortsatt ha full støtte."
+        },
+        "nl": {
+          "titleText": "We stoppen binnenkort met de ondersteuning voor iOS 15",
+          "descriptionText": "Onze app ondersteunt iOS 15 vanaf 11 januari 2027 niet meer. Je kunt de laatst beschikbare versie blijven gebruiken, maar je ontvangt geen updates of oplossingen meer. Update naar iOS 16 of later om volledig ondersteund te blijven."
+        },
+        "pl": {
+          "titleText": "Wkrótce kończymy wsparcie dla iOS 15",
+          "descriptionText": "Od 11 stycznia 2027 r. nasza aplikacja przestanie obsługiwać iOS 15. Nadal możesz korzystać z ostatniej dostępnej wersji, ale nie będziesz otrzymywać aktualizacji ani poprawek. Zaktualizuj system do iOS 16 lub nowszego, aby nadal mieć pełne wsparcie."
+        },
+        "pt": {
+          "titleText": "Em breve, vamos deixar de suportar o iOS 15",
+          "descriptionText": "A nossa aplicação vai deixar de suportar o iOS 15 a 11 de janeiro de 2027. Podes continuar a usar a última versão disponível, mas não vais receber atualizações nem correções. Atualiza para o iOS 16 ou posterior para continuares a ter suporte total."
+        },
+        "ro": {
+          "titleText": "În curând nu vom mai oferi asistență pentru iOS 15",
+          "descriptionText": "Aplicația noastră nu va mai accepta iOS 15 începând cu 11 ianuarie 2027. Poți folosi în continuare ultima versiune disponibilă, dar nu vei mai primi actualizări sau remedieri. Actualizează la iOS 16 sau o versiune ulterioară pentru a beneficia în continuare de asistență completă."
+        },
+        "ru": {
+          "titleText": "Скоро мы прекратим поддержку iOS 15",
+          "descriptionText": "С 11 января 2027 г. наше приложение перестанет поддерживать iOS 15. Вы по-прежнему сможете пользоваться последней доступной версией, но не будете получать обновления и исправления. Обновитесь до iOS 16 или более поздней версии, чтобы сохранить полную поддержку."
+        },
+        "sk": {
+          "titleText": "Čoskoro ukončíme podporu iOS 15",
+          "descriptionText": "Naša aplikácia prestane 11. januára 2027 podporovať iOS 15. Poslednú dostupnú verziu môžeš naďalej používať, ale nebudeš dostávať aktualizácie ani opravy. Aktualizuj na iOS 16 alebo novší, aby aplikácia zostala plne podporovaná."
+        },
+        "sl": {
+          "titleText": "Kmalu bomo prenehali podpirati iOS 15",
+          "descriptionText": "Naša aplikacija bo 11. januarja 2027 prenehala podpirati iOS 15. Še naprej lahko uporabljate zadnjo razpoložljivo različico, vendar ne boste več prejemali posodobitev ali popravkov. Posodobite na iOS 16 ali novejšo različico, da ohranite polno podporo."
+        },
+        "sv": {
+          "titleText": "Vi slutar snart stödja iOS 15",
+          "descriptionText": "Vår app slutar stödja iOS 15 den 11 januari 2027. Du kan fortfarande använda den senaste tillgängliga versionen, men du får inga uppdateringar eller korrigeringar. Uppdatera till iOS 16 eller senare för att fortsätta få fullt stöd."
+        },
+        "tr": {
+          "titleText": "Yakında iOS 15 desteğini sonlandırıyoruz",
+          "descriptionText": "Uygulamamız 11 Ocak 2027'den itibaren iOS 15'i desteklemeyecek. Mevcut son sürümü kullanmaya devam edebilirsiniz ancak güncelleme veya düzeltme almayacaksınız. Tam destek almaya devam etmek için iOS 16 veya sonraki bir sürüme güncelleyin."
+        }
+      },
+      "matchingRules": [
+        29
+      ]
+    },
+    {
+      "id": "ios15_eos_early_notice_cannot_update",
+      "content": {
+        "messageType": "medium",
+        "titleText": "We're ending support for iOS 15 soon",
+        "descriptionText": "Our app will stop supporting iOS 15 on January 11, 2027. You can still use the last available version, but won't receive updates or fixes. If your device supports it, update to iOS 16 or later.",
+        "placeholder": "Announce"
+      },
+      "translations": {
+        "bg": {
+          "titleText": "Скоро прекратяваме поддръжката на iOS 15",
+          "descriptionText": "От 11 януари 2027 г. нашето приложение вече няма да поддържа iOS 15. Можете да продължите да използвате последната налична версия, но няма да получавате актуализации и корекции. Ако устройството ви го поддържа, актуализирайте до iOS 16 или по-нова версия."
+        },
+        "cs": {
+          "titleText": "Brzy ukončíme podporu iOS 15",
+          "descriptionText": "Naše aplikace přestane 11. ledna 2027 podporovat iOS 15. Poslední dostupnou verzi můžeš dál používat, ale nebudeš dostávat aktualizace ani opravy. Pokud to tvoje zařízení podporuje, aktualizuj na iOS 16 nebo novější."
+        },
+        "da": {
+          "titleText": "Vi stopper snart understøttelsen af iOS 15",
+          "descriptionText": "Vores app stopper med at understøtte iOS 15 den 11. januar 2027. Du kan stadig bruge den seneste tilgængelige version, men du får ikke opdateringer eller rettelser. Hvis din enhed understøtter det, så opdater til iOS 16 eller nyere."
+        },
+        "de": {
+          "titleText": "Wir beenden bald die Unterstützung für iOS 15",
+          "descriptionText": "Unsere App unterstützt iOS 15 ab dem 11. Januar 2027 nicht mehr. Du kannst die letzte verfügbare Version weiterhin nutzen, erhältst aber keine Updates oder Fehlerbehebungen mehr. Falls dein Gerät es unterstützt, aktualisiere auf iOS 16 oder neuer."
+        },
+        "el": {
+          "titleText": "Σύντομα θα σταματήσουμε την υποστήριξη του iOS 15",
+          "descriptionText": "Η εφαρμογή μας θα σταματήσει να υποστηρίζει το iOS 15 στις 11 Ιανουαρίου 2027. Μπορείς να συνεχίσεις να χρησιμοποιείς την τελευταία διαθέσιμη έκδοση, αλλά δεν θα λαμβάνεις ενημερώσεις ή διορθώσεις. Αν η συσκευή σου το υποστηρίζει, κάνε ενημέρωση σε iOS 16 ή νεότερη έκδοση."
+        },
+        "es": {
+          "titleText": "Pronto dejaremos de dar soporte a iOS 15",
+          "descriptionText": "Nuestra aplicación dejará de ser compatible con iOS 15 el 11 de enero de 2027. Podrás seguir usando la última versión disponible, pero no recibirás actualizaciones ni correcciones. Si tu dispositivo lo permite, actualiza a iOS 16 o posterior."
+        },
+        "et": {
+          "titleText": "Lõpetame peagi iOS 15 toe",
+          "descriptionText": "Meie rakendus lõpetab iOS 15 toetamise 11. jaanuaril 2027. Saad endiselt kasutada viimast saadaolevat versiooni, kuid ei saa enam värskendusi ega parandusi. Kui sinu seade seda toetab, värskenda iOS 16-le või uuemale versioonile."
+        },
+        "fi": {
+          "titleText": "iOS 15:n tuki päättyy pian",
+          "descriptionText": "Sovelluksemme lopettaa iOS 15:n tukemisen 11.1.2027. Voit edelleen käyttää viimeisintä saatavilla olevaa versiota, mutta et saa enää päivityksiä tai korjauksia. Jos laitteesi tukee sitä, päivitä iOS 16:een tai uudempaan."
+        },
+        "fr": {
+          "titleText": "Nous mettrons bientôt fin à la prise en charge d'iOS 15",
+          "descriptionText": "Notre application ne prendra plus en charge iOS 15 à partir du 11 janvier 2027. Vous pourrez toujours utiliser la dernière version disponible, mais vous ne recevrez plus de mises à jour ni de correctifs. Si votre appareil le permet, passez à iOS 16 ou version ultérieure."
+        },
+        "hr": {
+          "titleText": "Uskoro prestajemo podržavati iOS 15",
+          "descriptionText": "Od 11. siječnja 2027. naša aplikacija više neće podržavati iOS 15. I dalje možeš koristiti posljednju dostupnu verziju, ali nećeš primati ažuriranja ni ispravke. Ako tvoj uređaj to podržava, ažuriraj na iOS 16 ili noviji."
+        },
+        "hu": {
+          "titleText": "Hamarosan megszüntetjük az iOS 15 támogatását",
+          "descriptionText": "Alkalmazásunk 2027. január 11-től nem támogatja az iOS 15-öt. Továbbra is használhatod a legutóbbi elérhető verziót, de nem kapsz frissítéseket és javításokat. Ha az eszközöd támogatja, frissíts iOS 16-ra vagy újabbra."
+        },
+        "it": {
+          "titleText": "Presto termineremo il supporto per iOS 15",
+          "descriptionText": "La nostra app non supporterà più iOS 15 a partire dall'11 gennaio 2027. Potrai continuare a usare l'ultima versione disponibile, ma non riceverai aggiornamenti o correzioni. Se il tuo dispositivo lo consente, aggiorna a iOS 16 o versioni successive."
+        },
+        "ja": {
+          "titleText": "iOS 15のサポートを間もなく終了します",
+          "descriptionText": "本アプリは2027年1月11日をもってiOS 15のサポートを終了します。利用可能な最後のバージョンは引き続きご利用いただけますが、アップデートや修正は提供されなくなります。お使いのデバイスが対応している場合は、iOS 16以降にアップデートしてください。"
+        },
+        "lt": {
+          "titleText": "Netrukus nutrauksime iOS 15 palaikymą",
+          "descriptionText": "Nuo 2027 m. sausio 11 d. mūsų programėlė nebepalaikys iOS 15. Galėsite toliau naudoti naujausią prieinamą versiją, tačiau negausite atnaujinimų ar pataisymų. Jei jūsų įrenginys tai palaiko, atnaujinkite į iOS 16 ar naujesnę versiją."
+        },
+        "lv": {
+          "titleText": "Drīzumā pārtrauksim iOS 15 atbalstu",
+          "descriptionText": "Mūsu lietotne pārtrauks atbalstīt iOS 15 2027. gada 11. janvārī. Tu joprojām vari izmantot pēdējo pieejamo versiju, taču nesaņemsi atjauninājumus vai labojumus. Ja tava ierīce to atbalsta, atjaunini uz iOS 16 vai jaunāku versiju."
+        },
+        "nb": {
+          "titleText": "Vi avslutter snart støtten for iOS 15",
+          "descriptionText": "Fra 11. januar 2027 slutter appen vår å støtte iOS 15. Du kan fortsatt bruke den siste tilgjengelige versjonen, men du får ikke oppdateringer eller feilrettinger. Hvis enheten din støtter det, kan du oppdatere til iOS 16 eller nyere."
+        },
+        "nl": {
+          "titleText": "We stoppen binnenkort met de ondersteuning voor iOS 15",
+          "descriptionText": "Onze app ondersteunt iOS 15 vanaf 11 januari 2027 niet meer. Je kunt de laatst beschikbare versie blijven gebruiken, maar je ontvangt geen updates of oplossingen meer. Update naar iOS 16 of later als je apparaat dat ondersteunt."
+        },
+        "pl": {
+          "titleText": "Wkrótce kończymy wsparcie dla iOS 15",
+          "descriptionText": "Od 11 stycznia 2027 r. nasza aplikacja przestanie obsługiwać iOS 15. Nadal możesz korzystać z ostatniej dostępnej wersji, ale nie będziesz otrzymywać aktualizacji ani poprawek. Jeśli twoje urządzenie to umożliwia, zaktualizuj system do iOS 16 lub nowszego."
+        },
+        "pt": {
+          "titleText": "Em breve, vamos deixar de suportar o iOS 15",
+          "descriptionText": "A nossa aplicação vai deixar de suportar o iOS 15 a 11 de janeiro de 2027. Podes continuar a usar a última versão disponível, mas não vais receber atualizações nem correções. Se o teu dispositivo o permitir, atualiza para o iOS 16 ou posterior."
+        },
+        "ro": {
+          "titleText": "În curând nu vom mai oferi asistență pentru iOS 15",
+          "descriptionText": "Aplicația noastră nu va mai accepta iOS 15 începând cu 11 ianuarie 2027. Poți folosi în continuare ultima versiune disponibilă, dar nu vei mai primi actualizări sau remedieri. Dacă dispozitivul tău permite, actualizează la iOS 16 sau o versiune ulterioară."
+        },
+        "ru": {
+          "titleText": "Скоро мы прекратим поддержку iOS 15",
+          "descriptionText": "С 11 января 2027 г. наше приложение перестанет поддерживать iOS 15. Вы по-прежнему сможете пользоваться последней доступной версией, но не будете получать обновления и исправления. Если ваше устройство это поддерживает, обновитесь до iOS 16 или более поздней версии."
+        },
+        "sk": {
+          "titleText": "Čoskoro ukončíme podporu iOS 15",
+          "descriptionText": "Naša aplikácia prestane 11. januára 2027 podporovať iOS 15. Poslednú dostupnú verziu môžeš naďalej používať, ale nebudeš dostávať aktualizácie ani opravy. Ak to tvoje zariadenie podporuje, aktualizuj na iOS 16 alebo novší."
+        },
+        "sl": {
+          "titleText": "Kmalu bomo prenehali podpirati iOS 15",
+          "descriptionText": "Naša aplikacija bo 11. januarja 2027 prenehala podpirati iOS 15. Še naprej lahko uporabljate zadnjo razpoložljivo različico, vendar ne boste več prejemali posodobitev ali popravkov. Če vaša naprava to podpira, posodobite na iOS 16 ali novejšo različico."
+        },
+        "sv": {
+          "titleText": "Vi slutar snart stödja iOS 15",
+          "descriptionText": "Vår app slutar stödja iOS 15 den 11 januari 2027. Du kan fortfarande använda den senaste tillgängliga versionen, men du får inga uppdateringar eller korrigeringar. Om din enhet stöder det kan du uppdatera till iOS 16 eller senare."
+        },
+        "tr": {
+          "titleText": "Yakında iOS 15 desteğini sonlandırıyoruz",
+          "descriptionText": "Uygulamamız 11 Ocak 2027'den itibaren iOS 15'i desteklemeyecek. Mevcut son sürümü kullanmaya devam edebilirsiniz ancak güncelleme veya düzeltme almayacaksınız. Cihazınız destekliyorsa iOS 16 veya sonraki bir sürüme güncelleyin."
+        }
+      },
+      "matchingRules": [
+        30
+      ],
+      "exclusionRules": [
+        31
+      ]
+    },
     {
       "id": "ios_pir_announcement_1",
       "content": {
@@ -955,6 +1186,37 @@
         },
         "locale": {
           "value": ["en-US"]
+        }
+      }
+    },
+    {
+      "id": 29,
+      "attributes": {
+        "osApi": {
+          "max": "15.999.999"
+        },
+        "canUpgradeOS": {
+          "value": true,
+          "fallback": false
+        }
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "osApi": {
+          "max": "15.999.999"
+        }
+      }
+    },
+    {
+      "id": 31,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "ios15_eos_early_notice_can_update"
+          ],
+          "fallback": false
         }
       }
     }
