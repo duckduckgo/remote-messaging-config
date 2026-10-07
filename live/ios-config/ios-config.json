@@ -1,5 +1,5 @@
 {
-  "version": 133,
+  "version": 135,
   "messages": [
     {
       "id": "ios15_eos_early_notice_can_update",
@@ -112,7 +112,7 @@
         }
       },
       "matchingRules": [
-        29
+        32
       ]
     },
     {
@@ -226,10 +226,10 @@
         }
       },
       "matchingRules": [
-        30
+        33
       ],
       "exclusionRules": [
-        31
+        34
       ]
     },
     {
@@ -692,6 +692,29 @@
         19
       ],
       "exclusionRules": []
+    },
+    {
+      "id": "ios_quarterly_satisfaction_survey_q4_2026",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "We'd love to know which features would make our browser better.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=14",
+          "additionalParameters": {
+            "queryParams": "var;delta;osv;ddgv;locale;last_search_state;last_duck_ai_usage"
+          }
+        }
+      },
+      "matchingRules": [
+        29
+      ],
+      "exclusionRules": [
+        1, 2, 17, 18, 30, 31
+      ]
     }
   ],
   "rules": [
@@ -1120,7 +1143,7 @@
     {
       "id": 20,
       "targetPercentile": {
-        "before": 0.9
+        "before": 1.0
       },
       "attributes": {
         "appVersion": {
@@ -1191,6 +1214,39 @@
     },
     {
       "id": 29,
+      "targetPercentile": {
+        "before": 0.2
+      },
+      "attributes": {
+        "locale": {
+          "value": ["en-US", "en-CA", "en-GB", "en-AU"]
+        },
+        "appVersion": {
+          "min": "7.236.0"
+        }
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "ddg_ios_survey_1",
+            "ios_quarterly_satisfaction_survey_q2_2026"
+          ]
+        }
+      }
+    },
+    {
+      "id": 31,
+      "attributes": {
+        "messageShown": {
+          "value": ["ddg_ios_survey_1"]
+        }
+      }
+    },
+    {
+      "id": 32,
       "attributes": {
         "osApi": {
           "max": "15.999.999"
@@ -1202,7 +1258,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 33,
       "attributes": {
         "osApi": {
           "max": "15.999.999"
@@ -1210,7 +1266,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 34,
       "attributes": {
         "interactedWithMessage": {
           "value": [
