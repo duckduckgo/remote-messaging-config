@@ -2,25 +2,6 @@
   "version": 60,
   "messages": [
     {
-      "id": "macos_quarterly_satisfaction_survey_q4_2026",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Help Us Improve",
-        "descriptionText": "We really want to know which features would make our browser better.",
-        "placeholder": "Announce",
-        "primaryActionText": "Tell Us What You Think",
-        "primaryAction": {
-          "type": "survey",
-          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/250206?list=9",
-          "additionalParameters": {
-            "queryParams": "delta;var;osv;ddgv;last_search_state;last_duck_ai_usage"
-          }
-        }
-      },
-      "matchingRules": [],
-      "exclusionRules": []
-    },
-    {
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
@@ -637,6 +618,26 @@
         }
       },
       "matchingRules": [31]
+    },
+
+    {
+      "id": "macos_quarterly_satisfaction_survey_q4_2026",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "We really want to know which features would make our browser better.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/250206?list=9",
+          "additionalParameters": {
+            "queryParams": "delta;var;osv;ddgv;last_search_state;last_duck_ai_usage"
+          }
+        }
+      },
+      "matchingRules": [32],
+      "exclusionRules": [33]
     }
   ],
   "rules": [
@@ -1129,6 +1130,40 @@
         "osApi": {
           "min": "11.0.0",
           "max": "11.999.999"
+        }
+      }
+    },
+
+    {
+      "id": 32,
+      "targetPercentile": {
+        "before": 0.5
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        },
+        "appVersion": {
+          "min": "1.206.0"
+        },
+        "daysSinceInstalled": {
+          "min": 28
+        }
+      }
+    },
+    {
+      "id": 33,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "macos_permanent_survey_tab_bar",
+            "macos_quarterly_satisfaction_survey_q2_2026"
+          ]
         }
       }
     }
