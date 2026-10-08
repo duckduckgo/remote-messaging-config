@@ -1021,9 +1021,6 @@
     {
       "id": 25,
       "attributes": {
-        "appVersion": {
-          "min": "5.297.0"
-        },
         "isFreemiumPIREligible": {
           "value": true
         },
@@ -1035,9 +1032,6 @@
     {
       "id": 26,
       "attributes": {
-        "appVersion": {
-          "min": "5.297.0"
-        },
         "isFreemiumPIREligible": {
           "value": true
         },
@@ -1049,12 +1043,9 @@
     {
       "id": 27,
       "targetPercentile": {
-        "before": 0
+        "before": 1.0
       },
       "attributes": {
-        "appVersion": {
-          "min": "5.297.0"
-        },
         "isFreemiumPIREligible": {
           "value": true
         },
