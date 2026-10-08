@@ -1,5 +1,5 @@
 {
-  "version": 120,
+  "version": 121,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -344,6 +344,72 @@
       "exclusionRules": [
         8
       ]
+    },
+    {
+      "id": "android_pir_freemium_scan_complete_results",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Personal Information Removal",
+        "descriptionText": "Your free personal info scan found records about you.",
+        "placeholder": "PIR",
+        "primaryActionText": "View Results",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "pir.main"
+        }
+      },
+      "matchingRules": [
+        25
+      ],
+      "exclusionRules": []
+    },
+    {
+      "id": "android_pir_freemium_scan_complete_no_results",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Personal Information Removal",
+        "descriptionText": "Good news, your free personal info scan didn't find any records about you.",
+        "placeholder": "PIR",
+        "primaryActionText": "View Results",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "pir.main"
+        }
+      },
+      "matchingRules": [
+        26
+      ],
+      "exclusionRules": []
+    },
+    {
+      "id": "android_pir_freemium_entry_point",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Personal Information Removal",
+        "descriptionText": "DuckDuckGo will find your personal info on sites that store and sell it.",
+        "placeholder": "PIR",
+        "primaryActionText": "Start Free Scan",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "pir.main"
+        }
+      },
+      "matchingRules": [
+        27
+      ],
+      "exclusionRules": [],
+      "displayConditions": {
+        "dismissAfterDaysShown": 5
+      }
     },
     {
       "id": "android_permanent_survey_user_satisfaction",
@@ -949,6 +1015,45 @@
           "value": [
             "sv-SE"
           ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "isFreemiumPIREligible": {
+          "value": true
+        },
+        "freemiumPIRFirstScanResult": {
+          "value": "matchesFound"
+        }
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "isFreemiumPIREligible": {
+          "value": true
+        },
+        "freemiumPIRFirstScanResult": {
+          "value": "noMatches"
+        }
+      }
+    },
+    {
+      "id": 27,
+      "targetPercentile": {
+        "before": 1.0
+      },
+      "attributes": {
+        "isFreemiumPIREligible": {
+          "value": true
+        },
+        "freemiumPIRDidActivate": {
+          "value": false
+        },
+        "daysSinceInstalled": {
+          "min": 5
         }
       }
     }
