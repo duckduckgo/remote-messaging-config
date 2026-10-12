@@ -1,35 +1,6 @@
 {
-  "version": 118,
+  "version": 120,
   "messages": [
-    {
-      "id": "android_deprecation_sunset_notice_os8",
-      "content": {
-        "messageType": "medium",
-        "titleText": "Urgent: Upgrade to Android 9 or higher to stay protected",
-        "descriptionText": "DuckDuckGo has stopped supporting Android 8 and 8.1. You can still use the browser, but updates and fixes have stopped, and your privacy may be at risk.",
-        "placeholder": "CriticalUpdate"
-      },
-      "matchingRules": [
-        25
-      ]
-    },
-    {
-      "id": "android_deprecation_sunset_notice_os8_ppro",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Urgent: Upgrade to Android 9 or request subscription refund",
-        "descriptionText": "DuckDuckGo has stopped supporting Android 8 and 8.1. You can still use the browser, but updates and fixes have stopped, and your privacy may be at risk.",
-        "placeholder": "CriticalUpdate",
-        "primaryActionText": "Request Subscription Refund",
-        "primaryAction": {
-          "type": "url",
-          "value": "https://duckduckgo.com/subscription-support"
-        }
-      },
-      "matchingRules": [
-        26
-      ]
-    },
     {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
@@ -396,6 +367,31 @@
       "exclusionRules": [
         3
       ]
+    },
+    {
+      "id": "android_quarterly_mobile_survey_q426",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Help Us Improve",
+        "descriptionText": "We'd love to know which features would make our browser better.",
+        "placeholder": "DDGAnnounce",
+        "primaryActionText": "Tell Us What You Think",
+        "primaryAction": {
+          "type": "survey",
+          "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240903?list=15",
+          "additionalParameters": {
+            "queryParams": "var;delta;av;ddgv;locale;last_duck_ai_usage"
+          }
+        }
+      },
+      "exclusionRules": [
+        6,
+        7,
+        10
+      ],
+      "matchingRules": [
+        9
+      ]
     }
   ],
   "rules": [
@@ -518,6 +514,34 @@
         "interactedWithMessage": {
           "value": [
             "android_privacy_pro_exit_survey_1"
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "targetPercentile": {
+        "before": 0.2
+      },
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "android_survey_net_attribute_rating_d0_3",
+            "android_permanent_survey_user_satisfaction",
+            "android_quarterly_mobile_survey_q226"
           ]
         }
       }
@@ -925,30 +949,6 @@
           "value": [
             "sv-SE"
           ]
-        }
-      }
-    },
-    {
-      "id": 25,
-      "attributes": {
-        "osApi": {
-          "min": 26,
-          "max": 27
-        },
-        "pproSubscriber": {
-          "value": false
-        }
-      }
-    },
-    {
-      "id": 26,
-      "attributes": {
-        "osApi": {
-          "min": 26,
-          "max": 27
-        },
-        "pproSubscriber": {
-          "value": true
         }
       }
     }
