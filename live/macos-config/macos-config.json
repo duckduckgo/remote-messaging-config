@@ -1,6 +1,64 @@
 {
-  "version": 60,
+  "version": 61,
   "messages": [
+    {
+      "id": "funnel_rmf_macos_duckaiproupgrade",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "AI power user? Upgrade to Pro!",
+        "descriptionText": "Pro has exclusive AI models (Opus 4.8, GPT-5.6 Sol), enhanced reasoning and 2x limits. Suited to more complex tasks and deep analysis.",
+        "placeholder": "Duck.ai",
+        "primaryActionText": "Upgrade to Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/subscriptions/plans?tier=pro&origin=funnel_rmf_macos_duckaiproupgrade"
+        }
+      },
+      "translations": {
+        "de": {
+          "titleText": "Du bist ein echter KI-Fan? Upgrade auf Pro!",
+          "descriptionText": "Pro bietet exklusive KI-Modelle (Opus 4.8, GPT-5.6 Sol), verbessertes Reasoning und doppelt so hohe Limits. Für komplexere Aufgaben und tiefgehende Analysen geeignet.",
+          "primaryActionText": "Upgrade auf Pro"
+        },
+        "es": {
+          "titleText": "¿Usuario avanzado de IA? ¡Actualiza a Pro!",
+          "descriptionText": "Pro incluye modelos exclusivos de IA (Opus 4.8, GPT-5.6 Sol), razonamiento mejorado y límites 2x. Adecuado para tareas más complejas y análisis en profundidad.",
+          "primaryActionText": "Actualizar a Pro"
+        },
+        "fr": {
+          "titleText": "Tu utilises beaucoup l’IA ? Passe à Pro !",
+          "descriptionText": "Pro inclut des modèles d'IA exclusifs (Opus 4.8, GPT-5.6 Sol), un raisonnement amélioré et des limites doublées. Adapté à des tâches plus complexes et à des analyses approfondies.",
+          "primaryActionText": "Passer à Pro"
+        },
+        "it": {
+          "titleText": "Utente AI avanzato? Passa a Pro!",
+          "descriptionText": "Pro include modelli AI esclusivi (Opus 4.8, GPT-5.6 Sol), ragionamento avanzato e limiti raddoppiati. Adatto ad attività più complesse e ad analisi approfondite.",
+          "primaryActionText": "Passa a Pro"
+        },
+        "nl": {
+          "titleText": "AI-powergebruiker? Upgraden naar Pro!",
+          "descriptionText": "Pro biedt exclusieve AI-modellen (Opus 4.8, GPT-5.6 Sol), verbeterde redenering en 2 × hogere limieten. Geschikt voor complexere taken en diepgaande analyse.",
+          "primaryActionText": "Upgraden naar Pro"
+        },
+        "pl": {
+          "titleText": "Zaawansowany użytkownik AI? Przejdź na plan Pro!",
+          "descriptionText": "Plan Pro oferuje ekskluzywne modele AI (Opus 4.8, GPT-5.6 Sol), lepsze możliwości rozumowania i dwukrotnie wyższe limity. Do bardziej złożonych zadań i dogłębnej analizy.",
+          "primaryActionText": "Przejdź na plan Pro"
+        },
+        "pt": {
+          "titleText": "Utilizador avançado de IA? Atualizar para o Pro!",
+          "descriptionText": "O Pro tem modelos de IA exclusivos (Opus 4.8, GPT-5.6 Sol), raciocínio melhorado e limites 2x superiores. Adequado para tarefas mais complexas e análises aprofundadas.",
+          "primaryActionText": "Atualizar para o Pro"
+        },
+        "ru": {
+          "titleText": "Опытный пользователь ИИ? Перейди на Pro!",
+          "descriptionText": "В Pro доступны эксклюзивные модели ИИ (Opus 4.8, GPT-5.6 Sol), улучшенные возможности рассуждения и лимиты в 2 раза выше. Подходит для более сложных задач и глубокого анализа.",
+          "primaryActionText": "Перейти на Pro"
+        }
+      },
+      "matchingRules": [34],
+      "exclusionRules": []
+    },
     {
       "id": "macos_privacy_pro_exit_survey_1",
       "content": {
@@ -1164,6 +1222,32 @@
             "macos_permanent_survey_tab_bar",
             "macos_quarterly_satisfaction_survey_q2_2026"
           ]
+        }
+      }
+    },
+    {
+      "id": 34,
+      "attributes": {
+        "pproSubscriptionTier": {
+          "value": ["plus"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active", "expiring"]
+        },
+        "subscriptionFreeTrialActive": {
+          "value": false
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 8
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "daysSinceDuckAiUsed": {
+          "max": 7
+        },
+        "appVersion": {
+          "min": "1.198.0"
         }
       }
     }
