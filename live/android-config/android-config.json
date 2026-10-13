@@ -1,5 +1,5 @@
 {
-  "version": 120,
+  "version": 121,
   "messages": [
     {
       "id": "android_privacy_pro_exit_survey_1",
@@ -521,7 +521,7 @@
     {
       "id": 9,
       "targetPercentile": {
-        "before": 0.2
+        "before": 0.25
       },
       "attributes": {
         "locale": {
