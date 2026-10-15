@@ -1015,6 +1015,11 @@
             "plus"
           ]
         },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
         "pproSubscriptionStatus": {
           "value": [
             "active",
