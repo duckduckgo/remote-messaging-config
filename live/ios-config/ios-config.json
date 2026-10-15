@@ -1,5 +1,5 @@
 {
-  "version": 135,
+  "version": 136,
   "messages": [
     {
       "id": "ios15_eos_early_notice_can_update",
@@ -1215,7 +1215,7 @@
     {
       "id": 29,
       "targetPercentile": {
-        "before": 0.2
+        "before": 0.25
       },
       "attributes": {
         "locale": {
