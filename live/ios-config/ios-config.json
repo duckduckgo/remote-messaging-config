@@ -1,5 +1,5 @@
 {
-  "version": 136,
+  "version": 137,
   "messages": [
     {
       "id": "ios15_eos_early_notice_can_update",
@@ -1358,7 +1358,7 @@
     {
       "id": 29,
       "targetPercentile": {
-        "before": 0.2
+        "before": 0.25
       },
       "attributes": {
         "locale": {
@@ -1427,6 +1427,9 @@
         },
         "pproSubscriptionStatus": {
           "value": ["active", "expiring"]
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple"]
         },
         "subscriptionFreeTrialActive": {
           "value": false
