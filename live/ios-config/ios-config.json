@@ -1,5 +1,5 @@
 {
-  "version": 137,
+  "version": 138,
   "messages": [
     {
       "id": "ios15_eos_early_notice_can_update",
@@ -231,6 +231,149 @@
       "exclusionRules": [
         34
       ]
+    },
+    {
+      "id": "funnel_rmf_ios_duckaiproupgrade",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "AI power user? Upgrade to Pro!",
+        "descriptionText": "Pro has exclusive AI models (Opus 4.8, GPT-5.6 Sol), enhanced reasoning and 2x limits. Suited to more complex tasks and deep analysis.",
+        "placeholder": "Duck.ai",
+        "primaryActionText": "Upgrade to Pro",
+        "primaryAction": {
+          "type": "url",
+          "value": "https://duckduckgo.com/subscriptions/plans?tier=pro&origin=funnel_rmf_ios_duckaiproupgrade"
+        }
+      },
+      "translations": {
+        "bg": {
+          "titleText": "Опитен потребител на AI? Надгради до Pro!",
+          "descriptionText": "Pro разполага с ексклузивни AI модели (Opus 4.8, GPT-5.6 Sol), усъвършенствана аргументация и 2 пъти по-високи лимити. Подходящ за по-сложни задачи и задълбочен анализ.",
+          "primaryActionText": "Надгради до Pro"
+        },
+        "cs": {
+          "titleText": "Používáš AI na pokročilé úrovni? Přejdi na Pro!",
+          "descriptionText": "Pro nabízí exkluzivní modely AI (Opus 4.8, GPT-5.6 Sol), pokročilejší uvažování a 2× vyšší limity. Hodí se na složitější úlohy a hloubkovou analýzu.",
+          "primaryActionText": "Přejít na Pro"
+        },
+        "da": {
+          "titleText": "AI-superbruger? Opgrader til Pro!",
+          "descriptionText": "Pro har eksklusive AI-modeller (Opus 4.8, GPT-5.6 Sol), forbedret ræsonnement og dobbelt så høje grænser. Velegnet til mere komplekse opgaver og dybdegående analyse.",
+          "primaryActionText": "Opgrader til Pro"
+        },
+        "de": {
+          "titleText": "Du bist ein echter KI-Fan? Upgrade auf Pro!",
+          "descriptionText": "Pro bietet exklusive KI-Modelle (Opus 4.8, GPT-5.6 Sol), verbessertes Reasoning und doppelt so hohe Limits. Für komplexere Aufgaben und tiefgehende Analysen geeignet.",
+          "primaryActionText": "Upgrade auf Pro"
+        },
+        "el": {
+          "titleText": "Έμπειρος χρήστης AI; Αναβάθμισε σε Pro!",
+          "descriptionText": "Το Pro διαθέτει αποκλειστικά μοντέλα τεχνητής νοημοσύνης (Opus 4.8, GPT-5.6 Sol), βελτιωμένη συλλογιστική και 2 φορές υψηλότερα όρια. Κατάλληλο για πιο σύνθετες εργασίες και εις βάθος ανάλυση.",
+          "primaryActionText": "Αναβάθμιση σε Pro"
+        },
+        "es": {
+          "titleText": "¿Usuario avanzado de IA? ¡Actualiza a Pro!",
+          "descriptionText": "Pro incluye modelos exclusivos de IA (Opus 4.8, GPT-5.6 Sol), razonamiento mejorado y límites 2x. Adecuado para tareas más complejas y análisis en profundidad.",
+          "primaryActionText": "Actualizar a Pro"
+        },
+        "et": {
+          "titleText": "AI kogenud kasutaja? Mine üle Pro-le!",
+          "descriptionText": "Pro sisaldab eksklusiivseid AI mudeleid (Opus 4.8, GPT-5.6 Sol), täiustatud arutlusvõimet ja kaks korda suuremaid kasutuspiiranguid. Sobib keerukamateks ülesanneteks ja põhjalikuks analüüsiks.",
+          "primaryActionText": "Mine üle Pro-le"
+        },
+        "fi": {
+          "titleText": "Tekoälyn tehokäyttäjä? Päivitä Pro-versioon!",
+          "descriptionText": "Pro-tilauksessa on yksinoikeudella käytettäviä tekoälymalleja (Opus 4.8, GPT-5.6 Sol), kehittyneempi päättelykyky ja kaksinkertaiset käyttörajat. Soveltuu monimutkaisempiin tehtäviin ja syvälliseen analyysiin.",
+          "primaryActionText": "Päivitä Pro-versioon"
+        },
+        "fr": {
+          "titleText": "Tu utilises beaucoup l’IA ? Passe à Pro !",
+          "descriptionText": "Pro inclut des modèles d'IA exclusifs (Opus 4.8, GPT-5.6 Sol), un raisonnement amélioré et des limites doublées. Adapté à des tâches plus complexes et à des analyses approfondies.",
+          "primaryActionText": "Passer à Pro"
+        },
+        "hr": {
+          "titleText": "Napredni korisnik AI-ja? Nadogradi na Pro!",
+          "descriptionText": "Pro ima ekskluzivne AI modele (Opus 4.8, GPT-5.6 Sol), naprednije rezoniranje i dvostruko veće količine uporabe modela. Prikladno za složenije zadatke i dubinsku analizu.",
+          "primaryActionText": "Nadogradi na Pro"
+        },
+        "hu": {
+          "titleText": "Haladó AI-felhasználó vagy? Válts Pro előfizetésre!",
+          "descriptionText": "A Pro csomag exkluzív AI-modelleket (Opus 4.8, GPT-5.6 Sol), fejlettebb érvelést és kétszer nagyobb használati limiteket kínál. Összetettebb feladatokra és mélyreható elemzésre alkalmas.",
+          "primaryActionText": "Váltás Pro csomagra"
+        },
+        "it": {
+          "titleText": "Utente AI avanzato? Passa a Pro!",
+          "descriptionText": "Pro include modelli AI esclusivi (Opus 4.8, GPT-5.6 Sol), ragionamento avanzato e limiti raddoppiati. Adatto ad attività più complesse e ad analisi approfondite.",
+          "primaryActionText": "Passa a Pro"
+        },
+        "ja": {
+          "titleText": "AIを使いこなしていますか？ Proにアップグレード！",
+          "descriptionText": "Proには、Pro限定のAIモデル（Opus 4.8、GPT-5.6 Sol）、強化された推論機能、2倍の上限があります。 より複雑なタスクや詳細な分析に適しています。",
+          "primaryActionText": "Proにアップグレード"
+        },
+        "lt": {
+          "titleText": "Ar intensyviai naudojate DI? Pereikite prie plano „Pro“!",
+          "descriptionText": "Su planu „Pro“ pasiekiami išskirtiniai DI modeliai („Opus 4.8“, „GPT-5.6 Sol“), pažangesnis samprotavimas ir dvigubai didesni naudojimo limitai. Tinka sudėtingesnėms užduotims ir išsamiai analizei.",
+          "primaryActionText": "Keisti planą į „Pro“"
+        },
+        "lv": {
+          "titleText": "Esi pieredzējis MI lietotājs? Pārej uz Pro!",
+          "descriptionText": "Pro piedāvā ekskluzīvus MI modeļus (Opus 4.8, GPT-5.6 Sol), uzlabotu spriestspēju un divreiz lielākus limitus. Piemērots sarežģītākiem uzdevumiem un padziļinātai analīzei.",
+          "primaryActionText": "Pāriet uz Pro plānu"
+        },
+        "nb": {
+          "titleText": "AI-superbruker? Oppgrader til Pro!",
+          "descriptionText": "Pro har eksklusive AI-modeller (Opus 4.8, GPT-5.6 Sol), forbedret resonnering og dobbelt så høye grenser. Passer til mer komplekse oppgaver og grundige analyser.",
+          "primaryActionText": "Oppgrader til Pro"
+        },
+        "nl": {
+          "titleText": "AI-powergebruiker? Upgraden naar Pro!",
+          "descriptionText": "Pro biedt exclusieve AI-modellen (Opus 4.8, GPT-5.6 Sol), verbeterde redenering en 2 × hogere limieten. Geschikt voor complexere taken en diepgaande analyse.",
+          "primaryActionText": "Upgraden naar Pro"
+        },
+        "pl": {
+          "titleText": "Zaawansowany użytkownik AI? Przejdź na plan Pro!",
+          "descriptionText": "Plan Pro oferuje ekskluzywne modele AI (Opus 4.8, GPT-5.6 Sol), lepsze możliwości rozumowania i dwukrotnie wyższe limity. Do bardziej złożonych zadań i dogłębnej analizy.",
+          "primaryActionText": "Przejdź na plan Pro"
+        },
+        "pt": {
+          "titleText": "Utilizador avançado de IA? Atualizar para o Pro!",
+          "descriptionText": "O Pro tem modelos de IA exclusivos (Opus 4.8, GPT-5.6 Sol), raciocínio melhorado e limites 2x superiores. Adequado para tarefas mais complexas e análises aprofundadas.",
+          "primaryActionText": "Atualizar para o Pro"
+        },
+        "ro": {
+          "titleText": "Ești un utilizator avansat al IA? Fă upgrade la Pro!",
+          "descriptionText": "Pro include modele IA exclusive (Opus 4.8, GPT-5.6 Sol), raționament îmbunătățit și limite de 2 ori mai mari. Potrivit pentru sarcini mai complexe și analize aprofundate.",
+          "primaryActionText": "Fă upgrade la Pro"
+        },
+        "ru": {
+          "titleText": "Опытный пользователь ИИ? Перейди на Pro!",
+          "descriptionText": "В Pro доступны эксклюзивные модели ИИ (Opus 4.8, GPT-5.6 Sol), улучшенные возможности рассуждения и лимиты в 2 раза выше. Подходит для более сложных задач и глубокого анализа.",
+          "primaryActionText": "Перейти на Pro"
+        },
+        "sk": {
+          "titleText": "Si pokročilý používateľ AI? Prejdi na Pro!",
+          "descriptionText": "Pro má exkluzívne modely AI (Opus 4.8, GPT-5.6 Sol), vylepšené uvažovanie a 2x vyššie limity. Vhodné na komplexnejšie úlohy a hĺbkovú analýzu.",
+          "primaryActionText": "Prejsť na Pro"
+        },
+        "sl": {
+          "titleText": "Ste napredni uporabnik UI? Nadgradite na Pro!",
+          "descriptionText": "Pro vključuje ekskluzivne modele umetne inteligence (Opus 4.8, GPT-5.6 Sol), izboljšano sklepanje in 2-krat višje omejitve. Primerno za kompleksnejša opravila in poglobljeno analizo.",
+          "primaryActionText": "Nadgradi na Pro"
+        },
+        "sv": {
+          "titleText": "Är du avancerad AI-användare? Uppgradera till Pro!",
+          "descriptionText": "Pro har exklusiva AI-modeller (Opus 4.8, GPT-5.6 Sol), förbättrat resonemang och dubbelt så höga gränser. Passar för mer komplexa uppgifter och djupgående analyser.",
+          "primaryActionText": "Uppgradera till Pro"
+        },
+        "tr": {
+          "titleText": "Yapay zeka konusunda ileri düzey kullanıcı mısın? Pro'ya yükselt!",
+          "descriptionText": "Pro, özel yapay zeka modelleri (Opus 4.8, GPT-5.6 Sol), geliştirilmiş akıl yürütme ve 2 kat daha fazla limit sunar. Daha karmaşık görevler ve derinlemesine analizler için idealdir.",
+          "primaryActionText": "Pro'ya Yükselt"
+        }
+      },
+      "matchingRules": [35],
+      "exclusionRules": []
     },
     {
       "id": "ios_pir_announcement_1",
@@ -1217,6 +1360,35 @@
             "ios15_eos_early_notice_can_update"
           ],
           "fallback": false
+        }
+      }
+    },
+    {
+      "id": 35,
+      "attributes": {
+        "pproSubscriptionTier": {
+          "value": ["plus"]
+        },
+        "pproSubscriptionStatus": {
+          "value": ["active", "expiring"]
+        },
+        "pproPurchasePlatform": {
+          "value": ["apple"]
+        },
+        "subscriptionFreeTrialActive": {
+          "value": false
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 8
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "daysSinceDuckAiUsed": {
+          "max": 7
+        },
+        "appVersion": {
+          "min": "7.228.0"
         }
       }
     }
