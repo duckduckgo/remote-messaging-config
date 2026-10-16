@@ -2,6 +2,58 @@
   "version": 122,
   "messages": [
     {
+      "id": "funnel_rmf_android_duckaiproupgrade",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "AI power user? Upgrade to Pro!",
+        "descriptionText": "Pro has exclusive AI models (Opus 4.8, GPT-5.6 Sol), enhanced reasoning and 2x limits. Suited to more complex tasks and deep analysis.",
+        "placeholder": "DuckAi",
+        "primaryActionText": "Upgrade to Pro",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "subscriptions.upgrade",
+          "additionalParameters": {
+            "payload": "{\"origin\": \"funnel_rmf_android_duckaiproupgrade\"}"
+          }
+        }
+      },
+      "translations": {
+        "de": {
+          "titleText": "Du bist ein echter KI-Fan? Upgrade auf Pro!",
+          "descriptionText": "Pro bietet exklusive KI-Modelle (Opus 4.8, GPT-5.6 Sol), verbessertes Reasoning und doppelt so hohe Limits. Für komplexere Aufgaben und tiefgehende Analysen geeignet.",
+          "primaryActionText": "Upgrade auf Pro"
+        },
+        "es": {
+          "titleText": "¿Usuario avanzado de IA? ¡Actualiza a Pro!",
+          "descriptionText": "Pro incluye modelos exclusivos de IA (Opus 4.8, GPT-5.6 Sol), razonamiento mejorado y límites 2x. Adecuado para tareas más complejas y análisis en profundidad.",
+          "primaryActionText": "Actualizar a Pro"
+        },
+        "fr": {
+          "titleText": "Tu utilises beaucoup l’IA ? Passe à Pro !",
+          "descriptionText": "Pro inclut des modèles d'IA exclusifs (Opus 4.8, GPT-5.6 Sol), un raisonnement amélioré et des limites doublées. Adapté à des tâches plus complexes et à des analyses approfondies.",
+          "primaryActionText": "Passer à Pro"
+        },
+        "it": {
+          "titleText": "Utente AI avanzato? Passa a Pro!",
+          "descriptionText": "Pro include modelli AI esclusivi (Opus 4.8, GPT-5.6 Sol), ragionamento avanzato e limiti raddoppiati. Adatto ad attività più complesse e ad analisi approfondite.",
+          "primaryActionText": "Passa a Pro"
+        },
+        "nl": {
+          "titleText": "AI-powergebruiker? Upgraden naar Pro!",
+          "descriptionText": "Pro biedt exclusieve AI-modellen (Opus 4.8, GPT-5.6 Sol), verbeterde redenering en 2 × hogere limieten. Geschikt voor complexere taken en diepgaande analyse.",
+          "primaryActionText": "Upgraden naar Pro"
+        },
+        "sv": {
+          "titleText": "Är du avancerad AI-användare? Uppgradera till Pro!",
+          "descriptionText": "Pro har exklusiva AI-modeller (Opus 4.8, GPT-5.6 Sol), förbättrat resonemang och dubbelt så höga gränser. Passar för mer komplexa uppgifter och djupgående analyser.",
+          "primaryActionText": "Uppgradera till Pro"
+        }
+      },
+      "matchingRules": [
+        35
+      ]
+    },
+    {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
         "messageType": "big_single_action",
@@ -895,6 +947,89 @@
         "locale": {
           "value": [
             "sv-SE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 35,
+      "attributes": {
+        "appVersion": {
+          "min": "5.297.0"
+        },
+        "pproSubscriptionTier": {
+          "value": [
+            "plus"
+          ]
+        },
+        "pproPurchasePlatform": {
+          "value": [
+            "google"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": [
+            "active",
+            "expiring"
+          ]
+        },
+        "subscriptionFreeTrialActive": {
+          "value": false
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 8
+        },
+        "daysSinceDuckAiUsed": {
+          "max": 7
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-FR",
+            "en-DE",
+            "en-NL",
+            "en-ES",
+            "en-BG",
+            "en-CZ",
+            "en-DK",
+            "en-GR",
+            "en-EE",
+            "en-FI",
+            "en-HR",
+            "en-IT",
+            "en-LT",
+            "en-LV",
+            "en-PL",
+            "en-PT",
+            "en-RO",
+            "en-SK",
+            "en-SI",
+            "en-SE",
+            "en-IE",
+            "en-MT",
+            "en-CY",
+            "en-LU",
+            "en-AT",
+            "en-BE",
+            "en-HU",
+            "fr-FR",
+            "fr-CA",
+            "fr-LU",
+            "fr-BE",
+            "es-ES",
+            "sv-SE",
+            "de-DE",
+            "de-LU",
+            "de-AT",
+            "de-BE",
+            "nl-NL",
+            "nl-BE",
+            "it-IT"
           ]
         }
       }
