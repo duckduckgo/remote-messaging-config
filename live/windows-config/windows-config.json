@@ -1,5 +1,5 @@
 {
-  "version": 70,
+  "version": 71,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -91,22 +91,6 @@
       "matchingRules": [
         15
       ],
-      "exclusionRules": []
-    },
-    {
-      "id": "password_manager_extensions",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "New! Support for Password Manager Extensions",
-        "descriptionText": "We've started by enabling access to Bitwarden, 1Password, and LastPass.",
-        "placeholder": "Announce",
-        "primaryActionText": "Manage Extensions",
-        "primaryAction": {
-          "type": "url",
-          "value": "duck://settings/extensions"
-        }
-      },
-      "matchingRules": [ 16 ],
       "exclusionRules": []
     }
   ],
@@ -244,28 +228,6 @@
       "attributes": {
         "osArch": {
           "value": "X86"
-        }
-      }
-    },
-    {
-      "id": 16,
-      "attributes": {
-        "flavor": {
-          "value": [ "preview" ]
-        },
-        "appVersion": {
-          "min": "0.175.0"
-        },
-        "allFeatureFlagsEnabled": {
-          "value": [ "isLaunchedExtensions" ]
-        },
-        "locale": {
-          "value": [
-            "en-US",
-            "en-CA",
-            "en-GB",
-            "en-AU"
-          ]
         }
       }
     }
