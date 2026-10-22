@@ -6,7 +6,7 @@
       "content": {
         "messageType": "big_single_action",
         "titleText": "AI power user? Upgrade to Pro!",
-        "descriptionText": "Pro has exclusive AI models (Opus 4.8, GPT-5.6 Sol), enhanced reasoning and 2x limits. Suited to more complex tasks and deep analysis.",
+        "descriptionText": "Get more complex work done with Pro, which has Opus 4.8 and GPT-5.6 Sol, enhanced reasoning, and 2x limits.",
         "placeholder": "DuckAi",
         "primaryActionText": "Upgrade to Pro",
         "primaryAction": {
@@ -20,32 +20,32 @@
       "translations": {
         "de": {
           "titleText": "Du bist ein echter KI-Fan? Upgrade auf Pro!",
-          "descriptionText": "Pro bietet exklusive KI-Modelle (Opus 4.8, GPT-5.6 Sol), verbessertes Reasoning und doppelt so hohe Limits. Für komplexere Aufgaben und tiefgehende Analysen geeignet.",
+          "descriptionText": "Mit Pro kannst du komplexere Aufgaben erledigen – dank Opus 4.8 und GPT-5.6 Sol, verbessertem Reasoning und doppelt so hohen Limits.",
           "primaryActionText": "Upgrade auf Pro"
         },
         "es": {
           "titleText": "¿Usuario avanzado de IA? ¡Actualiza a Pro!",
-          "descriptionText": "Pro incluye modelos exclusivos de IA (Opus 4.8, GPT-5.6 Sol), razonamiento mejorado y límites 2x. Adecuado para tareas más complejas y análisis en profundidad.",
+          "descriptionText": "Realiza tareas más complejas con Pro, que incluye Opus 4.8 y GPT-5.6 Sol, razonamiento mejorado y límites 2x.",
           "primaryActionText": "Actualizar a Pro"
         },
         "fr": {
           "titleText": "Tu utilises beaucoup l’IA ? Passe à Pro !",
-          "descriptionText": "Pro inclut des modèles d'IA exclusifs (Opus 4.8, GPT-5.6 Sol), un raisonnement amélioré et des limites doublées. Adapté à des tâches plus complexes et à des analyses approfondies.",
+          "descriptionText": "Réalisez des tâches plus complexes avec Pro, qui inclut Opus 4.8 et GPT-5.6 Sol, un raisonnement amélioré et des limites doublées.",
           "primaryActionText": "Passer à Pro"
         },
         "it": {
           "titleText": "Utente AI avanzato? Passa a Pro!",
-          "descriptionText": "Pro include modelli AI esclusivi (Opus 4.8, GPT-5.6 Sol), ragionamento avanzato e limiti raddoppiati. Adatto ad attività più complesse e ad analisi approfondite.",
+          "descriptionText": "Con Pro puoi svolgere attività più complesse, grazie a Opus 4.8 e GPT-5.6 Sol, al ragionamento avanzato e a limiti raddoppiati.",
           "primaryActionText": "Passa a Pro"
         },
         "nl": {
           "titleText": "AI-powergebruiker? Upgraden naar Pro!",
-          "descriptionText": "Pro biedt exclusieve AI-modellen (Opus 4.8, GPT-5.6 Sol), verbeterde redenering en 2 × hogere limieten. Geschikt voor complexere taken en diepgaande analyse.",
+          "descriptionText": "Krijg complexere taken voor elkaar met Pro, dat beschikt over Opus 4.8 en GPT-5.6 Sol, verbeterde redeneervaardigheden en dubbele limieten.",
           "primaryActionText": "Upgraden naar Pro"
         },
         "sv": {
           "titleText": "Är du avancerad AI-användare? Uppgradera till Pro!",
-          "descriptionText": "Pro har exklusiva AI-modeller (Opus 4.8, GPT-5.6 Sol), förbättrat resonemang och dubbelt så höga gränser. Passar för mer komplexa uppgifter och djupgående analyser.",
+          "descriptionText": "Få mer avancerade uppgifter gjorda med Pro, som erbjuder Opus 4.8 och GPT-5.6 Sol, förbättrad resonemangsförmåga och dubbelt så höga användningsgränser.",
           "primaryActionText": "Uppgradera till Pro"
         }
       },
