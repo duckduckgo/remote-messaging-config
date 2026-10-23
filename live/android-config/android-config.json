@@ -1,6 +1,116 @@
 {
-  "version": 122,
+  "version": 999,
   "messages": [
+    {
+      "id": "android_complete_your_setup",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "matchingRules": [
+        25
+      ],
+      "exclusionRules": [],
+      "displayConditions": {
+        "dismissAfterUniqueDailyImpressions": 3
+      },
+      "content": {
+        "messageType": "actionable_items",
+        "titleText": "Next Steps",
+        "listItems": [
+          {
+            "id": "setup_default_browser",
+            "type": "one_action_item",
+            "titleText": "Browse privately by default",
+            "descriptionText": "Search privately every time with DuckDuckGo as your default browser",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/default_browser.png",
+            "primaryActionText": "Set as Default",
+            "primaryAction": {
+              "type": "defaultBrowser",
+              "value": ""
+            }
+          },
+          {
+            "id": "setup_add_widget",
+            "type": "one_action_item",
+            "titleText": "Try our Home screen widget",
+            "descriptionText": "Add our search widget to your Home screen for quick and easy access",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/add_widget.png",
+            "primaryActionText": "Add to Homescreen",
+            "primaryAction": {
+              "type": "addWidget",
+              "value": ""
+            }
+          },
+          {
+            "id": "setup_sync",
+            "type": "one_action_item",
+            "titleText": "Sync your data across devices",
+            "descriptionText": "Effortlessly sync your data across your mobile and desktop apps!",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/sync.png",
+            "primaryActionText": "Sync Data",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "sync"
+            }
+          }
+        ]
+      },
+      "translations": {
+        "de": {
+          "titleText": "Einrichtung abschließen",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Standardmäßig privat surfen",
+              "descriptionText": "Suche jedes Mal privat, mit DuckDuckGo als Standardbrowser",
+              "primaryActionText": "Als Standard festlegen"
+            }
+          }
+        },
+        "es": {
+          "titleText": "Próximos pasos",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Navega de forma privada por defecto",
+              "descriptionText": "Busca siempre de forma privada con DuckDuckGo como tu navegador predeterminado",
+              "primaryActionText": "Establecer como predeterminado"
+            },
+            "setup_add_widget": {
+              "titleText": "Prueba nuestro widget de la pantalla de inicio",
+              "descriptionText": "Añade nuestro widget de búsqueda a tu pantalla de inicio para acceder de forma rápida y sencilla",
+              "primaryActionText": "Añadir a la pantalla de inicio"
+            },
+            "setup_sync": {
+              "titleText": "Sincroniza tus datos entre dispositivos",
+              "descriptionText": "¡Sincroniza tus datos sin esfuerzo entre tus aplicaciones móviles y de escritorio!",
+              "primaryActionText": "Sincronizar datos"
+            }
+          }
+        },
+        "ro": {
+          "titleText": "Pașii următori",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Navighează privat în mod implicit",
+              "descriptionText": "Caută privat de fiecare dată, cu DuckDuckGo ca browser implicit",
+              "primaryActionText": "Setează ca implicit"
+            },
+            "setup_add_widget": {
+              "titleText": "Încearcă widgetul nostru pentru ecranul de pornire",
+              "descriptionText": "Adaugă widgetul nostru de căutare pe ecranul de pornire pentru acces rapid și ușor",
+              "primaryActionText": "Adaugă pe ecranul de pornire"
+            },
+            "setup_sync": {
+              "titleText": "Sincronizează-ți datele pe toate dispozitivele",
+              "descriptionText": "Sincronizează-ți fără efort datele între aplicațiile mobile și cele desktop!",
+              "primaryActionText": "Sincronizează datele"
+            }
+          }
+        }
+      }
+    },
     {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
@@ -895,6 +1005,16 @@
         "locale": {
           "value": [
             "sv-SE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "isUserInAnyActiveExperiment": {
+          "value": [
+            "nextStepsItemsExperiment:stacked_cards"
           ]
         }
       }
