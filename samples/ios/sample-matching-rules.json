@@ -1,0 +1,124 @@
+{
+  "version": 0,
+  "messages": [
+    {
+      "id": "ios-rules-all-attributes",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "medium",
+        "titleText": "All Attributes Must Match",
+        "descriptionText": "This message uses one rule containing app and operating system version ranges.",
+        "placeholder": "RadarCheckGreen"
+      },
+      "matchingRules": [
+        1
+      ],
+      "exclusionRules": [
+        4
+      ]
+    },
+    {
+      "id": "ios-rules-alternative-matches",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "medium",
+        "titleText": "Matching Rules Are Alternatives",
+        "descriptionText": "This message matches an English locale rule or an all-version rule.",
+        "placeholder": "RadarCheckPurple"
+      },
+      "matchingRules": [
+        2,
+        3
+      ],
+      "exclusionRules": [
+        5
+      ]
+    },
+    {
+      "id": "ios-rules-percentile-and-exclusions",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "content": {
+        "messageType": "medium",
+        "titleText": "Percentile and Exclusion Rules",
+        "descriptionText": "This message uses a 100% rollout rule and two previous-campaign exclusions.",
+        "placeholder": "DDGAnnounce"
+      },
+      "matchingRules": [
+        6
+      ],
+      "exclusionRules": [
+        4,
+        5
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "attributes": {
+        "appVersion": {
+          "min": "0.0.0"
+        },
+        "osApi": {
+          "min": "0.0.0"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US",
+            "en-GB"
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "appVersion": {
+          "min": "0.0.0"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "interactedWithMessage": {
+          "value": [
+            "ios-example-campaign-dismissed"
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "messageShown": {
+          "value": [
+            "ios-example-campaign-shown"
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "targetPercentile": {
+        "before": 1.0
+      },
+      "attributes": {
+        "appVersion": {
+          "min": "0.0.0"
+        }
+      }
+    }
+  ]
+}
