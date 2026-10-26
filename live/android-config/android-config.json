@@ -47,10 +47,10 @@
             "id": "setup_sync",
             "type": "one_action_item",
             "titleText": "Keep DuckDuckGo in sync",
-            "descriptionText": "Effortlessly use your bookmarks, passwords, and more on all your devices!",
+            "descriptionText": "Use your bookmarks, passwords, and more on all your devices!",
             "placeholder": "DDGAnnounce",
             "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/sync.png",
-            "primaryActionText": "Turn on Sync & Backup",
+            "primaryActionText": "Turn On Sync & Backup",
             "primaryAction": {
               "type": "navigation",
               "value": "sync"
