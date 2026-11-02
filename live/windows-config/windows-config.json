@@ -1,5 +1,5 @@
 {
-  "version": 72,
+  "version": 73,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -63,7 +63,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/241004?list=1",
           "additionalParameters": {
-            "queryParams": "wv;atb;ddgv;sts;var;origin;last_search_state"
+            "queryParams": "wv;atb;ddgv;sts;var;origin;last_search_state;last_duck_ai_usage"
           }
         }
       },
@@ -173,7 +173,7 @@
           "primaryActionText": "Passa a Pro"
         }
       },
-      "matchingRules": [ 16 ],
+      "matchingRules": [ 16,17 ],
       "exclusionRules": []
     }
   ],
@@ -323,10 +323,79 @@
           ]
         },
         "pproSubscriptionStatus": {
+          "value": "expiring"
+        },
+        "subscriptionFreeTrialActive": {
+          "value": false
+        },
+        "pproDaysSinceSubscribed": {
+          "min": 8
+        },
+        "daysSinceDuckAiUsed": {
+          "max": 7
+        },
+        "daysSinceInstalled": {
+          "min": 7
+        },
+        "locale": {
           "value": [
-            "active",
-            "expiring"
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-FR",
+            "en-DE",
+            "en-NL",
+            "en-ES",
+            "en-BG",
+            "en-CZ",
+            "en-DK",
+            "en-GR",
+            "en-EE",
+            "en-FI",
+            "en-HR",
+            "en-IT",
+            "en-LT",
+            "en-LV",
+            "en-PL",
+            "en-PT",
+            "en-RO",
+            "en-SK",
+            "en-SI",
+            "en-SE",
+            "en-IE",
+            "en-MT",
+            "en-CY",
+            "en-LU",
+            "en-AT",
+            "en-BE",
+            "en-HU",
+            "fr-FR",
+            "fr-CA",
+            "fr-LU",
+            "fr-BE",
+            "es-ES",
+            "sv-SE",
+            "de-DE",
+            "de-LU",
+            "de-AT",
+            "de-BE",
+            "nl-NL",
+            "nl-BE",
+            "it-IT"
           ]
+        }
+      }
+    },
+    {
+      "id": 17,
+      "attributes": {
+        "pproSubscriptionTier": {
+          "value": [
+            "plus"
+          ]
+        },
+        "pproSubscriptionStatus": {
+          "value": "active"
         },
         "subscriptionFreeTrialActive": {
           "value": false
