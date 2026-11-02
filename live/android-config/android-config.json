@@ -20,10 +20,10 @@
           {
             "id": "setup_default_browser",
             "type": "one_action_item",
-            "titleText": "Browse privately by default",
+            "titleText": "Set DuckDuckGo as your default browser",
             "descriptionText": "Search privately every time with DuckDuckGo as your default browser.",
             "placeholder": "DDGAnnounce",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/default_browser.png",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/icon_default_browser.png",
             "primaryActionText": "Set as Default",
             "primaryAction": {
               "type": "defaultBrowser",
@@ -36,7 +36,7 @@
             "titleText": "Try our Home screen widget",
             "descriptionText": "Add our search widget to your Home screen for quick and easy access.",
             "placeholder": "DDGAnnounce",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/add_widget.png",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/icon_add_widget.png",
             "primaryActionText": "Add to Home Screen",
             "primaryAction": {
               "type": "addWidget",
@@ -46,10 +46,10 @@
           {
             "id": "setup_sync",
             "type": "one_action_item",
-            "titleText": "Keep DuckDuckGo in sync",
+            "titleText": "Sync your data across your devices",
             "descriptionText": "Use your bookmarks, passwords, and more on all your devices!",
             "placeholder": "DDGAnnounce",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/sync.png",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/icon_sync.png",
             "primaryActionText": "Turn On Sync & Backup",
             "primaryAction": {
               "type": "navigation",
@@ -63,7 +63,7 @@
           "titleText": "Einrichtung abschließen",
           "listItems": {
             "setup_default_browser": {
-              "titleText": "Standardmäßig privat surfen",
+              "titleText": "DuckDuckGo als Standardbrowser festlegen",
               "descriptionText": "Suche jedes Mal privat, mit DuckDuckGo als Standardbrowser.",
               "primaryActionText": "Als Standard festlegen"
             }
@@ -73,7 +73,7 @@
           "titleText": "Próximos pasos",
           "listItems": {
             "setup_default_browser": {
-              "titleText": "Navega de forma privada por defecto",
+              "titleText": "Establece DuckDuckGo como tu navegador predeterminado",
               "descriptionText": "Busca siempre de forma privada con DuckDuckGo como tu navegador predeterminado.",
               "primaryActionText": "Establecer como predeterminado"
             },
@@ -83,8 +83,8 @@
               "primaryActionText": "Añadir a la pantalla de inicio"
             },
             "setup_sync": {
-              "titleText": "Mantén DuckDuckGo sincronizado",
-              "descriptionText": "¡Usa sin esfuerzo tus marcadores, contraseñas y mucho más en todos tus dispositivos!",
+              "titleText": "Sincroniza tus datos en todos tus dispositivos",
+              "descriptionText": "¡Usa tus marcadores, contraseñas y mucho más en todos tus dispositivos!",
               "primaryActionText": "Activar Sincronización y copia de seguridad"
             }
           }
@@ -93,7 +93,7 @@
           "titleText": "Pașii următori",
           "listItems": {
             "setup_default_browser": {
-              "titleText": "Navighează privat în mod implicit",
+              "titleText": "Setează DuckDuckGo ca browser implicit",
               "descriptionText": "Caută privat de fiecare dată, cu DuckDuckGo ca browser implicit.",
               "primaryActionText": "Setează ca implicit"
             },
@@ -103,8 +103,8 @@
               "primaryActionText": "Adaugă pe ecranul de pornire"
             },
             "setup_sync": {
-              "titleText": "Păstrează DuckDuckGo sincronizat",
-              "descriptionText": "Folosește fără efort marcajele, parolele și multe altele pe toate dispozitivele tale!",
+              "titleText": "Sincronizează-ți datele pe toate dispozitivele",
+              "descriptionText": "Folosește marcajele, parolele și multe altele pe toate dispozitivele tale!",
               "primaryActionText": "Activează Sincronizare și backup"
             }
           }
@@ -1066,7 +1066,7 @@
       "attributes": {
         "isUserInAnyActiveExperiment": {
           "value": [
-            "nextStepsItemsExperiment:stacked_cards"
+            "nextStepsItemsExperiment:check_list"
           ]
         }
       }
