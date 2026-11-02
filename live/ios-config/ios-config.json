@@ -1,5 +1,5 @@
 {
-  "version": 138,
+  "version": 139,
   "messages": [
     {
       "id": "ios15_eos_early_notice_can_update",
@@ -737,7 +737,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200?list=3",
           "additionalParameters": {
-            "queryParams": "atb;var;ddgv;mo;osv;last_search_state;locale"
+            "queryParams": "atb;var;ddgv;mo;osv;last_search_state;locale;last_duck_ai_usage"
           }
         }
       },
@@ -902,7 +902,7 @@
           "max": 21
         },
         "appVersion": {
-          "min": "7.124.0.1"
+          "min": "7.236.0"
         },
         "locale": {
           "value": [

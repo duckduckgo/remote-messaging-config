@@ -1,5 +1,5 @@
 {
-  "version": 62,
+  "version": 63,
   "messages": [
     {
       "id": "funnel_rmf_macos_duckaiproupgrade",
@@ -341,7 +341,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/241004?list=2",
           "additionalParameters": {
-            "queryParams": "delta;var;osv;ddgv;last_search_state"
+            "queryParams": "delta;var;osv;ddgv;last_search_state;last_duck_ai_usage"
           }
         }
       },
@@ -815,7 +815,7 @@
       "id": 12,
       "attributes": {
         "appVersion": {
-          "min": "1.121.0"
+          "min": "1.206.0"
         },
         "daysSinceInstalled": {
           "min": 14,

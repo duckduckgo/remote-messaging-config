@@ -629,7 +629,7 @@
           "type": "survey",
           "value": "https://selfserve.decipherinc.com/survey/selfserve/32ab/240200",
           "additionalParameters": {
-            "queryParams": "atb;var;delta;av;ddgv;man;mo;locale"
+            "queryParams": "atb;var;delta;av;ddgv;man;mo;locale;last_search_state;last_duck_ai_usage"
           }
         }
       },
@@ -648,6 +648,9 @@
         "before": 0.2
       },
       "attributes": {
+        "appVersion": {
+          "min": "5.295.0"
+        },
         "pproSubscriber": {
           "value": false
         },
