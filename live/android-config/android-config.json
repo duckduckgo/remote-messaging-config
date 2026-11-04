@@ -46,7 +46,7 @@
           {
             "id": "setup_sync",
             "type": "one_action_item",
-            "titleText": "Sync your data across your devices",
+            "titleText": "Keep DuckDuckGo in sync",
             "descriptionText": "Use your bookmarks, passwords, and more on all your devices!",
             "placeholder": "DDGAnnounce",
             "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/icon_sync.png",
