@@ -1,6 +1,122 @@
 {
-  "version": 125,
+  "version": 126,
   "messages": [
+    {
+      "id": "android_complete_your_setup_checklist",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "matchingRules": [
+        25
+      ],
+      "exclusionRules": [],
+      "displayConditions": {
+        "dismissAfterUniqueDailyImpressions": 3
+      },
+      "content": {
+        "messageType": "actionable_items",
+        "titleText": "Next Steps",
+        "listItems": [
+          {
+            "id": "setup_default_browser",
+            "type": "one_action_item",
+            "titleText": "Set DuckDuckGo as your default browser",
+            "descriptionText": "Search privately every time with DuckDuckGo as your default browser.",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/default-browser-mobile-color-24-4x.png",
+            "primaryActionText": "Set as Default",
+            "primaryAction": {
+              "type": "defaultBrowser",
+              "value": ""
+            }
+          },
+          {
+            "id": "setup_add_widget",
+            "type": "one_action_item",
+            "titleText": "Try our Home screen widget",
+            "descriptionText": "Add our search widget to your Home screen for quick and easy access.",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/add-widget-color-24-4x.png",
+            "primaryActionText": "Add to Home Screen",
+            "primaryAction": {
+              "type": "addWidget",
+              "value": ""
+            }
+          },
+          {
+            "id": "setup_sync",
+            "type": "one_action_item",
+            "titleText": "Keep DuckDuckGo in sync",
+            "descriptionText": "Use your bookmarks, passwords, and more on all your devices!",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/sync-color-24-4x.png",
+            "primaryActionText": "Turn On Sync & Backup",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "sync"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "android_complete_your_setup_cards",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "matchingRules": [
+        26
+      ],
+      "exclusionRules": [],
+      "displayConditions": {
+        "dismissAfterUniqueDailyImpressions": 3
+      },
+      "content": {
+        "messageType": "actionable_items",
+        "titleText": "Next Steps",
+        "listItems": [
+          {
+            "id": "setup_default_browser",
+            "type": "one_action_item",
+            "titleText": "Browse privately by default",
+            "descriptionText": "Search privately every time with DuckDuckGo as your default browser.",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/mobile-device-default-feature-96-4x.png",
+            "primaryActionText": "Set as Default",
+            "primaryAction": {
+              "type": "defaultBrowser",
+              "value": ""
+            }
+          },
+          {
+            "id": "setup_add_widget",
+            "type": "one_action_item",
+            "titleText": "Try our Home screen widget",
+            "descriptionText": "Add our search widget to your Home screen for quick and easy access.",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/widget-add-feature-96-4x.png",
+            "primaryActionText": "Add to Home Screen",
+            "primaryAction": {
+              "type": "addWidget",
+              "value": ""
+            }
+          },
+          {
+            "id": "setup_sync",
+            "type": "one_action_item",
+            "titleText": "Keep DuckDuckGo in sync",
+            "descriptionText": "Use your bookmarks, passwords, and more on all your devices!",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/sync-feature-96-4x.png",
+            "primaryActionText": "Turn On Sync & Backup",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "sync"
+            }
+          }
+        ]
+      }
+    },
     {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
@@ -898,6 +1014,26 @@
         "locale": {
           "value": [
             "sv-SE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "isUserInAnyActiveExperiment": {
+          "value": [
+            "nextStepsItemsExperiment:check_list"
+          ]
+        }
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "isUserInAnyActiveExperiment": {
+          "value": [
+            "nextStepsItemsExperiment:stacked_cards"
           ]
         }
       }
