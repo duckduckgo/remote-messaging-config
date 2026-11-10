@@ -1,5 +1,5 @@
 {
-  "version": 73,
+  "version": 74,
   "messages": [
     {
       "id": "windows_privacy_pro_exit_survey_1",
@@ -173,7 +173,23 @@
           "primaryActionText": "Passa a Pro"
         }
       },
-      "matchingRules": [ 16,17 ],
+      "matchingRules": [ 16, 17 ],
+      "exclusionRules": []
+    },
+    {
+      "id": "bitwarden_lastpass_extensions",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "New! Support for Password Manager Extensions",
+        "descriptionText": "We've started by enabling access to Bitwarden and LastPass.",
+        "placeholder": "Announce",
+        "primaryActionText": "Manage Extensions",
+        "primaryAction": {
+          "type": "url",
+          "value": "duck://settings/extensions"
+        }
+      },
+      "matchingRules": [ 18 ],
       "exclusionRules": []
     }
   ],
@@ -454,6 +470,22 @@
             "nl-NL",
             "nl-BE",
             "it-IT"
+          ]
+        }
+      }
+    },
+    {
+      "id": 18,
+      "attributes": {
+        "appVersion": {
+          "min": "0.176.0"
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-CA",
+            "en-GB",
+            "en-AU"
           ]
         }
       }
