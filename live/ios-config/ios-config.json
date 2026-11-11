@@ -21,7 +21,7 @@
             "titleText": "Skip YouTube's Skip Button",
             "descriptionText": "YouTube Ad Blocking is now on by default in our browser, so you can stop skipping and just enjoy watching.",
             "placeholder": "Announce",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube-clean-96-4x.png",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube-clean-feature-96-4x.png",
             "primaryAction": {
               "type": "url",
               "value": "https://www.spreadprivacy.com/youtube-ad-blocking/"
@@ -33,7 +33,7 @@
             "titleText": "AI Is Always Optional",
             "descriptionText": "Use AI features when you want them, or turn them all off with the new Use DuckDuckGo Without AI button in Settings.",
             "placeholder": "Duck.ai",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/ai-96-4x.png",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/ai-feature-96-4x.png",
             "primaryAction": {
               "type": "navigation",
               "value": "duckai.settings"
@@ -45,7 +45,6 @@
             "titleText": "Scan for Your Info Online",
             "descriptionText": "Run a FREE scan to check if data broker sites are storing your personal info.",
             "placeholder": "PIR",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/personal-information-remover-96-4x.png",
             "primaryAction": {
               "type": "navigation",
               "value": "pir.main"
@@ -64,8 +63,7 @@
             "type": "two_line_list_item",
             "titleText": "Revisit What's New",
             "descriptionText": "Missed something? Find the latest updates any time in Settings > What's New.",
-            "placeholder": "Announce",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/announcement-96-4x.png"
+            "placeholder": "Announce"
           }
         ]
       },
