@@ -65,8 +65,7 @@
             "type": "two_line_list_item",
             "titleText": "Revisit What's New",
             "descriptionText": "Missed something? Find the latest updates any time in Settings > What's New.",
-            "placeholder": "Announce",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/announcement-96-4x.png"
+            "placeholder": "Announce"
           }
         ]
       },
