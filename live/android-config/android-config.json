@@ -942,6 +942,20 @@
         },
         "oneUiVersion": {
           "min": "9.0"
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-GB",
+            "en-CA",
+            "en-AU",
+            "en-NZ",
+            "en-IE",
+            "en-IN",
+            "en-ZA",
+            "en-SG",
+            "en-PH"
+          ]
         }
       }
     }
