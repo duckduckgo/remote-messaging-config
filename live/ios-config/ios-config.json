@@ -2,7 +2,8 @@
   "version": 141,
   "messages": [
     {
-      "id": "whats_new_q3_2026_non_subscribers",
+
+      "id": "whats_new_q3_2026_subscribers",
       "content": {
         "messageType": "cards_list",
         "titleText": "What's New",
@@ -40,14 +41,15 @@
             }
           },
           {
-            "id": "scan_for_your_info_online",
+            "id": "chat_with_new_ai_models",
             "type": "two_line_list_item",
-            "titleText": "Scan for Your Info Online",
-            "descriptionText": "Run a FREE scan to check if data broker sites are storing your personal info.",
-            "placeholder": "PIR",
+            "titleText": "Chat with New AI Models",
+            "descriptionText": "Luna is now free for everyone on Duck.ai, and your plan adds one more: Terra with Plus or Sol with Pro.",
+            "placeholder": "Duck.ai",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckai-chat-96-4x.png",
             "primaryAction": {
-              "type": "navigation",
-              "value": "pir.main"
+              "type": "url",
+              "value": "https://duck.ai/"
             }
           },
           {
@@ -63,7 +65,8 @@
             "type": "two_line_list_item",
             "titleText": "Revisit What's New",
             "descriptionText": "Missed something? Find the latest updates any time in Settings > What's New.",
-            "placeholder": "Announce"
+            "placeholder": "Announce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/announcement-96-4x.png"
           }
         ]
       },
