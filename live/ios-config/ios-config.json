@@ -1290,44 +1290,6 @@
           "fallback": false
         }
       }
-    },
-    {
-      "id": 35,
-      "attributes": {
-        "appVersion": {
-          "min": "7.245.0"
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        },
-        "pproSubscriber": {
-          "value": true
-        }
-      }
-    },
-    {
-      "id": 36,
-      "attributes": {
-        "appVersion": {
-          "min": "7.245.0"
-        },
-        "locale": {
-          "value": [
-            "en-US"
-          ]
-        },
-        "daysSinceInstalled": {
-          "min": 7
-        },
-        "pproSubscriber": {
-          "value": false
-        }
-      }
     }
   ]
 }
