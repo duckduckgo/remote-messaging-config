@@ -8,7 +8,7 @@
         "titleText": "Want to remove Google search from your Home screen?",
         "descriptionText": "Open phone <b>Settings</b> and go to <b>Home screen > Show search on Home screen</b>.<br><br>Your Home screen should be your choice.",
         "placeholder": "Announce",
-        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/widget_samsung_os.png",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/Device-Mobile-RemoveSeach-56.png",
         "primaryActionText": "Open Settings",
         "primaryAction": {
           "type": "navigation",
