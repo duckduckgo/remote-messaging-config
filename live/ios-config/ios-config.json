@@ -70,6 +70,7 @@
         ]
       },
       "matchingRules": [
+        35
       ]
     },
     {
@@ -1288,6 +1289,14 @@
             "ios15_eos_early_notice_can_update"
           ],
           "fallback": false
+        }
+      }
+    },
+    {
+      "id": 35,
+      "attributes": {
+        "appVersion": {
+          "min": "7.245.0"
         }
       }
     }
