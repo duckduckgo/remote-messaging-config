@@ -1,6 +1,30 @@
 {
-  "version": 125,
+  "version": 126,
   "messages": [
+    {
+      "id": "android_samsung_oneui9_remove_search_bar",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Want to remove Google search from your Home screen?",
+        "descriptionText": "Open phone <b>Settings</b> and go to <b>Home screen > Show search on Home screen</b>.<br><br>Your Home screen should be your choice.",
+        "placeholder": "Announce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/Device-Mobile-RemoveSeach-56.png",
+        "primaryActionText": "Open Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "systemSettings",
+          "additionalParameters": {
+            "payload": "{\"screen\":\"samsungHomeScreen\"}"
+          }
+        }
+      },
+      "matchingRules": [
+        25
+      ],
+      "displayConditions": {
+        "dismissAfterUniqueDailyImpressions": 3
+      }
+    },
     {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
@@ -898,6 +922,39 @@
         "locale": {
           "value": [
             "sv-SE"
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "appVersion": {
+          "min": "5.302.0"
+        },
+        "osApi": {
+          "min": 37
+        },
+        "manufacturer": {
+          "value": [
+            "samsung"
+          ]
+        },
+        "oneUiVersion": {
+          "min": "9.0"
+        },
+        "locale": {
+          "value": [
+            "en-US",
+            "en-GB",
+            "en-CA",
+            "en-AU",
+            "en-NZ",
+            "en-IE",
+            "en-IN",
+            "en-ZA",
+            "en-SG",
+            "en-PH"
           ]
         }
       }
