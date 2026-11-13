@@ -23,7 +23,7 @@
             "placeholder": "Announce",
             "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube-clean-feature-96-4x.png",
             "primaryAction": {
-              "type": "url",
+              "type": "url_in_context",
               "value": "https://www.spreadprivacy.com/youtube-ad-blocking/"
             }
           },
