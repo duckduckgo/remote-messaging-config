@@ -1,6 +1,75 @@
 {
-  "version": 125,
+  "version": 126,
   "messages": [
+    {
+      "id": "whats_new_q3_2026",
+      "surfaces": [
+        "modal"
+      ],
+      "content": {
+        "messageType": "cards_list",
+        "titleText": "What's New",
+        "descriptionText": "What's new in DuckDuckGo.",
+        "placeholder": "DDGAnnounce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckduckgo-feature-96-2-4x.png",
+        "primaryActionText": "Dismiss",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        },
+        "listItems": [
+          {
+            "id": "youtube_ad_blocking_default",
+            "type": "two_line_list_item",
+            "titleText": "Skip YouTube's Skip Button",
+            "descriptionText": "YouTube Ad Blocking is now on by default in our browser, so you can stop skipping and just enjoy watching.",
+            "placeholder": "Announce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube_new_4x.png",
+            "primaryAction": {
+              "type": "url",
+              "value": "https://www.spreadprivacy.com/youtube-ad-blocking/"
+            }
+          },
+          {
+            "id": "ai_always_optional",
+            "type": "two_line_list_item",
+            "titleText": "AI Is Always Optional",
+            "descriptionText": "Use AI features when you want them, or turn them all off with the new \"Use DuckDuckGo Without AI button\" in Settings.",
+            "placeholder": "Duck.ai",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "duckai.settings"
+            }
+          },
+          {
+            "id": "browse_with_fire_tabs",
+            "type": "two_line_list_item",
+            "titleText": "Browse with Fire Tabs",
+            "descriptionText": "Use Fire Tabs to isolate your browsing from normal tabs and browse without saving local history.",
+            "placeholder": "Announce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/fire-feature-96-4x.png"
+          },
+          {
+            "id": "section-ddg_tips",
+            "type": "section_title",
+            "titleText": "DuckDuckTips",
+            "itemIDs": [
+              "revisit_whats_new"
+            ]
+          },
+          {
+            "id": "revisit_whats_new",
+            "type": "two_line_list_item",
+            "titleText": "Revisit What's New",
+            "descriptionText": "Missed something? Find the latest updates any time in Settings > What's New.",
+            "placeholder": "Announce"
+          }
+        ]
+      },
+      "matchingRules": [
+        36
+      ]
+    },
     {
       "id": "android_privacy_pro_exit_survey_1",
       "content": {
@@ -899,6 +968,19 @@
           "value": [
             "sv-SE"
           ]
+        }
+      }
+    },
+    {
+      "id": 36,
+      "attributes": {
+        "locale": {
+          "value": [
+            "en-US"
+          ]
+        },
+        "daysSinceInstalled": {
+          "min": 7
         }
       }
     }
