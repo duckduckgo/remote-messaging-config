@@ -1,6 +1,75 @@
 {
-  "version": 140,
+  "version": 141,
   "messages": [
+    {
+      "id": "whats_new_q3_2026_nonsubs",
+      "content": {
+        "messageType": "cards_list",
+        "titleText": "What's New",
+        "descriptionText": "What's new in DuckDuckGo.",
+        "placeholder": "DDGAnnounce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckduckgo-feature-96-2-4x.png",
+        "primaryActionText": "Dismiss",
+        "primaryAction": {
+          "type": "dismiss",
+          "value": ""
+        },
+        "listItems": [
+          {
+            "id": "skip_youtube_skip_button",
+            "type": "two_line_list_item",
+            "titleText": "Skip YouTube's Skip Button",
+            "descriptionText": "YouTube Ad Blocking is now on by default in our browser, so you can stop skipping and just enjoy watching.",
+            "placeholder": "Announce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube-clean-feature-96-4x.png",
+            "primaryAction": {
+              "type": "url_in_context",
+              "value": "https://www.spreadprivacy.com/youtube-ad-blocking/"
+            }
+          },
+          {
+            "id": "ai_is_always_optional",
+            "type": "two_line_list_item",
+            "titleText": "AI Is Always Optional",
+            "descriptionText": "Use AI features when you want them, or turn them all off with the new 'Use DuckDuckGo Without AI' button in Settings.",
+            "placeholder": "Duck.ai",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/ai-feature-96-4x.png",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "duckai.settings"
+            }
+          },
+          {
+            "id": "scan_for_your_info_online",
+            "type": "two_line_list_item",
+            "titleText": "Scan for Your Info Online",
+            "descriptionText": "Run a FREE scan to check if data broker sites are storing your personal info.",
+            "placeholder": "PIR",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "pir.main"
+            }
+          },
+          {
+            "id": "duckduckgo_tips_section",
+            "type": "section_title",
+            "titleText": "DuckDuckTips",
+            "itemIDs": [
+              "revisit_whats_new"
+            ]
+          },
+          {
+            "id": "revisit_whats_new",
+            "type": "two_line_list_item",
+            "titleText": "Revisit What's New",
+            "descriptionText": "Missed something? Find the latest updates any time in Settings > What's New.",
+            "placeholder": "Announce"
+          }
+        ]
+      },
+      "matchingRules": [
+      ]
+    },
     {
       "id": "ios15_eos_early_notice_can_update",
       "content": {
