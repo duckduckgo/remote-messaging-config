@@ -2,7 +2,7 @@
   "version": 141,
   "messages": [
     {
-      "id": "whats_new_q3_2026_non_subscribers",
+      "id": "whats_new_q3_2026_nonsubs",
       "content": {
         "messageType": "cards_list",
         "titleText": "What's New",
@@ -31,7 +31,7 @@
             "id": "ai_is_always_optional",
             "type": "two_line_list_item",
             "titleText": "AI Is Always Optional",
-            "descriptionText": "Use AI features when you want them, or turn them all off with the new Use DuckDuckGo Without AI button in Settings.",
+            "descriptionText": "Use AI features when you want them, or turn them all off with the new 'Use DuckDuckGo Without AI' button in Settings.",
             "placeholder": "Duck.ai",
             "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/ai-feature-96-4x.png",
             "primaryAction": {
