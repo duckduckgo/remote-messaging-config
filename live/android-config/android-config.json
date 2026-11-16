@@ -24,7 +24,7 @@
             "titleText": "Skip YouTube's Skip Button",
             "descriptionText": "DuckDuckGo now blocks YouTube ads by default, so you can stop skipping and enjoy watching.",
             "placeholder": "Announce",
-            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube_new_4x.png",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube-clean-feature-96-4x.png",
             "primaryAction": {
               "type": "url",
               "value": "https://www.spreadprivacy.com/youtube-ad-blocking/"
@@ -36,6 +36,7 @@
             "titleText": "AI Is Always Optional",
             "descriptionText": "Keep AI features on, or turn them all off with the \"Use DuckDuckGo Without AI\" button in Settings.",
             "placeholder": "Duck.ai",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/ai-feature-96-4x.png",
             "primaryAction": {
               "type": "navigation",
               "value": "duckai.settings"
