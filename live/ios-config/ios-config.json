@@ -2,14 +2,14 @@
   "version": 141,
   "messages": [
     {
-      "id": "whats_new_q3_2026_subs",
+      "id": "whats_new_q3_2026_nonsubs",
       "content": {
         "messageType": "cards_list",
         "titleText": "What's New",
         "descriptionText": "What's new in DuckDuckGo.",
         "placeholder": "DDGAnnounce",
         "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckduckgo-feature-96-2-4x.png",
-        "primaryActionText": "Dismiss",
+        "primaryActionText": "Got It",
         "primaryAction": {
           "type": "dismiss",
           "value": ""
@@ -19,7 +19,7 @@
             "id": "skip_youtube_skip_button",
             "type": "two_line_list_item",
             "titleText": "Skip YouTube's Skip Button",
-            "descriptionText": "YouTube Ad Blocking is now on by default in our browser, so you can stop skipping and just enjoy watching.",
+            "descriptionText": "DuckDuckGo now blocks YouTube ads by default, so you can stop skipping and enjoy watching.",
             "placeholder": "Announce",
             "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/youtube-clean-feature-96-4x.png",
             "primaryAction": {
@@ -31,7 +31,7 @@
             "id": "ai_is_always_optional",
             "type": "two_line_list_item",
             "titleText": "AI Is Always Optional",
-            "descriptionText": "Use AI features when you want them, or turn them all off with the new 'Use DuckDuckGo Without AI' button in Settings.",
+            "descriptionText": "Keep AI features on, or turn them all off with the \"Use DuckDuckGo Without AI\" button in Settings.",
             "placeholder": "Duck.ai",
             "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/ai-feature-96-4x.png",
             "primaryAction": {
@@ -42,7 +42,7 @@
           {
             "id": "chat_with_new_ai_models",
             "type": "two_line_list_item",
-            "titleText": "Chat with New AI Models",
+            "titleText": "Chat With New AI Models",
             "descriptionText": "Luna is now free for everyone on Duck.ai, and your plan adds one more: Terra with Plus or Sol with Pro.",
             "placeholder": "Duck.ai",
             "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/duckai-chat-96-4x.png",
@@ -63,7 +63,7 @@
             "id": "revisit_whats_new",
             "type": "two_line_list_item",
             "titleText": "Revisit What's New",
-            "descriptionText": "Missed something? Find the latest updates any time in Settings > What's New.",
+            "descriptionText": "Missed something? Find the latest updates in Settings > What's New.",
             "placeholder": "Announce"
           }
         ]
