@@ -1,5 +1,5 @@
 {
-  "version": 64,
+  "version": 65,
   "messages": [
     {
       "id": "macos_privacy_pro_exit_survey_1",
@@ -348,7 +348,7 @@
       "exclusionRules": []
     },
     {
-      "id": "macos_update_app_appstore",
+      "id": "macos_update_app_appstore_q4_2026",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Your DuckDuckGo app is out of date",
@@ -402,14 +402,14 @@
           "primaryActionText": "Ir para a App Store"
         }
       },
-      "matchingRules": [27]
+      "matchingRules": [32]
     },
     {
-      "id": "macos_update_app_sparkle",
+      "id": "macos_update_app_sparkle_q4_2026",
       "content": {
         "messageType": "big_single_action",
         "titleText": "Your DuckDuckGo app is out of date",
-        "descriptionText": "Update now to get important fixes and improvements. This will also turn on automatic updates going forward.",
+        "descriptionText": "Update now to get important fixes and improvements.",
         "placeholder": "AppUpdate",
         "primaryActionText": "Update Now",
         "primaryAction": {
@@ -420,46 +420,46 @@
       "translations": {
         "fr": {
           "titleText": "Votre application DuckDuckGo n'est pas à jour",
-          "descriptionText": "Mettez à jour maintenant pour bénéficier de correctifs et d'améliorations importantes. Les mises à jour automatiques seront également activées par la suite.",
+          "descriptionText": "Mettez à jour maintenant pour bénéficier de correctifs et d'améliorations importantes.",
           "primaryActionText": "Mettre à jour maintenant"
         },
         "de": {
           "titleText": "Ihre DuckDuckGo-App ist veraltet",
-          "descriptionText": "Aktualisieren Sie jetzt, um wichtige Fehlerbehebungen und Verbesserungen zu erhalten. Dadurch werden künftig auch automatische Updates aktiviert.",
+          "descriptionText": "Aktualisieren Sie jetzt, um wichtige Fehlerbehebungen und Verbesserungen zu erhalten.",
           "primaryActionText": "Jetzt aktualisieren"
         },
         "nl": {
           "titleText": "Uw DuckDuckGo-app is verouderd",
-          "descriptionText": "Werk nu bij voor belangrijke fixes en verbeteringen. Hierdoor worden voortaan ook automatische updates ingeschakeld.",
+          "descriptionText": "Werk nu bij voor belangrijke fixes en verbeteringen.",
           "primaryActionText": "Nu bijwerken"
         },
         "it": {
           "titleText": "L'app DuckDuckGo non è aggiornata",
-          "descriptionText": "Aggiorna ora per ottenere correzioni e miglioramenti importanti. Così facendo verranno attivati anche gli aggiornamenti automatici.",
+          "descriptionText": "Aggiorna ora per ottenere correzioni e miglioramenti importanti.",
           "primaryActionText": "Aggiorna ora"
         },
         "es": {
           "titleText": "Tu app DuckDuckGo está desactualizada",
-          "descriptionText": "Actualiza ahora para obtener correcciones y mejoras importantes. Esto también activará las actualizaciones automáticas a partir de ahora.",
+          "descriptionText": "Actualiza ahora para obtener correcciones y mejoras importantes.",
           "primaryActionText": "Actualizar ahora"
         },
         "pl": {
           "titleText": "Twoja aplikacja DuckDuckGo jest nieaktualna",
-          "descriptionText": "Zaktualizuj teraz, aby otrzymać ważne poprawki i ulepszenia. Włączy to również automatyczne aktualizacje w przyszłości.",
+          "descriptionText": "Zaktualizuj teraz, aby otrzymać ważne poprawki i ulepszenia.",
           "primaryActionText": "Zaktualizuj teraz"
         },
         "ru": {
           "titleText": "Ваше приложение DuckDuckGo устарело",
-          "descriptionText": "Обновите сейчас, чтобы получить важные исправления и улучшения. Это также включит автоматические обновления в дальнейшем.",
+          "descriptionText": "Обновите сейчас, чтобы получить важные исправления и улучшения.",
           "primaryActionText": "Обновить сейчас"
         },
         "pt": {
           "titleText": "A tua aplicação DuckDuckGo está desatualizada",
-          "descriptionText": "Atualiza agora para obteres correções e melhorias importantes. Isto também ativará as atualizações automáticas a partir de agora.",
+          "descriptionText": "Atualiza agora para obteres correções e melhorias importantes.",
           "primaryActionText": "Atualizar agora"
         }
       },
-      "matchingRules": [28]
+      "matchingRules": [33]
     },
     {
       "id": "macos_big_sur_eos_update_cta",
@@ -1050,28 +1050,6 @@
       }
     },
     {
-      "id": 27,
-      "attributes": {
-        "appVersion": {
-          "max": "1.182.0"
-        },
-        "installedMacAppStore": {
-          "value": true
-        }
-      }
-    },
-    {
-      "id": 28,
-      "attributes": {
-        "appVersion": {
-          "max": "1.182.0"
-        },
-        "installedMacAppStore": {
-          "value": false
-        }
-      }
-    },
-    {
       "id": 29,
       "attributes": {
         "appVersion": {
@@ -1110,6 +1088,28 @@
         "osApi": {
           "min": "11.0.0",
           "max": "11.999.999"
+        }
+      }
+    },
+    {
+      "id": 32,
+      "attributes": {
+        "appVersion": {
+          "max": "1.214.0"
+        },
+        "installedMacAppStore": {
+          "value": true
+        }
+      }
+    },
+    {
+      "id": 33,
+      "attributes": {
+        "appVersion": {
+          "max": "1.214.0"
+        },
+        "installedMacAppStore": {
+          "value": false
         }
       }
     }
