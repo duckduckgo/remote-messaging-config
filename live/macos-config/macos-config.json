@@ -1099,6 +1099,9 @@
         },
         "installedMacAppStore": {
           "value": true
+        },
+        "osApi": {
+          "min": "12.3.0"
         }
       }
     },
@@ -1110,6 +1113,9 @@
         },
         "installedMacAppStore": {
           "value": false
+        },
+        "osApi": {
+          "min": "12.3.0"
         }
       }
     }
