@@ -351,8 +351,8 @@
       "id": "macos_update_app_appstore_q4_2026",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Your DuckDuckGo app is out of date",
-        "descriptionText": "Update now to get important fixes and improvements.",
+        "titleText": "DuckDuckGo is out of date",
+        "descriptionText": "Update your browser now to get important fixes and improvements.",
         "placeholder": "AppUpdate",
         "primaryActionText": "Go to App Store",
         "primaryAction": {
@@ -362,43 +362,43 @@
       },
       "translations": {
         "fr": {
-          "titleText": "Votre application DuckDuckGo n'est pas à jour",
-          "descriptionText": "Mettez à jour maintenant pour bénéficier de correctifs et d'améliorations importantes.",
+          "titleText": "DuckDuckGo n'est pas à jour",
+          "descriptionText": "Mettez à jour votre navigateur maintenant pour bénéficier de correctifs et d'améliorations importantes.",
           "primaryActionText": "Ouvrir l'App Store"
         },
         "de": {
-          "titleText": "Ihre DuckDuckGo-App ist veraltet",
-          "descriptionText": "Aktualisieren Sie jetzt, um wichtige Fehlerbehebungen und Verbesserungen zu erhalten.",
+          "titleText": "DuckDuckGo ist veraltet",
+          "descriptionText": "Aktualisieren Sie Ihren Browser jetzt, um wichtige Fehlerbehebungen und Verbesserungen zu erhalten.",
           "primaryActionText": "Zum App Store"
         },
         "nl": {
-          "titleText": "Uw DuckDuckGo-app is verouderd",
-          "descriptionText": "Werk nu bij voor belangrijke fixes en verbeteringen.",
+          "titleText": "DuckDuckGo is verouderd",
+          "descriptionText": "Werk uw browser nu bij voor belangrijke fixes en verbeteringen.",
           "primaryActionText": "Naar de App Store"
         },
         "it": {
-          "titleText": "L'app DuckDuckGo non è aggiornata",
-          "descriptionText": "Aggiorna ora per ottenere correzioni e miglioramenti importanti.",
+          "titleText": "DuckDuckGo non è aggiornato",
+          "descriptionText": "Aggiorna il tuo browser ora per ottenere correzioni e miglioramenti importanti.",
           "primaryActionText": "Vai all'App Store"
         },
         "es": {
-          "titleText": "Tu app DuckDuckGo está desactualizada",
-          "descriptionText": "Actualiza ahora para obtener correcciones y mejoras importantes.",
+          "titleText": "DuckDuckGo está desactualizado",
+          "descriptionText": "Actualiza tu navegador ahora para obtener correcciones y mejoras importantes.",
           "primaryActionText": "Ir a la App Store"
         },
         "pl": {
-          "titleText": "Twoja aplikacja DuckDuckGo jest nieaktualna",
-          "descriptionText": "Zaktualizuj teraz, aby otrzymać ważne poprawki i ulepszenia.",
+          "titleText": "Przeglądarka DuckDuckGo jest nieaktualna",
+          "descriptionText": "Zaktualizuj przeglądarkę teraz, aby otrzymać ważne poprawki i ulepszenia.",
           "primaryActionText": "Przejdź do App Store"
         },
         "ru": {
-          "titleText": "Ваше приложение DuckDuckGo устарело",
-          "descriptionText": "Обновите сейчас, чтобы получить важные исправления и улучшения.",
+          "titleText": "DuckDuckGo устарел",
+          "descriptionText": "Обновите браузер сейчас, чтобы получить важные исправления и улучшения.",
           "primaryActionText": "Перейти в App Store"
         },
         "pt": {
-          "titleText": "A tua aplicação DuckDuckGo está desatualizada",
-          "descriptionText": "Atualiza agora para obteres correções e melhorias importantes.",
+          "titleText": "O DuckDuckGo está desatualizado",
+          "descriptionText": "Atualiza o teu navegador agora para obteres correções e melhorias importantes.",
           "primaryActionText": "Ir para a App Store"
         }
       },
@@ -408,8 +408,8 @@
       "id": "macos_update_app_sparkle_q4_2026",
       "content": {
         "messageType": "big_single_action",
-        "titleText": "Your DuckDuckGo app is out of date",
-        "descriptionText": "Update now to get important fixes and improvements.",
+        "titleText": "DuckDuckGo is out of date",
+        "descriptionText": "Update your browser now to get important fixes and improvements.",
         "placeholder": "AppUpdate",
         "primaryActionText": "Update Now",
         "primaryAction": {
@@ -419,43 +419,43 @@
       },
       "translations": {
         "fr": {
-          "titleText": "Votre application DuckDuckGo n'est pas à jour",
-          "descriptionText": "Mettez à jour maintenant pour bénéficier de correctifs et d'améliorations importantes.",
+          "titleText": "DuckDuckGo n'est pas à jour",
+          "descriptionText": "Mettez à jour votre navigateur maintenant pour bénéficier de correctifs et d'améliorations importantes.",
           "primaryActionText": "Mettre à jour maintenant"
         },
         "de": {
-          "titleText": "Ihre DuckDuckGo-App ist veraltet",
-          "descriptionText": "Aktualisieren Sie jetzt, um wichtige Fehlerbehebungen und Verbesserungen zu erhalten.",
+          "titleText": "DuckDuckGo ist veraltet",
+          "descriptionText": "Aktualisieren Sie Ihren Browser jetzt, um wichtige Fehlerbehebungen und Verbesserungen zu erhalten.",
           "primaryActionText": "Jetzt aktualisieren"
         },
         "nl": {
-          "titleText": "Uw DuckDuckGo-app is verouderd",
-          "descriptionText": "Werk nu bij voor belangrijke fixes en verbeteringen.",
+          "titleText": "DuckDuckGo is verouderd",
+          "descriptionText": "Werk uw browser nu bij voor belangrijke fixes en verbeteringen.",
           "primaryActionText": "Nu bijwerken"
         },
         "it": {
-          "titleText": "L'app DuckDuckGo non è aggiornata",
-          "descriptionText": "Aggiorna ora per ottenere correzioni e miglioramenti importanti.",
+          "titleText": "DuckDuckGo non è aggiornato",
+          "descriptionText": "Aggiorna il tuo browser ora per ottenere correzioni e miglioramenti importanti.",
           "primaryActionText": "Aggiorna ora"
         },
         "es": {
-          "titleText": "Tu app DuckDuckGo está desactualizada",
-          "descriptionText": "Actualiza ahora para obtener correcciones y mejoras importantes.",
+          "titleText": "DuckDuckGo está desactualizado",
+          "descriptionText": "Actualiza tu navegador ahora para obtener correcciones y mejoras importantes.",
           "primaryActionText": "Actualizar ahora"
         },
         "pl": {
-          "titleText": "Twoja aplikacja DuckDuckGo jest nieaktualna",
-          "descriptionText": "Zaktualizuj teraz, aby otrzymać ważne poprawki i ulepszenia.",
+          "titleText": "Przeglądarka DuckDuckGo jest nieaktualna",
+          "descriptionText": "Zaktualizuj przeglądarkę teraz, aby otrzymać ważne poprawki i ulepszenia.",
           "primaryActionText": "Zaktualizuj teraz"
         },
         "ru": {
-          "titleText": "Ваше приложение DuckDuckGo устарело",
-          "descriptionText": "Обновите сейчас, чтобы получить важные исправления и улучшения.",
+          "titleText": "DuckDuckGo устарел",
+          "descriptionText": "Обновите браузер сейчас, чтобы получить важные исправления и улучшения.",
           "primaryActionText": "Обновить сейчас"
         },
         "pt": {
-          "titleText": "A tua aplicação DuckDuckGo está desatualizada",
-          "descriptionText": "Atualiza agora para obteres correções e melhorias importantes.",
+          "titleText": "O DuckDuckGo está desatualizado",
+          "descriptionText": "Atualiza o teu navegador agora para obteres correções e melhorias importantes.",
           "primaryActionText": "Atualizar agora"
         }
       },
