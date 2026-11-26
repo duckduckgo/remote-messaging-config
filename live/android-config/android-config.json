@@ -2,30 +2,6 @@
   "version": 129,
   "messages": [
     {
-      "id": "android_samsung_oneui9_remove_search_bar",
-      "content": {
-        "messageType": "big_single_action",
-        "titleText": "Want to remove Google search from your Home screen?",
-        "descriptionText": "Open phone <b>Settings</b> and go to <b>Home screen > Show search on Home screen</b>.<br>Your Home screen should be your choice.",
-        "placeholder": "Announce",
-        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/Device-Mobile-RemoveSeach-56.png",
-        "primaryActionText": "Open Settings",
-        "primaryAction": {
-          "type": "navigation",
-          "value": "systemSettings",
-          "additionalParameters": {
-            "payload": "{\"screen\":\"samsungHomeScreen\"}"
-          }
-        }
-      },
-      "matchingRules": [
-        25
-      ],
-      "displayConditions": {
-        "dismissAfterUniqueDailyImpressions": 3
-      }
-    },
-    {
       "id": "android_complete_your_setup_checklist",
       "surfaces": [
         "new_tab_page"
@@ -1103,6 +1079,30 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "android_samsung_oneui9_remove_search_bar",
+      "content": {
+        "messageType": "big_single_action",
+        "titleText": "Want to remove Google search from your Home screen?",
+        "descriptionText": "Open phone <b>Settings</b> and go to <b>Home screen > Show search on Home screen</b>.<br>Your Home screen should be your choice.",
+        "placeholder": "Announce",
+        "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/Device-Mobile-RemoveSeach-56.png",
+        "primaryActionText": "Open Settings",
+        "primaryAction": {
+          "type": "navigation",
+          "value": "systemSettings",
+          "additionalParameters": {
+            "payload": "{\"screen\":\"samsungHomeScreen\"}"
+          }
+        }
+      },
+      "matchingRules": [
+        25
+      ],
+      "displayConditions": {
+        "dismissAfterUniqueDailyImpressions": 3
       }
     },
     {
