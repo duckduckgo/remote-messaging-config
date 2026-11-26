@@ -1,6 +1,1086 @@
 {
-  "version": 128,
+  "version": 129,
   "messages": [
+    {
+      "id": "android_complete_your_setup_checklist",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "matchingRules": [
+        26
+      ],
+      "exclusionRules": [],
+      "displayConditions": {
+        "dismissAfterUniqueDailyImpressions": 3
+      },
+      "content": {
+        "messageType": "actionable_items",
+        "titleText": "Next Steps",
+        "listItems": [
+          {
+            "id": "setup_default_browser",
+            "type": "one_action_item",
+            "titleText": "Set DuckDuckGo as your default browser",
+            "descriptionText": "Search privately every time with DuckDuckGo as your default browser.",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/default-browser-mobile-color-24-4x.png",
+            "primaryActionText": "Set as Default",
+            "primaryAction": {
+              "type": "defaultBrowser",
+              "value": ""
+            }
+          },
+          {
+            "id": "setup_add_widget",
+            "type": "one_action_item",
+            "titleText": "Try our Home screen widget",
+            "descriptionText": "Add our search widget to your Home screen for quick and easy access.",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/add-widget-color-24-4x.png",
+            "primaryActionText": "Add to Home Screen",
+            "primaryAction": {
+              "type": "addWidget",
+              "value": ""
+            }
+          },
+          {
+            "id": "setup_sync",
+            "type": "one_action_item",
+            "titleText": "Keep DuckDuckGo in sync",
+            "descriptionText": "Use your bookmarks, passwords, and more on all your devices!",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/sync-color-24-4x.png",
+            "primaryActionText": "Turn On Sync & Backup",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "sync"
+            }
+          }
+        ]
+      },
+      "translations": {
+        "bg": {
+          "titleText": "Следващи стъпки",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Задайте DuckDuckGo като браузър по подразбиране",
+              "descriptionText": "Търсете поверително всеки път с DuckDuckGo като браузър по подразбиране.",
+              "primaryActionText": "Задаване по подразбиране"
+            },
+            "setup_add_widget": {
+              "titleText": "Опитайте нашето приспособление за начален екран!",
+              "descriptionText": "Добавете нашето приспособление за търсене към началния екран за бърз и лесен достъп.",
+              "primaryActionText": "Добавяне към началния екран"
+            },
+            "setup_sync": {
+              "titleText": "Поддържайте DuckDuckGo синхронизиран",
+              "descriptionText": "Използвайте отметките, паролите и други на всички устройства!",
+              "primaryActionText": "Включване на Sync & Backup"
+            }
+          }
+        },
+        "cs": {
+          "titleText": "Další kroky",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Nastav si DuckDuckGo jako výchozí prohlížeč",
+              "descriptionText": "Nastav si DuckDuckGo jako výchozí prohlížeč a vyhledávej vždy soukromě.",
+              "primaryActionText": "Nastavit jako výchozí"
+            },
+            "setup_add_widget": {
+              "titleText": "Vyzkoušej widget na plochu",
+              "descriptionText": "Přidej si náš vyhledávací widget na domovskou obrazovku a získej rychlý a snadný přístup.",
+              "primaryActionText": "Přidat na domovskou obrazovku"
+            },
+            "setup_sync": {
+              "titleText": "Měj DuckDuckGo vždy synchronizovaný",
+              "descriptionText": "Používej své záložky, hesla a další data na všech zařízeních.",
+              "primaryActionText": "Zapnout Sync & Backup"
+            }
+          }
+        },
+        "da": {
+          "titleText": "Næste trin",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Gør DuckDuckGo til din standardbrowser",
+              "descriptionText": "Søg altid privat med DuckDuckGo som din standardbrowser.",
+              "primaryActionText": "Angiv som standard"
+            },
+            "setup_add_widget": {
+              "titleText": "Prøv vores startskærmswidget",
+              "descriptionText": "Tilføj vores søgewidget på startskærmbilledet for hurtig og nem adgang.",
+              "primaryActionText": "Tilføj til startskærm"
+            },
+            "setup_sync": {
+              "titleText": "Hold DuckDuckGo synkroniseret",
+              "descriptionText": "Brug dine bogmærker, adgangskoder og meget mere på alle dine enheder!",
+              "primaryActionText": "Slå Sync & Backup til"
+            }
+          }
+        },
+        "de": {
+          "titleText": "Nächste Schritte",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "DuckDuckGo als Standardbrowser festlegen",
+              "descriptionText": "Immer privat suchen mit DuckDuckGo als Standardbrowser.",
+              "primaryActionText": "Als Standard festlegen"
+            },
+            "setup_add_widget": {
+              "titleText": "Probiere unser Startbildschirm-Widget aus",
+              "descriptionText": "Füge unser Such-Widget für einen schnellen und einfachen Zugriff zu deinem Startbildschirm hinzu.",
+              "primaryActionText": "Zum Startbildschirm hinzufügen"
+            },
+            "setup_sync": {
+              "titleText": "DuckDuckGo synchronisiert halten",
+              "descriptionText": "Nutze deine Lesezeichen, Passwörter und mehr auf all deinen Geräten!",
+              "primaryActionText": "Sync & Backup aktivieren"
+            }
+          }
+        },
+        "el": {
+          "titleText": "Επόμενα βήματα",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Ορίστε το DuckDuckGo ως προεπιλεγμένο πρόγραμμα περιήγησης",
+              "descriptionText": "Πραγματοποιείτε πάντα ιδιωτική αναζήτηση με το DuckDuckGo ως προεπιλεγμένο πρόγραμμα περιήγησης.",
+              "primaryActionText": "Ορισμός ως προεπιλογή"
+            },
+            "setup_add_widget": {
+              "titleText": "Δοκιμάστε τη μικροεφαρμογή μας για την Αρχική οθόνη",
+              "descriptionText": "Προσθέστε τη μικροεφαρμογή μας για αναζήτηση στην Αρχική οθόνη σας για γρήγορη και εύκολη πρόσβαση.",
+              "primaryActionText": "Προσθήκη στην Αρχική Οθόνη"
+            },
+            "setup_sync": {
+              "titleText": "Διατηρήστε το DuckDuckGo σε συγχρονισμό",
+              "descriptionText": "Χρησιμοποιήστε τους σελιδοδείκτες, τους κωδικούς πρόσβασής σας και πολλά άλλα σε όλες τις συσκευές σας!",
+              "primaryActionText": "Ενεργοποίηση Sync & Backup"
+            }
+          }
+        },
+        "es": {
+          "titleText": "Próximos pasos",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Establece DuckDuckGo como navegador predeterminado",
+              "descriptionText": "Busca siempre de manera privada, DuckDuckGo como navegador predeterminado.",
+              "primaryActionText": "Establecer predeterminado"
+            },
+            "setup_add_widget": {
+              "titleText": "Prueba nuestro widget de pantalla de inicio",
+              "descriptionText": "Añade el widget de búsqueda a tu pant. de inicio: facilita y agiliza acceso",
+              "primaryActionText": "Añadir a Pantalla Inicio"
+            },
+            "setup_sync": {
+              "titleText": "Mantén DuckDuckGo sincronizado",
+              "descriptionText": "¡Usa los marcadores, las contraseñas y mucho más en todos tus dispositivos!",
+              "primaryActionText": "Activar Sync & Backup"
+            }
+          }
+        },
+        "et": {
+          "titleText": "Järgmised sammud",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Määra DuckDuckGo vaikebrauseriks",
+              "descriptionText": "Otsi alati privaatselt, kui DuckDuckGo on sinu vaikebrauser.",
+              "primaryActionText": "Määra vaikeseadeks"
+            },
+            "setup_add_widget": {
+              "titleText": "Proovi meie avakuva vidinat",
+              "descriptionText": "Kiire ja hõlpsa juurdepääsu tagamiseks lisa meie otsinguvidin avakuvale.",
+              "primaryActionText": "Lisa kodukuvale"
+            },
+            "setup_sync": {
+              "titleText": "Hoia DuckDuckGo sünkroonis",
+              "descriptionText": "Kasuta järjehoidjaid, paroole ja muud kõigis oma seadmetes!",
+              "primaryActionText": "Lülita sisse Sync & Backup"
+            }
+          }
+        },
+        "fi": {
+          "titleText": "Seuraavat vaiheet",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Aseta DuckDuckGo oletusselaimeksi",
+              "descriptionText": "Etsi aina yksityisesti, kun DuckDuckGo on oletusselaimenasi.",
+              "primaryActionText": "Aseta oletukseksi"
+            },
+            "setup_add_widget": {
+              "titleText": "Kokeile aloitusnäytön widgetiä",
+              "descriptionText": "Lisää haku-widgetimme aloitusnäyttöösi, josta löydät sen nopeasti ja helposti.",
+              "primaryActionText": "Lisää aloitusnäyttöön"
+            },
+            "setup_sync": {
+              "titleText": "Pidä DuckDuckGo synkronoituna",
+              "descriptionText": "Käytä kirjanmerkkejäsi, salasanojasi ja muita ominaisuuksia kaikilla laitteillasi!",
+              "primaryActionText": "Ota käyttöön Sync & Backup"
+            }
+          }
+        },
+        "fr": {
+          "titleText": "Étapes suivantes",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Définis DuckDuckGo comme navigateur par défaut",
+              "descriptionText": "Faites toujours une recherche privée avec DuckDuckGo comme navigateur par défaut.",
+              "primaryActionText": "Définir par défaut"
+            },
+            "setup_add_widget": {
+              "titleText": "Essaie notre widget d'écran d'accueil",
+              "descriptionText": "Ajoutez le widget de recherche à l'écran d'accueil pour un accès rapide et facile.",
+              "primaryActionText": "Ajouter à la page d'accueil"
+            },
+            "setup_sync": {
+              "titleText": "Toujours synchroniser DuckDuckGo",
+              "descriptionText": "Utilise tes signets, mots de passe, et plus encore sur tous tes appareils !",
+              "primaryActionText": "Activer Sync & Backup"
+            }
+          }
+        },
+        "hr": {
+          "titleText": "Sljedeći koraci",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Postavi DuckDuckGo kao svoj zadani preglednik",
+              "descriptionText": "Uvijek pretražuj privatno uz DuckDuckGo kao zadani preglednik.",
+              "primaryActionText": "Postavi kao zadano"
+            },
+            "setup_add_widget": {
+              "titleText": "Probaj naš widget za početni zaslon",
+              "descriptionText": "Dodaj naš widget za pretraživanje na početni zaslon za brz i jednostavan pristup.",
+              "primaryActionText": "Dodaj na početni zaslon"
+            },
+            "setup_sync": {
+              "titleText": "Održavaj DuckDuckGo sinkroniziranim",
+              "descriptionText": "Koristi svoje oznake, lozinke i još mnogo toga na svim uređajima!",
+              "primaryActionText": "Uključi Sync & Backup"
+            }
+          }
+        },
+        "hu": {
+          "titleText": "Következő lépések",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Legyen a DuckDuckGo az alapértelmezett böngésző",
+              "descriptionText": "Keress mindig privát módon a DuckDuckGóval alapértelmezett böngészőként.",
+              "primaryActionText": "Beállítás alapértelmezettként"
+            },
+            "setup_add_widget": {
+              "titleText": "Próbáld ki kezdőképernyő-minialkalmazásunkat",
+              "descriptionText": "A gyors és könnyű hozzáférés érdekében add hozzá kereső minialkalmazásunkat a kezdőképernyődhöz.",
+              "primaryActionText": "Hozzáadás a kezdőképernyőhöz"
+            },
+            "setup_sync": {
+              "titleText": "DuckDuckGo szinkronban tartása",
+              "descriptionText": "Használd könyvjelzőidet, jelszavaidat és még sok mást minden eszközödön!",
+              "primaryActionText": "Sync & Backup bekapcsolása"
+            }
+          }
+        },
+        "it": {
+          "titleText": "Passaggi successivi",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Imposta DuckDuckGo come browser predefinito",
+              "descriptionText": "Cerca privatamente ogni volta con DuckDuckGo come browser predefinito.",
+              "primaryActionText": "Imposta come predefinito"
+            },
+            "setup_add_widget": {
+              "titleText": "Prova il nostro widget per la schermata Home",
+              "descriptionText": "Aggiungi il nostro widget di ricerca alla schermata principale per accedere all'app in modo facile e veloce.",
+              "primaryActionText": "Aggiungi alla Schermata Home"
+            },
+            "setup_sync": {
+              "titleText": "Mantieni DuckDuckGo sincronizzato",
+              "descriptionText": "Usa i tuoi segnalibri, le password e altro su tutti i tuoi dispositivi!",
+              "primaryActionText": "Attiva Sync & Backup"
+            }
+          }
+        },
+        "lt": {
+          "titleText": "Tolesni veiksmai",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Nustatyti „DuckDuckGo“ kaip numatytąją naršyklę",
+              "descriptionText": "Visada ieškokite privačiai su „DuckDuckGo“ kaip numatytąja naršykle.",
+              "primaryActionText": "Nustatyti kaip numatytąją"
+            },
+            "setup_add_widget": {
+              "titleText": "Išbandykite mūsų pagrindinio ekrano valdiklį",
+              "descriptionText": "Pridėkite mūsų paieškos valdiklį prie pagrindinio ekrano, kad galėtumėte greitai ir lengvai jį pasiekti.",
+              "primaryActionText": "Pridėti prie pagrindinio ekrano"
+            },
+            "setup_sync": {
+              "titleText": "Sinchronizuoja „DuckDuckGo“",
+              "descriptionText": "Naudokite savo žymes, slaptažodžius ir dar daugiau visuose įrenginiuose!",
+              "primaryActionText": "Įjungti „Sync & Backup“"
+            }
+          }
+        },
+        "lv": {
+          "titleText": "Nākamie soļi",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Iestati DuckDuckGo kā noklusējuma pārlūku",
+              "descriptionText": "Vienmēr meklē privāti ar DuckDuckGo kā noklusējuma pārlūku.",
+              "primaryActionText": "Iestatīt kā noklusējumu"
+            },
+            "setup_add_widget": {
+              "titleText": "Pamēģini sākuma ekrāna logrīku",
+              "descriptionText": "Pievieno mūsu logrīku sākuma ekrānam, lai ātri un ērti sāktu meklēšanu.",
+              "primaryActionText": "Pievienot sākuma ekrānam"
+            },
+            "setup_sync": {
+              "titleText": "Sinhronizē DuckDuckGo",
+              "descriptionText": "Izmanto savas grāmatzīmes, paroles un citus datus visās savās ierīcēs!",
+              "primaryActionText": "Ieslēgt Sync & Backup"
+            }
+          }
+        },
+        "nb": {
+          "titleText": "Neste trinn",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Angi DuckDuckGo som standardnettleseren din",
+              "descriptionText": "Søk privat hver gang med DuckDuckGo som standardnettleser.",
+              "primaryActionText": "Angi som standard"
+            },
+            "setup_add_widget": {
+              "titleText": "Prøv startskjerm-widgeten vår",
+              "descriptionText": "Legg til søke-widgeten vår på startskjermen for rask og enkel tilgang.",
+              "primaryActionText": "Legg til på startskjermen"
+            },
+            "setup_sync": {
+              "titleText": "Hold DuckDuckGo synkronisert",
+              "descriptionText": "Bruk bokmerkene, passordene m.m. på alle enhetene dine!",
+              "primaryActionText": "Slå på Sync & Backup"
+            }
+          }
+        },
+        "nl": {
+          "titleText": "Volgende stappen",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "DuckDuckGo instellen als standaardbrowser",
+              "descriptionText": "Zoek altijd privé met DuckDuckGo als je standaardbrowser.",
+              "primaryActionText": "Instellen als standaard"
+            },
+            "setup_add_widget": {
+              "titleText": "Probeer onze startschermwidget",
+              "descriptionText": "Voeg onze zoekwidget toe aan je startscherm voor snelle en gemakkelijke toegang.",
+              "primaryActionText": "Toevoegen aan startscherm"
+            },
+            "setup_sync": {
+              "titleText": "Houd DuckDuckGo in sync",
+              "descriptionText": "Gebruik je bladwijzers, wachtwoorden en meer op al je apparaten!",
+              "primaryActionText": "Sync & Backup inschakelen"
+            }
+          }
+        },
+        "pl": {
+          "titleText": "Dalsze kroki",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Ustaw DuckDuckGo jako domyślną przeglądarkę",
+              "descriptionText": "Szukaj prywatnie za każdym razem z DuckDuckGo jako domyślną przeglądarką.",
+              "primaryActionText": "Ustaw jako domyślną"
+            },
+            "setup_add_widget": {
+              "titleText": "Wypróbuj widżet ekranu głównego",
+              "descriptionText": "Dodaj widżet wyszukiwarki do ekranu głównego, aby mieć do niej szybki dostęp.",
+              "primaryActionText": "Dodaj do ekranu głównego"
+            },
+            "setup_sync": {
+              "titleText": "Synchronizuj DuckDuckGo",
+              "descriptionText": "Korzystaj z zakładek, haseł i nie tylko na wszystkich swoich urządzeniach!",
+              "primaryActionText": "Włącz Sync & Backup"
+            }
+          }
+        },
+        "pt": {
+          "titleText": "Passos seguintes",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Definir o DuckDuckGo como navegador predefinido",
+              "descriptionText": "Pesquisa sempre em privado com o DuckDuckGo como navegador predefinido.",
+              "primaryActionText": "Definir como predefinição"
+            },
+            "setup_add_widget": {
+              "titleText": "Experimenta o nosso widget do ecrã inicial",
+              "descriptionText": "Adiciona o widget de pesquisa ao ecrã inicial para acesso rápido e fácil.",
+              "primaryActionText": "Adicionar ao ecrã inicial"
+            },
+            "setup_sync": {
+              "titleText": "Manter DuckDuckGo sincronizado",
+              "descriptionText": "Usa marcadores, palavras-passe e muito mais em todos os teus dispositivos!",
+              "primaryActionText": "Ativar Sync & Backup"
+            }
+          }
+        },
+        "ro": {
+          "titleText": "Pașii următori",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Setează DuckDuckGo ca browser implicit",
+              "descriptionText": "Caută mereu în mod privat cu DuckDuckGo setat ca browser implicit.",
+              "primaryActionText": "Setează ca implicit"
+            },
+            "setup_add_widget": {
+              "titleText": "Încearcă widgetul de pe ecranul de pornire",
+              "descriptionText": "Adăugă widgetul de căutare la ecranul de pornire, pentru acces rapid și ușor.",
+              "primaryActionText": "Adaugă pe ecranul de pornire"
+            },
+            "setup_sync": {
+              "titleText": "Păstrează DuckDuckGo sincronizat",
+              "descriptionText": "Folosește marcajele, parolele și multe altele pe toate dispozitivele!",
+              "primaryActionText": "Activează Sync & Backup"
+            }
+          }
+        },
+        "ru": {
+          "titleText": "Что делать дальше",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Сделать DuckDuckGo браузером по умолчанию",
+              "descriptionText": "С DuckDuckGo в качестве браузера по умолчанию каждый поиск — конфиденциальный.",
+              "primaryActionText": "Сделать браузером по умолчанию"
+            },
+            "setup_add_widget": {
+              "titleText": "Попробуй виджет для главного экрана",
+              "descriptionText": "Добавьте наш поисковый виджет на домашний экран для быстрого и удобного доступа.",
+              "primaryActionText": "Добавить на домашнюю страницу"
+            },
+            "setup_sync": {
+              "titleText": "Синхронизация DuckDuckGo",
+              "descriptionText": "Используй закладки, пароли и не только на всех своих устройствах!",
+              "primaryActionText": "Включить Sync & Backup"
+            }
+          }
+        },
+        "sk": {
+          "titleText": "Ďalšie kroky",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Nastav DuckDuckGo ako predvolený prehliadač",
+              "descriptionText": "Vyhľadávaj vždy súkromne s DuckDuckGo ako predvoleným prehliadačom.",
+              "primaryActionText": "Nastaviť ako predvolený"
+            },
+            "setup_add_widget": {
+              "titleText": "Vyskúšaj našu miniaplikáciu na úvodnej obrazovke",
+              "descriptionText": "Na rýchly a jednoduchý prístup si pridajte miniaplikáciu vyhľadávania na úvodnú obrazovku.",
+              "primaryActionText": "Pridať na úvodnú obrazovku"
+            },
+            "setup_sync": {
+              "titleText": "Maj DuckDuckGo synchronizovaný",
+              "descriptionText": "Používaj svoje záložky, heslá a ďalšie údaje na všetkých zariadeniach!",
+              "primaryActionText": "Zapni Sync & Backup"
+            }
+          }
+        },
+        "sl": {
+          "titleText": "Naslednji koraki",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Nastavite DuckDuckGo kot privzeti brskalnik",
+              "descriptionText": "Z DuckDuckGo kot privzetim brskalnikom vedno iščite zasebno.",
+              "primaryActionText": "Nastavi kot privzeto"
+            },
+            "setup_add_widget": {
+              "titleText": "Preizkusite naš pripomoček za začetni zaslon",
+              "descriptionText": "Dodajte naš gradnik za iskanje na domači zaslon za hiter in preprost dostop.",
+              "primaryActionText": "Dodaj na domači zaslon"
+            },
+            "setup_sync": {
+              "titleText": "Ohranite DuckDuckGo sinhroniziran",
+              "descriptionText": "Uporabljajte zaznamke, gesla in druge podatke v vseh napravah!",
+              "primaryActionText": "Vklopi Sync & Backup"
+            }
+          }
+        },
+        "sv": {
+          "titleText": "Nästa steg",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Välj DuckDuckGo som standardwebbläsare",
+              "descriptionText": "Sök privat varje gång med DuckDuckGo som din standardwebbläsare.",
+              "primaryActionText": "Ange som standard"
+            },
+            "setup_add_widget": {
+              "titleText": "Prova vår widget på startskärmen",
+              "descriptionText": "Lägg till vår sök-widget på din startsida för snabb och enkel åtkomst.",
+              "primaryActionText": "Lägg till på startsidan"
+            },
+            "setup_sync": {
+              "titleText": "Håll DuckDuckGo synkroniserad",
+              "descriptionText": "Använd dina bokmärken, lösenord och annat på alla dina enheter!",
+              "primaryActionText": "Aktivera Sync & Backup"
+            }
+          }
+        },
+        "tr": {
+          "titleText": "Sonraki Adımlar",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "DuckDuckGo'yu varsayılan tarayıcınız yapın",
+              "descriptionText": "DuckDuckGo varsayılan tarayıcınızken her zaman gizli arama yapın.",
+              "primaryActionText": "Varsayılan olarak ayarla"
+            },
+            "setup_add_widget": {
+              "titleText": "Ana ekran widget'ımızı deneyin",
+              "descriptionText": "Hızlı ve kolay erişim için arama widget'ımızı ana ekranınıza ekleyin.",
+              "primaryActionText": "Ana Ekrana Ekle"
+            },
+            "setup_sync": {
+              "titleText": "DuckDuckGo'yu senkronize tutun",
+              "descriptionText": "Yer işaretlerini, şifreleri ve daha fazlasını tüm cihazlarda kullanın!",
+              "primaryActionText": "Sync & Backup'ı etkinleştirin"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "android_complete_your_setup_cards",
+      "surfaces": [
+        "new_tab_page"
+      ],
+      "matchingRules": [
+        27
+      ],
+      "exclusionRules": [],
+      "displayConditions": {
+        "dismissAfterUniqueDailyImpressions": 3
+      },
+      "content": {
+        "messageType": "actionable_items",
+        "titleText": "Next Steps",
+        "listItems": [
+          {
+            "id": "setup_default_browser",
+            "type": "one_action_item",
+            "titleText": "Browse privately by default",
+            "descriptionText": "Search privately every time with DuckDuckGo as your default browser.",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/mobile-device-default-feature-96-4x.png",
+            "primaryActionText": "Set as Default",
+            "primaryAction": {
+              "type": "defaultBrowser",
+              "value": ""
+            }
+          },
+          {
+            "id": "setup_add_widget",
+            "type": "one_action_item",
+            "titleText": "Try our Home screen widget",
+            "descriptionText": "Add our search widget to your Home screen for quick and easy access.",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/widget-add-feature-96-4x.png",
+            "primaryActionText": "Add to Home Screen",
+            "primaryAction": {
+              "type": "addWidget",
+              "value": ""
+            }
+          },
+          {
+            "id": "setup_sync",
+            "type": "one_action_item",
+            "titleText": "Keep DuckDuckGo in sync",
+            "descriptionText": "Use your bookmarks, passwords, and more on all your devices!",
+            "placeholder": "DDGAnnounce",
+            "imageUrl": "https://staticcdn.duckduckgo.com/remotemessaging/illustrations/sync-feature-96-4x.png",
+            "primaryActionText": "Turn On Sync & Backup",
+            "primaryAction": {
+              "type": "navigation",
+              "value": "sync"
+            }
+          }
+        ]
+      },
+      "translations": {
+        "bg": {
+          "titleText": "Следващи стъпки",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Сърфирайте поверително по подразбиране",
+              "descriptionText": "Търсете поверително всеки път с DuckDuckGo като браузър по подразбиране.",
+              "primaryActionText": "Задаване по подразбиране"
+            },
+            "setup_add_widget": {
+              "titleText": "Опитайте нашето приспособление за начален екран!",
+              "descriptionText": "Добавете нашето приспособление за търсене към началния екран за бърз и лесен достъп.",
+              "primaryActionText": "Добавяне към началния екран"
+            },
+            "setup_sync": {
+              "titleText": "Поддържайте DuckDuckGo синхронизиран",
+              "descriptionText": "Използвайте отметките, паролите и други на всички устройства!",
+              "primaryActionText": "Включване на Sync & Backup"
+            }
+          }
+        },
+        "cs": {
+          "titleText": "Další kroky",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Soukromé prohlížení jako standard",
+              "descriptionText": "Nastav si DuckDuckGo jako výchozí prohlížeč a vyhledávej vždy soukromě.",
+              "primaryActionText": "Nastavit jako výchozí"
+            },
+            "setup_add_widget": {
+              "titleText": "Vyzkoušej widget na plochu",
+              "descriptionText": "Přidej si náš vyhledávací widget na domovskou obrazovku a získej rychlý a snadný přístup.",
+              "primaryActionText": "Přidat na domovskou obrazovku"
+            },
+            "setup_sync": {
+              "titleText": "Měj DuckDuckGo vždy synchronizovaný",
+              "descriptionText": "Používej své záložky, hesla a další data na všech zařízeních.",
+              "primaryActionText": "Zapnout Sync & Backup"
+            }
+          }
+        },
+        "da": {
+          "titleText": "Næste trin",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Surf privat som standard",
+              "descriptionText": "Søg altid privat med DuckDuckGo som din standardbrowser.",
+              "primaryActionText": "Angiv som standard"
+            },
+            "setup_add_widget": {
+              "titleText": "Prøv vores startskærmswidget",
+              "descriptionText": "Tilføj vores søgewidget på startskærmbilledet for hurtig og nem adgang.",
+              "primaryActionText": "Tilføj til startskærm"
+            },
+            "setup_sync": {
+              "titleText": "Hold DuckDuckGo synkroniseret",
+              "descriptionText": "Brug dine bogmærker, adgangskoder og meget mere på alle dine enheder!",
+              "primaryActionText": "Slå Sync & Backup til"
+            }
+          }
+        },
+        "de": {
+          "titleText": "Nächste Schritte",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Standardmäßig privat surfen",
+              "descriptionText": "Immer privat suchen mit DuckDuckGo als Standardbrowser.",
+              "primaryActionText": "Als Standard festlegen"
+            },
+            "setup_add_widget": {
+              "titleText": "Probiere unser Startbildschirm-Widget aus",
+              "descriptionText": "Füge unser Such-Widget für einen schnellen und einfachen Zugriff zu deinem Startbildschirm hinzu.",
+              "primaryActionText": "Zum Startbildschirm hinzufügen"
+            },
+            "setup_sync": {
+              "titleText": "DuckDuckGo synchronisiert halten",
+              "descriptionText": "Nutze deine Lesezeichen, Passwörter und mehr auf all deinen Geräten!",
+              "primaryActionText": "Sync & Backup aktivieren"
+            }
+          }
+        },
+        "el": {
+          "titleText": "Επόμενα βήματα",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Ιδιωτική περιήγηση βάσει προεπιλογής",
+              "descriptionText": "Πραγματοποιείτε πάντα ιδιωτική αναζήτηση με το DuckDuckGo ως προεπιλεγμένο πρόγραμμα περιήγησης.",
+              "primaryActionText": "Ορισμός ως προεπιλογή"
+            },
+            "setup_add_widget": {
+              "titleText": "Δοκιμάστε τη μικροεφαρμογή μας για την Αρχική οθόνη",
+              "descriptionText": "Προσθέστε τη μικροεφαρμογή μας για αναζήτηση στην Αρχική οθόνη σας για γρήγορη και εύκολη πρόσβαση.",
+              "primaryActionText": "Προσθήκη στην Αρχική Οθόνη"
+            },
+            "setup_sync": {
+              "titleText": "Διατηρήστε το DuckDuckGo σε συγχρονισμό",
+              "descriptionText": "Χρησιμοποιήστε τους σελιδοδείκτες, τους κωδικούς πρόσβασής σας και πολλά άλλα σε όλες τις συσκευές σας!",
+              "primaryActionText": "Ενεργοποίηση Sync & Backup"
+            }
+          }
+        },
+        "es": {
+          "titleText": "Próximos pasos",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Navega en privado por defecto",
+              "descriptionText": "Busca siempre de manera privada, DuckDuckGo como navegador predeterminado.",
+              "primaryActionText": "Establecer predeterminado"
+            },
+            "setup_add_widget": {
+              "titleText": "Prueba nuestro widget de pantalla de inicio",
+              "descriptionText": "Añade el widget de búsqueda a tu pant. de inicio: facilita y agiliza acceso",
+              "primaryActionText": "Añadir a Pantalla Inicio"
+            },
+            "setup_sync": {
+              "titleText": "Mantén DuckDuckGo sincronizado",
+              "descriptionText": "¡Usa los marcadores, las contraseñas y mucho más en todos tus dispositivos!",
+              "primaryActionText": "Activar Sync & Backup"
+            }
+          }
+        },
+        "et": {
+          "titleText": "Järgmised sammud",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Sirvi vaikimisi privaatselt",
+              "descriptionText": "Otsi alati privaatselt, kui DuckDuckGo on sinu vaikebrauser.",
+              "primaryActionText": "Määra vaikeseadeks"
+            },
+            "setup_add_widget": {
+              "titleText": "Proovi meie avakuva vidinat",
+              "descriptionText": "Kiire ja hõlpsa juurdepääsu tagamiseks lisa meie otsinguvidin avakuvale.",
+              "primaryActionText": "Lisa kodukuvale"
+            },
+            "setup_sync": {
+              "titleText": "Hoia DuckDuckGo sünkroonis",
+              "descriptionText": "Kasuta järjehoidjaid, paroole ja muud kõigis oma seadmetes!",
+              "primaryActionText": "Lülita sisse Sync & Backup"
+            }
+          }
+        },
+        "fi": {
+          "titleText": "Seuraavat vaiheet",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Yksityinen selaus oletuksena",
+              "descriptionText": "Etsi aina yksityisesti, kun DuckDuckGo on oletusselaimenasi.",
+              "primaryActionText": "Aseta oletukseksi"
+            },
+            "setup_add_widget": {
+              "titleText": "Kokeile aloitusnäytön widgetiä",
+              "descriptionText": "Lisää haku-widgetimme aloitusnäyttöösi, josta löydät sen nopeasti ja helposti.",
+              "primaryActionText": "Lisää aloitusnäyttöön"
+            },
+            "setup_sync": {
+              "titleText": "Pidä DuckDuckGo synkronoituna",
+              "descriptionText": "Käytä kirjanmerkkejäsi, salasanojasi ja muita ominaisuuksia kaikilla laitteillasi!",
+              "primaryActionText": "Ota käyttöön Sync & Backup"
+            }
+          }
+        },
+        "fr": {
+          "titleText": "Étapes suivantes",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Navigue en privé par défaut",
+              "descriptionText": "Faites toujours une recherche privée avec DuckDuckGo comme navigateur par défaut.",
+              "primaryActionText": "Définir par défaut"
+            },
+            "setup_add_widget": {
+              "titleText": "Essaie notre widget d'écran d'accueil",
+              "descriptionText": "Ajoutez le widget de recherche à l'écran d'accueil pour un accès rapide et facile.",
+              "primaryActionText": "Ajouter à la page d'accueil"
+            },
+            "setup_sync": {
+              "titleText": "Toujours synchroniser DuckDuckGo",
+              "descriptionText": "Utilise tes signets, mots de passe, et plus encore sur tous tes appareils !",
+              "primaryActionText": "Activer Sync & Backup"
+            }
+          }
+        },
+        "hr": {
+          "titleText": "Sljedeći koraci",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Pretražuj privatno po zadanim postavkama",
+              "descriptionText": "Uvijek pretražuj privatno uz DuckDuckGo kao zadani preglednik.",
+              "primaryActionText": "Postavi kao zadano"
+            },
+            "setup_add_widget": {
+              "titleText": "Probaj naš widget za početni zaslon",
+              "descriptionText": "Dodaj naš widget za pretraživanje na početni zaslon za brz i jednostavan pristup.",
+              "primaryActionText": "Dodaj na početni zaslon"
+            },
+            "setup_sync": {
+              "titleText": "Održavaj DuckDuckGo sinkroniziranim",
+              "descriptionText": "Koristi svoje oznake, lozinke i još mnogo toga na svim uređajima!",
+              "primaryActionText": "Uključi Sync & Backup"
+            }
+          }
+        },
+        "hu": {
+          "titleText": "Következő lépések",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Privát böngészés alapértelmezés szerint",
+              "descriptionText": "Keress mindig privát módon a DuckDuckGóval alapértelmezett böngészőként.",
+              "primaryActionText": "Beállítás alapértelmezettként"
+            },
+            "setup_add_widget": {
+              "titleText": "Próbáld ki kezdőképernyő-minialkalmazásunkat",
+              "descriptionText": "A gyors és könnyű hozzáférés érdekében add hozzá kereső minialkalmazásunkat a kezdőképernyődhöz.",
+              "primaryActionText": "Hozzáadás a kezdőképernyőhöz"
+            },
+            "setup_sync": {
+              "titleText": "DuckDuckGo szinkronban tartása",
+              "descriptionText": "Használd könyvjelzőidet, jelszavaidat és még sok mást minden eszközödön!",
+              "primaryActionText": "Sync & Backup bekapcsolása"
+            }
+          }
+        },
+        "it": {
+          "titleText": "Passaggi successivi",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Naviga in privato di default",
+              "descriptionText": "Cerca privatamente ogni volta con DuckDuckGo come browser predefinito.",
+              "primaryActionText": "Imposta come predefinito"
+            },
+            "setup_add_widget": {
+              "titleText": "Prova il nostro widget per la schermata Home",
+              "descriptionText": "Aggiungi il nostro widget di ricerca alla schermata principale per accedere all'app in modo facile e veloce.",
+              "primaryActionText": "Aggiungi alla Schermata Home"
+            },
+            "setup_sync": {
+              "titleText": "Mantieni DuckDuckGo sincronizzato",
+              "descriptionText": "Usa i tuoi segnalibri, le password e altro su tutti i tuoi dispositivi!",
+              "primaryActionText": "Attiva Sync & Backup"
+            }
+          }
+        },
+        "lt": {
+          "titleText": "Tolesni veiksmai",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Naršykite privačiai pagal numatytuosius nustatymus",
+              "descriptionText": "Visada ieškokite privačiai su „DuckDuckGo“ kaip numatytąja naršykle.",
+              "primaryActionText": "Nustatyti kaip numatytąją"
+            },
+            "setup_add_widget": {
+              "titleText": "Išbandykite mūsų pagrindinio ekrano valdiklį",
+              "descriptionText": "Pridėkite mūsų paieškos valdiklį prie pagrindinio ekrano, kad galėtumėte greitai ir lengvai jį pasiekti.",
+              "primaryActionText": "Pridėti prie pagrindinio ekrano"
+            },
+            "setup_sync": {
+              "titleText": "Sinchronizuoja „DuckDuckGo“",
+              "descriptionText": "Naudokite savo žymes, slaptažodžius ir dar daugiau visuose įrenginiuose!",
+              "primaryActionText": "Įjungti „Sync & Backup“"
+            }
+          }
+        },
+        "lv": {
+          "titleText": "Nākamie soļi",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Pārlūko privāti pēc noklusējuma",
+              "descriptionText": "Vienmēr meklē privāti ar DuckDuckGo kā noklusējuma pārlūku.",
+              "primaryActionText": "Iestatīt kā noklusējumu"
+            },
+            "setup_add_widget": {
+              "titleText": "Pamēģini sākuma ekrāna logrīku",
+              "descriptionText": "Pievieno mūsu logrīku sākuma ekrānam, lai ātri un ērti sāktu meklēšanu.",
+              "primaryActionText": "Pievienot sākuma ekrānam"
+            },
+            "setup_sync": {
+              "titleText": "Sinhronizē DuckDuckGo",
+              "descriptionText": "Izmanto savas grāmatzīmes, paroles un citus datus visās savās ierīcēs!",
+              "primaryActionText": "Ieslēgt Sync & Backup"
+            }
+          }
+        },
+        "nb": {
+          "titleText": "Neste trinn",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Surf privat som standard",
+              "descriptionText": "Søk privat hver gang med DuckDuckGo som standardnettleser.",
+              "primaryActionText": "Angi som standard"
+            },
+            "setup_add_widget": {
+              "titleText": "Prøv startskjerm-widgeten vår",
+              "descriptionText": "Legg til søke-widgeten vår på startskjermen for rask og enkel tilgang.",
+              "primaryActionText": "Legg til på startskjermen"
+            },
+            "setup_sync": {
+              "titleText": "Hold DuckDuckGo synkronisert",
+              "descriptionText": "Bruk bokmerkene, passordene m.m. på alle enhetene dine!",
+              "primaryActionText": "Slå på Sync & Backup"
+            }
+          }
+        },
+        "nl": {
+          "titleText": "Volgende stappen",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Standaard privé browsen",
+              "descriptionText": "Zoek altijd privé met DuckDuckGo als je standaardbrowser.",
+              "primaryActionText": "Instellen als standaard"
+            },
+            "setup_add_widget": {
+              "titleText": "Probeer onze startschermwidget",
+              "descriptionText": "Voeg onze zoekwidget toe aan je startscherm voor snelle en gemakkelijke toegang.",
+              "primaryActionText": "Toevoegen aan startscherm"
+            },
+            "setup_sync": {
+              "titleText": "Houd DuckDuckGo in sync",
+              "descriptionText": "Gebruik je bladwijzers, wachtwoorden en meer op al je apparaten!",
+              "primaryActionText": "Sync & Backup inschakelen"
+            }
+          }
+        },
+        "pl": {
+          "titleText": "Dalsze kroki",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Domyślnie przeglądaj prywatnie",
+              "descriptionText": "Szukaj prywatnie za każdym razem z DuckDuckGo jako domyślną przeglądarką.",
+              "primaryActionText": "Ustaw jako domyślną"
+            },
+            "setup_add_widget": {
+              "titleText": "Wypróbuj widżet ekranu głównego",
+              "descriptionText": "Dodaj widżet wyszukiwarki do ekranu głównego, aby mieć do niej szybki dostęp.",
+              "primaryActionText": "Dodaj do ekranu głównego"
+            },
+            "setup_sync": {
+              "titleText": "Synchronizuj DuckDuckGo",
+              "descriptionText": "Korzystaj z zakładek, haseł i nie tylko na wszystkich swoich urządzeniach!",
+              "primaryActionText": "Włącz Sync & Backup"
+            }
+          }
+        },
+        "pt": {
+          "titleText": "Passos seguintes",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Navega em privado por defeito",
+              "descriptionText": "Pesquisa sempre em privado com o DuckDuckGo como navegador predefinido.",
+              "primaryActionText": "Definir como predefinição"
+            },
+            "setup_add_widget": {
+              "titleText": "Experimenta o nosso widget do ecrã inicial",
+              "descriptionText": "Adiciona o widget de pesquisa ao ecrã inicial para acesso rápido e fácil.",
+              "primaryActionText": "Adicionar ao ecrã inicial"
+            },
+            "setup_sync": {
+              "titleText": "Manter DuckDuckGo sincronizado",
+              "descriptionText": "Usa marcadores, palavras-passe e muito mais em todos os teus dispositivos!",
+              "primaryActionText": "Ativar Sync & Backup"
+            }
+          }
+        },
+        "ro": {
+          "titleText": "Pașii următori",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Navighează implicit în mod privat",
+              "descriptionText": "Caută mereu în mod privat cu DuckDuckGo setat ca browser implicit.",
+              "primaryActionText": "Setează ca implicit"
+            },
+            "setup_add_widget": {
+              "titleText": "Încearcă widgetul de pe ecranul de pornire",
+              "descriptionText": "Adăugă widgetul de căutare la ecranul de pornire, pentru acces rapid și ușor.",
+              "primaryActionText": "Adaugă pe ecranul de pornire"
+            },
+            "setup_sync": {
+              "titleText": "Păstrează DuckDuckGo sincronizat",
+              "descriptionText": "Folosește marcajele, parolele și multe altele pe toate dispozitivele!",
+              "primaryActionText": "Activează Sync & Backup"
+            }
+          }
+        },
+        "ru": {
+          "titleText": "Что делать дальше",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Приватный просмотр по умолчанию",
+              "descriptionText": "С DuckDuckGo в качестве браузера по умолчанию каждый поиск — конфиденциальный.",
+              "primaryActionText": "Сделать браузером по умолчанию"
+            },
+            "setup_add_widget": {
+              "titleText": "Попробуй виджет для главного экрана",
+              "descriptionText": "Добавьте наш поисковый виджет на домашний экран для быстрого и удобного доступа.",
+              "primaryActionText": "Добавить на домашнюю страницу"
+            },
+            "setup_sync": {
+              "titleText": "Синхронизация DuckDuckGo",
+              "descriptionText": "Используй закладки, пароли и не только на всех своих устройствах!",
+              "primaryActionText": "Включить Sync & Backup"
+            }
+          }
+        },
+        "sk": {
+          "titleText": "Ďalšie kroky",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Predvolene prehliadaj súkromne",
+              "descriptionText": "Vyhľadávaj vždy súkromne s DuckDuckGo ako predvoleným prehliadačom.",
+              "primaryActionText": "Nastaviť ako predvolený"
+            },
+            "setup_add_widget": {
+              "titleText": "Vyskúšaj našu miniaplikáciu na úvodnej obrazovke",
+              "descriptionText": "Na rýchly a jednoduchý prístup si pridajte miniaplikáciu vyhľadávania na úvodnú obrazovku.",
+              "primaryActionText": "Pridať na úvodnú obrazovku"
+            },
+            "setup_sync": {
+              "titleText": "Maj DuckDuckGo synchronizovaný",
+              "descriptionText": "Používaj svoje záložky, heslá a ďalšie údaje na všetkých zariadeniach!",
+              "primaryActionText": "Zapni Sync & Backup"
+            }
+          }
+        },
+        "sl": {
+          "titleText": "Naslednji koraki",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Privzeto zasebno brskanje",
+              "descriptionText": "Z DuckDuckGo kot privzetim brskalnikom vedno iščite zasebno.",
+              "primaryActionText": "Nastavi kot privzeto"
+            },
+            "setup_add_widget": {
+              "titleText": "Preizkusite naš pripomoček za začetni zaslon",
+              "descriptionText": "Dodajte naš gradnik za iskanje na domači zaslon za hiter in preprost dostop.",
+              "primaryActionText": "Dodaj na domači zaslon"
+            },
+            "setup_sync": {
+              "titleText": "Ohranite DuckDuckGo sinhroniziran",
+              "descriptionText": "Uporabljajte zaznamke, gesla in druge podatke v vseh napravah!",
+              "primaryActionText": "Vklopi Sync & Backup"
+            }
+          }
+        },
+        "sv": {
+          "titleText": "Nästa steg",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Surfa privat som standard",
+              "descriptionText": "Sök privat varje gång med DuckDuckGo som din standardwebbläsare.",
+              "primaryActionText": "Ange som standard"
+            },
+            "setup_add_widget": {
+              "titleText": "Prova vår widget på startskärmen",
+              "descriptionText": "Lägg till vår sök-widget på din startsida för snabb och enkel åtkomst.",
+              "primaryActionText": "Lägg till på startsidan"
+            },
+            "setup_sync": {
+              "titleText": "Håll DuckDuckGo synkroniserad",
+              "descriptionText": "Använd dina bokmärken, lösenord och annat på alla dina enheter!",
+              "primaryActionText": "Aktivera Sync & Backup"
+            }
+          }
+        },
+        "tr": {
+          "titleText": "Sonraki Adımlar",
+          "listItems": {
+            "setup_default_browser": {
+              "titleText": "Varsayılan olarak gizli gezinin",
+              "descriptionText": "DuckDuckGo varsayılan tarayıcınızken her zaman gizli arama yapın.",
+              "primaryActionText": "Varsayılan olarak ayarla"
+            },
+            "setup_add_widget": {
+              "titleText": "Ana ekran widget'ımızı deneyin",
+              "descriptionText": "Hızlı ve kolay erişim için arama widget'ımızı ana ekranınıza ekleyin.",
+              "primaryActionText": "Ana Ekrana Ekle"
+            },
+            "setup_sync": {
+              "titleText": "DuckDuckGo'yu senkronize tutun",
+              "descriptionText": "Yer işaretlerini, şifreleri ve daha fazlasını tüm cihazlarda kullanın!",
+              "primaryActionText": "Sync & Backup'ı etkinleştirin"
+            }
+          }
+        }
+      }
+    },
     {
       "id": "android_samsung_oneui9_remove_search_bar",
       "content": {
@@ -955,6 +2035,26 @@
             "en-ZA",
             "en-SG",
             "en-PH"
+          ]
+        }
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "isUserInAnyActiveExperiment": {
+          "value": [
+            "nextStepsItemsExperiment:check_list"
+          ]
+        }
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "isUserInAnyActiveExperiment": {
+          "value": [
+            "nextStepsItemsExperiment:stacked_cards"
           ]
         }
       }
